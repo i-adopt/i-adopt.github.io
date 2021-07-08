@@ -9,10 +9,10 @@
      xmlns:dcat="http://www.w3.org/ns/dcat#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:terms="http://purl.org/dc/terms#"
      xmlns:ontology="http://omv.ontoware.org/2005/05/ontology#">
     <owl:Ontology rdf:about="https://w3id.org/iadopt/ont">
-        <owl:versionIRI rdf:resource="https://w3id.org/iadopt/ont/1.0.0"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/iadopt/ont/0.8.0"/>
         <ontology:conformsToKnowledgeRepresentationParadigm rdf:resource="https://www.isibang.ac.in/ns/mod/index.html#DescriptionLogics"/>
         <ontology:designedForOntologyTask>semantically precise description and mapping of variables</ontology:designedForOntologyTask>
         <ontology:hasFormalityLevel rdf:resource="https://www.isibang.ac.in/ns/mod/index.html#Schema"/>
@@ -21,21 +21,20 @@
         <ontology:usedOntologyEngineeringMethodology rdf:resource="https://www.isibang.ac.in/ns/mod/index.html#MethOntology"/>
         <ontology:usedOntologyEngineeringTool>https://www.isibang.ac.in/ns/mod/index.html#Protege</ontology:usedOntologyEngineeringTool>
         <terms:abstract>The I-ADOPT Framework ontology provides machine-readable variable descriptions in which the components are mapped to FAIR vocabulary terms.</terms:abstract>
-        <terms:contributor>John Graybeal, Stanford University, School of Medicine, USA; ORCID: 0000-0001-6875-5360</terms:contributor>
+        <terms:contributor>John Graybeal, Stanford University, School of Medicine, USA, ORCID: 0000-0001-6875-5360</terms:contributor>
         <terms:contributor>Robert Huber, University Bremen, Germany</terms:contributor>
-        <terms:contributor>Simon J D Cox, CSIRO Land and Water, Australia; ORCID: 0000-0002-3884-3420</terms:contributor>
+        <terms:contributor>Simon J D Cox , CSIRO Land and Water, Australia; ORCID: 0000-0002-3884-3420</terms:contributor>
         <terms:created>June 24, 2021</terms:created>
-        <terms:creator>Alison Pamment, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK; ORCID: 0000-0001-5040-4626</terms:creator>
-        <terms:creator>Anusuriya Devaraju, Terrestrial Ecosystem Research Network (TERN), University of Queensland, Australia; ORCID: 0000-0003-0870-3192</terms:creator>
+        <terms:creator>Alison Pamment, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK, ORCID: 0000-0001-5040-4626</terms:creator>
+        <terms:creator>Anusuriya Devaraju, Terrestrial Ecosystem Research Network (TERN), University of Queensland, Australia, ORCID: 0000-0003-0870-3192</terms:creator>
         <terms:creator>Barbara Magagna, Environment Agency Austria, ORCID: 0000-0003-2195-3997</terms:creator>
-        <terms:creator>Gwenaelle Moncoiffe, National Oceanography Centre, British Oceanographic Data Centre, UK; ORCID: 0000-0001-6559-4178</terms:creator>
-        <terms:creator>Maria Stoica, University of Colorado, Boulder; ORCID: 0000-0002-6612-3439</terms:creator>
-        <terms:creator>Sirko Schindler, Institute of Data Science, German Aerospace Center (DLR); ORCID: 0000-0002-0964-4457</terms:creator>
-        <terms:description>The I-ADOPT Framework ontology provides machine-readable variable descriptions in which the components are mapped to FAIR vocabulary terms.</terms:description>
+        <terms:creator>Gwenaelle Moncoiffe, National Oceanography Centre, British Oceanographic Data Centre, UK, ORCID: 0000-0001-6559-4178</terms:creator>
+        <terms:creator>Maria Stoica, University of Colorado, Boulder , ORCID: 0000-0002-6612-3439</terms:creator>
+        <terms:creator>Sirko Schindler, Institute of Data Science, German Aerospace Center (DLR), ORCID: 0000-0002-0964-4457</terms:creator>
         <terms:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
         <terms:license>CC BY 4.0</terms:license>
-        <terms:title>I-ADOPT Framework ontology</terms:title>
         <rdfs:label>I-ADOPT Framework ontology</rdfs:label>
+        <owl:versionInfo>0.8.0</owl:versionInfo>
         <dcat:keyword>observable property</dcat:keyword>
         <dcat:keyword>variable</dcat:keyword>
         <foaf:primaryTopic>Entity</foaf:primaryTopic>
@@ -107,59 +106,45 @@
     
 
 
-    <!-- http://purl.org/dc/terms/abstract -->
+    <!-- http://purl.org/dc/terms#abstract -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms#abstract"/>
     
 
 
-    <!-- http://purl.org/dc/terms/contributor -->
+    <!-- http://purl.org/dc/terms#contributor -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms#contributor"/>
     
 
 
-    <!-- http://purl.org/dc/terms/created -->
+    <!-- http://purl.org/dc/terms#created -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms#created"/>
     
 
 
-    <!-- http://purl.org/dc/terms/creator -->
+    <!-- http://purl.org/dc/terms#creator -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms#creator"/>
     
 
 
-    <!-- http://purl.org/dc/terms/description -->
+    <!-- http://purl.org/dc/terms#language -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms#language"/>
     
 
 
-    <!-- http://purl.org/dc/terms/language -->
+    <!-- http://purl.org/dc/terms#license -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/language"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/license -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/title -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms#license"/>
     
 
 

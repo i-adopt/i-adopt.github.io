@@ -3,14 +3,9 @@
   "header" : {
     "languages" : [ "undefined" ],
     "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/iadopt/ont" ],
-    "title" : {
-      "undefined" : "I-ADOPT Framework ontology"
-    },
     "iri" : "https://w3id.org/iadopt/ont",
-    "author" : [ "Maria Stoica, University of Colorado, Boulder; ORCID: 0000-0002-6612-3439", "Sirko Schindler, Institute of Data Science, German Aerospace Center (DLR); ORCID: 0000-0002-0964-4457", "Gwenaelle Moncoiffe, National Oceanography Centre, British Oceanographic Data Centre, UK; ORCID: 0000-0001-6559-4178", "Anusuriya Devaraju, Terrestrial Ecosystem Research Network (TERN), University of Queensland, Australia; ORCID: 0000-0003-0870-3192", "Barbara Magagna, Environment Agency Austria, ORCID: 0000-0003-2195-3997", "Alison Pamment, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK; ORCID: 0000-0001-5040-4626" ],
-    "description" : {
-      "undefined" : "The I-ADOPT Framework ontology provides machine-readable variable descriptions in which the components are mapped to FAIR vocabulary terms."
-    },
+    "version" : "0.8.0",
+    "author" : [ "Sirko Schindler, Institute of Data Science, German Aerospace Center (DLR), ORCID: 0000-0002-0964-4457", "Maria Stoica, University of Colorado, Boulder , ORCID: 0000-0002-6612-3439", "Gwenaelle Moncoiffe, National Oceanography Centre, British Oceanographic Data Centre, UK, ORCID: 0000-0001-6559-4178", "Anusuriya Devaraju, Terrestrial Ecosystem Research Network (TERN), University of Queensland, Australia, ORCID: 0000-0003-0870-3192", "Alison Pamment, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK, ORCID: 0000-0001-5040-4626", "Barbara Magagna, Environment Agency Austria, ORCID: 0000-0003-2195-3997" ],
     "labels" : {
       "undefined" : "I-ADOPT Framework ontology"
     },
@@ -18,32 +13,32 @@
       "creator" : [ {
         "identifier" : "creator",
         "language" : "undefined",
+        "value" : "Alison Pamment, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK, ORCID: 0000-0001-5040-4626",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Anusuriya Devaraju, Terrestrial Ecosystem Research Network (TERN), University of Queensland, Australia, ORCID: 0000-0003-0870-3192",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Sirko Schindler, Institute of Data Science, German Aerospace Center (DLR), ORCID: 0000-0002-0964-4457",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Maria Stoica, University of Colorado, Boulder , ORCID: 0000-0002-6612-3439",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
         "value" : "Barbara Magagna, Environment Agency Austria, ORCID: 0000-0003-2195-3997",
         "type" : "label"
       }, {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Maria Stoica, University of Colorado, Boulder; ORCID: 0000-0002-6612-3439",
-        "type" : "label"
-      }, {
-        "identifier" : "creator",
-        "language" : "undefined",
-        "value" : "Anusuriya Devaraju, Terrestrial Ecosystem Research Network (TERN), University of Queensland, Australia; ORCID: 0000-0003-0870-3192",
-        "type" : "label"
-      }, {
-        "identifier" : "creator",
-        "language" : "undefined",
-        "value" : "Alison Pamment, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK; ORCID: 0000-0001-5040-4626",
-        "type" : "label"
-      }, {
-        "identifier" : "creator",
-        "language" : "undefined",
-        "value" : "Gwenaelle Moncoiffe, National Oceanography Centre, British Oceanographic Data Centre, UK; ORCID: 0000-0001-6559-4178",
-        "type" : "label"
-      }, {
-        "identifier" : "creator",
-        "language" : "undefined",
-        "value" : "Sirko Schindler, Institute of Data Science, German Aerospace Center (DLR); ORCID: 0000-0002-0964-4457",
+        "value" : "Gwenaelle Moncoiffe, National Oceanography Centre, British Oceanographic Data Centre, UK, ORCID: 0000-0001-6559-4178",
         "type" : "label"
       } ],
       "acknowledgement" : [ {
@@ -76,16 +71,16 @@
         "value" : "http://lexvo.org/id/iso639-3/eng",
         "type" : "iri"
       } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "0.8.0",
+        "type" : "label"
+      } ],
       "abstract" : [ {
         "identifier" : "abstract",
         "language" : "undefined",
         "value" : "The I-ADOPT Framework ontology provides machine-readable variable descriptions in which the components are mapped to FAIR vocabulary terms.",
-        "type" : "label"
-      } ],
-      "title" : [ {
-        "identifier" : "title",
-        "language" : "undefined",
-        "value" : "I-ADOPT Framework ontology",
         "type" : "label"
       } ],
       "usedOntologyEngineeringMethodology" : [ {
@@ -108,15 +103,20 @@
       }, {
         "identifier" : "contributor",
         "language" : "undefined",
-        "value" : "Simon J D Cox, CSIRO Land and Water, Australia; ORCID: 0000-0002-3884-3420",
+        "value" : "Simon J D Cox , CSIRO Land and Water, Australia; ORCID: 0000-0002-3884-3420",
         "type" : "label"
       }, {
         "identifier" : "contributor",
         "language" : "undefined",
-        "value" : "John Graybeal, Stanford University, School of Medicine, USA; ORCID: 0000-0001-6875-5360",
+        "value" : "John Graybeal, Stanford University, School of Medicine, USA, ORCID: 0000-0001-6875-5360",
         "type" : "label"
       } ],
       "primaryTopic" : [ {
+        "identifier" : "primaryTopic",
+        "language" : "undefined",
+        "value" : "Entity",
+        "type" : "label"
+      }, {
         "identifier" : "primaryTopic",
         "language" : "undefined",
         "value" : "Variable",
@@ -125,11 +125,6 @@
         "identifier" : "primaryTopic",
         "language" : "undefined",
         "value" : "Property",
-        "type" : "label"
-      }, {
-        "identifier" : "primaryTopic",
-        "language" : "undefined",
-        "value" : "Entity",
         "type" : "label"
       } ],
       "hasOntologyLanguage" : [ {
@@ -147,12 +142,12 @@
       "keyword" : [ {
         "identifier" : "keyword",
         "language" : "undefined",
-        "value" : "observable property",
+        "value" : "variable",
         "type" : "label"
       }, {
         "identifier" : "keyword",
         "language" : "undefined",
-        "value" : "variable",
+        "value" : "observable property",
         "type" : "label"
       } ],
       "usedOntologyEngineeringTool" : [ {
@@ -177,10 +172,10 @@
     "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "1",
+    "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "2",
+    "id" : "1",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -210,19 +205,6 @@
     "attributes" : [ "external" ],
     "id" : "4"
   }, {
-    "iri" : "https://w3id.org/iadopt/ont/Variable",
-    "baseIri" : "https://w3id.org/iadopt/ont",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Variable",
-      "undefined" : "variable"
-    },
-    "comment" : {
-      "undefined" : "A description of something observed or derived, minimally consisting of  an ObjectOfInterest and its Property."
-    },
-    "attributes" : [ "external" ],
-    "id" : "1"
-  }, {
     "iri" : "https://w3id.org/iadopt/ont/Constraint",
     "baseIri" : "https://w3id.org/iadopt/ont",
     "instances" : 0,
@@ -235,6 +217,19 @@
     },
     "attributes" : [ "external" ],
     "id" : "2"
+  }, {
+    "iri" : "https://w3id.org/iadopt/ont/Variable",
+    "baseIri" : "https://w3id.org/iadopt/ont",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Variable",
+      "undefined" : "variable"
+    },
+    "comment" : {
+      "undefined" : "A description of something observed or derived, minimally consisting of  an ObjectOfInterest and its Property."
+    },
+    "attributes" : [ "external" ],
+    "id" : "1"
   } ],
   "property" : [ {
     "id" : "0",

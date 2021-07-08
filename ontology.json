@@ -2,10 +2,10 @@
   "@id" : "_:genid1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/iadopt/Entity"
+    "@id" : "https://w3id.org/iadopt/ont/Entity"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/iadopt/hasObjectOfInterest"
+    "@id" : "https://w3id.org/iadopt/ont/hasObjectOfInterest"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -15,10 +15,10 @@
   "@id" : "_:genid2",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/iadopt/Property"
+    "@id" : "https://w3id.org/iadopt/ont/Property"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/iadopt/hasProperty"
+    "@id" : "https://w3id.org/iadopt/ont/hasProperty"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -46,22 +46,22 @@
   "@id" : "http://omv.ontoware.org/2005/05/ontology#usedOntologyEngineeringTool",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/dc/terms/abstract",
+  "@id" : "http://purl.org/dc/terms#abstract",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/dc/terms/contributor",
+  "@id" : "http://purl.org/dc/terms#contributor",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/dc/terms/created",
+  "@id" : "http://purl.org/dc/terms#created",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/dc/terms/creator",
+  "@id" : "http://purl.org/dc/terms#creator",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/dc/terms/language",
+  "@id" : "http://purl.org/dc/terms#language",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/dc/terms/license",
+  "@id" : "http://purl.org/dc/terms#license",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://www.w3.org/ns/dcat#keyword",
@@ -70,7 +70,7 @@
   "@id" : "http://xmlns.com/foaf/0.1/primaryTopic",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://w3id.org/iadopt/ont/iadopt",
+  "@id" : "https://w3id.org/iadopt/ont",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://omv.ontoware.org/2005/05/ontology#conformsToKnowledgeRepresentationParadigm" : [ {
     "@id" : "https://www.isibang.ac.in/ns/mod/index.html#DescriptionLogics"
@@ -93,20 +93,20 @@
   "http://omv.ontoware.org/2005/05/ontology#usedOntologyEngineeringTool" : [ {
     "@value" : "https://www.isibang.ac.in/ns/mod/index.html#Protege"
   } ],
-  "http://purl.org/dc/terms/abstract" : [ {
+  "http://purl.org/dc/terms#abstract" : [ {
     "@value" : "The I-ADOPT Framework ontology provides machine-readable variable descriptions in which the components are mapped to FAIR vocabulary terms."
   } ],
-  "http://purl.org/dc/terms/contributor" : [ {
+  "http://purl.org/dc/terms#contributor" : [ {
     "@value" : "John Graybeal, Stanford University, School of Medicine, USA, ORCID: 0000-0001-6875-5360"
   }, {
     "@value" : "Robert Huber, University Bremen, Germany"
   }, {
     "@value" : "Simon J D Cox , CSIRO Land and Water, Australia; ORCID: 0000-0002-3884-3420"
   } ],
-  "http://purl.org/dc/terms/created" : [ {
+  "http://purl.org/dc/terms#created" : [ {
     "@value" : "June 24, 2021"
   } ],
-  "http://purl.org/dc/terms/creator" : [ {
+  "http://purl.org/dc/terms#creator" : [ {
     "@value" : "Alison Pamment, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK, ORCID: 0000-0001-5040-4626"
   }, {
     "@value" : "Anusuriya Devaraju, Terrestrial Ecosystem Research Network (TERN), University of Queensland, Australia, ORCID: 0000-0003-0870-3192"
@@ -119,17 +119,20 @@
   }, {
     "@value" : "Sirko Schindler, Institute of Data Science, German Aerospace Center (DLR), ORCID: 0000-0002-0964-4457"
   } ],
-  "http://purl.org/dc/terms/language" : [ {
+  "http://purl.org/dc/terms#language" : [ {
     "@id" : "http://lexvo.org/id/iso639-3/eng"
   } ],
-  "http://purl.org/dc/terms/license" : [ {
+  "http://purl.org/dc/terms#license" : [ {
     "@value" : "CC BY 4.0"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "I-ADOPT Framework ontology"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/iadopt/1.0.0"
+    "@id" : "https://w3id.org/iadopt/ont/0.8.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "0.8.0"
   } ],
   "http://www.w3.org/ns/dcat#keyword" : [ {
     "@value" : "observable property"
@@ -143,11 +146,11 @@
   }, {
     "@value" : "Variable"
   } ],
-  "https://w3id.org/iadopt/ont/iadopt/acknowledgement" : [ {
+  "https://w3id.org/iadopt/ont/acknowledgement" : [ {
     "@value" : "RDA WG I-ADOPT"
   } ]
 }, {
-  "@id" : "https://w3id.org/iadopt/ont/iadopt/Constraint",
+  "@id" : "https://w3id.org/iadopt/ont/Constraint",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A Constraint limits the scope of the observation and confines the context to a particular state. It describes properties of the involved entities that are relevant to the particular observation."
@@ -156,7 +159,7 @@
     "@value" : "constraint"
   } ]
 }, {
-  "@id" : "https://w3id.org/iadopt/ont/iadopt/Entity",
+  "@id" : "https://w3id.org/iadopt/ont/Entity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "An object or process that has a role in an observation. An Entity may play one of the following roles: ObjectOfInterest, ContextObject, Matrix. Whether the involvement of a particular entity is meaningful enough to include in the variable description depends on the specific context."
@@ -165,7 +168,7 @@
     "@value" : "entity"
   } ]
 }, {
-  "@id" : "https://w3id.org/iadopt/ont/iadopt/Property",
+  "@id" : "https://w3id.org/iadopt/ont/Property",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A type of a characteristic of the ObjectOfInterest."
@@ -174,7 +177,7 @@
     "@value" : "property"
   } ]
 }, {
-  "@id" : "https://w3id.org/iadopt/ont/iadopt/Variable",
+  "@id" : "https://w3id.org/iadopt/ont/Variable",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A description of something observed or derived, minimally consisting of  an ObjectOfInterest and its Property."
@@ -188,84 +191,84 @@
     "@id" : "_:genid2"
   } ]
 }, {
-  "@id" : "https://w3id.org/iadopt/ont/iadopt/acknowledgement",
+  "@id" : "https://w3id.org/iadopt/ont/acknowledgement",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://w3id.org/iadopt/ont/iadopt/hasConstraint",
+  "@id" : "https://w3id.org/iadopt/ont/hasConstraint",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A Variable has a Constraint, that confines an Entity involved in the observation."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/iadopt/Variable"
+    "@id" : "https://w3id.org/iadopt/ont/Variable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "hasConstraint"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/iadopt/Constraint"
+    "@id" : "https://w3id.org/iadopt/ont/Constraint"
   } ]
 }, {
-  "@id" : "https://w3id.org/iadopt/ont/iadopt/hasContextObject",
+  "@id" : "https://w3id.org/iadopt/ont/hasContextObject",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A Variable has an Entity that provides additional background information regarding the ObjectOfInterest."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/iadopt/Variable"
+    "@id" : "https://w3id.org/iadopt/ont/Variable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "hasContextObject"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/iadopt/Entity"
+    "@id" : "https://w3id.org/iadopt/ont/Entity"
   } ]
 }, {
-  "@id" : "https://w3id.org/iadopt/ont/iadopt/hasMatrix",
+  "@id" : "https://w3id.org/iadopt/ont/hasMatrix",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A Variable might have an Entity in which the ObjectOfInterest is contained."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/iadopt/Variable"
+    "@id" : "https://w3id.org/iadopt/ont/Variable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "hasMatrix"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/iadopt/Entity"
+    "@id" : "https://w3id.org/iadopt/ont/Entity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/iadopt/hasContextObject"
+    "@id" : "https://w3id.org/iadopt/ont/hasContextObject"
   } ]
 }, {
-  "@id" : "https://w3id.org/iadopt/ont/iadopt/hasObjectOfInterest",
+  "@id" : "https://w3id.org/iadopt/ont/hasObjectOfInterest",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A Variable has an Entity whose Property is observed."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/iadopt/Variable"
+    "@id" : "https://w3id.org/iadopt/ont/Variable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "hasObjectOfInterest"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/iadopt/Entity"
+    "@id" : "https://w3id.org/iadopt/ont/Entity"
   } ]
 }, {
-  "@id" : "https://w3id.org/iadopt/ont/iadopt/hasProperty",
+  "@id" : "https://w3id.org/iadopt/ont/hasProperty",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A Variable has a Property that characterizes an Entity."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/iadopt/Variable"
+    "@id" : "https://w3id.org/iadopt/ont/Variable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "hasProperty"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/iadopt/Property"
+    "@id" : "https://w3id.org/iadopt/ont/Property"
   } ]
 } ]

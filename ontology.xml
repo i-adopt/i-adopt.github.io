@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/iadopt/ont/iadopt#"
-     xml:base="https://w3id.org/iadopt/ont/iadopt"
+<rdf:RDF xmlns="https://w3id.org/iadopt/ont#"
+     xml:base="https://w3id.org/iadopt/ont"
+     xmlns:ont="https://w3id.org/iadopt/ont/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -8,11 +9,10 @@
      xmlns:dcat="http://www.w3.org/ns/dcat#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:iadopt="https://w3id.org/iadopt/ont/iadopt/"
+     xmlns:terms="http://purl.org/dc/terms#"
      xmlns:ontology="http://omv.ontoware.org/2005/05/ontology#">
-    <owl:Ontology rdf:about="https://w3id.org/iadopt/ont/iadopt">
-        <owl:versionIRI rdf:resource="https://w3id.org/iadopt/ont/iadopt/1.0.0"/>
+    <owl:Ontology rdf:about="https://w3id.org/iadopt/ont">
+        <owl:versionIRI rdf:resource="https://w3id.org/iadopt/ont/0.8.0"/>
         <ontology:conformsToKnowledgeRepresentationParadigm rdf:resource="https://www.isibang.ac.in/ns/mod/index.html#DescriptionLogics"/>
         <ontology:designedForOntologyTask>semantically precise description and mapping of variables</ontology:designedForOntologyTask>
         <ontology:hasFormalityLevel rdf:resource="https://www.isibang.ac.in/ns/mod/index.html#Schema"/>
@@ -34,12 +34,13 @@
         <terms:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
         <terms:license>CC BY 4.0</terms:license>
         <rdfs:label>I-ADOPT Framework ontology</rdfs:label>
+        <owl:versionInfo>0.8.0</owl:versionInfo>
         <dcat:keyword>observable property</dcat:keyword>
         <dcat:keyword>variable</dcat:keyword>
         <foaf:primaryTopic>Entity</foaf:primaryTopic>
         <foaf:primaryTopic>Property</foaf:primaryTopic>
         <foaf:primaryTopic>Variable</foaf:primaryTopic>
-        <iadopt:acknowledgement>RDA WG I-ADOPT</iadopt:acknowledgement>
+        <ont:acknowledgement>RDA WG I-ADOPT</ont:acknowledgement>
     </owl:Ontology>
     
 
@@ -105,45 +106,45 @@
     
 
 
-    <!-- http://purl.org/dc/terms/abstract -->
+    <!-- http://purl.org/dc/terms#abstract -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms#abstract"/>
     
 
 
-    <!-- http://purl.org/dc/terms/contributor -->
+    <!-- http://purl.org/dc/terms#contributor -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms#contributor"/>
     
 
 
-    <!-- http://purl.org/dc/terms/created -->
+    <!-- http://purl.org/dc/terms#created -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms#created"/>
     
 
 
-    <!-- http://purl.org/dc/terms/creator -->
+    <!-- http://purl.org/dc/terms#creator -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms#creator"/>
     
 
 
-    <!-- http://purl.org/dc/terms/language -->
+    <!-- http://purl.org/dc/terms#language -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/language"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms#language"/>
     
 
 
-    <!-- http://purl.org/dc/terms/license -->
+    <!-- http://purl.org/dc/terms#license -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms#license"/>
     
 
 
@@ -161,10 +162,10 @@
     
 
 
-    <!-- https://w3id.org/iadopt/ont/iadopt/acknowledgement -->
+    <!-- https://w3id.org/iadopt/ont/acknowledgement -->
 
 
-    <owl:AnnotationProperty rdf:about="https://w3id.org/iadopt/ont/iadopt/acknowledgement"/>
+    <owl:AnnotationProperty rdf:about="https://w3id.org/iadopt/ont/acknowledgement"/>
     
 
 
@@ -180,61 +181,61 @@
     
 
 
-    <!-- https://w3id.org/iadopt/ont/iadopt/hasConstraint -->
+    <!-- https://w3id.org/iadopt/ont/hasConstraint -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/iadopt/ont/iadopt/hasConstraint">
-        <rdfs:domain rdf:resource="https://w3id.org/iadopt/ont/iadopt/Variable"/>
-        <rdfs:range rdf:resource="https://w3id.org/iadopt/ont/iadopt/Constraint"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/iadopt/ont/hasConstraint">
+        <rdfs:domain rdf:resource="https://w3id.org/iadopt/ont/Variable"/>
+        <rdfs:range rdf:resource="https://w3id.org/iadopt/ont/Constraint"/>
         <rdfs:comment>A Variable has a Constraint, that confines an Entity involved in the observation.</rdfs:comment>
         <rdfs:label>hasConstraint</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/iadopt/ont/iadopt/hasContextObject -->
+    <!-- https://w3id.org/iadopt/ont/hasContextObject -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/iadopt/ont/iadopt/hasContextObject">
-        <rdfs:domain rdf:resource="https://w3id.org/iadopt/ont/iadopt/Variable"/>
-        <rdfs:range rdf:resource="https://w3id.org/iadopt/ont/iadopt/Entity"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/iadopt/ont/hasContextObject">
+        <rdfs:domain rdf:resource="https://w3id.org/iadopt/ont/Variable"/>
+        <rdfs:range rdf:resource="https://w3id.org/iadopt/ont/Entity"/>
         <rdfs:comment>A Variable has an Entity that provides additional background information regarding the ObjectOfInterest.</rdfs:comment>
         <rdfs:label>hasContextObject</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/iadopt/ont/iadopt/hasMatrix -->
+    <!-- https://w3id.org/iadopt/ont/hasMatrix -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/iadopt/ont/iadopt/hasMatrix">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/iadopt/ont/iadopt/hasContextObject"/>
-        <rdfs:domain rdf:resource="https://w3id.org/iadopt/ont/iadopt/Variable"/>
-        <rdfs:range rdf:resource="https://w3id.org/iadopt/ont/iadopt/Entity"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/iadopt/ont/hasMatrix">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/iadopt/ont/hasContextObject"/>
+        <rdfs:domain rdf:resource="https://w3id.org/iadopt/ont/Variable"/>
+        <rdfs:range rdf:resource="https://w3id.org/iadopt/ont/Entity"/>
         <rdfs:comment>A Variable might have an Entity in which the ObjectOfInterest is contained.</rdfs:comment>
         <rdfs:label>hasMatrix</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/iadopt/ont/iadopt/hasObjectOfInterest -->
+    <!-- https://w3id.org/iadopt/ont/hasObjectOfInterest -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/iadopt/ont/iadopt/hasObjectOfInterest">
-        <rdfs:domain rdf:resource="https://w3id.org/iadopt/ont/iadopt/Variable"/>
-        <rdfs:range rdf:resource="https://w3id.org/iadopt/ont/iadopt/Entity"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/iadopt/ont/hasObjectOfInterest">
+        <rdfs:domain rdf:resource="https://w3id.org/iadopt/ont/Variable"/>
+        <rdfs:range rdf:resource="https://w3id.org/iadopt/ont/Entity"/>
         <rdfs:comment>A Variable has an Entity whose Property is observed.</rdfs:comment>
         <rdfs:label>hasObjectOfInterest</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/iadopt/ont/iadopt/hasProperty -->
+    <!-- https://w3id.org/iadopt/ont/hasProperty -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/iadopt/ont/iadopt/hasProperty">
-        <rdfs:domain rdf:resource="https://w3id.org/iadopt/ont/iadopt/Variable"/>
-        <rdfs:range rdf:resource="https://w3id.org/iadopt/ont/iadopt/Property"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/iadopt/ont/hasProperty">
+        <rdfs:domain rdf:resource="https://w3id.org/iadopt/ont/Variable"/>
+        <rdfs:range rdf:resource="https://w3id.org/iadopt/ont/Property"/>
         <rdfs:comment>A Variable has a Property that characterizes an Entity.</rdfs:comment>
         <rdfs:label>hasProperty</rdfs:label>
     </owl:ObjectProperty>
@@ -253,52 +254,52 @@
     
 
 
-    <!-- https://w3id.org/iadopt/ont/iadopt/Constraint -->
+    <!-- https://w3id.org/iadopt/ont/Constraint -->
 
 
-    <owl:Class rdf:about="https://w3id.org/iadopt/ont/iadopt/Constraint">
+    <owl:Class rdf:about="https://w3id.org/iadopt/ont/Constraint">
         <rdfs:comment>A Constraint limits the scope of the observation and confines the context to a particular state. It describes properties of the involved entities that are relevant to the particular observation.</rdfs:comment>
         <rdfs:label>constraint</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/iadopt/ont/iadopt/Entity -->
+    <!-- https://w3id.org/iadopt/ont/Entity -->
 
 
-    <owl:Class rdf:about="https://w3id.org/iadopt/ont/iadopt/Entity">
+    <owl:Class rdf:about="https://w3id.org/iadopt/ont/Entity">
         <rdfs:comment>An object or process that has a role in an observation. An Entity may play one of the following roles: ObjectOfInterest, ContextObject, Matrix. Whether the involvement of a particular entity is meaningful enough to include in the variable description depends on the specific context.</rdfs:comment>
         <rdfs:label>entity</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/iadopt/ont/iadopt/Property -->
+    <!-- https://w3id.org/iadopt/ont/Property -->
 
 
-    <owl:Class rdf:about="https://w3id.org/iadopt/ont/iadopt/Property">
+    <owl:Class rdf:about="https://w3id.org/iadopt/ont/Property">
         <rdfs:comment>A type of a characteristic of the ObjectOfInterest.</rdfs:comment>
         <rdfs:label>property</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/iadopt/ont/iadopt/Variable -->
+    <!-- https://w3id.org/iadopt/ont/Variable -->
 
 
-    <owl:Class rdf:about="https://w3id.org/iadopt/ont/iadopt/Variable">
+    <owl:Class rdf:about="https://w3id.org/iadopt/ont/Variable">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/iadopt/ont/iadopt/hasObjectOfInterest"/>
+                <owl:onProperty rdf:resource="https://w3id.org/iadopt/ont/hasObjectOfInterest"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://w3id.org/iadopt/ont/iadopt/Entity"/>
+                <owl:onClass rdf:resource="https://w3id.org/iadopt/ont/Entity"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/iadopt/ont/iadopt/hasProperty"/>
+                <owl:onProperty rdf:resource="https://w3id.org/iadopt/ont/hasProperty"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://w3id.org/iadopt/ont/iadopt/Property"/>
+                <owl:onClass rdf:resource="https://w3id.org/iadopt/ont/Property"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:comment>A description of something observed or derived, minimally consisting of  an ObjectOfInterest and its Property.</rdfs:comment>

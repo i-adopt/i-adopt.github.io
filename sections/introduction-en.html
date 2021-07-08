@@ -7,11 +7,13 @@
     overwhelm data managers and users, ironically maintaining barriers to interoperability.</p>
 
   <p>Great progress has already been made in providing machine-readable descriptions of sensors and their observation
-    types through the OGC's Sensor Web Enablement SensorML, Observations and Measurements or the W3C's/OGC's Semantic
-    Sensor Network (SSN) ontology. However, "deep metadata" that further contextualizes observations (e.g. methodology,
-    variables, parameters) is typically represented as coarsely qualified classes (e.g. "Procedure" or "Observed
-    property"). What exactly falls into these classes is currently unconstrained and could be anything ranging from
-    unstandardized free-text to standardized descriptions accessible via fully resolvable URIs.</p>
+    types through the OGC's Sensor Web Enablement SensorML, Observations and Measurements (Cox 2017) or the W3C's/OGC's
+    Semantic Sensor Network (SSN) ontology. However, "deep metadata" that further contextualizes observations (e.g.
+    methodology, variables, parameters) is typically represented as coarsely qualified classes (e.g. "Procedure" or
+    "Observed property"). What exactly falls into these classes is currently unconstrained and could be anything ranging
+    from unstandardized free-text to standardized descriptions accessible via fully resolvable URIs. The Scientific
+    Variables Ontology (Stoica and Peckham 2018, 2019) is one known existing principled ontological framework for
+    decomposing and representing scientific variables in a machine-readable form.</p>
 
   <p>The RDA InteroperAble Descriptions of Observable Property Terminology (I-ADOPT) WG set itself the objective to
     produce an Interoperability Framework, co-developed by a diverse community of terminology experts and users, for
@@ -25,4 +27,62 @@
     they may leverage their local resources in a collective attempt to represent complex properties observed across the
     environmental sciences (from marine, atmospheric, and terrestrial Earth sciences, as well as biodiversity).</p>
 
+  <p> For more information about I-ADOPT see the [I-ADOPT
+    pages](https://www.rd-alliance.org/groups/interoperable-descriptions-observable-property-terminology-wg-i-adopt-wg)
+    on the RDA website. Comments on this version of the ontology (please specify the version number when commenting) can
+    be made by raising issue tickets in this [github repository](https://github.com/i-adopt/framework).</p>
 </span>
+<div id="namespacedeclarations">
+  <h3 id="ns" class="list">Namespace declarations</h3>
+  <div id="ns" align="center">
+    <table>
+      <caption> <a href="#ns"> Table 1</a>: Namespaces used in the document </caption>
+      <tbody>
+        <tr>
+          <td><b>iop</b></td>
+          <td>&lt;https://w3id.org/iadopt/ont&gt;</td>
+        </tr>
+        <tr>
+          <td><b>index-html</b></td>
+          <td>&lt;https://www.isibang.ac.in/ns/mod/index.html&gt;</td>
+        </tr>
+        <tr>
+          <td><b>owl</b></td>
+          <td>&lt;http://www.w3.org/2002/07/owl&gt;</td>
+        </tr>
+        <tr>
+          <td><b>xsd</b></td>
+          <td>&lt;http://www.w3.org/2001/XMLSchema&gt;</td>
+        </tr>
+        <tr>
+          <td><b>rdfs</b></td>
+          <td>&lt;http://www.w3.org/2000/01/rdf-schema&gt;</td>
+        </tr>
+        <tr>
+          <td><b>rdf</b></td>
+          <td>&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns&gt;</td>
+        </tr>
+        <tr>
+          <td><b>terms</b></td>
+          <td>&lt;http://purl.org/dc/terms&gt;</td>
+        </tr>
+        <tr>
+          <td><b>dcat</b></td>
+          <td>&lt;http://www.w3.org/ns/dcat&gt;</td>
+        </tr>
+        <tr>
+          <td><b>foaf</b></td>
+          <td>&lt;http://xmlns.com/foaf/0.1&gt;</td>
+        </tr>
+        <tr>
+          <td><b>ontology</b></td>
+          <td>&lt;http://omv.ontoware.org/2005/05/ontology&gt;</td>
+        </tr>
+        <tr>
+          <td><b>iso639-3</b></td>
+          <td>&lt;http://lexvo.org/id/iso639-3&gt;</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

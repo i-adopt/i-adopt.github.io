@@ -1,5 +1,5 @@
 <https://w3id.org/iadopt/ont> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://w3id.org/iadopt/ont> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/iadopt/ont/1.0.0> .
+<https://w3id.org/iadopt/ont> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/iadopt/ont/0.8.0> .
 <https://w3id.org/iadopt/ont> <http://omv.ontoware.org/2005/05/ontology#conformsToKnowledgeRepresentationParadigm> <https://www.isibang.ac.in/ns/mod/index.html#DescriptionLogics> .
 <https://w3id.org/iadopt/ont> <http://omv.ontoware.org/2005/05/ontology#designedForOntologyTask> "semantically precise description and mapping of variables" .
 <https://w3id.org/iadopt/ont> <http://omv.ontoware.org/2005/05/ontology#hasFormalityLevel> <https://www.isibang.ac.in/ns/mod/index.html#Schema> .
@@ -7,22 +7,21 @@
 <https://w3id.org/iadopt/ont> <http://omv.ontoware.org/2005/05/ontology#hasOntologySyntax> <https://www.isibang.ac.in/ns/mod/index.html#OWL/XML> .
 <https://w3id.org/iadopt/ont> <http://omv.ontoware.org/2005/05/ontology#usedOntologyEngineeringMethodology> <https://www.isibang.ac.in/ns/mod/index.html#MethOntology> .
 <https://w3id.org/iadopt/ont> <http://omv.ontoware.org/2005/05/ontology#usedOntologyEngineeringTool> "https://www.isibang.ac.in/ns/mod/index.html#Protege" .
-<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms/abstract> "The I-ADOPT Framework ontology provides machine-readable variable descriptions in which the components are mapped to FAIR vocabulary terms." .
-<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms/contributor> "John Graybeal, Stanford University, School of Medicine, USA; ORCID: 0000-0001-6875-5360" .
-<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms/contributor> "Robert Huber, University Bremen, Germany" .
-<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms/contributor> "Simon J D Cox, CSIRO Land and Water, Australia; ORCID: 0000-0002-3884-3420" .
-<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms/created> "June 24, 2021" .
-<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms/creator> "Alison Pamment, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK; ORCID: 0000-0001-5040-4626" .
-<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms/creator> "Anusuriya Devaraju, Terrestrial Ecosystem Research Network (TERN), University of Queensland, Australia; ORCID: 0000-0003-0870-3192" .
-<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms/creator> "Barbara Magagna, Environment Agency Austria, ORCID: 0000-0003-2195-3997" .
-<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms/creator> "Gwenaelle Moncoiffe, National Oceanography Centre, British Oceanographic Data Centre, UK; ORCID: 0000-0001-6559-4178" .
-<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms/creator> "Maria Stoica, University of Colorado, Boulder; ORCID: 0000-0002-6612-3439" .
-<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms/creator> "Sirko Schindler, Institute of Data Science, German Aerospace Center (DLR); ORCID: 0000-0002-0964-4457" .
-<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms/description> "The I-ADOPT Framework ontology provides machine-readable variable descriptions in which the components are mapped to FAIR vocabulary terms." .
-<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms/language> <http://lexvo.org/id/iso639-3/eng> .
-<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms/license> "CC BY 4.0" .
-<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms/title> "I-ADOPT Framework ontology" .
+<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms#abstract> "The I-ADOPT Framework ontology provides machine-readable variable descriptions in which the components are mapped to FAIR vocabulary terms." .
+<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms#contributor> "John Graybeal, Stanford University, School of Medicine, USA, ORCID: 0000-0001-6875-5360" .
+<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms#contributor> "Robert Huber, University Bremen, Germany" .
+<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms#contributor> "Simon J D Cox , CSIRO Land and Water, Australia; ORCID: 0000-0002-3884-3420" .
+<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms#created> "June 24, 2021" .
+<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms#creator> "Alison Pamment, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK, ORCID: 0000-0001-5040-4626" .
+<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms#creator> "Anusuriya Devaraju, Terrestrial Ecosystem Research Network (TERN), University of Queensland, Australia, ORCID: 0000-0003-0870-3192" .
+<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms#creator> "Barbara Magagna, Environment Agency Austria, ORCID: 0000-0003-2195-3997" .
+<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms#creator> "Gwenaelle Moncoiffe, National Oceanography Centre, British Oceanographic Data Centre, UK, ORCID: 0000-0001-6559-4178" .
+<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms#creator> "Maria Stoica, University of Colorado, Boulder , ORCID: 0000-0002-6612-3439" .
+<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms#creator> "Sirko Schindler, Institute of Data Science, German Aerospace Center (DLR), ORCID: 0000-0002-0964-4457" .
+<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms#language> <http://lexvo.org/id/iso639-3/eng> .
+<https://w3id.org/iadopt/ont> <http://purl.org/dc/terms#license> "CC BY 4.0" .
 <https://w3id.org/iadopt/ont> <http://www.w3.org/2000/01/rdf-schema#label> "I-ADOPT Framework ontology" .
+<https://w3id.org/iadopt/ont> <http://www.w3.org/2002/07/owl#versionInfo> "0.8.0" .
 <https://w3id.org/iadopt/ont> <http://www.w3.org/ns/dcat#keyword> "observable property" .
 <https://w3id.org/iadopt/ont> <http://www.w3.org/ns/dcat#keyword> "variable" .
 <https://w3id.org/iadopt/ont> <http://xmlns.com/foaf/0.1/primaryTopic> "Entity" .
@@ -59,29 +58,23 @@
 # http://omv.ontoware.org/2005/05/ontology#usedOntologyEngineeringTool
 <http://omv.ontoware.org/2005/05/ontology#usedOntologyEngineeringTool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://purl.org/dc/terms/abstract
-<http://purl.org/dc/terms/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# http://purl.org/dc/terms#abstract
+<http://purl.org/dc/terms#abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://purl.org/dc/terms/contributor
-<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# http://purl.org/dc/terms#contributor
+<http://purl.org/dc/terms#contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://purl.org/dc/terms/created
-<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# http://purl.org/dc/terms#created
+<http://purl.org/dc/terms#created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://purl.org/dc/terms/creator
-<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# http://purl.org/dc/terms#creator
+<http://purl.org/dc/terms#creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://purl.org/dc/terms/description
-<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# http://purl.org/dc/terms#language
+<http://purl.org/dc/terms#language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://purl.org/dc/terms/language
-<http://purl.org/dc/terms/language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
-# http://purl.org/dc/terms/license
-<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
-# http://purl.org/dc/terms/title
-<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# http://purl.org/dc/terms#license
+<http://purl.org/dc/terms#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://www.w3.org/ns/dcat#keyword
 <http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
