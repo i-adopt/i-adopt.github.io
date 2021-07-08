@@ -1,5 +1,5 @@
 <https://w3id.org/iadopt/ont> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://w3id.org/iadopt/ont> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/iadopt/ont/0.8.0> .
+<https://w3id.org/iadopt/ont> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/iadopt/ont/0.0.8> .
 <https://w3id.org/iadopt/ont> <http://omv.ontoware.org/2005/05/ontology#conformsToKnowledgeRepresentationParadigm> <https://www.isibang.ac.in/ns/mod/index.html#DescriptionLogics> .
 <https://w3id.org/iadopt/ont> <http://omv.ontoware.org/2005/05/ontology#designedForOntologyTask> "semantically precise description and mapping of variables" .
 <https://w3id.org/iadopt/ont> <http://omv.ontoware.org/2005/05/ontology#hasFormalityLevel> <https://www.isibang.ac.in/ns/mod/index.html#Schema> .

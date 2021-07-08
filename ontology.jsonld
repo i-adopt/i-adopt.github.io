@@ -129,7 +129,7 @@
     "@value" : "I-ADOPT Framework ontology"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/0.8.0"
+    "@id" : "https://w3id.org/iadopt/ont/0.0.8"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "0.8.0"
