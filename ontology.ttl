@@ -15,19 +15,20 @@
                                <http://omv.ontoware.org/2005/05/ontology#hasOntologySyntax> <https://www.isibang.ac.in/ns/mod/index.html#OWL/XML> ;
                                <http://omv.ontoware.org/2005/05/ontology#usedOntologyEngineeringMethodology> <https://www.isibang.ac.in/ns/mod/index.html#MethOntology> ;
                                <http://omv.ontoware.org/2005/05/ontology#usedOntologyEngineeringTool> "https://www.isibang.ac.in/ns/mod/index.html#Protege" ;
-                               <http://purl.org/dc/terms#abstract> "The I-ADOPT Framework ontology provides machine-readable variable descriptions in which the components are mapped to FAIR vocabulary terms." ;
-                               <http://purl.org/dc/terms#contributor> "John Graybeal, Stanford University, School of Medicine, USA, ORCID: 0000-0001-6875-5360" ,
+                               <http://purl.org/dc/terms/abstract> "The I-ADOPT Framework ontology provides machine-readable variable descriptions in which the components are mapped to FAIR vocabulary terms." ;
+                               <http://purl.org/dc/terms/contributor> "John Graybeal, Stanford University, School of Medicine, USA, ORCID: 0000-0001-6875-5360" ,
                                                                       "Robert Huber, University Bremen, Germany" ,
                                                                       "Simon J D Cox , CSIRO Land and Water, Australia; ORCID: 0000-0002-3884-3420" ;
-                               <http://purl.org/dc/terms#created> "June 24, 2021" ;
-                               <http://purl.org/dc/terms#creator> "Alison Pamment, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK, ORCID: 0000-0001-5040-4626" ,
+                               <http://purl.org/dc/terms/created> "June 24, 2021" ;
+                               <http://purl.org/dc/terms/creator> "Alison Pamment, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK, ORCID: 0000-0001-5040-4626" ,
                                                                   "Anusuriya Devaraju, Terrestrial Ecosystem Research Network (TERN), University of Queensland, Australia, ORCID: 0000-0003-0870-3192" ,
                                                                   "Barbara Magagna, Environment Agency Austria, ORCID: 0000-0003-2195-3997" ,
                                                                   "Gwenaelle Moncoiffe, National Oceanography Centre, British Oceanographic Data Centre, UK, ORCID: 0000-0001-6559-4178" ,
                                                                   "Maria Stoica, University of Colorado, Boulder , ORCID: 0000-0002-6612-3439" ,
                                                                   "Sirko Schindler, Institute of Data Science, German Aerospace Center (DLR), ORCID: 0000-0002-0964-4457" ;
-                               <http://purl.org/dc/terms#language> <http://lexvo.org/id/iso639-3/eng> ;
-                               <http://purl.org/dc/terms#license> "CC BY 4.0" ;
+                               <http://purl.org/dc/terms/language> <http://lexvo.org/id/iso639-3/eng> ;
+                               <http://purl.org/dc/terms/license> "CC BY 4.0" ;
+                               <http://purl.org/dc/terms/title> "I-ADOPT Framework ontology" ;
                                rdfs:label "I-ADOPT Framework ontology" ;
                                owl:versionInfo "0.8.0" ;
                                <http://www.w3.org/ns/dcat#keyword> "observable property" ,
@@ -69,28 +70,32 @@
 <http://omv.ontoware.org/2005/05/ontology#usedOntologyEngineeringTool> rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms#abstract
-<http://purl.org/dc/terms#abstract> rdf:type owl:AnnotationProperty .
+###  http://purl.org/dc/terms/abstract
+<http://purl.org/dc/terms/abstract> rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms#contributor
-<http://purl.org/dc/terms#contributor> rdf:type owl:AnnotationProperty .
+###  http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms#created
-<http://purl.org/dc/terms#created> rdf:type owl:AnnotationProperty .
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms#creator
-<http://purl.org/dc/terms#creator> rdf:type owl:AnnotationProperty .
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms#language
-<http://purl.org/dc/terms#language> rdf:type owl:AnnotationProperty .
+###  http://purl.org/dc/terms/language
+<http://purl.org/dc/terms/language> rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms#license
-<http://purl.org/dc/terms#license> rdf:type owl:AnnotationProperty .
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/ns/dcat#keyword
@@ -108,6 +113,14 @@
 #################################################################
 #    Object Properties
 #################################################################
+
+###  https://w3id.org/iadopt/ont/constrains
+<https://w3id.org/iadopt/ont/constrains> rdf:type owl:ObjectProperty ;
+                                         rdfs:domain <https://w3id.org/iadopt/ont/Constraint> ;
+                                         rdfs:range <https://w3id.org/iadopt/ont/Entity> ;
+                                         rdfs:comment "A Constraint constains an Entitiy having a role in the Variable description." ;
+                                         rdfs:label "constrains" .
+
 
 ###  https://w3id.org/iadopt/ont/hasConstraint
 <https://w3id.org/iadopt/ont/hasConstraint> rdf:type owl:ObjectProperty ;

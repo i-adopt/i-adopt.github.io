@@ -46,22 +46,25 @@
   "@id" : "http://omv.ontoware.org/2005/05/ontology#usedOntologyEngineeringTool",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/dc/terms#abstract",
+  "@id" : "http://purl.org/dc/terms/abstract",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/dc/terms#contributor",
+  "@id" : "http://purl.org/dc/terms/contributor",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/dc/terms#created",
+  "@id" : "http://purl.org/dc/terms/created",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/dc/terms#creator",
+  "@id" : "http://purl.org/dc/terms/creator",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/dc/terms#language",
+  "@id" : "http://purl.org/dc/terms/language",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/dc/terms#license",
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://www.w3.org/ns/dcat#keyword",
@@ -93,20 +96,20 @@
   "http://omv.ontoware.org/2005/05/ontology#usedOntologyEngineeringTool" : [ {
     "@value" : "https://www.isibang.ac.in/ns/mod/index.html#Protege"
   } ],
-  "http://purl.org/dc/terms#abstract" : [ {
+  "http://purl.org/dc/terms/abstract" : [ {
     "@value" : "The I-ADOPT Framework ontology provides machine-readable variable descriptions in which the components are mapped to FAIR vocabulary terms."
   } ],
-  "http://purl.org/dc/terms#contributor" : [ {
+  "http://purl.org/dc/terms/contributor" : [ {
     "@value" : "John Graybeal, Stanford University, School of Medicine, USA, ORCID: 0000-0001-6875-5360"
   }, {
     "@value" : "Robert Huber, University Bremen, Germany"
   }, {
     "@value" : "Simon J D Cox , CSIRO Land and Water, Australia; ORCID: 0000-0002-3884-3420"
   } ],
-  "http://purl.org/dc/terms#created" : [ {
+  "http://purl.org/dc/terms/created" : [ {
     "@value" : "June 24, 2021"
   } ],
-  "http://purl.org/dc/terms#creator" : [ {
+  "http://purl.org/dc/terms/creator" : [ {
     "@value" : "Alison Pamment, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK, ORCID: 0000-0001-5040-4626"
   }, {
     "@value" : "Anusuriya Devaraju, Terrestrial Ecosystem Research Network (TERN), University of Queensland, Australia, ORCID: 0000-0003-0870-3192"
@@ -119,17 +122,20 @@
   }, {
     "@value" : "Sirko Schindler, Institute of Data Science, German Aerospace Center (DLR), ORCID: 0000-0002-0964-4457"
   } ],
-  "http://purl.org/dc/terms#language" : [ {
+  "http://purl.org/dc/terms/language" : [ {
     "@id" : "http://lexvo.org/id/iso639-3/eng"
   } ],
-  "http://purl.org/dc/terms#license" : [ {
+  "http://purl.org/dc/terms/license" : [ {
     "@value" : "CC BY 4.0"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "I-ADOPT Framework ontology"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "I-ADOPT Framework ontology"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/0.8.0"
+    "@id" : "https://w3id.org/iadopt/ont/0.0.8"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "0.8.0"
@@ -193,6 +199,21 @@
 }, {
   "@id" : "https://w3id.org/iadopt/ont/acknowledgement",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/iadopt/ont/constrains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A Constraint constains an Entitiy having a role in the Variable description."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/iadopt/ont/Constraint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "constrains"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/iadopt/ont/Entity"
+  } ]
 }, {
   "@id" : "https://w3id.org/iadopt/ont/hasConstraint",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],

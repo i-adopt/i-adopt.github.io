@@ -34,7 +34,6 @@
         <terms:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
         <terms:license>CC BY 4.0</terms:license>
         <rdfs:label>I-ADOPT Framework ontology</rdfs:label>
-        <owl:versionInfo>0.8.0</owl:versionInfo>
         <dcat:keyword>observable property</dcat:keyword>
         <dcat:keyword>variable</dcat:keyword>
         <foaf:primaryTopic>Entity</foaf:primaryTopic>
