@@ -12,7 +12,7 @@
      xmlns:terms="http://purl.org/dc/terms#"
      xmlns:ontology="http://omv.ontoware.org/2005/05/ontology#">
     <owl:Ontology rdf:about="https://w3id.org/iadopt/ont">
-        <owl:versionIRI rdf:resource="https://w3id.org/iadopt/ont/0.0.8"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/iadopt/ont/0.8.0"/>
         <ontology:conformsToKnowledgeRepresentationParadigm rdf:resource="https://www.isibang.ac.in/ns/mod/index.html#DescriptionLogics"/>
         <ontology:designedForOntologyTask>semantically precise description and mapping of variables</ontology:designedForOntologyTask>
         <ontology:hasFormalityLevel rdf:resource="https://www.isibang.ac.in/ns/mod/index.html#Schema"/>
