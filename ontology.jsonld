@@ -107,7 +107,7 @@
     "@value" : "Simon J D Cox , CSIRO Land and Water, Australia; ORCID: 0000-0002-3884-3420"
   } ],
   "http://purl.org/dc/terms/created" : [ {
-    "@value" : "June 24, 2021"
+    "@value" : "October 15, 2021"
   } ],
   "http://purl.org/dc/terms/creator" : [ {
     "@value" : "Alison Pamment, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK, ORCID: 0000-0001-5040-4626"
@@ -135,10 +135,10 @@
     "@value" : "I-ADOPT Framework ontology"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/0.8.0"
+    "@id" : "https://w3id.org/iadopt/ont/0.9.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@value" : "0.8.0"
+    "@value" : "0.9.0"
   } ],
   "http://www.w3.org/ns/dcat#keyword" : [ {
     "@value" : "observable property"
@@ -151,9 +151,6 @@
     "@value" : "Property"
   }, {
     "@value" : "Variable"
-  } ],
-  "https://w3id.org/iadopt/ont/acknowledgement" : [ {
-    "@value" : "RDA WG I-ADOPT"
   } ]
 }, {
   "@id" : "https://w3id.org/iadopt/ont/Constraint",
@@ -197,13 +194,10 @@
     "@id" : "_:genid2"
   } ]
 }, {
-  "@id" : "https://w3id.org/iadopt/ont/acknowledgement",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
   "@id" : "https://w3id.org/iadopt/ont/constrains",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "A Constraint constains an Entitiy having a role in the Variable description."
+    "@value" : "A Constraint constrains an Entity having a role in the Variable description."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/iadopt/ont/Constraint"

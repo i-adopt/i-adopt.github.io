@@ -7,8 +7,8 @@
       "undefined" : "I-ADOPT Framework ontology"
     },
     "iri" : "https://w3id.org/iadopt/ont",
-    "version" : "0.8.0",
-    "author" : [ "Sirko Schindler, Institute of Data Science, German Aerospace Center (DLR), ORCID: 0000-0002-0964-4457", "Maria Stoica, University of Colorado, Boulder , ORCID: 0000-0002-6612-3439", "Gwenaelle Moncoiffe, National Oceanography Centre, British Oceanographic Data Centre, UK, ORCID: 0000-0001-6559-4178", "Anusuriya Devaraju, Terrestrial Ecosystem Research Network (TERN), University of Queensland, Australia, ORCID: 0000-0003-0870-3192", "Alison Pamment, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK, ORCID: 0000-0001-5040-4626", "Barbara Magagna, Environment Agency Austria, ORCID: 0000-0003-2195-3997" ],
+    "version" : "0.9.0",
+    "author" : [ "Maria Stoica, University of Colorado, Boulder , ORCID: 0000-0002-6612-3439", "Sirko Schindler, Institute of Data Science, German Aerospace Center (DLR), ORCID: 0000-0002-0964-4457", "Gwenaelle Moncoiffe, National Oceanography Centre, British Oceanographic Data Centre, UK, ORCID: 0000-0001-6559-4178", "Anusuriya Devaraju, Terrestrial Ecosystem Research Network (TERN), University of Queensland, Australia, ORCID: 0000-0003-0870-3192", "Alison Pamment, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK, ORCID: 0000-0001-5040-4626", "Barbara Magagna, Environment Agency Austria, ORCID: 0000-0003-2195-3997" ],
     "labels" : {
       "undefined" : "I-ADOPT Framework ontology"
     },
@@ -16,22 +16,12 @@
       "creator" : [ {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Gwenaelle Moncoiffe, National Oceanography Centre, British Oceanographic Data Centre, UK, ORCID: 0000-0001-6559-4178",
-        "type" : "label"
-      }, {
-        "identifier" : "creator",
-        "language" : "undefined",
-        "value" : "Sirko Schindler, Institute of Data Science, German Aerospace Center (DLR), ORCID: 0000-0002-0964-4457",
-        "type" : "label"
-      }, {
-        "identifier" : "creator",
-        "language" : "undefined",
         "value" : "Anusuriya Devaraju, Terrestrial Ecosystem Research Network (TERN), University of Queensland, Australia, ORCID: 0000-0003-0870-3192",
         "type" : "label"
       }, {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Alison Pamment, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK, ORCID: 0000-0001-5040-4626",
+        "value" : "Maria Stoica, University of Colorado, Boulder , ORCID: 0000-0002-6612-3439",
         "type" : "label"
       }, {
         "identifier" : "creator",
@@ -41,13 +31,17 @@
       }, {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Maria Stoica, University of Colorado, Boulder , ORCID: 0000-0002-6612-3439",
+        "value" : "Sirko Schindler, Institute of Data Science, German Aerospace Center (DLR), ORCID: 0000-0002-0964-4457",
         "type" : "label"
-      } ],
-      "acknowledgement" : [ {
-        "identifier" : "acknowledgement",
+      }, {
+        "identifier" : "creator",
         "language" : "undefined",
-        "value" : "RDA WG I-ADOPT",
+        "value" : "Gwenaelle Moncoiffe, National Oceanography Centre, British Oceanographic Data Centre, UK, ORCID: 0000-0001-6559-4178",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Alison Pamment, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK, ORCID: 0000-0001-5040-4626",
         "type" : "label"
       } ],
       "conformsToKnowledgeRepresentationParadigm" : [ {
@@ -59,7 +53,7 @@
       "created" : [ {
         "identifier" : "created",
         "language" : "undefined",
-        "value" : "June 24, 2021",
+        "value" : "October 15, 2021",
         "type" : "label"
       } ],
       "designedForOntologyTask" : [ {
@@ -74,16 +68,16 @@
         "value" : "http://lexvo.org/id/iso639-3/eng",
         "type" : "iri"
       } ],
-      "versionInfo" : [ {
-        "identifier" : "versionInfo",
-        "language" : "undefined",
-        "value" : "0.8.0",
-        "type" : "label"
-      } ],
       "abstract" : [ {
         "identifier" : "abstract",
         "language" : "undefined",
         "value" : "The I-ADOPT Framework ontology provides machine-readable variable descriptions in which the components are mapped to FAIR vocabulary terms.",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "0.9.0",
         "type" : "label"
       } ],
       "title" : [ {
@@ -112,20 +106,15 @@
       }, {
         "identifier" : "contributor",
         "language" : "undefined",
-        "value" : "John Graybeal, Stanford University, School of Medicine, USA, ORCID: 0000-0001-6875-5360",
+        "value" : "Robert Huber, University Bremen, Germany",
         "type" : "label"
       }, {
         "identifier" : "contributor",
         "language" : "undefined",
-        "value" : "Robert Huber, University Bremen, Germany",
+        "value" : "John Graybeal, Stanford University, School of Medicine, USA, ORCID: 0000-0001-6875-5360",
         "type" : "label"
       } ],
       "primaryTopic" : [ {
-        "identifier" : "primaryTopic",
-        "language" : "undefined",
-        "value" : "Property",
-        "type" : "label"
-      }, {
         "identifier" : "primaryTopic",
         "language" : "undefined",
         "value" : "Variable",
@@ -135,6 +124,11 @@
         "language" : "undefined",
         "value" : "Entity",
         "type" : "label"
+      }, {
+        "identifier" : "primaryTopic",
+        "language" : "undefined",
+        "value" : "Property",
+        "type" : "label"
       } ],
       "hasOntologyLanguage" : [ {
         "identifier" : "hasOntologyLanguage",
@@ -142,22 +136,22 @@
         "value" : "https://www.isibang.ac.in/ns/mod/index.html#OWL-DL",
         "type" : "iri"
       } ],
-      "keyword" : [ {
-        "identifier" : "keyword",
-        "language" : "undefined",
-        "value" : "observable property",
-        "type" : "label"
-      }, {
-        "identifier" : "keyword",
-        "language" : "undefined",
-        "value" : "variable",
-        "type" : "label"
-      } ],
       "hasOntologySyntax" : [ {
         "identifier" : "hasOntologySyntax",
         "language" : "undefined",
         "value" : "https://www.isibang.ac.in/ns/mod/index.html#OWL/XML",
         "type" : "iri"
+      } ],
+      "keyword" : [ {
+        "identifier" : "keyword",
+        "language" : "undefined",
+        "value" : "variable",
+        "type" : "label"
+      }, {
+        "identifier" : "keyword",
+        "language" : "undefined",
+        "value" : "observable property",
+        "type" : "label"
       } ],
       "usedOntologyEngineeringTool" : [ {
         "identifier" : "usedOntologyEngineeringTool",
@@ -271,7 +265,7 @@
     "comment" : {
       "undefined" : "A Variable has a Constraint, that confines an Entity involved in the observation."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "0"
   }, {
     "iri" : "https://w3id.org/iadopt/ont/hasContextObject",
@@ -286,7 +280,7 @@
     "comment" : {
       "undefined" : "A Variable has an Entity that provides additional background information regarding the ObjectOfInterest."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "3"
   }, {
     "iri" : "https://w3id.org/iadopt/ont/hasObjectOfInterest",
@@ -300,7 +294,7 @@
     "comment" : {
       "undefined" : "A Variable has an Entity whose Property is observed."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "6"
   }, {
     "iri" : "https://w3id.org/iadopt/ont/hasProperty",
@@ -314,7 +308,7 @@
     "comment" : {
       "undefined" : "A Variable has a Property that characterizes an Entity."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "7"
   }, {
     "iri" : "https://w3id.org/iadopt/ont/constrains",
@@ -326,9 +320,9 @@
     },
     "domain" : "2",
     "comment" : {
-      "undefined" : "A Constraint constains an Entitiy having a role in the Variable description."
+      "undefined" : "A Constraint constrains an Entity having a role in the Variable description."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "9"
   }, {
     "iri" : "https://w3id.org/iadopt/ont/hasMatrix",
@@ -343,7 +337,7 @@
     "comment" : {
       "undefined" : "A Variable might have an Entity in which the ObjectOfInterest is contained."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "5"
   } ]
 }

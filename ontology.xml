@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://w3id.org/iadopt/ont#"
      xml:base="https://w3id.org/iadopt/ont"
-     xmlns:ont="https://w3id.org/iadopt/ont/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -12,7 +11,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:ontology="http://omv.ontoware.org/2005/05/ontology#">
     <owl:Ontology rdf:about="https://w3id.org/iadopt/ont">
-        <owl:versionIRI rdf:resource="https://w3id.org/iadopt/ont/0.8.0"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/iadopt/ont/0.9.0"/>
         <ontology:conformsToKnowledgeRepresentationParadigm rdf:resource="https://www.isibang.ac.in/ns/mod/index.html#DescriptionLogics"/>
         <ontology:designedForOntologyTask>semantically precise description and mapping of variables</ontology:designedForOntologyTask>
         <ontology:hasFormalityLevel rdf:resource="https://www.isibang.ac.in/ns/mod/index.html#Schema"/>
@@ -24,7 +23,7 @@
         <terms:contributor>John Graybeal, Stanford University, School of Medicine, USA, ORCID: 0000-0001-6875-5360</terms:contributor>
         <terms:contributor>Robert Huber, University Bremen, Germany</terms:contributor>
         <terms:contributor>Simon J D Cox , CSIRO Land and Water, Australia; ORCID: 0000-0002-3884-3420</terms:contributor>
-        <terms:created>June 24, 2021</terms:created>
+        <terms:created>October 15, 2021</terms:created>
         <terms:creator>Alison Pamment, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK, ORCID: 0000-0001-5040-4626</terms:creator>
         <terms:creator>Anusuriya Devaraju, Terrestrial Ecosystem Research Network (TERN), University of Queensland, Australia, ORCID: 0000-0003-0870-3192</terms:creator>
         <terms:creator>Barbara Magagna, Environment Agency Austria, ORCID: 0000-0003-2195-3997</terms:creator>
@@ -35,13 +34,12 @@
         <terms:license>CC BY 4.0</terms:license>
         <terms:title>I-ADOPT Framework ontology</terms:title>
         <rdfs:label>I-ADOPT Framework ontology</rdfs:label>
-        <owl:versionInfo>0.8.0</owl:versionInfo>
+        <owl:versionInfo>0.9.0</owl:versionInfo>
         <dcat:keyword>observable property</dcat:keyword>
         <dcat:keyword>variable</dcat:keyword>
         <foaf:primaryTopic>Entity</foaf:primaryTopic>
         <foaf:primaryTopic>Property</foaf:primaryTopic>
         <foaf:primaryTopic>Variable</foaf:primaryTopic>
-        <ont:acknowledgement>RDA WG I-ADOPT</ont:acknowledgement>
     </owl:Ontology>
     
 
@@ -170,13 +168,6 @@
     
 
 
-    <!-- https://w3id.org/iadopt/ont/acknowledgement -->
-
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/iadopt/ont/acknowledgement"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -195,7 +186,7 @@
     <owl:ObjectProperty rdf:about="https://w3id.org/iadopt/ont/constrains">
         <rdfs:domain rdf:resource="https://w3id.org/iadopt/ont/Constraint"/>
         <rdfs:range rdf:resource="https://w3id.org/iadopt/ont/Entity"/>
-        <rdfs:comment>A Constraint constains an Entitiy having a role in the Variable description.</rdfs:comment>
+        <rdfs:comment>A Constraint constrains an Entity having a role in the Variable description.</rdfs:comment>
         <rdfs:label>constrains</rdfs:label>
     </owl:ObjectProperty>
     

@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/iadopt/ont","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/iadopt/ont","name":"I-ADOPT Framework ontology", "headline":"The I-ADOPT Framework ontology is a simple ontology designed to facilitate interoperability between existing variable description schemes (including domain-specific ontologies, semantic models, structured controlled vocabularies) and to support further development of machine-readable variable descriptions that re-use components mapped to FAIR vocabulary terms. This first version of the ontology has been developed by a core group of terminology experts and users from the Research Data Alliance (RDA) InteroperAble Descriptions of Observable Property Terminology (I-ADOPT) Working Group.", "datePublished":"June 24, 2021", "license":"http://purl.org/NET/rdflicense/cc-by4.0", "author":[{"@type":"Person","name":"Barbara Magagna","url":"http://orcid.org/0000-0003-2195-3997"},{"@type":"Person","name":"Sirko Schindler","url":"http://orcid.org/0000-0002-0964-4457"},{"@type":"Person","name":"Maria Stoica","url":" http://orcid.org/0000-0002-6612-3439"},{"@type":"Person","name":"Gwenaelle Moncoiffe","url":"http://orcid.org/0000-0001-6559-4178"},{"@type":"Person","name":"Anusuriya Devaraju","url":" http://orcid.org/0000-0003-0870-3192"},{"@type":"Person","name":"Alison Pamment","url":"http://orcid.org/0000-0001-5040-4626"}], "contributor":[{"@type":"Person","name":"John Graybeal","url":"http://orcid.org/0000-0001-6875-5360"},{"@type":"Person","name":"Robert Huber"},{"@type":"Person","name":"Simon J D Cox","url":"http://orcid.org/0000-0002-3884-3420"}]}</script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/iadopt/ont","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/iadopt/ont","name":"I-ADOPT Framework ontology", "headline":"The I-ADOPT Framework ontology is a simple ontology designed to facilitate interoperability between existing variable description schemes (including domain-specific ontologies, semantic models, structured controlled vocabularies) and to support further development of machine-readable variable descriptions that re-use components mapped to FAIR vocabulary terms. This first version of the ontology has been developed by a core group of terminology experts and users from the Research Data Alliance (RDA) InteroperAble Descriptions of Observable Property Terminology (I-ADOPT) Working Group.", "datePublished":"October 15, 2021", "license":"http://purl.org/NET/rdflicense/cc-by4.0", "author":[{"@type":"Person","name":"Barbara Magagna","url":"http://orcid.org/0000-0003-2195-3997"},{"@type":"Person","name":"Sirko Schindler","url":"http://orcid.org/0000-0002-0964-4457"},{"@type":"Person","name":"Maria Stoica","url":" http://orcid.org/0000-0002-6612-3439"},{"@type":"Person","name":"Gwenaelle Moncoiffe","url":"http://orcid.org/0000-0001-6559-4178"},{"@type":"Person","name":"Anusuriya Devaraju","url":" http://orcid.org/0000-0003-0870-3192"},{"@type":"Person","name":"Alison Pamment","url":"http://orcid.org/0000-0001-5040-4626"}], "contributor":[{"@type":"Person","name":"John Graybeal","url":"http://orcid.org/0000-0001-6875-5360"},{"@type":"Person","name":"Robert Huber"},{"@type":"Person","name":"Simon J D Cox","url":"http://orcid.org/0000-0002-3884-3420"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -50,6 +50,7 @@ function loadTOC(){
       $("#overview").load("sections/overview-en.html"); 
       $("#description").load("sections/description-en.html"); 
       $("#references").load("sections/references-en.html"); 
+      $("#changelog").load("sections/changelog-en.html"); 
       $("#crossref").load("sections/crossref-en.html", null, loadHash); 
     });
     </script> 
@@ -60,11 +61,13 @@ function loadTOC(){
 <div class="head">
 <div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
 <h1>I-ADOPT Framework ontology</h1>
-<h2>Release  June 24, 2021</h2>
+<h2>Release  October 15, 2021</h2>
 
 
 <dl>
 <dt>This version:</dt>
+<dd><a href="https://w3id.org/iadopt/ont/0.9.0">https://w3id.org/iadopt/ont/0.9.0</a></dd>
+<dt>Previous version:</dt>
 <dd><a href="https://w3id.org/iadopt/ont/0.8.0">https://w3id.org/iadopt/ont/0.8.0</a></dd>
 <dt>Authors:</dt>
 <dd><a href="http://orcid.org/0000-0003-2195-3997">Barbara Magagna</a>, Environment Agency Austria</dd><dd><a href="http://orcid.org/0000-0002-0964-4457">Sirko Schindler</a>, (<a href="https://dlr.de/dw/en/">Institute of Data Science, German Aerospace Center (DLR)</a>)</dd><dd><a href=" http://orcid.org/0000-0002-6612-3439">Maria Stoica</a>, University of Colorado, Boulder</dd><dd><a href="http://orcid.org/0000-0001-6559-4178">Gwenaelle Moncoiffe</a>, National Oceanography Centre, British Oceanographic Data Centre, UK</dd><dd><a href=" http://orcid.org/0000-0003-0870-3192">Anusuriya Devaraju</a>, Terrestrial Ecosystem Research Network (TERN), University of Queensland, Australia</dd><dd><a href="http://orcid.org/0000-0001-5040-4626">Alison Pamment</a>, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK </dd>
@@ -90,9 +93,9 @@ function loadTOC(){
      <div id="description"></div>
      <div id="crossref"></div>
      <div id="references"></div>
+     <div id="changelog"></div>
 <div id="acknowledgements"><h2 id="ack" class="list">Acknowledgements <span class="backlink"> back to <a href="#toc">ToC</a></span></h2><p>
-The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p><p>Furthermore, the authors like to thank the <a href="https://rd-alliance.org/">Research Data Alliance</a> for providing the platform and support that enabled this work.</p>
-</div>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p></div>
 
 
 </div>
