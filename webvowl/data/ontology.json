@@ -7,7 +7,7 @@
       "undefined" : "I-ADOPT Framework ontology"
     },
     "iri" : "https://w3id.org/iadopt/ont",
-    "version" : "0.9.0",
+    "version" : "0.9.1",
     "author" : [ "Maria Stoica, University of Colorado, Boulder , ORCID: 0000-0002-6612-3439", "Sirko Schindler, Institute of Data Science, German Aerospace Center (DLR), ORCID: 0000-0002-0964-4457", "Gwenaelle Moncoiffe, National Oceanography Centre, British Oceanographic Data Centre, UK, ORCID: 0000-0001-6559-4178", "Anusuriya Devaraju, Terrestrial Ecosystem Research Network (TERN), University of Queensland, Australia, ORCID: 0000-0003-0870-3192", "Alison Pamment, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK, ORCID: 0000-0001-5040-4626", "Barbara Magagna, Environment Agency Austria, ORCID: 0000-0003-2195-3997" ],
     "labels" : {
       "undefined" : "I-ADOPT Framework ontology"
@@ -77,7 +77,7 @@
       "versionInfo" : [ {
         "identifier" : "versionInfo",
         "language" : "undefined",
-        "value" : "0.9.0",
+        "value" : "0.9.1",
         "type" : "label"
       } ],
       "title" : [ {
@@ -169,16 +169,16 @@
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "8",
+    "id" : "9",
     "type" : "owl:Class"
   }, {
     "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "1",
+    "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "2",
+    "id" : "1",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -187,20 +187,20 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "Property",
-      "undefined" : "property"
+      "undefined" : "Property"
     },
     "comment" : {
       "undefined" : "A type of a characteristic of the ObjectOfInterest."
     },
     "attributes" : [ "external" ],
-    "id" : "8"
+    "id" : "9"
   }, {
     "iri" : "https://w3id.org/iadopt/ont/Entity",
     "baseIri" : "https://w3id.org/iadopt/ont",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Entity",
-      "undefined" : "entity"
+      "undefined" : "Entity"
     },
     "comment" : {
       "undefined" : "An object or process that has a role in an observation. An Entity may play one of the following roles: ObjectOfInterest, ContextObject, Matrix. Whether the involvement of a particular entity is meaningful enough to include in the variable description depends on the specific context."
@@ -208,31 +208,31 @@
     "attributes" : [ "external" ],
     "id" : "4"
   }, {
-    "iri" : "https://w3id.org/iadopt/ont/Variable",
-    "baseIri" : "https://w3id.org/iadopt/ont",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Variable",
-      "undefined" : "variable"
-    },
-    "comment" : {
-      "undefined" : "A description of something observed or derived, minimally consisting of  an ObjectOfInterest and its Property."
-    },
-    "attributes" : [ "external" ],
-    "id" : "1"
-  }, {
     "iri" : "https://w3id.org/iadopt/ont/Constraint",
     "baseIri" : "https://w3id.org/iadopt/ont",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Constraint",
-      "undefined" : "constraint"
+      "undefined" : "Constraint"
     },
     "comment" : {
       "undefined" : "A Constraint limits the scope of the observation and confines the context to a particular state. It describes properties of the involved entities that are relevant to the particular observation."
     },
     "attributes" : [ "external" ],
     "id" : "2"
+  }, {
+    "iri" : "https://w3id.org/iadopt/ont/Variable",
+    "baseIri" : "https://w3id.org/iadopt/ont",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Variable",
+      "undefined" : "Variable"
+    },
+    "comment" : {
+      "undefined" : "A description of something observed or derived, minimally consisting of  an ObjectOfInterest and its Property."
+    },
+    "attributes" : [ "external" ],
+    "id" : "1"
   } ],
   "property" : [ {
     "id" : "0",
@@ -247,7 +247,7 @@
     "id" : "7",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "9",
+    "id" : "8",
     "type" : "owl:objectProperty"
   }, {
     "id" : "5",
@@ -297,20 +297,6 @@
     "attributes" : [ "object", "external" ],
     "id" : "6"
   }, {
-    "iri" : "https://w3id.org/iadopt/ont/hasProperty",
-    "baseIri" : "https://w3id.org/iadopt/ont",
-    "range" : "8",
-    "label" : {
-      "IRI-based" : "hasProperty",
-      "undefined" : "hasProperty"
-    },
-    "domain" : "1",
-    "comment" : {
-      "undefined" : "A Variable has a Property that characterizes an Entity."
-    },
-    "attributes" : [ "object", "external" ],
-    "id" : "7"
-  }, {
     "iri" : "https://w3id.org/iadopt/ont/constrains",
     "baseIri" : "https://w3id.org/iadopt/ont",
     "range" : "4",
@@ -323,7 +309,21 @@
       "undefined" : "A Constraint constrains an Entity having a role in the Variable description."
     },
     "attributes" : [ "object", "external" ],
-    "id" : "9"
+    "id" : "7"
+  }, {
+    "iri" : "https://w3id.org/iadopt/ont/hasProperty",
+    "baseIri" : "https://w3id.org/iadopt/ont",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasProperty",
+      "undefined" : "hasProperty"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "A Variable has a Property that characterizes an Entity."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "8"
   }, {
     "iri" : "https://w3id.org/iadopt/ont/hasMatrix",
     "baseIri" : "https://w3id.org/iadopt/ont",

@@ -11,7 +11,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:ontology="http://omv.ontoware.org/2005/05/ontology#">
     <owl:Ontology rdf:about="https://w3id.org/iadopt/ont">
-        <owl:versionIRI rdf:resource="https://w3id.org/iadopt/ont/0.9.0"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/iadopt/ont/0.9.1"/>
         <ontology:conformsToKnowledgeRepresentationParadigm rdf:resource="https://www.isibang.ac.in/ns/mod/index.html#DescriptionLogics"/>
         <ontology:designedForOntologyTask>semantically precise description and mapping of variables</ontology:designedForOntologyTask>
         <ontology:hasFormalityLevel rdf:resource="https://www.isibang.ac.in/ns/mod/index.html#Schema"/>
@@ -34,7 +34,7 @@
         <terms:license>CC BY 4.0</terms:license>
         <terms:title>I-ADOPT Framework ontology</terms:title>
         <rdfs:label>I-ADOPT Framework ontology</rdfs:label>
-        <owl:versionInfo>0.9.0</owl:versionInfo>
+        <owl:versionInfo>0.9.1</owl:versionInfo>
         <dcat:keyword>observable property</dcat:keyword>
         <dcat:keyword>variable</dcat:keyword>
         <foaf:primaryTopic>Entity</foaf:primaryTopic>
@@ -270,7 +270,7 @@
 
     <owl:Class rdf:about="https://w3id.org/iadopt/ont/Constraint">
         <rdfs:comment>A Constraint limits the scope of the observation and confines the context to a particular state. It describes properties of the involved entities that are relevant to the particular observation.</rdfs:comment>
-        <rdfs:label>constraint</rdfs:label>
+        <rdfs:label>Constraint</rdfs:label>
     </owl:Class>
     
 
@@ -280,7 +280,7 @@
 
     <owl:Class rdf:about="https://w3id.org/iadopt/ont/Entity">
         <rdfs:comment>An object or process that has a role in an observation. An Entity may play one of the following roles: ObjectOfInterest, ContextObject, Matrix. Whether the involvement of a particular entity is meaningful enough to include in the variable description depends on the specific context.</rdfs:comment>
-        <rdfs:label>entity</rdfs:label>
+        <rdfs:label>Entity</rdfs:label>
     </owl:Class>
     
 
@@ -290,7 +290,7 @@
 
     <owl:Class rdf:about="https://w3id.org/iadopt/ont/Property">
         <rdfs:comment>A type of a characteristic of the ObjectOfInterest.</rdfs:comment>
-        <rdfs:label>property</rdfs:label>
+        <rdfs:label>Property</rdfs:label>
     </owl:Class>
     
 
@@ -314,7 +314,7 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:comment>A description of something observed or derived, minimally consisting of  an ObjectOfInterest and its Property.</rdfs:comment>
-        <rdfs:label>variable</rdfs:label>
+        <rdfs:label>Variable</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

@@ -135,10 +135,10 @@
     "@value" : "I-ADOPT Framework ontology"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/0.9.0"
+    "@id" : "https://w3id.org/iadopt/ont/0.9.1"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@value" : "0.9.0"
+    "@value" : "0.9.1"
   } ],
   "http://www.w3.org/ns/dcat#keyword" : [ {
     "@value" : "observable property"
@@ -159,7 +159,7 @@
     "@value" : "A Constraint limits the scope of the observation and confines the context to a particular state. It describes properties of the involved entities that are relevant to the particular observation."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "constraint"
+    "@value" : "Constraint"
   } ]
 }, {
   "@id" : "https://w3id.org/iadopt/ont/Entity",
@@ -168,7 +168,7 @@
     "@value" : "An object or process that has a role in an observation. An Entity may play one of the following roles: ObjectOfInterest, ContextObject, Matrix. Whether the involvement of a particular entity is meaningful enough to include in the variable description depends on the specific context."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "entity"
+    "@value" : "Entity"
   } ]
 }, {
   "@id" : "https://w3id.org/iadopt/ont/Property",
@@ -177,7 +177,7 @@
     "@value" : "A type of a characteristic of the ObjectOfInterest."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "property"
+    "@value" : "Property"
   } ]
 }, {
   "@id" : "https://w3id.org/iadopt/ont/Variable",
@@ -186,7 +186,7 @@
     "@value" : "A description of something observed or derived, minimally consisting of  an ObjectOfInterest and its Property."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "variable"
+    "@value" : "Variable"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid1"
