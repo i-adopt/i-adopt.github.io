@@ -1,0 +1,27 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<https://w3id.org/iadopt/ont/0.8.0> a prov:Entity;
+	 dc:title "I-ADOPT Framework ontology";
+	 prov:wasAttributedTo <http://orcid.org/0000-0003-2195-3997>;
+	 dc:creator <http://orcid.org/0000-0003-2195-3997>;
+	 prov:wasAttributedTo <http://orcid.org/0000-0002-0964-4457>;
+	 dc:creator <http://orcid.org/0000-0002-0964-4457>;
+	 prov:wasAttributedTo < http://orcid.org/0000-0002-6612-3439>;
+	 dc:creator < http://orcid.org/0000-0002-6612-3439>;
+	 prov:wasAttributedTo <http://orcid.org/0000-0001-6559-4178>;
+	 dc:creator <http://orcid.org/0000-0001-6559-4178>;
+	 prov:wasAttributedTo < http://orcid.org/0000-0003-0870-3192>;
+	 dc:creator < http://orcid.org/0000-0003-0870-3192>;
+	 prov:wasAttributedTo <http://orcid.org/0000-0001-5040-4626>;
+	 dc:creator <http://orcid.org/0000-0001-5040-4626>;
+	 prov:wasAttributedTo <http://orcid.org/0000-0001-6875-5360>;
+	 dc:contributor <http://orcid.org/0000-0001-6875-5360>;
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo <http://orcid.org/0000-0002-3884-3420>;
+	 dc:contributor <http://orcid.org/0000-0002-3884-3420>;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:wasGeneratedAt "June 24, 2021";
+.
+:agent0 a prov:Agent; foaf:name "Robert Huber".
