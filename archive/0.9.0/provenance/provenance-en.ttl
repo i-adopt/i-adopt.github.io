@@ -23,6 +23,6 @@
 	 dc:contributor <http://orcid.org/0000-0002-3884-3420>;
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
 	 prov:wasRevisionOf <https://w3id.org/iadopt/ont/0.8.0>;
-	 prov:wasGeneratedAt "June 24, 2021";
+	 prov:wasGeneratedAt "October 15, 2021";
 .
 :agent0 a prov:Agent; foaf:name "Robert Huber".

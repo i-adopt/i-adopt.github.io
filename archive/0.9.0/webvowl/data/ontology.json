@@ -175,10 +175,10 @@
     "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "2",
+    "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "1",
+    "id" : "2",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -208,19 +208,6 @@
     "attributes" : [ "external" ],
     "id" : "4"
   }, {
-    "iri" : "https://w3id.org/iadopt/ont/Constraint",
-    "baseIri" : "https://w3id.org/iadopt/ont",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Constraint",
-      "undefined" : "constraint"
-    },
-    "comment" : {
-      "undefined" : "A Constraint limits the scope of the observation and confines the context to a particular state. It describes properties of the involved entities that are relevant to the particular observation."
-    },
-    "attributes" : [ "external" ],
-    "id" : "2"
-  }, {
     "iri" : "https://w3id.org/iadopt/ont/Variable",
     "baseIri" : "https://w3id.org/iadopt/ont",
     "instances" : 0,
@@ -233,6 +220,19 @@
     },
     "attributes" : [ "external" ],
     "id" : "1"
+  }, {
+    "iri" : "https://w3id.org/iadopt/ont/Constraint",
+    "baseIri" : "https://w3id.org/iadopt/ont",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Constraint",
+      "undefined" : "constraint"
+    },
+    "comment" : {
+      "undefined" : "A Constraint limits the scope of the observation and confines the context to a particular state. It describes properties of the involved entities that are relevant to the particular observation."
+    },
+    "attributes" : [ "external" ],
+    "id" : "2"
   } ],
   "property" : [ {
     "id" : "0",
