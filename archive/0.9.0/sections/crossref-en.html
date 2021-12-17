@@ -1,0 +1,306 @@
+<h2 id="crossreference" class="list">Cross reference for I-ADOPT Framework ontology classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by I-ADOPT Framework ontology.
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#/Constraint" title="https://w3id.org/iadopt/ont/Constraint">constraint</a>
+      </li>
+      <li>
+         <a href="#/Entity" title="https://w3id.org/iadopt/ont/Entity">entity</a>
+      </li>
+      <li>
+         <a href="#/Property" title="https://w3id.org/iadopt/ont/Property">property</a>
+      </li>
+      <li>
+         <a href="#/Variable" title="https://w3id.org/iadopt/ont/Variable">variable</a>
+      </li>
+   </ul>
+   <div class="entity" id="/Constraint">
+      <h3>constraint<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/Constraint</p>
+      <div class="comment">
+         <span class="markdown">A Constraint limits the scope of the observation and confines the context to a particular state. It describes properties of the involved entities that are relevant to the particular observation.</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/constrains" title="https://w3id.org/iadopt/ont/constrains">constrains</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasConstraint" title="https://w3id.org/iadopt/ont/hasConstraint">hasConstraint</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Entity">
+      <h3>entity<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/Entity</p>
+      <div class="comment">
+         <span class="markdown">An object or process that has a role in an observation. An Entity may play one of the following roles: ObjectOfInterest, ContextObject, Matrix. Whether the involvement of a particular entity is meaningful enough to include in the variable description depends on the specific context.</span>
+      </div>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/constrains" title="https://w3id.org/iadopt/ont/constrains">constrains</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasContextObject" title="https://w3id.org/iadopt/ont/hasContextObject">hasContextObject</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasMatrix" title="https://w3id.org/iadopt/ont/hasMatrix">hasMatrix</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasObjectOfInterest" title="https://w3id.org/iadopt/ont/hasObjectOfInterest">hasObjectOfInterest</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Property">
+      <h3>property<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/Property</p>
+      <div class="comment">
+         <span class="markdown">A type of a characteristic of the ObjectOfInterest.</span>
+      </div>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasProperty" title="https://w3id.org/iadopt/ont/hasProperty">hasProperty</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Variable">
+      <h3>variable<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/Variable</p>
+      <div class="comment">
+         <span class="markdown">A description of something observed or derived, minimally consisting of  an ObjectOfInterest and its Property.</span>
+      </div>
+      <dl class="description">
+         <dt>is equivalent to</dt>
+         <dd>
+            <a href="#/hasObjectOfInterest" title="https://w3id.org/iadopt/ont/hasObjectOfInterest">hasObjectOfInterest</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#/Entity" title="https://w3id.org/iadopt/ont/Entity">entity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasProperty" title="https://w3id.org/iadopt/ont/hasProperty">hasProperty</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#/Property" title="https://w3id.org/iadopt/ont/Property">property</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/hasConstraint" title="https://w3id.org/iadopt/ont/hasConstraint">hasConstraint</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasContextObject" title="https://w3id.org/iadopt/ont/hasContextObject">hasContextObject</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasMatrix" title="https://w3id.org/iadopt/ont/hasMatrix">hasMatrix</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasObjectOfInterest" title="https://w3id.org/iadopt/ont/hasObjectOfInterest">hasObjectOfInterest</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasProperty" title="https://w3id.org/iadopt/ont/hasProperty">hasProperty</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#/constrains" title="https://w3id.org/iadopt/ont/constrains">constrains</a>
+      </li>
+      <li>
+         <a href="#/hasConstraint" title="https://w3id.org/iadopt/ont/hasConstraint">hasConstraint</a>
+      </li>
+      <li>
+         <a href="#/hasContextObject" title="https://w3id.org/iadopt/ont/hasContextObject">hasContextObject</a>
+      </li>
+      <li>
+         <a href="#/hasMatrix" title="https://w3id.org/iadopt/ont/hasMatrix">hasMatrix</a>
+      </li>
+      <li>
+         <a href="#/hasObjectOfInterest" title="https://w3id.org/iadopt/ont/hasObjectOfInterest">hasObjectOfInterest</a>
+      </li>
+      <li>
+         <a href="#/hasProperty" title="https://w3id.org/iadopt/ont/hasProperty">hasProperty</a>
+      </li>
+   </ul>
+   <div class="entity" id="/constrains">
+      <h3>constrains<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/constrains</p>
+      <div class="comment">
+         <span class="markdown">A Constraint constrains an Entity having a role in the Variable description.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Constraint" title="https://w3id.org/iadopt/ont/Constraint">constraint</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Entity" title="https://w3id.org/iadopt/ont/Entity">entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasConstraint">
+      <h3>hasConstraint<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/hasConstraint</p>
+      <div class="comment">
+         <span class="markdown">A Variable has a Constraint, that confines an Entity involved in the observation.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Variable" title="https://w3id.org/iadopt/ont/Variable">variable</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Constraint" title="https://w3id.org/iadopt/ont/Constraint">constraint</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasContextObject">
+      <h3>hasContextObject<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/hasContextObject</p>
+      <div class="comment">
+         <span class="markdown">A Variable has an Entity that provides additional background information regarding the ObjectOfInterest.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#/hasMatrix" title="https://w3id.org/iadopt/ont/hasMatrix">hasMatrix</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Variable" title="https://w3id.org/iadopt/ont/Variable">variable</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Entity" title="https://w3id.org/iadopt/ont/Entity">entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasMatrix">
+      <h3>hasMatrix<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/hasMatrix</p>
+      <div class="comment">
+         <span class="markdown">A Variable might have an Entity in which the ObjectOfInterest is contained.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#/hasContextObject" title="https://w3id.org/iadopt/ont/hasContextObject">hasContextObject</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Variable" title="https://w3id.org/iadopt/ont/Variable">variable</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Entity" title="https://w3id.org/iadopt/ont/Entity">entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasObjectOfInterest">
+      <h3>hasObjectOfInterest<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/hasObjectOfInterest</p>
+      <div class="comment">
+         <span class="markdown">A Variable has an Entity whose Property is observed.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Variable" title="https://w3id.org/iadopt/ont/Variable">variable</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Entity" title="https://w3id.org/iadopt/ont/Entity">entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasProperty">
+      <h3>hasProperty<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/hasProperty</p>
+      <div class="comment">
+         <span class="markdown">A Variable has a Property that characterizes an Entity.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Variable" title="https://w3id.org/iadopt/ont/Variable">variable</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Property" title="https://w3id.org/iadopt/ont/Property">property</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>
