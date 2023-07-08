@@ -1,76 +1,30 @@
-
-
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8">
  <link rel="stylesheet" href="resources/primer.css" media="screen">    <link rel="stylesheet" href="resources/rec.css" media="screen">    <link rel="stylesheet" href="resources/extra.css" media="screen">    <link rel="stylesheet" href="resources/owl.css" media="screen">    <title>I-ADOPT Framework ontology</title>
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/iadopt/ont","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/iadopt/ont","name":"I-ADOPT Framework ontology", "headline":"The I-ADOPT Framework ontology is a simple ontology designed to facilitate interoperability between existing variable description schemes (including domain-specific ontologies, semantic models, structured controlled vocabularies) and to support further development of machine-readable variable descriptions that re-use components mapped to FAIR vocabulary terms. This first version of the ontology has been developed by a core group of terminology experts and users from the Research Data Alliance (RDA) InteroperAble Descriptions of Observable Property Terminology (I-ADOPT) Working Group.", "datePublished":"July 6, 2023", "license":"http://purl.org/NET/rdflicense/cc-by4.0", "author":[{"@type":"Person","name":"Barbara Magagna","url":"http://orcid.org/0000-0003-2195-3997"},{"@type":"Person","name":"Sirko Schindler","url":"http://orcid.org/0000-0002-0964-4457"},{"@type":"Person","name":"Maria Stoica","url":" http://orcid.org/0000-0002-6612-3439"},{"@type":"Person","name":"Gwenaelle Moncoiffe","url":"http://orcid.org/0000-0001-6559-4178"},{"@type":"Person","name":"Anusuriya Devaraju","url":" http://orcid.org/0000-0003-0870-3192"},{"@type":"Person","name":"Alison Pamment","url":"http://orcid.org/0000-0001-5040-4626"}], "contributor":[{"@type":"Person","name":"John Graybeal","url":"http://orcid.org/0000-0001-6875-5360"},{"@type":"Person","name":"Robert Huber"},{"@type":"Person","name":"Simon J D Cox","url":"http://orcid.org/0000-0002-3884-3420"}]}</script>
-
-<script src="resources/jquery.js"></script> 
-<script src="resources/marked.min.js"></script> 
-    <script> 
-function loadHash() {
-  jQuery(".markdown").each(function(el){jQuery(this).after(marked(jQuery(this).text())).remove()});
-	var hash = location.hash;
-	if($(hash).offset()!=null){
-	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
-}
-	loadTOC();
-}
-function loadTOC(){
-	//process toc dynamically
-	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
-	  jQuery(".list").each(function(){
-		if(jQuery(this).is('h2')){
-			if(j>0){
-				t+='</ul>';
-				j=0;
-			}
-			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
-			i++;
-		}
-		if(jQuery(this).is('h3')){
-			if(j==0){
-				t+='<ul>';
-			}
-			j++;
-			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
-		}
-	  });
-	  t+='</ul>';
-	  $("#toc").html(t); 
-}
- $.fn.ignore = function(sel){
-        return this.clone().find(sel||">*").remove().end();
- };    $(function(){
-      $("#abstract").load("sections/abstract-en.html"); 
-      $("#introduction").load("sections/introduction-en.html"); 
-      $("#overview").load("sections/overview-en.html"); 
-      $("#description").load("sections/description-en.html"); 
-      $("#references").load("sections/references-en.html"); 
-      $("#changelog").load("sections/changelog-en.html"); 
-      $("#crossref").load("sections/crossref-en.html", null, loadHash); 
-    });
-    </script> 
-   
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/iadopt/ont","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/iadopt/ont","name":"I-ADOPT Framework ontology", "headline":"The I-ADOPT Framework ontology is a simple ontology designed to facilitate interoperability between existing variable description schemes (including domain-specific ontologies, semantic models, structured controlled vocabularies) and to support further development of machine-readable variable descriptions that re-use components mapped to FAIR vocabulary terms. This first version of the ontology has been developed by a core group of terminology experts and users from the Research Data Alliance (RDA) InteroperAble Descriptions of Observable Property Terminology (I-ADOPT) Working Group.", "datePublished":"July 8, 2023", "license":"http://purl.org/NET/rdflicense/cc-by4.0", "author":[{"@type":"Person","name":"Barbara Magagna","url":"http://orcid.org/0000-0003-2195-3997"},{"@type":"Person","name":"Sirko Schindler","url":"http://orcid.org/0000-0002-0964-4457"},{"@type":"Person","name":"Maria Stoica","url":" http://orcid.org/0000-0002-6612-3439"},{"@type":"Person","name":"Gwenaelle Moncoiffe","url":"http://orcid.org/0000-0001-6559-4178"},{"@type":"Person","name":"Anusuriya Devaraju","url":" http://orcid.org/0000-0003-0870-3192"},{"@type":"Person","name":"Alison Pamment","url":"http://orcid.org/0000-0001-5040-4626"}], "contributor":[{"@type":"Person","name":"John Graybeal","url":"http://orcid.org/0000-0001-6875-5360"},{"@type":"Person","name":"Robert Huber"},{"@type":"Person","name":"Simon J D Cox","url":"http://orcid.org/0000-0002-3884-3420"}]}</script>
 
 
-<div class="container">
+
+
+
+
+
+</head><body><div class="container">
 <div class="head">
 <div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
 <h1>I-ADOPT Framework ontology</h1>
-<h2>Release  July 6, 2023</h2>
+<h2>Release  July 8, 2023</h2>
 
 
 <dl>
 <dt>This version:</dt>
-<dd><a href="https://w3id.org/iadopt/ont/1.0.1">https://w3id.org/iadopt/ont/1.0.1</a></dd>
+<dd><a href="https://w3id.org/iadopt/ont/1.0.2">https://w3id.org/iadopt/ont/1.0.2</a></dd>
 <dt>Latest version:</dt>
 <dd><a href="https://w3id.org/iadopt/ont/">https://w3id.org/iadopt/ont/</a></dd>
 <dt>Previous version:</dt>
-<dd><a href="https://w3id.org/iadopt/ont/1.0.0">https://w3id.org/iadopt/ont/1.0.0</a></dd>
+<dd><a href="https://w3id.org/iadopt/ont/1.0.1">https://w3id.org/iadopt/ont/1.0.1</a></dd>
 <dt>Authors:</dt>
 <dd><a href="http://orcid.org/0000-0003-2195-3997">Barbara Magagna</a>, Environment Agency Austria</dd><dd><a href="http://orcid.org/0000-0002-0964-4457">Sirko Schindler</a>, (<a href="https://dlr.de/dw/en/">Institute of Data Science, German Aerospace Center (DLR)</a>)</dd><dd><a href=" http://orcid.org/0000-0002-6612-3439">Maria Stoica</a>, University of Colorado, Boulder</dd><dd><a href="http://orcid.org/0000-0001-6559-4178">Gwenaelle Moncoiffe</a>, National Oceanography Centre, British Oceanographic Data Centre, UK</dd><dd><a href=" http://orcid.org/0000-0003-0870-3192">Anusuriya Devaraju</a>, Terrestrial Ecosystem Research Network (TERN), University of Queensland, Australia</dd><dd><a href="http://orcid.org/0000-0001-5040-4626">Alison Pamment</a>, National Centre for Atmospheric Science / Centre for Environmental Data Analysis, STFC Rutherford Appleton Laboratory, UK</dd>
 
@@ -80,7 +34,7 @@ function loadTOC(){
 <dt>Download serialization:</dt><dd><span><a href="ontology.json" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD"></a> </span><span><a href="ontology.xml" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML"></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples"></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL"></a> </span></dd><dt>License: </dt><dd><a href="http://purl.org/NET/rdflicense/cc-by4.0" target="_blank"><img src="https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg" alt="http://purl.org/NET/rdflicense/cc-by4.0"></a>
 </dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl"></a></dd>
 <!-- <dt>Evaluation:</dt><dd><a href="OOPSEvaluation/OOPSeval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
-<dd>Barbara Magagna, Sirko Schindler, Maria Stoica, Gwenaelle Moncoiffe, Anusuriya Devaraju, Alison Pamment, I-ADOPT Framework ontology, Retrieved from: https://w3id.org/iadopt/ont/1.0.1</dd>
+<dd>Barbara Magagna, Sirko Schindler, Maria Stoica, Gwenaelle Moncoiffe, Anusuriya Devaraju, Alison Pamment, I-ADOPT Framework ontology, Retrieved from: https://w3id.org/iadopt/ont/1.0.2</dd>
 </dl>
 
 <a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr>
@@ -89,16 +43,566 @@ function loadTOC(){
 <div>
 <span>Ontology Specification Draft</span>
 </div>
-</div>     <div id="abstract"></div>
-<div id="toc"></div>     <div id="introduction"></div>
-     <div id="overview"></div>
-     <div id="description"></div>
-     <div id="crossref"></div>
-     <div id="references"></div>
-     <div id="changelog"></div>
+</div>     <div id="abstract"><h2>Abstract</h2><span class="markdown">The I-ADOPT Framework is an ontology primarily designed to facilitate interoperability between existing variable description models (including ontologies, taxonomy, and structured controlled vocabularies). One of the challenges in representing semantic descriptions of variables is getting people to agree about what they mean when describing the components that define the variables. The I-ADOPT ontology addresses this by providing core components and their relations that can be applied to define machine-interpretable variable descriptions that re-use FAIR vocabulary terms. It was developed by a core group of terminology experts and users from the Research Data Alliance (RDA) InteroperAble Descriptions of Observable Property Terminology (I-ADOPT) Working Group. The first published versions of the ontology up to v0.9.1 satisfied the basic cross-domain interoperability requirements. This new version of the ontology (v1.0) includes exactly the same original components plus an extension which is designed to support the aggregation of variables using a range of user-defined coarser concepts to facilitate dataset discovery and aggregation into products.
+</span>
+</div>
+<div id="toc"><h2>Table of contents</h2><ul><li>1. <a href="#intro">Introduction </a></li><li>2. <a href="#overv">I-ADOPT Framework ontology: Overview </a></li><li>3. <a href="#desc">I-ADOPT Framework ontology: Description </a></li><li>4. <a href="#crossreference">Cross reference for I-ADOPT Framework ontology classes, properties and dataproperties </a></li><ul><li>4.1. <a href="#classes-headline">Classes</a></li><li>4.2. <a href="#properties">Object Properties</a></li></ul><li>5. <a href="#ref">References </a></li><li>6. <a href="#changes">Changes from last version</a></li><ul><li>6.1. <a href="#changeClass">Classes</a></li><li>6.2. <a href="#changeProp">Object Properties</a></li></ul><li>7. <a href="#ack">Acknowledgements </a></li></ul></div>     <div id="introduction"><h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown"><p>The research community is creating or collecting ever-larger volumes of data to understand phenomena via their observable properties at various scale. Our ability to exploit these data as a common resource is hampered by a lack of interoperability in how we describe the data variable observed or measured. A large collection of independent terminology resources related to variables and tools across research domains and communities has emerged. Their complexity and diversity often overwhelm data managers and users, ironically posing barriers to data interoperability.</p>
+
+<p>Great progress has already been made in providing machine-readable descriptions of sensors and their observation types through the OGC's Sensor Web Enablement SensorML, Observations and Measurements (Cox 2017) or the W3C's/OGC's Semantic Sensor Network (SSN) ontology or its lightweight ontology called SOSA (Sensor, Observation, Sample, and Actuator). However, "deep metadata" that further contextualizes observations (e.g. methodology, variables, parameters) is typically represented as coarsely qualified classes (e.g. "Procedure" or "Observed property"). What exactly falls into these classes is currently unconstrained and could be anything ranging from unstandardized free-text to standardized descriptions accessible via fully resolvable URIs. The Scientific Variables Ontology (Stoica and Peckham 2018, 2019) is one known existing principled ontological framework for decomposing and representing scientific variables in a machine-readable form.</p>
+
+<p>The RDA InteroperAble Descriptions of Observable Property Terminology (I-ADOPT) WG set itself the objective to produce an Interoperability Framework, co-developed through inputs from a diverse community of terminology experts and users, for representing observable properties. This effort has a strong focus on <b>variables observed in environmental research</b> because it leverages existing efforts to accurately encode what was measured, observed, derived, or computed in relation to the Earth systems. But many of the principles it leans on will be relevant to or connected with other domains. The construction of the framework has been informed by a review of current practices used in the community. The working group is also iteratively testing and refining the framework through a set of in-depth use cases. Much like a generic blueprint, the refined conceptual framework will be a basis upon which terminology developers can formulate or refine their local design patterns, in alignment with others. With these, they may leverage their local resources in a collective attempt to represent complex properties observed across the environmental sciences (from marine, atmospheric, and terrestrial Earth sciences, as well as biodiversity).</p>
+
+<p> For more information about I-ADOPT see the [I-ADOPT pages](https://www.rd-alliance.org/groups/interoperable-descriptions-observable-property-terminology-wg-i-adopt-wg) on the RDA website. Comments on this version of the ontology (please specify the version number when commenting) can be made by raising issue tickets in this [github repository](https://github.com/i-adopt/framework).</p>
+</span>
+
+</div>
+     <div id="overview"><h2 id="overv" class="list">I-ADOPT Framework ontology: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This ontology has the following classes and properties.</span>
+<h4>Classes</h4>
+<ul class="hlist">
+   <li>
+      <a href="#/Constraint" title="https://w3id.org/iadopt/ont/Constraint">Constraint</a>
+   </li>
+   <li>
+      <a href="#/Entity" title="https://w3id.org/iadopt/ont/Entity">Entity</a>
+   </li>
+   <li>
+      <a href="#/Property" title="https://w3id.org/iadopt/ont/Property">Property</a>
+   </li>
+   <li>
+      <a href="#/Variable" title="https://w3id.org/iadopt/ont/Variable">Variable</a>
+   </li>
+   <li>
+      <a href="#/VariableSet" title="https://w3id.org/iadopt/ont/VariableSet">VariableSet</a>
+   </li>
+</ul><h4>Object Properties</h4><ul class="hlist">
+   <li>
+      <a href="#/constrains" title="https://w3id.org/iadopt/ont/constrains">constrains</a>
+   </li>
+   <li>
+      <a href="#/hasApplicableContextObject" title="https://w3id.org/iadopt/ont/hasApplicableContextObject">hasApplicableContextObject</a>
+   </li>
+   <li>
+      <a href="#/hasApplicableMatrix" title="https://w3id.org/iadopt/ont/hasApplicableMatrix">hasApplicableMatrix</a>
+   </li>
+   <li>
+      <a href="#/hasApplicableObjectOfInterest" title="https://w3id.org/iadopt/ont/hasApplicableObjectOfInterest">hasApplicableObjectOfInterest</a>
+   </li>
+   <li>
+      <a href="#/hasApplicableProperty" title="https://w3id.org/iadopt/ont/hasApplicableProperty">hasApplicableProperty</a>
+   </li>
+   <li>
+      <a href="#/hasConstraint" title="https://w3id.org/iadopt/ont/hasConstraint">hasConstraint</a>
+   </li>
+   <li>
+      <a href="#/hasContextObject" title="https://w3id.org/iadopt/ont/hasContextObject">hasContextObject</a>
+   </li>
+   <li>
+      <a href="#/hasMatrix" title="https://w3id.org/iadopt/ont/hasMatrix">hasMatrix</a>
+   </li>
+   <li>
+      <a href="#/hasObjectOfInterest" title="https://w3id.org/iadopt/ont/hasObjectOfInterest">hasObjectOfInterest</a>
+   </li>
+   <li>
+      <a href="#/hasProperty" title="https://w3id.org/iadopt/ont/hasProperty">hasProperty</a>
+   </li>
+</ul>
+
+    <div style="text-align: center; padding: 2em;">
+      <!--?xml version="1.0" encoding="UTF-8"?-->
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="628px" height="296px" viewBox="-0.5 -0.5 628 296"><defs></defs><g><path d="M 387 230 L 387 279.5 L 263.37 279.5" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"></path><path d="M 258.12 279.5 L 265.12 276 L 263.37 279.5 L 265.12 283 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"></path><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 280px; margin-left: 332px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">hasConstraint</div></div></div></foreignObject><text x="332" y="283" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">hasConstraint</text></switch></g><path d="M 317 215 L 167 215 L 167 146.37" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"></path><path d="M 167 141.12 L 170.5 148.12 L 167 146.37 L 163.5 148.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"></path><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 199px; margin-left: 169px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">hasMatrix</div></div></div></foreignObject><text x="169" y="202" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">hasMatrix</text></switch></g><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 159px; margin-left: 178px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">0..1</div></div></div></foreignObject><text x="178" y="162" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">0..1</text></switch></g><path d="M 317 215 L 257 215 L 257 146.37" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"></path><path d="M 257 141.12 L 260.5 148.12 L 257 146.37 L 253.5 148.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"></path><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 190px; margin-left: 257px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">hasContextObject</div></div></div></foreignObject><text x="257" y="193" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">hasContextObject</text></switch></g><path d="M 317 215 L 77 215 L 77 146.37" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"></path><path d="M 77 141.12 L 80.5 148.12 L 77 146.37 L 73.5 148.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"></path><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 190px; margin-left: 77px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">hasObjectOfInterest</div></div></div></foreignObject><text x="77" y="193" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">hasObjectOfInterest</text></switch></g><path d="M 457 215 L 557 215 L 557 146.37" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"></path><path d="M 557 141.12 L 560.5 148.12 L 557 146.37 L 553.5 148.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"></path><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 191px; margin-left: 558px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">hasProperty</div></div></div></foreignObject><text x="558" y="194" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">hasProperty</text></switch></g><rect x="317" y="200" width="140" height="30" fill="#60a917" stroke="#2d7600" pointer-events="all"></rect><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 138px; height: 1px; padding-top: 215px; margin-left: 318px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: #ffffff; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(255, 255, 255); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">Variable</div></div></div></foreignObject><text x="387" y="219" fill="#ffffff" font-family="Helvetica" font-size="12px" text-anchor="middle">Variable</text></switch></g><rect x="487" y="110" width="140" height="30" fill="#d5e8d4" stroke="#82b366" pointer-events="all"></rect><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 138px; height: 1px; padding-top: 125px; margin-left: 488px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">Property</div></div></div></foreignObject><text x="557" y="129" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Property</text></switch></g><path d="M 387 30 L 387 193.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"></path><path d="M 387 198.88 L 383.5 191.88 L 387 193.63 L 390.5 191.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"></path><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 102px; margin-left: 388px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">hasMember</div></div></div></foreignObject><text x="388" y="105" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">hasMember</text></switch></g><path d="M 457 15 L 557 15 L 557 103.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"></path><path d="M 557 108.88 L 553.5 101.88 L 557 103.63 L 560.5 101.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"></path><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 51px; margin-left: 558px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">hasApplicableProperty</div></div></div></foreignObject><text x="558" y="54" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">hasApplicableProperty</text></switch></g><path d="M 317 15 L 167 15 L 167 103.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"></path><path d="M 167 108.88 L 163.5 101.88 L 167 103.63 L 170.5 101.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"></path><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 71px; margin-left: 169px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">hasApplicableMatrix</div></div></div></foreignObject><text x="169" y="74" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">hasApplicableMatrix</text></switch></g><path d="M 317 15 L 257 15 L 257 103.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"></path><path d="M 257 108.88 L 253.5 101.88 L 257 103.63 L 260.5 101.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"></path><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 40px; margin-left: 257px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">hasApplicableContextObject</div></div></div></foreignObject><text x="257" y="43" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">hasApplicableContextObject</text></switch></g><path d="M 317 15 L 77 15 L 77 103.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"></path><path d="M 77 108.88 L 73.5 101.88 L 77 103.63 L 80.5 101.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"></path><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 41px; margin-left: 78px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">hasApplicableObjectOfInterest</div></div></div></foreignObject><text x="78" y="44" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">hasApplicableObjectOfInterest</text></switch></g><rect x="317" y="0" width="140" height="30" fill="#fff2cc" stroke="#d6b656" pointer-events="all"></rect><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 138px; height: 1px; padding-top: 15px; margin-left: 318px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">VariableSet</div></div></div></foreignObject><text x="387" y="19" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">VariableSet</text></switch></g><rect x="77" y="110" width="180" height="30" fill="#dae8fc" stroke="#6c8ebf" pointer-events="all"></rect><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 178px; height: 1px; padding-top: 125px; margin-left: 78px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">Entity</div></div></div></foreignObject><text x="167" y="129" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Entity</text></switch></g><path d="M 117 272 L 7 272 L 7 125 L 70.63 125" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"></path><path d="M 75.88 125 L 68.88 128.5 L 70.63 125 L 68.88 121.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"></path><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 273px; margin-left: 57px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">constrains</div></div></div></foreignObject><text x="57" y="276" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">constrains</text></switch></g><rect x="117" y="257" width="140" height="30" fill="#f8cecc" stroke="#b85450" pointer-events="all"></rect><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 138px; height: 1px; padding-top: 272px; margin-left: 118px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">Constraint</div></div></div></foreignObject><text x="187" y="276" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Constraint</text></switch></g><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 159px; margin-left: 270px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">0..n</div></div></div></foreignObject><text x="270" y="162" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">0..n</text></switch></g><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 160px; margin-left: 92px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">1..1</div></div></div></foreignObject><text x="92" y="163" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">1..1</text></switch></g><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 117px; margin-left: 57px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">1..n</div></div></div></foreignObject><text x="57" y="120" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">1..n</text></switch></g><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 155px; margin-left: 571px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">1..1</div></div></div></foreignObject><text x="571" y="158" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">1..1</text></switch></g><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 289px; margin-left: 281px;"><div style="box-sizing: border-box; font-size: 0px; text-align: center;" data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">0..n</div></div></div></foreignObject><text x="281" y="292" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">0..n</text></switch></g><rect x="265" y="79" width="46" height="18" fill="none" stroke="none" pointer-events="all"></rect><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 44px; height: 1px; padding-top: 86px; margin-left: 267px;"><div style="box-sizing: border-box; font-size: 0px; text-align: left;" data-drawio-colors="color: rgb(0, 0, 0); "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;"><span style="color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">0..n</span></div></div></div></foreignObject><text x="267" y="98" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">0..n</text></switch></g><rect x="174" y="79" width="30" height="23" fill="none" stroke="none" pointer-events="all"></rect><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 28px; height: 1px; padding-top: 86px; margin-left: 176px;"><div style="box-sizing: border-box; font-size: 0px; text-align: left;" data-drawio-colors="color: rgb(0, 0, 0); "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;"><span style="color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">0..n</span></div></div></div></foreignObject><text x="176" y="98" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">0..n</text></switch></g><rect x="82" y="79" width="47" height="36" fill="none" stroke="none" pointer-events="all"></rect><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 45px; height: 1px; padding-top: 86px; margin-left: 84px;"><div style="box-sizing: border-box; font-size: 0px; text-align: left;" data-drawio-colors="color: rgb(0, 0, 0); "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;"><span style="color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">0..n</span></div></div></div></foreignObject><text x="84" y="98" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">0..n</text></switch></g><rect x="560" y="79" width="46" height="36" fill="none" stroke="none" pointer-events="all"></rect><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 44px; height: 1px; padding-top: 86px; margin-left: 562px;"><div style="box-sizing: border-box; font-size: 0px; text-align: left;" data-drawio-colors="color: rgb(0, 0, 0); "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;"><span style="color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">0..n</span></div></div></div></foreignObject><text x="562" y="98" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">0..n</text></switch></g><rect x="392" y="160" width="47" height="36" fill="none" stroke="none" pointer-events="all"></rect><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 45px; height: 1px; padding-top: 167px; margin-left: 394px;"><div style="box-sizing: border-box; font-size: 0px; text-align: left;" data-drawio-colors="color: rgb(0, 0, 0); "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;"><span style="color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">0..n</span></div></div></div></foreignObject><text x="394" y="179" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">0..n</text></switch></g></g><switch><g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"></g><a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank"><text text-anchor="middle" font-size="10px" x="50%" y="100%">Text is not SVG - cannot display</text></a></switch></svg>
+    </div>
+  </div>
+     <div id="description"><h2 id="desc" class="list">I-ADOPT Framework ontology: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">The I-ADOPT Framework is an ontology designed to facilitate interoperability between existing variable description models (including ontologies, taxonomy, and structured controlled vocabularies). One of the challenges in representing semantic descriptions of variables is getting people to agree about what they mean when describing the components that define the variables. The I-ADOPT ontology addresses this by providing core components and their relations that can be applied to define machine-interpretable variable descriptions that re-use FAIR vocabulary terms. It was developed by a core group of terminology experts and users from the Research Data Alliance (RDA) InteroperAble Descriptions of Observable Property Terminology (I-ADOPT) Working Group. The first published versions of the ontology up to v0.9.1 satisfied the basic cross-domain interoperability requirements. It defines four classes or "concepts" (Variable, Property, Entity, Constraint), and six object properties (hasProperty, hasObjectOfInterest, hasContextObject, hasMatrix, hasConstraint, constrains). The Variable is the top concept. It represents the description of something observed or mathematically derived. It minimally consists of one entity (the ObjectOfInterest) and its Property; a Property being a type of characteristic (i.e. a quantity or a quality). More complex variables can involve additional entities, for example an entity may have the role of Matrix and/or of ContextObject(s). The framework does not capture units, instruments, methods, and geographical location information; however its usage recommendation will make explicit reference to these by connecting the I-ADOPT framework to existing and complementary ontologies.
+
+This new version of the ontology (v1.0) adds one optional new class (VariableSet) and four optional new object properties (hasApplicableProperty, hasApplicableObjectOfInterest, hasApplicableMatrix, hasApplicableContextObject). This was necessary in order to enable flexibility in assigning optional and user-defined machine-interpretable categorizations of I-ADOPT variables under one or multiple coarser grouping concepts to facilitate dataset discovery and dataset aggregation. With the introduction of these concepts and properties, the framework enables different user communities or product developers to develop their own grouping criteria. While the Variable class must be connected to at least two classes via the mandatory properties hasProperty and hasObjectOIfInterest, the VariableSet class can have either of the new properties. Additionally, the VariableSet class can also be optionally connected to the Variable class using the property [ro:hasMember](http://purl.obolibrary.org/obo/RO_0002351) from the [OBO Relations Ontology](https://obofoundry.org/ontology/ro.html).
+</span>
+
+</div>
+     <div id="crossref"><h2 id="crossreference" class="list">Cross reference for I-ADOPT Framework ontology classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by I-ADOPT Framework ontology.
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#/Constraint" title="https://w3id.org/iadopt/ont/Constraint">Constraint</a>
+      </li>
+      <li>
+         <a href="#/Entity" title="https://w3id.org/iadopt/ont/Entity">Entity</a>
+      </li>
+      <li>
+         <a href="#/Property" title="https://w3id.org/iadopt/ont/Property">Property</a>
+      </li>
+      <li>
+         <a href="#/Variable" title="https://w3id.org/iadopt/ont/Variable">Variable</a>
+      </li>
+      <li>
+         <a href="#/VariableSet" title="https://w3id.org/iadopt/ont/VariableSet">VariableSet</a>
+      </li>
+   </ul>
+   <div class="entity" id="/Constraint">
+      <h3>Constraint<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/Constraint</p>
+      <div class="comment">
+         <span class="markdown">A Constraint limits the scope of the observation and confines the context to a particular state. It describes properties of the involved entities that are relevant to the particular observation.</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/constrains" title="https://w3id.org/iadopt/ont/constrains">constrains</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasConstraint" title="https://w3id.org/iadopt/ont/hasConstraint">hasConstraint</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Entity">
+      <h3>Entity<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/Entity</p>
+      <div class="comment">
+         <span class="markdown">An object or process that has a role in an observation. An Entity may play one of the following roles: ObjectOfInterest, ContextObject, Matrix. Whether the involvement of a particular entity is meaningful enough to include in the variable description depends on the specific context.</span>
+      </div>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/constrains" title="https://w3id.org/iadopt/ont/constrains">constrains</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasApplicableContextObject" title="https://w3id.org/iadopt/ont/hasApplicableContextObject">hasApplicableContextObject</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasApplicableMatrix" title="https://w3id.org/iadopt/ont/hasApplicableMatrix">hasApplicableMatrix</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasApplicableObjectOfInterest" title="https://w3id.org/iadopt/ont/hasApplicableObjectOfInterest">hasApplicableObjectOfInterest</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasContextObject" title="https://w3id.org/iadopt/ont/hasContextObject">hasContextObject</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasMatrix" title="https://w3id.org/iadopt/ont/hasMatrix">hasMatrix</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasObjectOfInterest" title="https://w3id.org/iadopt/ont/hasObjectOfInterest">hasObjectOfInterest</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Property">
+      <h3>Property<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/Property</p>
+      <div class="comment">
+         <span class="markdown">A type of a characteristic of the ObjectOfInterest.</span>
+      </div>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#/hasApplicableProperty" title="https://w3id.org/iadopt/ont/hasApplicableProperty">hasApplicableProperty</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasProperty" title="https://w3id.org/iadopt/ont/hasProperty">hasProperty</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/Variable">
+      <h3>Variable<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/Variable</p>
+      <div class="comment">
+         <span class="markdown">A description of something observed or derived, minimally consisting of  an ObjectOfInterest and its Property.</span>
+      </div>
+      <dl class="description">
+         <dt>is equivalent to</dt>
+         <dd>
+            <a href="#/hasObjectOfInterest" title="https://w3id.org/iadopt/ont/hasObjectOfInterest">hasObjectOfInterest</a>
+            <sup class="type-op" title="object property">op</sup>
+            <span class="logic">exactly</span> 1 <a href="#/Entity" title="https://w3id.org/iadopt/ont/Entity">Entity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#/hasProperty" title="https://w3id.org/iadopt/ont/hasProperty">hasProperty</a>
+            <sup class="type-op" title="object property">op</sup>
+            <span class="logic">exactly</span> 1 <a href="#/Property" title="https://w3id.org/iadopt/ont/Property">Property</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/hasConstraint" title="https://w3id.org/iadopt/ont/hasConstraint">hasConstraint</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasContextObject" title="https://w3id.org/iadopt/ont/hasContextObject">hasContextObject</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasMatrix" title="https://w3id.org/iadopt/ont/hasMatrix">hasMatrix</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasObjectOfInterest" title="https://w3id.org/iadopt/ont/hasObjectOfInterest">hasObjectOfInterest</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasProperty" title="https://w3id.org/iadopt/ont/hasProperty">hasProperty</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="/VariableSet">
+      <h3>VariableSet<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/VariableSet</p>
+      <div class="comment">
+         <span class="markdown">An aggregation class to group a set of variable for a specific purpose.</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#/hasApplicableContextObject" title="https://w3id.org/iadopt/ont/hasApplicableContextObject">hasApplicableContextObject</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasApplicableMatrix" title="https://w3id.org/iadopt/ont/hasApplicableMatrix">hasApplicableMatrix</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasApplicableObjectOfInterest" title="https://w3id.org/iadopt/ont/hasApplicableObjectOfInterest">hasApplicableObjectOfInterest</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#/hasApplicableProperty" title="https://w3id.org/iadopt/ont/hasApplicableProperty">hasApplicableProperty</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#/constrains" title="https://w3id.org/iadopt/ont/constrains">constrains</a>
+      </li>
+      <li>
+         <a href="#/hasApplicableContextObject" title="https://w3id.org/iadopt/ont/hasApplicableContextObject">hasApplicableContextObject</a>
+      </li>
+      <li>
+         <a href="#/hasApplicableMatrix" title="https://w3id.org/iadopt/ont/hasApplicableMatrix">hasApplicableMatrix</a>
+      </li>
+      <li>
+         <a href="#/hasApplicableObjectOfInterest" title="https://w3id.org/iadopt/ont/hasApplicableObjectOfInterest">hasApplicableObjectOfInterest</a>
+      </li>
+      <li>
+         <a href="#/hasApplicableProperty" title="https://w3id.org/iadopt/ont/hasApplicableProperty">hasApplicableProperty</a>
+      </li>
+      <li>
+         <a href="#/hasConstraint" title="https://w3id.org/iadopt/ont/hasConstraint">hasConstraint</a>
+      </li>
+      <li>
+         <a href="#/hasContextObject" title="https://w3id.org/iadopt/ont/hasContextObject">hasContextObject</a>
+      </li>
+      <li>
+         <a href="#/hasMatrix" title="https://w3id.org/iadopt/ont/hasMatrix">hasMatrix</a>
+      </li>
+      <li>
+         <a href="#/hasObjectOfInterest" title="https://w3id.org/iadopt/ont/hasObjectOfInterest">hasObjectOfInterest</a>
+      </li>
+      <li>
+         <a href="#/hasProperty" title="https://w3id.org/iadopt/ont/hasProperty">hasProperty</a>
+      </li>
+   </ul>
+   <div class="entity" id="/constrains">
+      <h3>constrains<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/constrains</p>
+      <div class="comment">
+         <span class="markdown">A Constraint constrains an Entity having a role in the Variable description.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Constraint" title="https://w3id.org/iadopt/ont/Constraint">Constraint</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Entity" title="https://w3id.org/iadopt/ont/Entity">Entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasApplicableContextObject">
+      <h3>hasApplicableContextObject<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/hasApplicableContextObject</p>
+      <div class="comment">
+         <span class="markdown">A VariableSet has zero or many applicable ContextObjects.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/VariableSet" title="https://w3id.org/iadopt/ont/VariableSet">VariableSet</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Entity" title="https://w3id.org/iadopt/ont/Entity">Entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasApplicableMatrix">
+      <h3>hasApplicableMatrix<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/hasApplicableMatrix</p>
+      <div class="comment">
+         <span class="markdown">A VariableSet has zero or many applicable Matrices.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="https://w3id.org/iadopt/onthasApplicableContextObject">onthas applicable context object</span>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/VariableSet" title="https://w3id.org/iadopt/ont/VariableSet">VariableSet</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Entity" title="https://w3id.org/iadopt/ont/Entity">Entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasApplicableObjectOfInterest">
+      <h3>hasApplicableObjectOfInterest<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/hasApplicableObjectOfInterest</p>
+      <div class="comment">
+         <span class="markdown">A VariableSet has one or more applicable ObjectOfInterest.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/VariableSet" title="https://w3id.org/iadopt/ont/VariableSet">VariableSet</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Entity" title="https://w3id.org/iadopt/ont/Entity">Entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasApplicableProperty">
+      <h3>hasApplicableProperty<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/hasApplicableProperty</p>
+      <div class="comment">
+         <span class="markdown">A VariableSet has one or more applicable Properties.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/VariableSet" title="https://w3id.org/iadopt/ont/VariableSet">VariableSet</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Property" title="https://w3id.org/iadopt/ont/Property">Property</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasConstraint">
+      <h3>hasConstraint<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/hasConstraint</p>
+      <div class="comment">
+         <span class="markdown">A Variable has a Constraint, that confines an Entity involved in the observation.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Variable" title="https://w3id.org/iadopt/ont/Variable">Variable</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Constraint" title="https://w3id.org/iadopt/ont/Constraint">Constraint</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasContextObject">
+      <h3>hasContextObject<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/hasContextObject</p>
+      <div class="comment">
+         <span class="markdown">A Variable has an Entity that provides additional background information regarding the ObjectOfInterest.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#/hasMatrix" title="https://w3id.org/iadopt/ont/hasMatrix">hasMatrix</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Variable" title="https://w3id.org/iadopt/ont/Variable">Variable</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Entity" title="https://w3id.org/iadopt/ont/Entity">Entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasMatrix">
+      <h3>hasMatrix<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/hasMatrix</p>
+      <div class="comment">
+         <span class="markdown">A Variable might have an Entity in which the ObjectOfInterest is contained.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#/hasContextObject" title="https://w3id.org/iadopt/ont/hasContextObject">hasContextObject</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Variable" title="https://w3id.org/iadopt/ont/Variable">Variable</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Entity" title="https://w3id.org/iadopt/ont/Entity">Entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasObjectOfInterest">
+      <h3>hasObjectOfInterest<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/hasObjectOfInterest</p>
+      <div class="comment">
+         <span class="markdown">A Variable has an Entity whose Property is observed.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Variable" title="https://w3id.org/iadopt/ont/Variable">Variable</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Entity" title="https://w3id.org/iadopt/ont/Entity">Entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/hasProperty">
+      <h3>hasProperty<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/iadopt/ont/hasProperty</p>
+      <div class="comment">
+         <span class="markdown">A Variable has a Property that characterizes an Entity.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#/Variable" title="https://w3id.org/iadopt/ont/Variable">Variable</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#/Property" title="https://w3id.org/iadopt/ont/Property">Property</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>
+</div>
+     <div id="references">
+<h2 id="ref" class="list">References <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown"><p>S. J. D. Cox (2017): Ontology for observations and sampling features, with alignments to existing models, Semantic Web, vol. 8, no. 3, pp. 453–470.
+
+</p><p>Magagna, B., Moncoiffe, G., Stoica, M., Devaraju, A., Pamment, A., Schindler, S., and Huber, R.: The I-ADOPT Interoperability Framework: a proposal for FAIRer observable property descriptions, EGU General Assembly 2021, online, 19–30 Apr 2021, EGU21-13155, <a href="https://doi.org/10.5194/egusphere-egu21-13155">https://doi.org/10.5194/egusphere-egu21-13155</a>, 2021.
+
+</p><p>Magagna, B., Moncoiffé, G., Devaraju, A., Stoica, M., Schindler, S., Pamment, A., &amp; RDA I-ADOPT WG.: InteroperAble Descriptions of Observable Property Terminologies (I-ADOPT) WG Outputs and Recommendations (1.1.0). <a href="https://doi.org/10.15497/RDA00071/2">https://doi.org/10.15497/RDA00071/2</a>, 2022.
+
+</p><p>Magagna, B., Moncoiffe, G., Devaraju, A., Stoica, M., Schindler, S. and Pamment, A. (2021) I-ADOPT Framework 1.0.0. In: RDA Virtual Plenary 17. RDA Virtual Plenary 17, 20. - 23.04.2021, virtual.
+
+</p><p>Magagna, B., Moncoiffe, G., Devaraju, A., Buttigieg, P. L., Stoica, M., and Schindler, S.: Towards an interoperability framework for observable property terminologies, EGU General Assembly 2020, Online, 4–8 May 2020, EGU2020-19895, <a href="https://doi.org/10.5194/egusphere-egu2020-19895">https://doi.org/10.5194/egusphere-egu2020-19895</a>, 2020.
+
+</p><p>Magagna, B., Stocker, M. and Diepenbroek, M.: Towards Interoperability for Observed Parameters: Position Statement of an Emerging Working Group, in: Gaikwad, J., König-Ries, B., &amp; Recknagel, F. (Eds). Proceedings of the ‘10th International Conference on Ecological Informatics: translating ecological data into knowledge and decisions in a rapidly changing world’, Jena, Germany, 24-28 September, 2018.
+
+</p><p>Stoica, M., &amp; Peckham, S. D. (2018). An Ontology Blueprint for Constructing Qualitative and Quantitative Scientific Variables. In International Semantic Web Conference (P&amp;D/Industry/BlueSky).
+
+</p><p>Stoica, M., &amp; Peckham, S. (2019, September). Incorporating new concepts into the Scientific Variables Ontology. In 2019 15th International Conference on eScience (eScience) (pp. 539-540). IEEE. DOI: <a href="https://doi.org/10.1109/eScience.2019.00073">https://doi.org/10.1109/eScience.2019.00073</a>
+
+</p><p>Stoica, M., &amp; Peckham, S. D. (2019). The Scientific Variables Ontology: A blueprint for custom manual and automated creation and alignment of machine-interpretable qualitative and quantitative variable concepts. In Modeling the World's Systems Conference.
+</p></span>
+
+</div>
+     <div id="changelog">
+</div>
 <div id="acknowledgements"><h2 id="ack" class="list">Acknowledgements <span class="backlink"> back to <a href="#toc">ToC</a></span></h2><p>
 The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p></div>
 
 
 </div>
 
+</body></html>

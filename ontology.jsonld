@@ -135,10 +135,10 @@
     "@value" : "I-ADOPT Framework ontology"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/1.0.0"
+    "@id" : "https://w3id.org/iadopt/ont/1.0.2"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@value" : "1.0.1"
+    "@value" : "1.0.2"
   } ],
   "http://www.w3.org/ns/dcat#keyword" : [ {
     "@value" : "observable property"
@@ -194,6 +194,15 @@
     "@id" : "_:genid2"
   } ]
 }, {
+  "@id" : "https://w3id.org/iadopt/ont/VariableSet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An aggregation class to group a set of variable for a specific purpose."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "VariableSet"
+  } ]
+}, {
   "@id" : "https://w3id.org/iadopt/ont/constrains",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -207,6 +216,69 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/iadopt/ont/Entity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/iadopt/ont/hasApplicableContextObject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A VariableSet has zero or many applicable ContextObjects."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/iadopt/ont/VariableSet"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasApplicableContextObject"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/iadopt/ont/Entity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/iadopt/ont/hasApplicableMatrix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A VariableSet has zero or many applicable Matrices."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/iadopt/ont/VariableSet"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasApplicableMatrix"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/iadopt/ont/Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/iadopt/onthasApplicableContextObject"
+  } ]
+}, {
+  "@id" : "https://w3id.org/iadopt/ont/hasApplicableObjectOfInterest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A VariableSet has one or more applicable ObjectOfInterest."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/iadopt/ont/VariableSet"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasApplicableObjectOfInterest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/iadopt/ont/Entity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/iadopt/ont/hasApplicableProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A VariableSet has one or more applicable Properties."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/iadopt/ont/VariableSet"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasApplicableProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/iadopt/ont/Property"
   } ]
 }, {
   "@id" : "https://w3id.org/iadopt/ont/hasConstraint",
@@ -287,18 +359,6 @@
     "@id" : "https://w3id.org/iadopt/ont/Property"
   } ]
 }, {
-  "@id" : "https://w3id.org/iadopt/ontVariableSet",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
   "@id" : "https://w3id.org/iadopt/onthasApplicableContextObject",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "https://w3id.org/iadopt/onthasApplicableMatrix",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "https://w3id.org/iadopt/onthasApplicableObjectOfInterest",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "https://w3id.org/iadopt/onthasApplicableProperty",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 } ]
