@@ -135,10 +135,10 @@
     "@value" : "I-ADOPT Framework ontology"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://w3id.org/iadopt/ont/1.0.2"
+    "@id" : "https://w3id.org/iadopt/ont/1.0.3"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@value" : "1.0.2"
+    "@value" : "1.0.3"
   } ],
   "http://www.w3.org/ns/dcat#keyword" : [ {
     "@value" : "observable property"
@@ -248,7 +248,7 @@
     "@id" : "https://w3id.org/iadopt/ont/Entity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/iadopt/onthasApplicableContextObject"
+    "@id" : "https://w3id.org/iadopt/ont/hasApplicableContextObject"
   } ]
 }, {
   "@id" : "https://w3id.org/iadopt/ont/hasApplicableObjectOfInterest",
@@ -358,7 +358,4 @@
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/iadopt/ont/Property"
   } ]
-}, {
-  "@id" : "https://w3id.org/iadopt/onthasApplicableContextObject",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 } ]
