@@ -1,4 +1,4 @@
-# *- - - - - - - -  A N N O U N C E M E N T - - - - - - - -* 
+# *- - - - - - - -  A N N O U N C E M E N T - - - - - - -* 
 
 # The I-ADOPT Variable Modeling Challenge
 
@@ -28,7 +28,11 @@ Top scorers will be rewarded with a prize!
 Participants will independently decompose the same set of variables into atomic description components according to the I-ADOPT recommendations, using concepts from applicable terminologies.
 
 
+
+
 We will provide detailed instructions and participation rules.
+
+
 
 
 The aim of the challenge is to reveal, in a controlled setting, the similarities and differences in the way the I-ADOPT Framework is used between independent teams. The findings will ultimately support the enhancement of the I-ADOPT Framework.
@@ -74,8 +78,8 @@ The Challenge organizers will make a selection that is most suitable for the Cha
 | June 17        | Announcement of the challenge                                                      |
 | August 18      | Deadline for variable submissions                                                  |
 | September 2    | Publication of participation rules and instruction video                           |
-| September 16   | Start of the challenge                                                             |
-| September 22   | End of the challenge                                                               |
+| **September 16**   | Start of the challenge                                                             |
+|**September 22**   | End of the challenge                                                               |
 | September 30   | Announcement of the winners                                                        |
 | October        | Analysis of the outcome                                                            |
 | November 12-14 | Presentation of the challenge and interoperability results at the RDA 23rd Plenary |
