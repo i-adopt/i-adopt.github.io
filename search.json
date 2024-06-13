@@ -1,10 +1,38 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "I-ADOPT",
+    "objectID": "challenge.html",
+    "href": "challenge.html",
+    "title": "The I-ADOPT Variable Modeling Challenge",
     "section": "",
-    "text": "This is the I-ADOPT website under construction."
+    "text": "I-ADOPT aims to facilitate data interoperability by offering a common framework to\ndescribe variables and connect terminologies used to name variables.\nThe I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.\nWe would like to invite you to test I-ADOPT in the Decomposition Challenge!\nModelers, semantic experts, data stewards and researchers from around the world -\nCan you try to model a given set of variables according to the I-ADOPT Framework?\nTop scorers will be rewarded with a prize!\n\n\n\n\n\n\n\n\n\n\n\nParticipants will independently decompose the same set of variables into atomic description components according to the I-ADOPT recommendations, using concepts from applicable terminologies.\nWe will provide detailed instructions and participation rules.\nThe aim of the challenge is to reveal, in a controlled setting, the similarities and differences in the way the I-ADOPT Framework is used between independent teams. The findings will ultimately support the enhancement of the I-ADOPT Framework.\n\n\n\n\n\n\nBackground information about I-ADOPT can be explored on this website.\n\n\n\n\n\n\n\n\nInterested in proposing a set of variables for the Decomposition Challenge? We are preparing a set of variables to be included in the challenge based on these criteria:\n\na mix from different domains understandable and\nnot too complex\n\nYou are invited to submit up to 3 variables before August 18.\nPlease include a short description of the variable. The Challenge organizers will make a selection that is most suitable for the Challenge. The variables not selected will be documented after the Challenge.\nSubmit here and subscribe to receive email updates on the challenge.\n\n\n\n\n\n\n\n\n\n\nDate\nAction\n\n\n\n\nJune 17\nAnnouncement of the challenge\n\n\nAugust 18\nDeadline for variable submissions\n\n\nSeptember 2\nPublication of participation rules and instruction video\n\n\nSeptember 16\nStart of the challenge\n\n\nSeptember 22\nEnd of the challenge\n\n\nSeptember 30\nAnnouncement of the winners\n\n\nOctober\nAnalysis of the outcome\n\n\nNovember 12-14\nPresentation of the challenge and interoperability results at the RDA 23rd Plenary"
+  },
+  {
+    "objectID": "challenge.html#the-challenge",
+    "href": "challenge.html#the-challenge",
+    "title": "The I-ADOPT Variable Modeling Challenge",
+    "section": "",
+    "text": "Participants will independently decompose the same set of variables into atomic description components according to the I-ADOPT recommendations, using concepts from applicable terminologies.\nWe will provide detailed instructions and participation rules.\nThe aim of the challenge is to reveal, in a controlled setting, the similarities and differences in the way the I-ADOPT Framework is used between independent teams. The findings will ultimately support the enhancement of the I-ADOPT Framework."
+  },
+  {
+    "objectID": "challenge.html#good-to-know",
+    "href": "challenge.html#good-to-know",
+    "title": "The I-ADOPT Variable Modeling Challenge",
+    "section": "",
+    "text": "Background information about I-ADOPT can be explored on this website."
+  },
+  {
+    "objectID": "challenge.html#propose-a-variable",
+    "href": "challenge.html#propose-a-variable",
+    "title": "The I-ADOPT Variable Modeling Challenge",
+    "section": "",
+    "text": "Interested in proposing a set of variables for the Decomposition Challenge? We are preparing a set of variables to be included in the challenge based on these criteria:\n\na mix from different domains understandable and\nnot too complex\n\nYou are invited to submit up to 3 variables before August 18.\nPlease include a short description of the variable. The Challenge organizers will make a selection that is most suitable for the Challenge. The variables not selected will be documented after the Challenge.\nSubmit here and subscribe to receive email updates on the challenge."
+  },
+  {
+    "objectID": "challenge.html#timeline",
+    "href": "challenge.html#timeline",
+    "title": "The I-ADOPT Variable Modeling Challenge",
+    "section": "",
+    "text": "Date\nAction\n\n\n\n\nJune 17\nAnnouncement of the challenge\n\n\nAugust 18\nDeadline for variable submissions\n\n\nSeptember 2\nPublication of participation rules and instruction video\n\n\nSeptember 16\nStart of the challenge\n\n\nSeptember 22\nEnd of the challenge\n\n\nSeptember 30\nAnnouncement of the winners\n\n\nOctober\nAnalysis of the outcome\n\n\nNovember 12-14\nPresentation of the challenge and interoperability results at the RDA 23rd Plenary"
   },
   {
     "objectID": "about.html",
@@ -35,10 +63,10 @@
     "text": "Contribute\nYou can contribute to I-ADOPT by…"
   },
   {
-    "objectID": "challenge.html",
-    "href": "challenge.html",
-    "title": "I-ADOPT Challenge",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "I-ADOPT",
     "section": "",
-    "text": "The I-ADOPT challenge…"
+    "text": "This is the I-ADOPT website under construction."
   }
 ]
