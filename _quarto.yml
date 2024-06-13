@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  title: "I-ADOPT"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Challenge
+        href: challenge.qmd
+  page-footer: 
+    center: 
+      - text: "About"
+        href: about.qmd
+      - text: "License: CC BY 4.0"
+        href: https://creativecommons.org/licenses/by/4.0/
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    
+execute:
+  freeze: auto
+
+
+
