@@ -37,7 +37,7 @@ The aim of the challenge is to reveal, in a controlled setting, the similarities
 
 ## Good to know
 
-Background information about I-ADOPT can be explored on this website.
+Background information about I-ADOPT can be explored on this [website](https://i-adopt.github.io/).
 
 ![](img/decomposition.jpg){fig-align="left"}
 
