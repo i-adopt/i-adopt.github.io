@@ -11,15 +11,27 @@ Modelers, semantic experts, data stewards and researchers from around the world 
 
 Top scorers will be rewarded with a prize!
 
-![](img/challenge.jpg){width="50%"}
-
 ## The Challenge
+
+:::: {layout="[ 30, 70 ]"}
+
+::: {#first-column}
+
+![](img/challenge.jpg)
+
+:::
+
+::: {#second-column}
 
 Participants will independently decompose the same set of variables into atomic description components according to the I-ADOPT recommendations, using concepts from applicable terminologies.
 
 We will provide detailed instructions and participation rules.
 
 The aim of the challenge is to reveal, in a controlled setting, the similarities and differences in the way the I-ADOPT Framework is used between independent teams. The findings will ultimately support the enhancement of the I-ADOPT Framework.
+
+:::
+
+::::
 
 ## Good to know
 
@@ -43,7 +55,7 @@ Please include a short description of the variable. The Challenge organizers wil
 ## Timeline
 
 | Date           | Action                                                                             |
-|----------------|------------------------------------------------------------------------------------|
+|-------------------|------------------------------------------------------------------------|
 | June 17        | Announcement of the challenge                                                      |
 | August 18      | Deadline for variable submissions                                                  |
 | September 2    | Publication of participation rules and instruction video                           |
