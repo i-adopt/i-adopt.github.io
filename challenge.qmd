@@ -27,7 +27,9 @@ Top scorers will be rewarded with a prize!
 
 Participants will independently decompose the same set of variables into atomic description components according to the I-ADOPT recommendations, using concepts from applicable terminologies.
 
+
 We will provide detailed instructions and participation rules.
+
 
 The aim of the challenge is to reveal, in a controlled setting, the similarities and differences in the way the I-ADOPT Framework is used between independent teams. The findings will ultimately support the enhancement of the I-ADOPT Framework.
 
