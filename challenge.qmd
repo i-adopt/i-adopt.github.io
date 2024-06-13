@@ -49,6 +49,12 @@ Interested in proposing a set of variables for the Decomposition Challenge? We a
 
 -   not too complex
 
+Examples: 
+*Soil texture*: Classification of soil by the proportion and graduations of the three size groups of soil grains, i.e., sand, silt and clay, present in the soil.
+*Water salinity of stagnant surface water*: Salinity is the saltiness or dissolved salt content of a body of water.
+*Number of nights in a 3-star hotel near the sea shore*: Number of nights of tourists in a 3-star hotel that is placed near the sea shore.
+
+
 You are invited to submit up to 3 variables before August 18.\
 Please include a short description of the variable. The Challenge organizers will make a selection that is most suitable for the Challenge. The variables not selected will be documented after the Challenge.
 
