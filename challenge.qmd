@@ -1,3 +1,5 @@
+# *- - - - - - - -  A N N O U N C E M E N T - - - - - - - -* 
+
 # The I-ADOPT Variable Modeling Challenge
 
 **I-ADOPT aims to facilitate data interoperability** by offering a common framework to\
@@ -13,7 +15,7 @@ Top scorers will be rewarded with a prize!
 
 ## The Challenge
 
-:::: {layout="[ 30, 70 ]"}
+:::: {layout="[ 40, 60 ]"}
 
 ::: {#first-column}
 
