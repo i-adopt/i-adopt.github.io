@@ -18,11 +18,14 @@ The I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.
 We would like to invite you to test I-ADOPT in the Variable Modelling Challenge!
 
 Modelers, semantic experts, data stewards and researchers from around the world -\
-**Can you try to model a given set of variables according to the I-ADOPT Framework?**
+Can you try to model a given set of variables according to the I-ADOPT Framework?
+
 
 **Top scorers will be rewarded with a prize!**
 
-Current sponsors are:
+## Sponsors
+
+
 
 ::: {layout="[ 50, 50 ]"}
 ::: {#first-column}
@@ -33,30 +36,30 @@ Current sponsors are:
 ![](img/mabablue_logo.png){width="80%"}
 :::
 :::
+More sponsors are needed. Please join mabablue and Partners in FAIR to support this Challenge.
 
-More sponsors are needed. Please join Mabablue and Partners in FAIR to support this Challenge.
-
-::: {.centered-content}
-
-[**Support this Challenge**](https://docs.google.com/forms/d/e/1FAIpQLSdiDC3lLJpPqlK6080Wp3iPKKdDrEA5_HTz2_IiLW2rj8t7fQ/viewform){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button" target="_blank"} 
-
+::: centered-content
+[**Support this Challenge**](https://docs.google.com/forms/d/e/1FAIpQLSdiDC3lLJpPqlK6080Wp3iPKKdDrEA5_HTz2_IiLW2rj8t7fQ/viewform){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button" target="_blank"}
 :::
 
 ## The Challenge
 
 ::: {layout="[ 40, 60 ]"}
-::: {#first-column}
-![](img/challengecropped.jpg) 
-:::
+<div>
 
-::: {#second-column}
+![](img/challengecropped.jpg)
+
+</div>
+
+<div>
+
 Based on detailed instructions and participation rules, participants will independently decompose the same set of variables into atomic description components according to the I-ADOPT recommendations, using concepts from applicable terminologies.
 
 The aim of the challenge is to reveal, in a controlled setting, the similarities and differences in the way the I-ADOPT Framework is used between independent teams. The findings will certainly support the enhancement of the I-ADOPT Framework. The activity will highlight possible bottlenecks but also opportunities to extend or modify the underlying ontology and help to feed the modelling patterns knowledge base. Ultimately, the findings from this Challenge will be used to develop a semi-automated I-ADOPT variable annotation service.
 
 **Let's challenge the I-ADOPT Framework together!**
 
-:::
+</div>
 :::
 
 [Photo credits](https://www.freepik.com/free-photo/strong-man-climbing-mountain_16623416.htm)
@@ -84,27 +87,25 @@ Interested in proposing a set of variables for the I-ADOPT Variable Modelling Ch
 You are invited to submit up to three variables before August 18.\
 The Challenge organizers will make a selection that is most suitable for the Challenge. The variables not selected will be documented after the Challenge.
 
-::: {.centered-content}
+::: centered-content
+[**Propose variables**](https://forms.gle/LV2tsJQJZeYVms5z6){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button" target="_blank"}
 
-[**Propose variables**](https://forms.gle/LV2tsJQJZeYVms5z6){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button" target="_blank"} 
-
-**If you are interested and would like to be kept informed, please share your details.** 
+**If you are interested and would like to be kept informed, please share your details.**
 
 Attention: Subscription to the Challenge opens on September 2.
 
-[**Stay tuned**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action .btn-success .btn-lg role="button" target="_blank"} 
-
+[**Stay tuned**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action .btn-success .btn-lg role="button" target="_blank"}
 :::
 
 ## Timeline
 
 | Date             | Action                                                                             |
-|------------------|------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 | June 17          | Announcement of the Challenge                                                      |
 | August 18        | Deadline for variable submissions                                                  |
 | September 2      | Publication of participation rules and instruction video                           |
 | September 2      | Subscription to the Challenge open                                                 |
-| September 15     | Subscription to the Challenge closed
+| September 15     | Subscription to the Challenge closed                                               |
 | **September 16** | Start of the Challenge                                                             |
 | **September 22** | End of the Challenge                                                               |
 | September 30     | Announcement of the winners                                                        |
