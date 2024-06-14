@@ -19,11 +19,12 @@ Top scorers will be rewarded with a prize!
 
 ::: {#first-column}
 
-![](img/challenge.jpg) https://www.freepik.com/free-photo/strong-man-climbing-mountain_16623416.htm
-
+![](img/challenge.jpg) 
 :::
 
 ::: {#second-column}
+https://www.freepik.com/free-photo/strong-man-climbing-mountain_16623416.htm
+
 
 Participants will independently decompose the same set of variables into atomic description components according to the I-ADOPT recommendations, using concepts from applicable terminologies.
 
