@@ -60,6 +60,16 @@ In March 2021 we had two I-ADOPT workshops testing and further developing the I-
 
 ## Main Outcomes
 
-The **I-ADOPT Framework Ontology** is a lightweight ontology primarily designed to facilitate interoperability between existing variable description models (including ontologies, taxonomy, and structured controlled vocabularies). One of the challenges in representing semantic descriptions of variables is getting people to agree about what they mean when describing the components that define the variables. The I-ADOPT ontology addresses this by providing core components and their relations that can be applied to define machine-interpretable variable descriptions that re-use FAIR vocabulary terms. It was developed by a core group of terminology experts and users from the Research Data Alliance (RDA) InteroperAble Descriptions of Observable Property Terminology (I-ADOPT) Working Group. The first published versions of the ontology up to v0.9.1 satisfied the basic cross-domain interoperability requirements. This new version of the ontology (v1.0) includes exactly the same original components plus an extension which is designed to support the aggregation of variables using a range of user-defined coarser concepts to facilitate dataset discovery and aggregation into products.
+The [**I-ADOPT Framework Ontology**](https://w3id.org/iadopt/ont/) is a lightweight ontology primarily designed to facilitate interoperability between existing variable description models (including ontologies, taxonomy, and structured controlled vocabularies).
+
+![](img/ontology.jpg)
+
+In 2023 we extended the ontology to support the aggregation of variables using a range of user-defined coarser concepts to facilitate dataset discovery and aggregation into products.
+
+![](img/extension.jpg)
+
+The [I-ADOPT Catalogue of Terminologies](https://i-adopt.github.io/terminologies/) contains concepts from terminologies to comose semantic variable descriptions.
+
+The [Step-by-Step guide](https://github.com/i-adopt/supplementary/tree/master/step-by-step) was created to support in the description of new variables.
 
 
