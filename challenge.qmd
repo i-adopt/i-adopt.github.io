@@ -63,7 +63,9 @@ The Challenge organizers will make a selection that is most suitable for the Cha
 
 ::: {.centered-content}
 
-**Click the buttons below to receive email updates or to submit your variable proposals.** Subscription to the Challenge opens on September 2.
+**Click the buttons below to receive email updates or to submit your variable proposals.** 
+
+Attention: Subscription to the Challenge opens on September 2.
 
 [**Stay tuned**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button"} 
 
