@@ -53,28 +53,28 @@
     "href": "about.html",
     "title": "About I-ADOPT",
     "section": "",
-    "text": "The goal of I-ADOPT is…"
+    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
   },
   {
     "objectID": "about.html#goal",
     "href": "about.html#goal",
     "title": "About I-ADOPT",
     "section": "",
-    "text": "The goal of I-ADOPT is…"
+    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
   },
   {
-    "objectID": "about.html#cite",
-    "href": "about.html#cite",
+    "objectID": "about.html#citation-of-the-i-adopt-recommendations",
+    "href": "about.html#citation-of-the-i-adopt-recommendations",
     "title": "About I-ADOPT",
-    "section": "Cite",
-    "text": "Cite\nTo cite I-ADOPT use…"
+    "section": "Citation of the I-ADOPT recommendations",
+    "text": "Citation of the I-ADOPT recommendations\nMagagna, B., Moncoiffé, G., Devaraju, A., Stoica, M., Schindler, S., Pamment, A., & RDA I-ADOPT WG. (2022). InteroperAble Descriptions of Observable Property Terminologies (I-ADOPT) WG Outputs and Recommendations (1.1.0). Zenodo. https://doi.org/10.15497/RDA00071"
   },
   {
     "objectID": "about.html#contribute",
     "href": "about.html#contribute",
     "title": "About I-ADOPT",
     "section": "Contribute",
-    "text": "Contribute\nYou can contribute to I-ADOPT by…"
+    "text": "Contribute\nYou can contribute to I-ADOPT by participating at our regular calls and by providing your variable description to our github repository."
   },
   {
     "objectID": "index.html",
