@@ -1,5 +1,59 @@
 ---
-title: "I-ADOPT"
+title: "InteroperAble Descriptions of Obervable Property Terminology WG (I-ADOPT WG)"
 ---
 
-This is the I-ADOPT website under construction.
+## I-ADOPT in a nutshell
+
+Under the auspices of the Research Data Alliance (RDA) Vocabulary Services Interest Group a small number of semantic experts formed a task group in 2018 to address the interoperability of observational data. The group submitted a [case statement](https://www.rd-alliance.org/app/uploads/2024/05/I-ADOPT20WG20case20statement.pdf) to work on the development of a common method to systematically express or represent observable properties in May 2019.
+
+The [RDA WG I-ADOPT](https://www.rd-alliance.org/groups/interoperable-descriptions-observable-property-terminology-wg-i-adopt-wg/) was officially launched in 2019, has 131 members. and completed its 18-month workplan in 2021.
+
+The workplan included:
+
+**Task 1**: Collect user stories and formalise them into use cases (November 2019 - February 2020)
+
+**Task 2**: Survey existing observation-centric terminologies (January 2020 - February 2020)
+
+**Task 3**: Derive use case requirements (March 2020 - April 2020)
+
+**Task 4**: Analyse semantic representation of Observable Properties against requirements (May 2020 - October 2020)
+
+**Task 5**: Develop the Interoperability Framework (November 2020 - April 2021)
+
+**Task 6**: Test local mapping design patterns (May 2021 - September 2021)
+
+The I-ADOPT recommendations were finalized in January 2022 and endorsed by RDA in April 2022 ([DOI: 10.15497/RDA00071](https://zenodo.org/records/6520132#.YnOhMJNBybQ)). The WG is in maintenance mode, but is still active in refining the I-ADOPT Framework and helping with its implementation.
+
+## I-ADOPT WG Chairs
+
+**Barbara Magagna** (Go FAIR Foundation, NL)
+
+**Gwenaëlle Moncoiffé** (National Oceanography Centre - British Oceanographic Data Centre, UK)
+
+**Anusuriya Devaraju** (CSIRO, AU)
+
+**Maria Stoica** (University of Colorado, Boulder, US)
+
+Part of the I-ADOPT core group:
+
+**Sirko Schindler** (German Aerospace Center, DLR, DE)
+
+**Alison Pamment** (Centre for Environmental Data Analysis/Sience and Technology Facilities Council, UK)
+
+## Overview of I-ADOPT RDA Plenary sessions
+
+11 RDA Plenary meeting in Berlin (March 2018): Task group formed under Vocabulary Semantic Service Interest Group (VSSIG), [presentation](https://drive.google.com/file/d/1fAmy6Wr4eYDmRPR-KHQZWqDpvRyFJtn5/view)
+
+13 RDA Plenary meeting in Philadelphia (April 2019): BOF- Harmonising FAIR descriptions of observational data, [Session Minutes](https://docs.google.com/document/d/1biV_1HT9HcDX1sqZW10JFmpPjmThy6DwQHDT6aBRynU/edit)
+
+14 RDA Plenary meeting in Helsinki (Oktober 2019): Kick-Off Meeting of I-ADOPT, [Session Minutes](https://docs.google.com/document/d/1biV_1HT9HcDX1sqZW10JFmpPjmThy6DwQHDT6aBRynU/edit)
+
+15 RDA Virtual Plenary meeting (March 2020): [Working Session Minutes](https://docs.google.com/document/d/1ATfuXGpLpO97sRECRLpN2lgl7C-pk4lFUN3tnUfqeB0/edit#heading=h.uu9bmriu57c)
+
+16 RDA Virtual Plenary meeting (November 2020): [Working Session Minutes](https://docs.google.com/document/d/1yW5XsACm7TWCyXrQ83-MeavmqDs3Pi-NXxK9wopSWrs/edit), [recording](https://www.youtube.com/watch?v=zIYyvHKw_nY)
+
+17 RDA Virtual Plenary meeting (March 2021): [Working Session Minutes](https://docs.google.com/document/d/1ce6tnY5jx7DNYwONzXcAhblmLSLjF5Q3-QZ6u2wHFxI/edit), [recording](https://www.youtube.com/watch?v=Sa1jUW2sbm0)
+
+18 RDA Virtual Plenary meeting (November 2021): Closing Session Minutes, [recording](https://www.youtube.com/watch?v=dypgNO5z7KM&list=PL77Dq-HHs58ZC_0rzk7hZWGR8CMyKvi9c&index=58)
+
+In March 2021 we had two I-ADOPT workshops testing and further developing the I-ADOPT Interoperability Framework.
