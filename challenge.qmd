@@ -15,7 +15,7 @@ date: 6/17/2024
 **describe variables** and **connect terminologies** used to name variables.\
 The I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.
 
-We would like to invite you to test I-ADOPT in the Decomposition Challenge!
+We would like to invite you to test I-ADOPT in the Variable Modelling Challenge!
 
 Modelers, semantic experts, data stewards and researchers from around the world -\
 **Can you try to model a given set of variables according to the I-ADOPT Framework?**
@@ -30,11 +30,12 @@ Top scorers will be rewarded with a prize!
 :::
 
 ::: {#second-column}
-Participants will independently decompose the same set of variables into atomic description components according to the I-ADOPT recommendations, using concepts from applicable terminologies.
+Based on detailed instructions and participation rules, participants will independently decompose the same set of variables into atomic description components according to the I-ADOPT recommendations, using concepts from applicable terminologies.
 
-We will provide detailed instructions and participation rules.
+The aim of the challenge is to reveal, in a controlled setting, the similarities and differences in the way the I-ADOPT Framework is used between independent teams. The findings will certainly support the enhancement of the I-ADOPT Framework. The activity will highlight possible bottlenecks but also opportunities to extend or modify the underlying ontology and help to feed the modelling patterns knowledge base. Ultimately, the findings from this Challenge will be used to develop a semi-automated I-ADOPT variable annotation service.
 
-The aim of the Challenge is to reveal, in a controlled setting, the similarities and differences in the way the I-ADOPT Framework is used between independent teams. The findings will ultimately support the enhancement of the I-ADOPT Framework.
+**Let's challenge the I-ADOPT Framework together!**
+
 :::
 :::
 
@@ -48,7 +49,7 @@ Background information about I-ADOPT can be explored on this [website](https://i
 
 ## Propose a variable
 
-Interested in proposing a set of variables for the Decomposition Challenge? We are preparing a set of variables to be included in the Challenge based on these criteria:
+Interested in proposing a set of variables for the I-ADOPT Variable Modelling Challenge? We are preparing a set of variables to be included in the Challenge based on these criteria:
 
 -   variables from different domains
 -   variables with a short description
@@ -60,14 +61,18 @@ Interested in proposing a set of variables for the Decomposition Challenge? We a
 -   *Water salinity of stagnant surface water:* Salinity is the saltiness or dissolved salt content of a body of water.
 -   *Number of nights in a 3-star hotel near the sea shore:* Number of nights of tourists in a 3-star hotel that is placed near the sea shore.
 
-You are invited to submit up to 3 variables before August 18.\
+You are invited to submit up to three variables before August 18.\
 The Challenge organizers will make a selection that is most suitable for the Challenge. The variables not selected will be documented after the Challenge.
 
 ::: {.centered-content}
 
-**Click the button below to receive email updates and submit your variable proposals.**
+[**Propose variables**](https://forms.gle/LV2tsJQJZeYVms5z6){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button" target="_blank"} 
 
-[**Participate**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button" target="_blank"}
+**If you are interested and would like to be kept informed, please share your details.** 
+
+Attention: Subscription to the Challenge opens on September 2.
+
+[**Stay tuned**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action .btn-success .btn-lg role="button" target="_blank"} 
 
 :::
 
@@ -78,6 +83,8 @@ The Challenge organizers will make a selection that is most suitable for the Cha
 | June 17          | Announcement of the Challenge                                                      |
 | August 18        | Deadline for variable submissions                                                  |
 | September 2      | Publication of participation rules and instruction video                           |
+| September 2      | Subscription to the Challenge open                                                 |
+| September 15     | Subscription to the Challenge closed
 | **September 16** | Start of the Challenge                                                             |
 | **September 22** | End of the Challenge                                                               |
 | September 30     | Announcement of the winners                                                        |
