@@ -63,13 +63,15 @@ The Challenge organizers will make a selection that is most suitable for the Cha
 
 ::: {.centered-content}
 
-**Click the buttons below to receive email updates or to submit your variable proposals.** 
+[**Propose variables**](https://forms.gle/LV2tsJQJZeYVms5z6){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button"} 
+
+**If you are interested and would like to be kept informed, please share your details.** 
 
 Attention: Subscription to the Challenge opens on September 2.
 
 [**Stay tuned**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button"} 
 
-[**Propose variables**](https://forms.gle/LV2tsJQJZeYVms5z6){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button"} 
+
 
 :::
 
