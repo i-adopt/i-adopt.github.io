@@ -1,1 +1,4 @@
 /* css styles */
+.quarto-layout-cell>p {
+  margin-bottom: 1rem;
+}
