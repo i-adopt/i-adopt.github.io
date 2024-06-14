@@ -38,7 +38,7 @@ More sponsors are needed. Please join Mabablue and Partners in FAIR to support t
 
 ::: {.centered-content}
 
-[**Support this Challenge**](https://docs.google.com/forms/d/17TFeWv2y93rnGw_h_-q5wg6jbe2iWh3I_xSao5G_URw/prefill){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button" target="_blank"} 
+[**Support this Challenge**](https://docs.google.com/forms/d/e/1FAIpQLSdiDC3lLJpPqlK6080Wp3iPKKdDrEA5_HTz2_IiLW2rj8t7fQ/viewform){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button" target="_blank"} 
 
 :::
 
