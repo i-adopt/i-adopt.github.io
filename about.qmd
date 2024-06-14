@@ -4,12 +4,13 @@ title: "About I-ADOPT"
 
 ## Goal
 
-The goal of I-ADOPT is...
+The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties. 
 
-## Cite
+## Citation of the I-ADOPT recommendations
 
-To cite I-ADOPT use...
+Magagna, B., Moncoiffé, G., Devaraju, A., Stoica, M., Schindler, S., Pamment, A., & RDA I-ADOPT WG. (2022). InteroperAble Descriptions of Observable Property Terminologies (I-ADOPT) WG Outputs and Recommendations (1.1.0). Zenodo. https://doi.org/10.15497/RDA00071
+
 
 ## Contribute
 
-You can contribute to I-ADOPT by...
+You can contribute to I-ADOPT by participating at our regular calls and by providing your variable description to our [github repository](https://github.com/i-adopt/variables). 
