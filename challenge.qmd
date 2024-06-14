@@ -12,7 +12,7 @@ format:
 **describe variables** and **connect terminologies** used to name variables.\
 The I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.
 
-We would like to invite you to test I-ADOPT in the Decomposition Challenge!
+We would like to invite you to test I-ADOPT in the Variable Modelling Challenge!
 
 Modelers, semantic experts, data stewards and researchers from around the world -\
 **Can you try to model a given set of variables according to the I-ADOPT Framework?**
@@ -29,7 +29,7 @@ Top scorers will be rewarded with a prize!
 ::: {#second-column}
 Based on detailed instructions and participation rules, participants will independently decompose the same set of variables into atomic description components according to the I-ADOPT recommendations, using concepts from applicable terminologies.
 
-The aim of the challenge is to reveal, in a controlled setting, the similarities and differences in the way the I-ADOPT Framework is used between independent teams. The findings will ultimately support the enhancement of the I-ADOPT Framework. The activity will highlight possible bottlenecks but also opportunities to extend or modify the underlying ontology and help to feed the patterns knowledge base.
+The aim of the challenge is to reveal, in a controlled setting, the similarities and differences in the way the I-ADOPT Framework is used between independent teams. The findings will ultimately support the enhancement of the I-ADOPT Framework. The activity will highlight possible bottlenecks but also opportunities to extend or modify the underlying ontology and help to feed the modelling patterns knowledge base.
 
 Let's challenge the I-ADOPT Framework together!
 
@@ -46,7 +46,7 @@ Background information about I-ADOPT can be explored on this [website](https://i
 
 ## Propose a variable
 
-Interested in proposing a set of variables for the Decomposition Challenge? We are preparing a set of variables to be included in the Challenge based on these criteria:
+Interested in proposing a set of variables for the I-ADOPT Variable Modelling Challenge? We are preparing a set of variables to be included in the Challenge based on these criteria:
 
 -   variables from different domains
 -   variables with a short description
@@ -58,7 +58,7 @@ Interested in proposing a set of variables for the Decomposition Challenge? We a
 -   *Water salinity of stagnant surface water:* Salinity is the saltiness or dissolved salt content of a body of water.
 -   *Number of nights in a 3-star hotel near the sea shore:* Number of nights of tourists in a 3-star hotel that is placed near the sea shore.
 
-You are invited to submit up to 3 variables before August 18.\
+You are invited to submit up to three variables before August 18.\
 The Challenge organizers will make a selection that is most suitable for the Challenge. The variables not selected will be documented after the Challenge.
 
 ::: {.centered-content}
@@ -69,7 +69,7 @@ Attention: Subscription to the Challenge opens on September 2.
 
 [**Stay tuned**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button"} 
 
-[**Submit your variable proposals**](https://forms.gle/LV2tsJQJZeYVms5z6){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button"} 
+[**Propose variables**](https://forms.gle/LV2tsJQJZeYVms5z6){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button"} 
 
 :::
 
