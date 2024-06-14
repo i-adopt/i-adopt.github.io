@@ -72,7 +72,7 @@ The [**I-ADOPT Catalogue of Terminologies**](https://i-adopt.github.io/terminolo
 
 The [**Step-by-Step guide**](https://github.com/i-adopt/supplementary/tree/master/step-by-step) was created to support in the description of new variables.
 
-## An example variable decomposition:
+## An example variable decomposition
 
 Applying the I-ADOPT Framework means:
 
