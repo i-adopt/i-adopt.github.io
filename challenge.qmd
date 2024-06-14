@@ -19,7 +19,7 @@ Top scorers will be rewarded with a prize!
 
 ::: {#first-column}
 
-![](img/challenge.jpg) 
+![](img/challengecropped.jpg) 
 :::
 
 ::: {#second-column}
