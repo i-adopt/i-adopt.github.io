@@ -63,9 +63,11 @@ The Challenge organizers will make a selection that is most suitable for the Cha
 
 ::: {.centered-content}
 
-**Click the button below to receive email updates and submit your variable proposals.**
+**Click the buttons below to receive email updates or to submit your variable proposals.**
 
-[**Participate**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button"} 
+[**Subscribe**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button"} 
+
+[**Submit your variable proposals**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button"} 
 
 :::
 
