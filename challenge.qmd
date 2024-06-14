@@ -1,4 +1,10 @@
-# *- - - - - - - -  A N N O U N C E M E N T - - - - - - -* 
+---
+format:
+  html:
+    css: challenge.css
+---
+
+<p id=announcement>ANNOUNCEMENT</p>
 
 # The I-ADOPT Variable Modeling Challenge
 
@@ -15,32 +21,20 @@ Top scorers will be rewarded with a prize!
 
 ## The Challenge
 
-:::: {layout="[ 40, 60 ]"}
-
+::: {layout="[ 40, 60 ]"}
 ::: {#first-column}
-
-![](img/challenge.jpg) 
+![](img/challenge.jpg)
 :::
 
 ::: {#second-column}
-
-
-
 Participants will independently decompose the same set of variables into atomic description components according to the I-ADOPT recommendations, using concepts from applicable terminologies.
-
-
-
 
 We will provide detailed instructions and participation rules.
 
-
-
-
 The aim of the Challenge is to reveal, in a controlled setting, the similarities and differences in the way the I-ADOPT Framework is used between independent teams. The findings will ultimately support the enhancement of the I-ADOPT Framework.
-
+:::
 :::
 
-::::
 [Photo credits](https://www.freepik.com/free-photo/strong-man-climbing-mountain_16623416.htm)
 
 ## Good to know
@@ -53,35 +47,36 @@ Background information about I-ADOPT can be explored on this [website](https://i
 
 Interested in proposing a set of variables for the Decomposition Challenge? We are preparing a set of variables to be included in the Challenge based on these criteria:
 
--   variables from different domains 
-
+-   variables from different domains
 -   variables with a short description
+-   variables that are not too complex
 
--   not too complex variables
+**Examples**:
 
-**Examples**: 
-
-*Soil texture*: Classification of soil by the proportion and graduations of the three size groups of soil grains, i.e., sand, silt and clay, present in the soil.
-
-*Water salinity of stagnant surface water*: Salinity is the saltiness or dissolved salt content of a body of water.
-
-*Number of nights in a 3-star hotel near the sea shore*: Number of nights of tourists in a 3-star hotel that is placed near the sea shore.
-
+-   *Soil texture:* Classification of soil by the proportion and graduations of the three size groups of soil grains, i.e., sand, silt and clay, present in the soil.
+-   *Water salinity of stagnant surface water:* Salinity is the saltiness or dissolved salt content of a body of water.
+-   *Number of nights in a 3-star hotel near the sea shore:* Number of nights of tourists in a 3-star hotel that is placed near the sea shore.
 
 You are invited to submit up to 3 variables before August 18.\
 The Challenge organizers will make a selection that is most suitable for the Challenge. The variables not selected will be documented after the Challenge.
 
-[**Click here**](https://forms.gle/ftREWLxjHjifMKho8) to receive email updates on the Challenge and to submit your variable proposals.
+::: {.centered-content}
+
+**Click the button below to receive email updates and submit your variable proposals.**
+
+[**Participate**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button"} 
+
+:::
 
 ## Timeline
 
-| Date           | Action                                                                             |
-|-------------------|------------------------------------------------------------------------|
-| June 17        | Announcement of the Challenge                                                      |
-| August 18      | Deadline for variable submissions                                                  |
-| September 2    | Publication of participation rules and instruction video                           |
-| **September 16**   | Start of the Challenge                                                             |
-|**September 22**   | End of the Challenge                                                               |
-| September 30   | Announcement of the winners                                                        |
-| October        | Analysis of the outcome                                                            |
-| November 12-14 | Presentation of the Challenge and interoperability results at the RDA 23rd Plenary |
+| Date             | Action                                                                             |
+|------------------|------------------------------------------------------|
+| June 17          | Announcement of the Challenge                                                      |
+| August 18        | Deadline for variable submissions                                                  |
+| September 2      | Publication of participation rules and instruction video                           |
+| **September 16** | Start of the Challenge                                                             |
+| **September 22** | End of the Challenge                                                               |
+| September 30     | Announcement of the winners                                                        |
+| October          | Analysis of the outcome                                                            |
+| November 12-14   | Presentation of the Challenge and interoperability results at the RDA 23rd Plenary |
