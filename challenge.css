@@ -1,31 +1,3 @@
 .centered-content {
   text-align: center;
 }
-
-#announcement {
-  overflow: hidden;
-  text-align: center;
-  font-size: 2em;
-  font-weight: bold;
-}
-
-#announcement::before,
-#announcement::after {
-  background-color: #000;
-  content: "";
-  display: inline-block;
-  height: 1px;
-  position: relative;
-  vertical-align: middle;
-  width: 50%;
-}
-
-#announcement::before {
-  right: 0.5em;
-  margin-left: -50%;
-}
-
-#announcement::after {
-  left: 0.5em;
-  margin-right: -50%;
-}

@@ -2,11 +2,14 @@
 format:
   html:
     css: challenge.css
+title: The I-ADOPT Variable Modeling Challenge
+author: 
+  - name: Barbara Magagna
+    orcid: 0000-0003-2195-3997
+date: 6/17/2024
 ---
 
-<p id=announcement>ANNOUNCEMENT</p>
-
-# The I-ADOPT Variable Modeling Challenge
+## Announcement
 
 **I-ADOPT aims to facilitate data interoperability** by offering a common framework to\
 **describe variables** and **connect terminologies** used to name variables.\
