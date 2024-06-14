@@ -63,9 +63,9 @@ The Challenge organizers will make a selection that is most suitable for the Cha
 
 ::: {.centered-content}
 
-**Click the buttons below to receive email updates or to submit your variable proposals.**
+**Click the buttons below to receive email updates or to submit your variable proposals.** Subscription to the Challenge opens on September 2.
 
-[**Subscribe**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button"} 
+[**Stay tuned**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button"} 
 
 [**Submit your variable proposals**](https://forms.gle/LV2tsJQJZeYVms5z6){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button"} 
 
@@ -78,6 +78,8 @@ The Challenge organizers will make a selection that is most suitable for the Cha
 | June 17          | Announcement of the Challenge                                                      |
 | August 18        | Deadline for variable submissions                                                  |
 | September 2      | Publication of participation rules and instruction video                           |
+| September 2      | Subscription to the Challenge open                                                 |
+| September 15     | Subscription to the Challenge closed
 | **September 16** | Start of the Challenge                                                             |
 | **September 22** | End of the Challenge                                                               |
 | September 30     | Announcement of the winners                                                        |
