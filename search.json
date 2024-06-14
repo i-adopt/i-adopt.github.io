@@ -110,5 +110,12 @@
     "title": "InteroperAble Descriptions of Obervable Property Terminology WG (I-ADOPT WG)",
     "section": "Main Outcomes",
     "text": "Main Outcomes\nThe I-ADOPT Framework Ontology is a lightweight ontology primarily designed to facilitate interoperability between existing variable description models (including ontologies, taxonomy, and structured controlled vocabularies).\n\nIn 2023 we extended the ontology to support the aggregation of variables using a range of user-defined coarser concepts to facilitate dataset discovery and aggregation into products.\n\nThe I-ADOPT Catalogue of Terminologies contains concepts from terminologies to comose semantic variable descriptions.\nThe Step-by-Step guide was created to support in the description of new variables."
+  },
+  {
+    "objectID": "index.html#an-example-variable-decomposition",
+    "href": "index.html#an-example-variable-decomposition",
+    "title": "InteroperAble Descriptions of Obervable Property Terminology WG (I-ADOPT WG)",
+    "section": "An example variable decomposition:",
+    "text": "An example variable decomposition:\nApplying the I-ADOPT Framework means:\n\ndecompose the variable in atomic components\nassign a description role for each component\nannotate each component with concepts from terminologies\n\n\nThis I-ADOPT decomposition and annotation exercise should result as a variable concept with its associated concepts in a SKOS vocabulary:\n\nSee here the variable represented as SKOS concept from the Theia/OZCAR Thesaurus."
   }
 ]
