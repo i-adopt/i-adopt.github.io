@@ -11,7 +11,7 @@ date: 6/17/2024
 
 ## Announcement
 
-**I-ADOPT aims to facilitate data interoperability** by offering a common framework to\
+I-ADOPT aims to facilitate **data interoperability** by offering a common framework to\
 **describe variables** and **connect terminologies** used to name variables.\
 The I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.
 
@@ -20,7 +20,27 @@ We would like to invite you to test I-ADOPT in the Variable Modelling Challenge!
 Modelers, semantic experts, data stewards and researchers from around the world -\
 **Can you try to model a given set of variables according to the I-ADOPT Framework?**
 
-Top scorers will be rewarded with a prize!
+**Top scorers will be rewarded with a prize!**
+
+Current sponsors are:
+
+::: {layout="[ 50, 50 ]"}
+::: {#first-column}
+![](img/piF%20logo_400kb%20JPEG.png){width="40%"}
+:::
+
+::: {#second-column}
+![](img/mabablue_logo.png){width="80%"}
+:::
+:::
+
+More sponsors are needed. Please join Mabablue and Partners in FAIR to support this Challenge.
+
+::: {.centered-content}
+
+[**Support this Challenge**](https://docs.google.com/forms/d/e/1FAIpQLSdiDC3lLJpPqlK6080Wp3iPKKdDrEA5_HTz2_IiLW2rj8t7fQ/viewform){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button" target="_blank"} 
+
+:::
 
 ## The Challenge
 
