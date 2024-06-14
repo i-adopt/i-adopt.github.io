@@ -22,6 +22,20 @@ Modelers, semantic experts, data stewards and researchers from around the world 
 
 Top scorers will be rewarded with a prize!
 
+Current sponsors are:
+
+::: {layout="[ 50, 50 ]"}
+::: {#first-column}
+![](img/piF%20logo_400kb%20JPEG.png)
+:::
+
+::: {#second-column}
+![](img/mabablue_logo.png)
+:::
+:::
+
+More sponsors are needed. Please join Mabablue and Partners in FAIR to support this Challenge.
+
 ## The Challenge
 
 ::: {layout="[ 40, 60 ]"}
