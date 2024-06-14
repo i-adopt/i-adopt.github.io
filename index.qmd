@@ -68,8 +68,22 @@ In 2023 we extended the ontology to support the aggregation of variables using a
 
 ![](img/extension.jpg)
 
-The [I-ADOPT Catalogue of Terminologies](https://i-adopt.github.io/terminologies/) contains concepts from terminologies to comose semantic variable descriptions.
+The [**I-ADOPT Catalogue of Terminologies**](https://i-adopt.github.io/terminologies/) contains concepts from terminologies to comose semantic variable descriptions.
 
-The [Step-by-Step guide](https://github.com/i-adopt/supplementary/tree/master/step-by-step) was created to support in the description of new variables.
+The [**Step-by-Step guide**](https://github.com/i-adopt/supplementary/tree/master/step-by-step) was created to support in the description of new variables.
 
+## An example variable decomposition:
 
+Applying the I-ADOPT Framework means:
+
+1.  decompose the variable in atomic components
+2.  assign a description role for each component
+3.  annotate each component with concepts from terminologies
+
+![](img/example.jpg)
+
+This I-ADOPT decomposition and annotation exercise should result as a variable concept with its associated concepts in a SKOS vocabulary:
+
+![](img/representation.jpg)
+
+See [here](https://w3id.org/ozcar-theia/c_f120f651) the variable represented as SKOS concept from the [Theia/OZCAR Thesaurus](https://in-situ.theia-land.fr/skosmos/en/).
