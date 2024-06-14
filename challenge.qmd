@@ -30,7 +30,7 @@ Current sponsors are:
 :::
 
 ::: {#second-column}
-![](img/mabablue_logo.png){width="50%"}
+![](img/mabablue_logo.png){width="80%"}
 :::
 :::
 
@@ -38,7 +38,7 @@ More sponsors are needed. Please join Mabablue and Partners in FAIR to support t
 
 ::: {.centered-content}
 
-[**Support this challenge**](https://forms.gle/LV2tsJQJZeYVms5z6){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button" target="_blank"} 
+[**Support this Challenge**](https://forms.gle/LV2tsJQJZeYVms5z6){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button" target="_blank"} 
 
 :::
 
