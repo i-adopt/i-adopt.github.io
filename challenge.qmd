@@ -25,8 +25,6 @@ Can you try to model a given set of variables according to the I-ADOPT Framework
 
 ## Sponsors
 
-
-
 ::: {layout="[ 50, 50 ]"}
 ::: {#first-column}
 ![](img/piF%20logo_400kb%20JPEG.png){width="40%"}
