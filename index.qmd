@@ -99,3 +99,8 @@ This I-ADOPT decomposition and annotation exercise should result as a variable c
 ![](img/representation.jpg)
 
 See [here](https://w3id.org/ozcar-theia/c_f120f651) the variable represented as SKOS concept from the [Theia/OZCAR Thesaurus](https://in-situ.theia-land.fr/skosmos/theia_ozcar_thesaurus/en/).
+
+
+::: centered-content
+[**Join our efforts**](https://docs.google.com/forms/d/e/1FAIpQLSdLjuwO00PK4RzFYYDFYK9YFAL1KoaXiNYiRvLCjIJjKmLRvQ/viewform){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button" target="_blank"}
+:::
