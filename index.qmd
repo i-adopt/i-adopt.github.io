@@ -6,23 +6,27 @@ title: "InteroperAble Descriptions of Obervable Property Terminology WG (I-ADOPT
 
 Under the auspices of the Research Data Alliance (RDA) Vocabulary Services Interest Group a small number of semantic experts formed a task group in 2018 to address the interoperability of observational data. The group submitted a [case statement](https://www.rd-alliance.org/app/uploads/2024/05/I-ADOPT20WG20case20statement.pdf) to work on the development of a common method to systematically express or represent observable properties in May 2019.
 
-The [RDA WG I-ADOPT](https://www.rd-alliance.org/groups/interoperable-descriptions-observable-property-terminology-wg-i-adopt-wg/) was officially launched in 2019, has 131 members. and completed its 18-month workplan in 2021.
+The [RDA WG I-ADOPT](https://www.rd-alliance.org/groups/interoperable-descriptions-observable-property-terminology-wg-i-adopt-wg/) was officially launched in 2019 and has 131 members. The WG completed its 18-month workplan in 2021.
 
-The workplan included:
+Find here all performed tasks and their outputs:
 
-**Task 1**: Collect user stories and formalise them into use cases (November 2019 - February 2020)
+**Task 1**: Collect [user stories](https://github.com/i-adopt/users_stories) and formalise them into [use cases](https://github.com/i-adopt/usecase_analysis/blob/master/use_case_groups.csv) (November 2019 - February 2020)
 
-**Task 2**: Survey existing observation-centric terminologies (January 2020 - February 2020)
+**Task 2**: [Survey](https://github.com/i-adopt/terminology-survey/blob/master/terminology_questionnaire.pdf) existing observation-centric terminologies (January 2020 - February 2020)
 
-**Task 3**: Derive use case requirements (March 2020 - April 2020)
+**Task 3**: Derive [use case requirements](https://github.com/i-adopt/requirements) (March 2020 - April 2020)
 
 **Task 4**: Analyse semantic representation of Observable Properties against requirements (May 2020 - October 2020)
 
-**Task 5**: Develop the Interoperability Framework (November 2020 - April 2021)
+**Task 5**: Develop the [Interoperability Framework](https://w3id.org/iadopt/ont/) (November 2020 - April 2021)
 
-**Task 6**: Test local mapping design patterns (May 2021 - September 2021)
+**Task 6**: Test local mapping [design patterns](https://github.com/i-adopt/patterns) (May 2021 - September 2021)
 
-The I-ADOPT recommendations were finalized in January 2022 and endorsed by RDA in April 2022 ([DOI: 10.15497/RDA00071](https://zenodo.org/records/6520132#.YnOhMJNBybQ)). The WG is in maintenance mode, but is still active in refining the I-ADOPT Framework and helping with its implementation.
+The I-ADOPT recommendations were finalized in January 2022 and endorsed by RDA in April 2022 ([DOI: 10.15497/RDA00071](https://zenodo.org/records/6520132#.YnOhMJNBybQ)). The WG is in maintenance mode, but is still active in refining the I-ADOPT Framework and helping with its implementation. You can contribute to this WG with submitting your own [variables](https://github.com/i-adopt/variables), your [questions](https://github.com/i-adopt/questions) and you can work with us in our recurring meetings.
+
+::: centered-content
+[**Join our efforts**](https://docs.google.com/forms/d/e/1FAIpQLSdiDC3lLJpPqlK6080Wp3iPKKdDrEA5_HTz2_IiLW2rj8t7fQ/viewform){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button" target="_blank"}
+:::
 
 ## I-ADOPT WG Chairs
 
@@ -72,7 +76,7 @@ The [**I-ADOPT Catalogue of Terminologies**](https://i-adopt.github.io/terminolo
 
 The [**Step-by-Step guide**](https://github.com/i-adopt/supplementary/tree/master/step-by-step) was created to support in the description of new variables.
 
-## An example variable decomposition
+## An Example
 
 Applying the I-ADOPT Framework means:
 
@@ -86,4 +90,4 @@ This I-ADOPT decomposition and annotation exercise should result as a variable c
 
 ![](img/representation.jpg)
 
-See [here](https://w3id.org/ozcar-theia/c_f120f651) the variable represented as SKOS concept from the [Theia/OZCAR Thesaurus](https://in-situ.theia-land.fr/skosmos/en/).
+See [here](https://w3id.org/ozcar-theia/c_f120f651) the variable represented as SKOS concept from the [Theia/OZCAR Thesaurus](https://in-situ.theia-land.fr/skosmos/theia_ozcar_thesaurus/en/).
