@@ -20,7 +20,6 @@ We would like to invite you to test I-ADOPT in the Variable Modelling Challenge!
 Modelers, semantic experts, data stewards and researchers from around the world -\
 Can you try to model a given set of variables according to the I-ADOPT Framework?
 
-
 **Top scorers will be rewarded with a prize!**
 
 ## Sponsors
@@ -34,6 +33,7 @@ Can you try to model a given set of variables according to the I-ADOPT Framework
 ![](img/mabablue_logo.png){width="80%"}
 :::
 :::
+
 More sponsors are needed. Please join mabablue and Partners in FAIR to support this Challenge.
 
 ::: centered-content
@@ -98,7 +98,7 @@ Attention: Subscription to the Challenge opens on September 2.
 ## Timeline
 
 | Date             | Action                                                                             |
-|-------------------|-----------------------------------------------------|
+|--------------------|----------------------------------------------------|
 | June 17          | Announcement of the Challenge                                                      |
 | August 18        | Deadline for variable submissions                                                  |
 | September 2      | Publication of participation rules and instruction video                           |
