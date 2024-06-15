@@ -22,7 +22,7 @@ Find here all performed tasks and their outputs:
 
 **Task 6**: Test local mapping [design patterns](https://github.com/i-adopt/patterns) (May 2021 - September 2021)
 
-The I-ADOPT recommendations were finalized in January 2022 and endorsed by RDA in April 2022 ([DOI: 10.15497/RDA00071](https://zenodo.org/records/6520132#.YnOhMJNBybQ)). The WG is in maintenance mode, but is still active in refining the I-ADOPT Framework and helping with its implementation. You can contribute to this WG with submitting your own [variables](https://github.com/i-adopt/variables), your [questions](https://github.com/i-adopt/questions) and you can work with us in our recurring meetings.
+The **I-ADOPT recommendations** were finalized in January 2022 and **endorsed by RDA** in April 2022 ([DOI: 10.15497/RDA00071](https://zenodo.org/records/6520132#.YnOhMJNBybQ)). The WG is in maintenance mode, but is still active in refining the I-ADOPT Framework and helping with its implementation. You can contribute to this WG with submitting your own [variables](https://github.com/i-adopt/variables), your [questions](https://github.com/i-adopt/questions) and you can work with us in our recurring meetings.
 
 ::: centered-content
 [**Join our efforts**](https://docs.google.com/forms/d/e/1FAIpQLSdiDC3lLJpPqlK6080Wp3iPKKdDrEA5_HTz2_IiLW2rj8t7fQ/viewform){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button" target="_blank"}
