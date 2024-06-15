@@ -116,6 +116,6 @@
     "href": "index.html#an-example",
     "title": "InteroperAble Descriptions of Obervable Property Terminology WG (I-ADOPT WG)",
     "section": "An Example",
-    "text": "An Example\nApplying the I-ADOPT Framework means:\n\ndecompose the variable in atomic components\nassign a description role for each component\nannotate each component with concepts from terminologies\n\n\nThis I-ADOPT decomposition and annotation exercise should result as a variable concept with its associated concepts in a SKOS vocabulary:\n\nSee here the variable represented as SKOS concept from the Theia/OZCAR Thesaurus."
+    "text": "An Example\nApplying the I-ADOPT Framework means:\n\ndecompose the variable in atomic components\nassign a description role for each component\nannotate each component with concepts from terminologies\n\n\nThis I-ADOPT decomposition and annotation exercise should result as a variable concept with its associated concepts in a SKOS vocabulary:\n\nSee here the variable represented as SKOS concept from the Theia/OZCAR Thesaurus.\n\nJoin our efforts"
   }
 ]
