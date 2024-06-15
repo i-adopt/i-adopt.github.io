@@ -58,9 +58,17 @@ Part of the I-ADOPT core group:
 
 17 RDA Virtual Plenary meeting (March 2021): [Working Session Minutes](https://docs.google.com/document/d/1ce6tnY5jx7DNYwONzXcAhblmLSLjF5Q3-QZ6u2wHFxI/edit), [recording](https://www.youtube.com/watch?v=Sa1jUW2sbm0)
 
+In March 2021 we had two I-ADOPT workshops testing and further developing the I-ADOPT Interoperability Framework: [Workshop I minutes](https://docs.google.com/document/d/1tE1irBli-x4CSX3hHhZ6R7N8KBUh8C75ednhGqPc9G0/edit#heading=h.of1gg4r2c1br), [Workshop II minutes](https://docs.google.com/document/d/1Lp79TXKTAKD3Zn7qeXN3ddildtST2BKRrnr9yAkkw-I/edit)
+
+Virtual SciDataCon 2021 (October 2021): Enabling data interoperability through the I-ADOPT Framework: implementation scenarios in the environmental science domain and beyond, [session description](https://www.scidatacon.org/virtual-2021/sessions/368/), [recordin](https://vimeo.com/637420472)
+
 18 RDA Virtual Plenary meeting (November 2021): Closing Session Minutes, [recording](https://www.youtube.com/watch?v=dypgNO5z7KM&list=PL77Dq-HHs58ZC_0rzk7hZWGR8CMyKvi9c&index=58)
 
-In March 2021 we had two I-ADOPT workshops testing and further developing the I-ADOPT Interoperability Framework.
+20 RDA Virtual Plenary meeting (March 2023): Practical implementations of the I-ADOPT Framework [Session Minutes](https://docs.google.com/document/d/1pCBu4mA1vtO-Ig2PTZgynqqnGnN0Sc7DIJvie3UX-rI/edit), [recording](https://www.youtube.com/watch?v=Xm6j2f4zfNU)
+
+22 RDA Virtual Plenary meeting (May 2024): Embeddings of I-ADOPT in existing standards [Session Minutes](https://docs.google.com/document/d/10kS6ljTl2S-mjqmJw-e0iaABLwgVFEvlNl8OAP_uJc4/edit), [recording](https://www.youtube.com/watch?v=937FTD2RU8Y)
+
+
 
 ## Main Outcomes
 
