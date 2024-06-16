@@ -1,8 +1,13 @@
 project:
   type: website
+  output-dir: _site
+  
 
 website:
   title: "I-ADOPT"
+  site-url: "https://i-adopt.github.io/"
+  repo-url: "https://github.com/i-adopt/i-adopt.github.io"
+  repo-actions: [edit, issue]
   navbar:
     left:
       - href: index.qmd
