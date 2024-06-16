@@ -1,1 +1,1 @@
-Sitemap: https://i-adopt.github.io/temp/sitemap.xml
+Sitemap: https://i-adopt.github.io/sitemap.xml
