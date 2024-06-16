@@ -8,10 +8,13 @@ website:
   site-url: "https://i-adopt.github.io/"
   repo-url: "https://github.com/i-adopt/i-adopt.github.io"
   repo-actions: [edit, issue]
+  
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - text: Ontology
+        href: https://i-adopt.github.io/ontology/
       - text: Challenge
         href: challenge.qmd
   page-footer: 
@@ -27,6 +30,8 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    link-external-icon: true
+    link-external-newwindow: true
     
 execute:
   freeze: auto
