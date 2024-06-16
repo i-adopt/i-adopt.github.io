@@ -4,7 +4,7 @@ title: "InteroperAble Descriptions of Obervable Property Terminology WG (I-ADOPT
 
 ## I-ADOPT in a nutshell
 
-Under the auspices of the Research Data Alliance (RDA) Vocabulary Services Interest Group a small number of semantic experts formed a task group in 2018 to address the interoperability of observational data. The group submitted a [case statement](https://www.rd-alliance.org/app/uploads/2024/05/I-ADOPT20WG20case20statement.pdf) to work on the development of a common method to systematically express or represent observable properties in May 2019.
+Under the auspices of the Research Data Alliance (RDA) [Vocabulary and Semantic Services Interest Group](https://www.rd-alliance.org/rationale/vocabulary-services-interest-group/) (VSSIG) a small number of semantic experts formed a task group in 2018 to address the interoperability of observational data. The group submitted a [case statement](https://www.rd-alliance.org/app/uploads/2024/05/I-ADOPT20WG20case20statement.pdf) to work on the development of a common method to systematically express or represent observable properties in May 2019.
 
 The [RDA WG I-ADOPT](https://www.rd-alliance.org/groups/interoperable-descriptions-observable-property-terminology-wg-i-adopt-wg/) was officially launched in 2019 and has 131 members. The WG completed its 18-month workplan in 2021.
 
@@ -22,7 +22,7 @@ Find here all performed tasks and their outputs:
 
 **Task 6**: Test local mapping [design patterns](https://github.com/i-adopt/patterns) (May 2021 - September 2021)
 
-The **I-ADOPT recommendations** were finalized in January 2022 and **endorsed by RDA** in April 2022 ([DOI: 10.15497/RDA00071](https://zenodo.org/records/6520132#.YnOhMJNBybQ)). The WG is in maintenance mode, but is still active in refining the I-ADOPT Framework and helping with its implementation. You can contribute to this WG with submitting your own [variables](https://github.com/i-adopt/variables), your [questions](https://github.com/i-adopt/questions) and you can work with us in our recurring meetings.
+The **I-ADOPT recommendations** were finalized in January 2022 and **endorsed by RDA** in April 2022 ([DOI: 10.15497/RDA00071](https://zenodo.org/records/6520132#.YnOhMJNBybQ)). The Working Group is in maintenance mode, but is still active in refining the I-ADOPT Framework and helping with its implementation. You can contribute to this Working Group by submitting your own [variables](https://github.com/i-adopt/variables), submitting your [questions](https://github.com/i-adopt/questions) and working with us in our recurring meetings.
 
 ::: centered-content
 [**Join our efforts**](https://docs.google.com/forms/d/e/1FAIpQLSdLjuwO00PK4RzFYYDFYK9YFAL1KoaXiNYiRvLCjIJjKmLRvQ/viewform){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button" target="_blank"}
@@ -80,7 +80,7 @@ In 2023 we extended the ontology to support the aggregation of variables using a
 
 ![](img/extension.jpg)
 
-The [**I-ADOPT Catalogue of Terminologies**](https://i-adopt.github.io/terminologies/) contains concepts from terminologies to comose semantic variable descriptions.
+The [**I-ADOPT Catalogue of Terminologies**](https://i-adopt.github.io/terminologies/) contains concepts from terminologies to compose semantic variable descriptions.
 
 The [**Step-by-Step guide**](https://github.com/i-adopt/supplementary/tree/master/step-by-step) was created to support in the description of new variables.
 
@@ -94,7 +94,7 @@ Applying the I-ADOPT Framework means:
 
 ![](img/example.jpg)
 
-This I-ADOPT decomposition and annotation exercise should result as a variable concept with its associated concepts in a SKOS vocabulary:
+This I-ADOPT decomposition and annotation exercise should result in a variable concept with its associated concepts in a SKOS vocabulary:
 
 ![](img/representation.jpg)
 
