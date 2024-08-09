@@ -106,7 +106,7 @@ Attention: Subscription to the Challenge opens on September 2.
 | Date             | Action                                                                             |
 |------------------|------------------------------------------------------------------------------------|
 | June 17          | Announcement of the Challenge                                                      |
-| August 18        | Deadline for variable submissions                                                  |
+| August 25        | Deadline for variable submissions                                                  |
 | September 2      | Publication of participation rules and instruction video                           |
 | September 2      | Subscription to the Challenge open                                                 |
 | September 13     | Subscription to the Challenge closed                                               |
