@@ -1,5 +1,5 @@
 ---
-title: "InteroperAble Descriptions of Obervable Property Terminology WG (I-ADOPT WG)"
+title: "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)"
 ---
 
 ## I-ADOPT in a nutshell
