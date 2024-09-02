@@ -24,27 +24,40 @@ The Challenge will take place in the week from 16 to 22 September 2024.
 
 **Top scorers will be rewarded with a prize!**
 
+## Update: Publication of participation rules and instructions
+
+In preparation for the Challenge we have put together the following materials, which we recommend you to study in this order: 
+
+1. An introduction to the I-ADOPT Framework ([presentation](material/I-ADOPT Framework - presentation version.pdf))
+
+2. A step-by-step guide for creating an I-ADOPT compliant variable description ([presentation](material/I-ADOPT - Step by Step - presentation version.pdf))
+
+3. Instructions for submitting modeled variables including participation and scoring rules ([presentation](material/I-ADOPT - Challenge Rules - presentation version.pdf))
+
+In addition to the downloadable presentations we will soon be making them available as videos with more detailed explanations.
+
+
+**Attention: Subscription to the Challenge ends by September 22!**
+
+
+[**Subscribe to the Challenge**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action .btn-success .btn-lg role="button" target="_blank"}
+
 ## Sponsors
 
 ::: {layout="[ 50, 50 ]"}
 ::: {#first-column}
-![](img/piF%20logo_400kb%20JPEG.png){width="40%"}
+[![](img/piF%20logo_400kb%20JPEG.png){width="40%}](https://partnersinfair.com/)
 :::
 
 ::: {#second-column}
-![](img/mabablue_logo.png){width="80%"}
+[![](img/mabablue_logo.png){width="80%"}](https://mabablue.com/)
 :::
 
 ::: {#third-column}
-![](img/GFF logo (1).png){width="50%"}
+[![](img/GFF logo (1).png){width="50%"}](https://www.gofair.foundation/)
 :::
 :::
 
-More sponsors are needed. Please join GO FAIR Foundation, mabablue and partners in FAIR to support this Challenge. The deadlines is August 18.
-
-::: centered-content
-[**Support this Challenge**](https://docs.google.com/forms/d/e/1FAIpQLSdiDC3lLJpPqlK6080Wp3iPKKdDrEA5_HTz2_IiLW2rj8t7fQ/viewform){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button" target="_blank"}
-:::
 
 ## The Challenge
 
@@ -74,32 +87,6 @@ Background information about I-ADOPT can be explored on this [website](https://i
 
 ![](img/decomposition.jpg){fig-align="left"}
 
-## Propose a variable
-
-Interested in proposing a set of variables for the I-ADOPT Variable Modelling Challenge? We are preparing a set of variables to be included in the Challenge based on these criteria:
-
--   variables from different domains
--   variables with a short description
--   variables that are not too complex
-
-**Examples**:
-
--   *Soil texture:* Classification of soil by the proportion and graduations of the three size groups of soil grains, i.e., sand, silt and clay, present in the soil.
--   *Water salinity of stagnant surface water:* Salinity is the saltiness or dissolved salt content of a body of water.
--   *Number of nights in a 3-star hotel near the sea shore:* Number of nights of tourists in a 3-star hotel that is placed near the sea shore.
-
-You are invited to submit up to three variables before August 18.\
-The Challenge organizers will make a selection that is most suitable for the Challenge. The variables not selected will be documented after the Challenge.
-
-::: centered-content
-[**Propose variables**](https://forms.gle/LV2tsJQJZeYVms5z6){.btn .btn-action-primary .btn-action .btn-success .btn-lg role="button" target="_blank"}
-
-**If you are interested and would like to be kept informed, please share your details.**
-
-Attention: Subscription to the Challenge opens on September 2.
-
-[**Stay tuned**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action .btn-success .btn-lg role="button" target="_blank"}
-:::
 
 ## Timeline
 
