@@ -46,15 +46,15 @@ In addition to the downloadable presentations we will soon be making them availa
 
 ::: {layout="[ 50, 50 ]"}
 ::: {#first-column}
-[![](img/piF%20logo_400kb%20JPEG.png){width="40%}](https://partnersinfair.com/)
+[![](img/piF%20logo_400kb%20JPEG.png){width="100px}](https://partnersinfair.com/)
 :::
 
 ::: {#second-column}
-[![](img/mabablue_logo.png){width="80%"}](https://mabablue.com/)
+[![](img/mabablue_logo.png){width="100px"}](https://mabablue.com/)
 :::
 
 ::: {#third-column}
-[![](img/GFF logo (1).png){width="50%"}](https://www.gofair.foundation/)
+[![](img/GFF logo (1).png){width="100px"}](https://www.gofair.foundation/)
 :::
 :::
 
@@ -96,7 +96,7 @@ Background information about I-ADOPT can be explored on this [website](https://i
 | August 25        | Deadline for variable submissions                                                  |
 | September 2      | Publication of participation rules and instruction video                           |
 | September 2      | Subscription to the Challenge open                                                 |
-| September 13     | Subscription to the Challenge closed                                               |
+| September 22     | Subscription to the Challenge closed                                               |
 | **September 16** | Start of the Challenge                                                             |
 | **September 22** | End of the Challenge                                                               |
 | September 30     | Announcement of the winners                                                        |
