@@ -44,9 +44,9 @@ In addition to the downloadable presentations we will soon be making them availa
 
 ## Sponsors
 
-::: {layout="[ 30,30,40 ]"}
+::: {layout="[ 30,40,30 ]"}
 ::: {#first-column}
-[![](img/piF%20logo_400kb%20JPEG.png){width="20%"}](https://partnersinfair.com/)
+[![](img/piF%20logo_400kb%20JPEG.png){width="10%"}](https://partnersinfair.com/)
 :::
 
 ::: {#second-column}
@@ -54,7 +54,7 @@ In addition to the downloadable presentations we will soon be making them availa
 :::
 
 ::: {#third-column}
-[![](img/GFF logo (1).png){width="30%"}](https://www.gofair.foundation/)
+[![](img/GFF logo (1).png){width="20%"}](https://www.gofair.foundation/)
 :::
 :::
 
