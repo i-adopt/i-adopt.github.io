@@ -32,7 +32,7 @@ In preparation for the Challenge we have put together the following materials, w
 
 2. A step-by-step guide for creating an I-ADOPT compliant variable description ([presentation](material/I-ADOPT - Step by Step - presentation version.pdf))
 
-3. Instructions for submitting modeled variables including participation and scoring rules ([presentation](material/I-ADOPT - Challenge Rules - presentation version.pdf))
+3. Instructions for submitting modeled variables including participation and scoring rules ([presentation](material/I-ADOPT Challenge Rules - presentation version.pdf))
 
 In addition to the downloadable presentations we will soon be making them available as videos with more detailed explanations.
 
