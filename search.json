@@ -1,75 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)",
-    "section": "",
-    "text": "Under the auspices of the Research Data Alliance (RDA) Vocabulary and Semantic Services Interest Group (VSSIG) a small number of semantic experts formed a task group in 2018 to address the interoperability of observational data. The group submitted a case statement to work on the development of a common method to systematically express or represent observable properties in May 2019.\nThe RDA WG I-ADOPT was officially launched in 2019 and has 131 members. The WG completed its 18-month workplan in 2021.\nFind here all performed tasks and their outputs:\nTask 1: Collect user stories and formalise them into use cases (November 2019 - February 2020)\nTask 2: Survey existing observation-centric terminologies (January 2020 - February 2020)\nTask 3: Derive use case requirements (March 2020 - April 2020)\nTask 4: Analyse semantic representation of Observable Properties against requirements (May 2020 - October 2020)\nTask 5: Develop the Interoperability Framework (November 2020 - April 2021)\nTask 6: Test local mapping design patterns (May 2021 - September 2021)\nThe I-ADOPT recommendations were finalized in January 2022 and endorsed by RDA in April 2022 (DOI: 10.15497/RDA00071). The Working Group is in maintenance mode, but is still active in refining the I-ADOPT Framework and helping with its implementation. You can contribute to this Working Group by submitting your own variables, submitting your questions and working with us in our recurring meetings.\n\nJoin our efforts"
-  },
-  {
-    "objectID": "index.html#i-adopt-in-a-nutshell",
-    "href": "index.html#i-adopt-in-a-nutshell",
-    "title": "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)",
-    "section": "",
-    "text": "Under the auspices of the Research Data Alliance (RDA) Vocabulary and Semantic Services Interest Group (VSSIG) a small number of semantic experts formed a task group in 2018 to address the interoperability of observational data. The group submitted a case statement to work on the development of a common method to systematically express or represent observable properties in May 2019.\nThe RDA WG I-ADOPT was officially launched in 2019 and has 131 members. The WG completed its 18-month workplan in 2021.\nFind here all performed tasks and their outputs:\nTask 1: Collect user stories and formalise them into use cases (November 2019 - February 2020)\nTask 2: Survey existing observation-centric terminologies (January 2020 - February 2020)\nTask 3: Derive use case requirements (March 2020 - April 2020)\nTask 4: Analyse semantic representation of Observable Properties against requirements (May 2020 - October 2020)\nTask 5: Develop the Interoperability Framework (November 2020 - April 2021)\nTask 6: Test local mapping design patterns (May 2021 - September 2021)\nThe I-ADOPT recommendations were finalized in January 2022 and endorsed by RDA in April 2022 (DOI: 10.15497/RDA00071). The Working Group is in maintenance mode, but is still active in refining the I-ADOPT Framework and helping with its implementation. You can contribute to this Working Group by submitting your own variables, submitting your questions and working with us in our recurring meetings.\n\nJoin our efforts"
-  },
-  {
-    "objectID": "index.html#i-adopt-wg-chairs",
-    "href": "index.html#i-adopt-wg-chairs",
-    "title": "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)",
-    "section": "I-ADOPT WG Chairs",
-    "text": "I-ADOPT WG Chairs\nBarbara Magagna (Go FAIR Foundation, NL)\nGwenaëlle Moncoiffé (National Oceanography Centre - British Oceanographic Data Centre, UK)\nAnusuriya Devaraju (CSIRO, AU)\nMaria Stoica (University of Colorado, Boulder, US)\nPart of the I-ADOPT core group:\nSirko Schindler (German Aerospace Center, DLR, DE)\nAlison Pamment (Centre for Environmental Data Analysis/Sience and Technology Facilities Council, UK)"
-  },
-  {
-    "objectID": "index.html#overview-of-i-adopt-rda-plenary-sessions",
-    "href": "index.html#overview-of-i-adopt-rda-plenary-sessions",
-    "title": "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)",
-    "section": "Overview of I-ADOPT RDA Plenary sessions",
-    "text": "Overview of I-ADOPT RDA Plenary sessions\n11 RDA Plenary meeting in Berlin (March 2018): Task group formed under Vocabulary Semantic Service Interest Group (VSSIG), presentation\n13 RDA Plenary meeting in Philadelphia (April 2019): BOF- Harmonising FAIR descriptions of observational data, Session Minutes\n14 RDA Plenary meeting in Helsinki (Oktober 2019): Kick-Off Meeting of I-ADOPT, Session Minutes\n15 RDA Virtual Plenary meeting (March 2020): Working Session Minutes\n16 RDA Virtual Plenary meeting (November 2020): Working Session Minutes, recording\n17 RDA Virtual Plenary meeting (March 2021): Working Session Minutes, recording\nIn March 2021 we had two I-ADOPT workshops testing and further developing the I-ADOPT Interoperability Framework: Workshop I minutes, Workshop II minutes\nVirtual SciDataCon 2021 (October 2021): Enabling data interoperability through the I-ADOPT Framework: implementation scenarios in the environmental science domain and beyond, session description, recordin\n18 RDA Virtual Plenary meeting (November 2021): Closing Session Minutes, recording\n20 RDA Virtual Plenary meeting (March 2023): Practical implementations of the I-ADOPT Framework Session Minutes, recording\n22 RDA Virtual Plenary meeting (May 2024): Embeddings of I-ADOPT in existing standards Session Minutes, recording"
-  },
-  {
-    "objectID": "index.html#main-outcomes",
-    "href": "index.html#main-outcomes",
-    "title": "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)",
-    "section": "Main Outcomes",
-    "text": "Main Outcomes\nThe I-ADOPT Framework Ontology is a lightweight ontology primarily designed to facilitate interoperability between existing variable description models (including ontologies, taxonomy, and structured controlled vocabularies).\n\nIn 2023 we extended the ontology to support the aggregation of variables using a range of user-defined coarser concepts to facilitate dataset discovery and aggregation into products.\n\nThe I-ADOPT Catalogue of Terminologies contains concepts from terminologies to compose semantic variable descriptions.\nThe Step-by-Step guide was created to support in the description of new variables."
-  },
-  {
-    "objectID": "index.html#an-example",
-    "href": "index.html#an-example",
-    "title": "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)",
-    "section": "An Example",
-    "text": "An Example\nApplying the I-ADOPT Framework means:\n\ndecompose the variable in atomic components\nassign a description role for each component\nannotate each component with concepts from terminologies\n\n\nThis I-ADOPT decomposition and annotation exercise should result in a variable concept with its associated concepts in a SKOS vocabulary:\n\nSee here the variable represented as SKOS concept from the Theia/OZCAR Thesaurus.\n\nJoin our efforts"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About I-ADOPT",
-    "section": "",
-    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
-  },
-  {
-    "objectID": "about.html#goal",
-    "href": "about.html#goal",
-    "title": "About I-ADOPT",
-    "section": "",
-    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
-  },
-  {
-    "objectID": "about.html#citation-of-the-i-adopt-recommendations",
-    "href": "about.html#citation-of-the-i-adopt-recommendations",
-    "title": "About I-ADOPT",
-    "section": "Citation of the I-ADOPT recommendations",
-    "text": "Citation of the I-ADOPT recommendations\nMagagna, B., Moncoiffé, G., Devaraju, A., Stoica, M., Schindler, S., Pamment, A., & RDA I-ADOPT WG. (2022). InteroperAble Descriptions of Observable Property Terminologies (I-ADOPT) WG Outputs and Recommendations (1.1.0). Zenodo. https://doi.org/10.15497/RDA00071"
-  },
-  {
-    "objectID": "about.html#contribute",
-    "href": "about.html#contribute",
-    "title": "About I-ADOPT",
-    "section": "Contribute",
-    "text": "Contribute\nYou can contribute to I-ADOPT by participating at our regular calls and by providing your variable description to our github repository."
-  },
-  {
     "objectID": "challenge.html",
     "href": "challenge.html",
     "title": "The I-ADOPT Variable Modeling Challenge",
@@ -117,5 +47,82 @@
     "title": "The I-ADOPT Variable Modeling Challenge",
     "section": "Timeline",
     "text": "Timeline\n\n\n\n\n\n\n\nDate\nAction\n\n\n\n\nJune 17\nAnnouncement of the Challenge\n\n\nAugust 25\nDeadline for variable submissions\n\n\nSeptember 2\nPublication of participation rules and instruction video\n\n\nSeptember 2\nSubscription to the Challenge open\n\n\nSeptember 13\nSubscription to the Challenge closed\n\n\nSeptember 16\nStart of the Challenge\n\n\nSeptember 22\nEnd of the Challenge\n\n\nSeptember 30\nAnnouncement of the winners\n\n\nOctober\nAnalysis of the outcome\n\n\nNovember 12-14\nPresentation of the Challenge and interoperability results at the RDA 23rd Plenary"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)",
+    "section": "",
+    "text": "Under the auspices of the Research Data Alliance (RDA) Vocabulary and Semantic Services Interest Group (VSSIG) a small number of semantic experts formed a task group in 2018 to address the interoperability of observational data. The group submitted a case statement to work on the development of a common method to systematically express or represent observable properties in May 2019.\nThe RDA WG I-ADOPT was officially launched in 2019 and has 131 members. The WG completed its 18-month workplan in 2021.\nFind here all performed tasks and their outputs:\nTask 1: Collect user stories and formalise them into use cases (November 2019 - February 2020)\nTask 2: Survey existing observation-centric terminologies (January 2020 - February 2020)\nTask 3: Derive use case requirements (March 2020 - April 2020)\nTask 4: Analyse semantic representation of Observable Properties against requirements (May 2020 - October 2020)\nTask 5: Develop the Interoperability Framework (November 2020 - April 2021)\nTask 6: Test local mapping design patterns (May 2021 - September 2021)\nThe I-ADOPT recommendations were finalized in January 2022 and endorsed by RDA in April 2022 (DOI: 10.15497/RDA00071). The Working Group is in maintenance mode, but is still active in refining the I-ADOPT Framework and helping with its implementation. You can contribute to this Working Group by submitting your own variables, submitting your questions and working with us in our recurring meetings.\n\nJoin our efforts"
+  },
+  {
+    "objectID": "index.html#i-adopt-in-a-nutshell",
+    "href": "index.html#i-adopt-in-a-nutshell",
+    "title": "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)",
+    "section": "",
+    "text": "Under the auspices of the Research Data Alliance (RDA) Vocabulary and Semantic Services Interest Group (VSSIG) a small number of semantic experts formed a task group in 2018 to address the interoperability of observational data. The group submitted a case statement to work on the development of a common method to systematically express or represent observable properties in May 2019.\nThe RDA WG I-ADOPT was officially launched in 2019 and has 131 members. The WG completed its 18-month workplan in 2021.\nFind here all performed tasks and their outputs:\nTask 1: Collect user stories and formalise them into use cases (November 2019 - February 2020)\nTask 2: Survey existing observation-centric terminologies (January 2020 - February 2020)\nTask 3: Derive use case requirements (March 2020 - April 2020)\nTask 4: Analyse semantic representation of Observable Properties against requirements (May 2020 - October 2020)\nTask 5: Develop the Interoperability Framework (November 2020 - April 2021)\nTask 6: Test local mapping design patterns (May 2021 - September 2021)\nThe I-ADOPT recommendations were finalized in January 2022 and endorsed by RDA in April 2022 (DOI: 10.15497/RDA00071). The Working Group is in maintenance mode, but is still active in refining the I-ADOPT Framework and helping with its implementation. You can contribute to this Working Group by submitting your own variables, submitting your questions and working with us in our recurring meetings.\n\nJoin our efforts"
+  },
+  {
+    "objectID": "index.html#i-adopt-wg-chairs",
+    "href": "index.html#i-adopt-wg-chairs",
+    "title": "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)",
+    "section": "I-ADOPT WG Chairs",
+    "text": "I-ADOPT WG Chairs\nBarbara Magagna (Go FAIR Foundation, NL)\nGwenaëlle Moncoiffé (National Oceanography Centre - British Oceanographic Data Centre, UK)\nAnusuriya Devaraju (CSIRO, AU)\nMaria Stoica (University of Colorado, Boulder, US)\nPart of the I-ADOPT core group:\nSirko Schindler (German Aerospace Center, DLR, DE)\nAlison Pamment (Centre for Environmental Data Analysis/Sience and Technology Facilities Council, UK)"
+  },
+  {
+    "objectID": "index.html#overview-of-i-adopt-rda-plenary-sessions",
+    "href": "index.html#overview-of-i-adopt-rda-plenary-sessions",
+    "title": "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)",
+    "section": "Overview of I-ADOPT RDA Plenary sessions",
+    "text": "Overview of I-ADOPT RDA Plenary sessions\n11 RDA Plenary meeting in Berlin (March 2018): Task group formed under Vocabulary Semantic Service Interest Group (VSSIG), presentation\n13 RDA Plenary meeting in Philadelphia (April 2019): BOF- Harmonising FAIR descriptions of observational data, Session Minutes\n14 RDA Plenary meeting in Helsinki (Oktober 2019): Kick-Off Meeting of I-ADOPT, Session Minutes\n15 RDA Virtual Plenary meeting (March 2020): Working Session Minutes\n16 RDA Virtual Plenary meeting (November 2020): Working Session Minutes, recording\n17 RDA Virtual Plenary meeting (March 2021): Working Session Minutes, recording\nIn March 2021 we had two I-ADOPT workshops testing and further developing the I-ADOPT Interoperability Framework: Workshop I minutes, Workshop II minutes\nVirtual SciDataCon 2021 (October 2021): Enabling data interoperability through the I-ADOPT Framework: implementation scenarios in the environmental science domain and beyond, session description, recordin\n18 RDA Virtual Plenary meeting (November 2021): Closing Session Minutes, recording\n20 RDA Virtual Plenary meeting (March 2023): Practical implementations of the I-ADOPT Framework Session Minutes, recording\n22 RDA Virtual Plenary meeting (May 2024): Embeddings of I-ADOPT in existing standards Session Minutes, recording"
+  },
+  {
+    "objectID": "index.html#main-outcomes",
+    "href": "index.html#main-outcomes",
+    "title": "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)",
+    "section": "Main Outcomes",
+    "text": "Main Outcomes\nThe I-ADOPT Framework Ontology is a lightweight ontology primarily designed to facilitate interoperability between existing variable description models (including ontologies, taxonomy, and structured controlled vocabularies).\n\nIn 2023 we extended the ontology to support the aggregation of variables using a range of user-defined coarser concepts to facilitate dataset discovery and aggregation into products.\n\nThe I-ADOPT Catalogue of Terminologies contains concepts from terminologies to compose semantic variable descriptions.\nThe Step-by-Step guide was created to support in the description of new variables."
+  },
+  {
+    "objectID": "index.html#an-example",
+    "href": "index.html#an-example",
+    "title": "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)",
+    "section": "An Example",
+    "text": "An Example\nApplying the I-ADOPT Framework means:\n\ndecompose the variable in atomic components\nassign a description role for each component\nannotate each component with concepts from terminologies\n\n\nThis I-ADOPT decomposition and annotation exercise should result in a variable concept with its associated concepts in a SKOS vocabulary:\n\nSee here the variable represented as SKOS concept from the Theia/OZCAR Thesaurus.\n\nJoin our efforts"
+  },
+  {
+    "objectID": "material/readme.html",
+    "href": "material/readme.html",
+    "title": "I-ADOPT",
+    "section": "",
+    "text": "Here we publish instruction material to be shared."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About I-ADOPT",
+    "section": "",
+    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
+  },
+  {
+    "objectID": "about.html#goal",
+    "href": "about.html#goal",
+    "title": "About I-ADOPT",
+    "section": "",
+    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
+  },
+  {
+    "objectID": "about.html#citation-of-the-i-adopt-recommendations",
+    "href": "about.html#citation-of-the-i-adopt-recommendations",
+    "title": "About I-ADOPT",
+    "section": "Citation of the I-ADOPT recommendations",
+    "text": "Citation of the I-ADOPT recommendations\nMagagna, B., Moncoiffé, G., Devaraju, A., Stoica, M., Schindler, S., Pamment, A., & RDA I-ADOPT WG. (2022). InteroperAble Descriptions of Observable Property Terminologies (I-ADOPT) WG Outputs and Recommendations (1.1.0). Zenodo. https://doi.org/10.15497/RDA00071"
+  },
+  {
+    "objectID": "about.html#contribute",
+    "href": "about.html#contribute",
+    "title": "About I-ADOPT",
+    "section": "Contribute",
+    "text": "Contribute\nYou can contribute to I-ADOPT by participating at our regular calls and by providing your variable description to our github repository."
   }
 ]
