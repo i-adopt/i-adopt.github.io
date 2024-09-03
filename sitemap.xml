@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://i-adopt.github.io/challenge.html</loc>
+    <lastmod>2024-09-03T10:02:51.380Z</lastmod>
+  </url>
+  <url>
     <loc>https://i-adopt.github.io/index.html</loc>
-    <lastmod>2024-09-03T08:50:57.925Z</lastmod>
+    <lastmod>2024-09-03T10:02:51.428Z</lastmod>
   </url>
   <url>
     <loc>https://i-adopt.github.io/material/readme.html</loc>
-    <lastmod>2024-09-03T08:50:57.933Z</lastmod>
+    <lastmod>2024-09-03T10:02:51.440Z</lastmod>
   </url>
   <url>
     <loc>https://i-adopt.github.io/about.html</loc>
-    <lastmod>2024-09-03T08:50:57.877Z</lastmod>
-  </url>
-  <url>
-    <loc>https://i-adopt.github.io/challenge.html</loc>
-    <lastmod>2024-09-03T08:50:57.877Z</lastmod>
+    <lastmod>2024-09-03T10:02:51.380Z</lastmod>
   </url>
 </urlset>
