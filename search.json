@@ -1,54 +1,5 @@
 [
   {
-    "objectID": "challenge.html",
-    "href": "challenge.html",
-    "title": "The I-ADOPT Variable Modeling Challenge",
-    "section": "",
-    "text": "I-ADOPT aims to facilitate data interoperability by offering a common framework to\ndescribe variables and connect terminologies used to name variables.\nThe I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.\nWe would like to invite you to test I-ADOPT in the Variable Modelling Challenge!\nModelers, semantic experts, data stewards and researchers from around the world -\nCan you try to model a given set of variables according to the I-ADOPT Framework?\nThe Challenge will take place in the week from 16 to 22 September 2024.\nTop scorers will be rewarded with a prize!"
-  },
-  {
-    "objectID": "challenge.html#announcement",
-    "href": "challenge.html#announcement",
-    "title": "The I-ADOPT Variable Modeling Challenge",
-    "section": "",
-    "text": "I-ADOPT aims to facilitate data interoperability by offering a common framework to\ndescribe variables and connect terminologies used to name variables.\nThe I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.\nWe would like to invite you to test I-ADOPT in the Variable Modelling Challenge!\nModelers, semantic experts, data stewards and researchers from around the world -\nCan you try to model a given set of variables according to the I-ADOPT Framework?\nThe Challenge will take place in the week from 16 to 22 September 2024.\nTop scorers will be rewarded with a prize!"
-  },
-  {
-    "objectID": "challenge.html#update-publication-of-participation-rules-and-instructions",
-    "href": "challenge.html#update-publication-of-participation-rules-and-instructions",
-    "title": "The I-ADOPT Variable Modeling Challenge",
-    "section": "Update: Publication of participation rules and instructions",
-    "text": "Update: Publication of participation rules and instructions\nIn preparation for the Challenge we have put together the following materials, which we recommend you to study in this order:\n\nAn introduction to the I-ADOPT Framework (presentation)\nA step-by-step guide for creating an I-ADOPT compliant variable description (presentation)\nInstructions for submitting modeled variables including participation and scoring rules (presentation)\n\nIn addition to the downloadable presentations we will soon be making them available as videos with more detailed explanations.\nAttention: Subscription to the Challenge ends by September 22!\nSubscribe to the Challenge"
-  },
-  {
-    "objectID": "challenge.html#sponsors",
-    "href": "challenge.html#sponsors",
-    "title": "The I-ADOPT Variable Modeling Challenge",
-    "section": "Sponsors",
-    "text": "Sponsors"
-  },
-  {
-    "objectID": "challenge.html#the-challenge",
-    "href": "challenge.html#the-challenge",
-    "title": "The I-ADOPT Variable Modeling Challenge",
-    "section": "The Challenge",
-    "text": "The Challenge\n\n\n\n\n\n\n\n\n\nBased on detailed instructions and participation rules, participants will independently decompose the same set of variables into atomic description components according to the I-ADOPT recommendations, using concepts from applicable terminologies.\nThe aim of the challenge is to reveal, in a controlled setting, the similarities and differences in the way the I-ADOPT Framework is used between independent teams. The findings will certainly support the enhancement of the I-ADOPT Framework. The activity will highlight possible bottlenecks but also opportunities to extend or modify the underlying ontology and help to feed the modelling patterns knowledge base. Ultimately, the findings from this Challenge will be used to develop a semi-automated I-ADOPT variable annotation service.\nLet’s challenge the I-ADOPT Framework together!\n\n\n\nPhoto credits"
-  },
-  {
-    "objectID": "challenge.html#good-to-know",
-    "href": "challenge.html#good-to-know",
-    "title": "The I-ADOPT Variable Modeling Challenge",
-    "section": "Good to know",
-    "text": "Good to know\nBackground information about I-ADOPT can be explored on this website."
-  },
-  {
-    "objectID": "challenge.html#timeline",
-    "href": "challenge.html#timeline",
-    "title": "The I-ADOPT Variable Modeling Challenge",
-    "section": "Timeline",
-    "text": "Timeline\n\n\n\n\n\n\n\nDate\nAction\n\n\n\n\nJune 17\nAnnouncement of the Challenge\n\n\nAugust 25\nDeadline for variable submissions\n\n\nSeptember 2\nPublication of participation rules and instruction video\n\n\nSeptember 2\nSubscription to the Challenge open\n\n\nSeptember 22\nSubscription to the Challenge closed\n\n\nSeptember 16\nStart of the Challenge\n\n\nSeptember 22\nEnd of the Challenge\n\n\nSeptember 30\nAnnouncement of the winners\n\n\nOctober\nAnalysis of the outcome\n\n\nNovember 12-14\nPresentation of the Challenge and interoperability results at the RDA 23rd Plenary"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)",
@@ -124,5 +75,54 @@
     "title": "About I-ADOPT",
     "section": "Contribute",
     "text": "Contribute\nYou can contribute to I-ADOPT by participating at our regular calls and by providing your variable description to our github repository."
+  },
+  {
+    "objectID": "challenge.html",
+    "href": "challenge.html",
+    "title": "The I-ADOPT Variable Modeling Challenge",
+    "section": "",
+    "text": "I-ADOPT aims to facilitate data interoperability by offering a common framework to\ndescribe variables and connect terminologies used to name variables.\nThe I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.\nWe would like to invite you to test I-ADOPT in the Variable Modelling Challenge!\nModelers, semantic experts, data stewards and researchers from around the world -\nCan you try to model a given set of variables according to the I-ADOPT Framework?\nThe Challenge will take place in the week from 16 to 22 September 2024.\nTop scorers will be rewarded with a prize!"
+  },
+  {
+    "objectID": "challenge.html#announcement",
+    "href": "challenge.html#announcement",
+    "title": "The I-ADOPT Variable Modeling Challenge",
+    "section": "",
+    "text": "I-ADOPT aims to facilitate data interoperability by offering a common framework to\ndescribe variables and connect terminologies used to name variables.\nThe I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.\nWe would like to invite you to test I-ADOPT in the Variable Modelling Challenge!\nModelers, semantic experts, data stewards and researchers from around the world -\nCan you try to model a given set of variables according to the I-ADOPT Framework?\nThe Challenge will take place in the week from 16 to 22 September 2024.\nTop scorers will be rewarded with a prize!"
+  },
+  {
+    "objectID": "challenge.html#update-publication-of-participation-rules-and-instructions",
+    "href": "challenge.html#update-publication-of-participation-rules-and-instructions",
+    "title": "The I-ADOPT Variable Modeling Challenge",
+    "section": "Update: Publication of participation rules and instructions",
+    "text": "Update: Publication of participation rules and instructions\nIn preparation for the Challenge we have put together the following materials, which we recommend you to study in this order:\n\nAn introduction to the I-ADOPT Framework (presentation)\nA step-by-step guide for creating an I-ADOPT compliant variable description (presentation)\nInstructions for submitting modeled variables including participation and scoring rules (presentation)\n\nIn addition to the downloadable presentations we will soon be making them available as videos with more detailed explanations.\nAttention: Subscription to the Challenge ends by September 22!\nSubscribe to the Challenge"
+  },
+  {
+    "objectID": "challenge.html#sponsors",
+    "href": "challenge.html#sponsors",
+    "title": "The I-ADOPT Variable Modeling Challenge",
+    "section": "Sponsors",
+    "text": "Sponsors"
+  },
+  {
+    "objectID": "challenge.html#the-challenge",
+    "href": "challenge.html#the-challenge",
+    "title": "The I-ADOPT Variable Modeling Challenge",
+    "section": "The Challenge",
+    "text": "The Challenge\n\n\n\n\n\n\n\n\n\nBased on detailed instructions and participation rules, participants will independently decompose the same set of variables into atomic description components according to the I-ADOPT recommendations, using concepts from applicable terminologies.\nThe aim of the challenge is to reveal, in a controlled setting, the similarities and differences in the way the I-ADOPT Framework is used between independent teams. The findings will certainly support the enhancement of the I-ADOPT Framework. The activity will highlight possible bottlenecks but also opportunities to extend or modify the underlying ontology and help to feed the modelling patterns knowledge base. Ultimately, the findings from this Challenge will be used to develop a semi-automated I-ADOPT variable annotation service.\nLet’s challenge the I-ADOPT Framework together!\n\n\n\nPhoto credits"
+  },
+  {
+    "objectID": "challenge.html#good-to-know",
+    "href": "challenge.html#good-to-know",
+    "title": "The I-ADOPT Variable Modeling Challenge",
+    "section": "Good to know",
+    "text": "Good to know\nBackground information about I-ADOPT can be explored on this website."
+  },
+  {
+    "objectID": "challenge.html#timeline",
+    "href": "challenge.html#timeline",
+    "title": "The I-ADOPT Variable Modeling Challenge",
+    "section": "Timeline",
+    "text": "Timeline\n\n\n\n\n\n\n\nDate\nAction\n\n\n\n\nJune 17\nAnnouncement of the Challenge\n\n\nAugust 25\nDeadline for variable submissions\n\n\nSeptember 2\nPublication of participation rules and instruction video\n\n\nSeptember 2\nSubscription to the Challenge open\n\n\nSeptember 22\nSubscription to the Challenge closed\n\n\nSeptember 16\nStart of the Challenge\n\n\nSeptember 22\nEnd of the Challenge\n\n\nSeptember 30\nAnnouncement of the winners\n\n\nOctober\nAnalysis of the outcome\n\n\nNovember 12-14\nPresentation of the Challenge and interoperability results at the RDA 23rd Plenary"
   }
 ]
