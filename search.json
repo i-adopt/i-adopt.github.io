@@ -4,14 +4,14 @@
     "href": "challenge.html",
     "title": "The I-ADOPT Variable Modeling Challenge",
     "section": "",
-    "text": "I-ADOPT aims to facilitate data interoperability by offering a common framework to\ndescribe variables and connect terminologies used to name variables.\nThe I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.\nWe would like to invite you to test I-ADOPT in the Variable Modelling Challenge!\nModelers, semantic experts, data stewards and researchers from around the world -\nCan you try to model a given set of variables according to the I-ADOPT Framework?\nThe Challenge will take place in the week from 16 to 22 September 2024.\nTop scorers will be rewarded with a prize!"
+    "text": "Starting in …"
   },
   {
     "objectID": "challenge.html#announcement",
     "href": "challenge.html#announcement",
     "title": "The I-ADOPT Variable Modeling Challenge",
-    "section": "",
-    "text": "I-ADOPT aims to facilitate data interoperability by offering a common framework to\ndescribe variables and connect terminologies used to name variables.\nThe I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.\nWe would like to invite you to test I-ADOPT in the Variable Modelling Challenge!\nModelers, semantic experts, data stewards and researchers from around the world -\nCan you try to model a given set of variables according to the I-ADOPT Framework?\nThe Challenge will take place in the week from 16 to 22 September 2024.\nTop scorers will be rewarded with a prize!"
+    "section": "Announcement",
+    "text": "Announcement\nI-ADOPT aims to facilitate data interoperability by offering a common framework to\ndescribe variables and connect terminologies used to name variables.\nThe I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.\nWe would like to invite you to test I-ADOPT in the Variable Modelling Challenge!\nModelers, semantic experts, data stewards and researchers from around the world -\nCan you try to model a given set of variables according to the I-ADOPT Framework?\nThe Challenge will take place in the week from 16 to 22 September 2024.\nTop scorers will be rewarded with a prize!"
   },
   {
     "objectID": "challenge.html#update-publication-of-participation-rules-and-instructions",
@@ -39,7 +39,7 @@
     "href": "challenge.html#good-to-know",
     "title": "The I-ADOPT Variable Modeling Challenge",
     "section": "Good to know",
-    "text": "Good to know\nBackground information about I-ADOPT can be explored on this website.\n\n\n\n\n\nThe Challenge will start in:"
+    "text": "Good to know\nBackground information about I-ADOPT can be explored on this website."
   },
   {
     "objectID": "challenge.html#timeline",
