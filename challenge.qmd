@@ -34,7 +34,7 @@ The Challenge will take place in the week from 16 to 22 September 2024.
 
 In preparation for the Challenge we have put together the following materials, which we recommend you to study in this order: 
 
-1. An introduction to the I-ADOPT Framework ([Video](https://www.youtube.com/watch?v=wYgF4G3T2ow),[Slides and Notes](material/I-ADOPT Framework - Slides and Notes.pdf))
+1. An introduction to the I-ADOPT Framework ([Video](https://www.youtube.com/watch?v=Q3thKyVVtCM),[Slides and Notes](material/I-ADOPT Framework - Slides and Notes.pdf))
 
 2. A step-by-step guide for creating an I-ADOPT compliant variable description ([Video](https://www.youtube.com/watch?v=G-9wtpvmwiY),[Slides and Notes](material/I-ADOPT Step-by-Step - Slides and Notes.pdf))
 
