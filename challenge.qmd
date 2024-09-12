@@ -36,7 +36,7 @@ In preparation for the Challenge we have put together the following materials, w
 
 1. An introduction to the I-ADOPT Framework ([Video](https://www.youtube.com/watch?v=Q3thKyVVtCM),[Slides and Notes](material/I-ADOPT Framework - Slides and Notes.pdf))
 
-2. A step-by-step guide for creating an I-ADOPT compliant variable description ([Video](https://www.youtube.com/watch?v=G-9wtpvmwiY),[Slides and Notes](material/I-ADOPT Step-by-Step - Slides and Notes.pdf))
+2. A step-by-step guide for creating an I-ADOPT compliant variable description ([Video](https://www.youtube.com/watch?v=43hAzmqBAfs),[Slides and Notes](material/I-ADOPT Step-by-Step - Slides and Notes.pdf))
 
 3. Instructions for submitting modeled variables including participation and scoring rules ([presentation](material/I-ADOPT Challenge Rules - presentation version.pdf))
 
