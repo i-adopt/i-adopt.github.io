@@ -42,7 +42,7 @@ In preparation for the Challenge we have put together the following materials, w
 
 A table with a list of variables to be selected will be published HERE at the start of the Challenge. 
 
-If you have a question related to the Challenge please post it to the [Question GitHub](https://github.com/i-adopt/questions/issues) as an issue. Everyone can than see the question and the answers. 
+If you have a question related to the Challenge please post it to the [Question GitHub](https://github.com/i-adopt/questions/issues) as an issue. We will try to answer it promptly.
 
 **Attention: Subscription to the Challenge ends by September 22!**
 
