@@ -30,17 +30,17 @@ The Challenge will take place in the week from 16 to 22 September 2024.
 
 **Top scorers will be rewarded with a prize!**
 
-## Update: Publication of participation rules and instructions
+## Update: The I-ADOPT Variable Modelling Challenge has now started
 
-In preparation for the Challenge we have put together the following materials, which we recommend you to study in this order: 
+Fing here all relevant materials, which we recommend you to study in this order: 
 
 1. An introduction to the I-ADOPT Framework ([Video](https://www.youtube.com/watch?v=Q3thKyVVtCM),[Slides and Notes](material/I-ADOPT Framework - Slides and Notes.pdf))
 
 2. A step-by-step guide for creating an I-ADOPT compliant variable description ([Video](https://www.youtube.com/watch?v=43hAzmqBAfs),[Slides and Notes](material/I-ADOPT Step-by-Step - Slides and Notes.pdf))
 
-3. Instructions for submitting modeled variables including participation and scoring rules ([presentation](material/I-ADOPT Challenge Rules - presentation version.pdf))
+3. Instructions for submitting modeled variables including participation and scoring rules ([Presentation](material/I-ADOPT Challenge Rules - presentation version.pdf))
 
-A table with a list of variables to be selected will be published HERE at the start of the Challenge. 
+4. The list of variables to be selected ([Challenge Variables](material/ChallengeVariables.csv)). 
 
 If you have a question related to the Challenge please post it to the [Question GitHub](https://github.com/i-adopt/questions/issues) as an issue. We will try to answer it promptly.
 
