@@ -33,7 +33,24 @@ The Challenge takes place in the week from 16 to 22 September 2024.
 
 **Top scorers will be rewarded with a prize!**
 
-The RDA TIGER Programme will provide **travel and registration support to the 23rd RDA Plenary in Costa Rica** (12-14 November 2024) for the **first winner**.
+The RDA TIGER Programme will provide **travel and registration support to the 23rd RDA Plenary in Costa Rica** (12-14 November 2024) for the **top winner**. Details will be published on time. 
+
+## Reviewer Team:
+
+I-ADOPT Core team:
+
+- Barbara Magagna (Go FAIR Foundation, NL)
+- Gwenaëlle Moncoiffé (National Oceanography Centre - British Oceanographic Data Centre, UK)
+- Anusuriya Devaraju (CSIRO, AU)
+- Maria Stoica (University of Colorado, Boulder, US)
+- Sirko Schindler (German Aerospace Center, DE)
+- Alison Pamment (Centre for Environmental Data Analysis/Sience and Technology Facilities Council, UK)
+
+External reviewers:
+
+- Markus Stocker (TIB - Leibniz Information Centre for Science and Technology, GER)
+- John Graybeal (Information Technology Consultant, US)
+- Rob Atkinson (Open Geospatial Consortium, AU)
 
 ## Update: The I-ADOPT Variable Modelling Challenge has now started
 
