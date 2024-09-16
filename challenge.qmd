@@ -54,16 +54,20 @@ If you have a question related to the Challenge please post it to the [Question 
 
 ## Sponsors
 
-::: {layout="[ 30,40,30 ]"}
+::: {layout="[ 25,25,25,25 ]"}
 ::: {#first-column}
-[![](img/piF%20logo_400kb%20JPEG.png){width="10%"}](https://partnersinfair.com/)
+[![](img/tiger_support_services_0.png){width="10%"}](https://www.rd-alliance.org/rda-tiger/)
 :::
 
 ::: {#second-column}
-[![](img/mabablue_logo.png){width="100%"}](https://mabablue.com/)
+[![](img/piF%20logo_400kb%20JPEG.png){width="10%"}](https://partnersinfair.com/)
 :::
 
 ::: {#third-column}
+[![](img/mabablue_logo.png){width="100%"}](https://mabablue.com/)
+:::
+
+::: {#forth-column}
 [![](img/GFF logo (1).png){width="20%"}](https://www.gofair.foundation/)
 :::
 :::
