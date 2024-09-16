@@ -12,7 +12,7 @@ date: 6/17/2024
 <div style="text-align: center">
   **The challenge is active and will run until ...** 
 
-<iframe src="https://free.timeanddate.com/countdown/i9jkffc1/n187/cf11/cm0/cu4/ct0/cs1/ca0/co0/cr0/ss0/cac00f/cpcf00/pcfff/tcfff/fs100/szw448/szh189/iso2024-09-22T24:00:00" allowtransparency="true" frameborder="0" width="404" height="27"></iframe>
+<iframe src="https://free.timeanddate.com/countdown/i9jkffc1/n187/cf11/cm0/cu4/ct0/cs1/ca0/co0/cr0/ss0/cac00f/cpcf00/pcfff/tcfff/fs100/szw448/szh189/iso2024-09-22T23:59:59" allowtransparency="true" frameborder="0" width="404" height="27"></iframe>
 </div>
 
 
