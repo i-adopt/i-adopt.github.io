@@ -37,11 +37,11 @@ The Challenge takes place in the week from 16 to 22 September 2024.
 
 Find here all relevant materials, which we recommend you to study in this order: 
 
-1. An introduction to the I-ADOPT Framework (<a href="https://www.youtube.com/watch?v=Q3thKyVVtCM" target="_blank">Video,</a>[Slides and Notes](material/I-ADOPT Framework - Slides and Notes.pdf){target="_blank"})
+1. An introduction to the I-ADOPT Framework (<a href="https://www.youtube.com/watch?v=Q3thKyVVtCM" target="_blank">Video</a>,[Slides and Notes](material/I-ADOPT Framework - Slides and Notes.pdf){target="_blank"})
 
-2. A step-by-step guide for creating an I-ADOPT compliant variable description ([Video](https://www.youtube.com/watch?v=43hAzmqBAfs),[Slides and Notes](material/I-ADOPT Step-by-Step - Slides and Notes.pdf))
+2. A step-by-step guide for creating an I-ADOPT compliant variable description ([Video](https://www.youtube.com/watch?v=43hAzmqBAfs){target="_blank"},[Slides and Notes](material/I-ADOPT Step-by-Step - Slides and Notes.pdf){target="_blank"})
 
-3. Instructions for submitting modeled variables including participation and scoring rules ([Presentation](material/I-ADOPT Challenge Rules - presentation version.pdf))
+3. Instructions for submitting modeled variables including participation and scoring rules ([Presentation](material/I-ADOPT Challenge Rules - presentation version.pdf){target="_blank"})
 
 4. The list of variables to be selected ([Challenge Variables](https://docs.google.com/spreadsheets/d/1bJdde8GH55LzzlV0A_eV_h5M7W7UXCDN6SoxcTinM74/edit?usp=sharing)). 
 
