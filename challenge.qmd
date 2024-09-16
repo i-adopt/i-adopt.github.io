@@ -16,7 +16,7 @@ date: 6/17/2024
 </div>
 
 
-[**Subscribe to the Challenge**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action .btn-success .btn-lg role="button" target="_blank"}
+<p style="text-align: center;">[**Subscribe to the Challenge**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action .btn-success .btn-lg role="button" target="_blank"}</p>
 
 ## Announcement
 
