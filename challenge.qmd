@@ -50,8 +50,6 @@ If you have a question related to the Challenge please post it to the [Question 
 **Attention: Subscription to the Challenge ends by September 22!**
 
 
-[**Subscribe to the Challenge**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action .btn-success .btn-lg role="button" target="_blank"}
-
 ## Sponsors
 
 ::: {layout="[ 25,25,25,25 ]"}
@@ -95,6 +93,8 @@ The aim of the challenge is to reveal, in a controlled setting, the similarities
 
 [Photo credits](https://www.freepik.com/free-photo/strong-man-climbing-mountain_16623416.htm)
 
+[**Subscribe to the Challenge**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action .btn-success .btn-lg role="button" target="_blank"}
+
 ## Good to know
 
 Background information about I-ADOPT can be explored on this [website](https://i-adopt.github.io/).
@@ -118,3 +118,5 @@ Background information about I-ADOPT can be explored on this [website](https://i
 | September 30     | Announcement of the winners                                                        |
 | October          | Analysis of the outcome                                                            |
 | November 12-14   | Presentation of the Challenge and interoperability results at the RDA 23rd Plenary |
+
+<p style="text-align: center;">[**Subscribe to the Challenge**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action .btn-success .btn-lg role="button" target="_blank"}</p>
