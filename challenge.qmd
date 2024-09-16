@@ -37,7 +37,7 @@ The Challenge takes place in the week from 16 to 22 September 2024.
 
 Find here all relevant materials, which we recommend you to study in this order: 
 
-1. An introduction to the I-ADOPT Framework (<a href="https://www.youtube.com/watch?v=Q3thKyVVtCM)" target="_blank">Video</a>([Video],<a href="material/I-ADOPT Framework - Slides and Notes.pdf)" target="_blank">Slides and Notes</a>)
+1. An introduction to the I-ADOPT Framework (<a href="https://www.youtube.com/watch?v=Q3thKyVVtCM)" target="_blank">Video</a>([Video],<a href="https://github.com/i-adopt/i-adopt.github.io/blob/main/material/I-ADOPT%20Framework%20-%20Slides%20and%20Notes.pdf)" target="_blank">Slides and Notes</a>)
 
 2. A step-by-step guide for creating an I-ADOPT compliant variable description ([Video](https://www.youtube.com/watch?v=43hAzmqBAfs),[Slides and Notes](material/I-ADOPT Step-by-Step - Slides and Notes.pdf))
 
@@ -93,7 +93,7 @@ The aim of the challenge is to reveal, in a controlled setting, the similarities
 
 [Photo credits](https://www.freepik.com/free-photo/strong-man-climbing-mountain_16623416.htm)
 
-[**Subscribe to the Challenge**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action .btn-success .btn-lg role="button" target="_blank"}
+<p style="text-align: center;">[**Subscribe to the Challenge**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action .btn-success .btn-lg role="button" target="_blank"}</p>
 
 ## Good to know
 
