@@ -39,7 +39,7 @@ The RDA TIGER Programme will provide **travel and registration support to the 23
 
 I-ADOPT Core team:
 
-- Barbara Magagna (Go FAIR Foundation, NL)
+- Barbara Magagna (GO FAIR Foundation, NL)
 - Gwenaëlle Moncoiffé (National Oceanography Centre - British Oceanographic Data Centre, UK)
 - Anusuriya Devaraju (CSIRO, AU)
 - Maria Stoica (University of Colorado, Boulder, US)
