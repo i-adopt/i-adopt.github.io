@@ -43,9 +43,9 @@ Find here all relevant materials, which we recommend you to study in this order:
 
 3. Instructions for submitting modeled variables including participation and scoring rules ([Presentation](material/I-ADOPT Challenge Rules - presentation version.pdf){target="_blank"})
 
-4. The list of variables to be selected ([Challenge Variables](https://docs.google.com/spreadsheets/d/1bJdde8GH55LzzlV0A_eV_h5M7W7UXCDN6SoxcTinM74/edit?usp=sharing)). 
+4. The list of variables to be selected ([Challenge Variables](https://docs.google.com/spreadsheets/d/1bJdde8GH55LzzlV0A_eV_h5M7W7UXCDN6SoxcTinM74/edit?usp=sharing){target="_blank"}). 
 
-If you have a question related to the Challenge please post it to the [Question GitHub](https://github.com/i-adopt/questions/issues) as an issue. We will try to answer it promptly.
+If you have a question related to the Challenge please post it to the [Question GitHub](https://github.com/i-adopt/questions/issues){target="_blank"} as an issue. We will try to answer it promptly.
 
 **Attention: Subscription to the Challenge ends by September 22!**
 
@@ -54,19 +54,19 @@ If you have a question related to the Challenge please post it to the [Question 
 
 ::: {layout="[ 25,25,25,25 ]"}
 ::: {#first-column}
-[![](img/tiger_support_services_0.png){width="10%"}](https://www.rd-alliance.org/rda-tiger/)
+[![](img/tiger_support_services_0.png){width="10%"}](https://www.rd-alliance.org/rda-tiger/){target="_blank"}
 :::
 
 ::: {#second-column}
-[![](img/piF%20logo_400kb%20JPEG.png){width="10%"}](https://partnersinfair.com/)
+[![](img/piF%20logo_400kb%20JPEG.png){width="10%"}](https://partnersinfair.com/){target="_blank"}
 :::
 
 ::: {#third-column}
-[![](img/mabablue_logo.png){width="100%"}](https://mabablue.com/)
+[![](img/mabablue_logo.png){width="100%"}](https://mabablue.com/){target="_blank"}
 :::
 
 ::: {#forth-column}
-[![](img/GFF logo (1).png){width="20%"}](https://www.gofair.foundation/)
+[![](img/GFF logo (1).png){width="20%"}](https://www.gofair.foundation/){target="_blank"}
 :::
 :::
 
@@ -97,7 +97,7 @@ The aim of the challenge is to reveal, in a controlled setting, the similarities
 
 ## Good to know
 
-Background information about I-ADOPT can be explored on this [website](https://i-adopt.github.io/).
+Background information about I-ADOPT can be explored on this [website](https://i-adopt.github.io/){target="_blank"}.
 
 ![](img/decomposition.jpg){fig-align="left"}
 
