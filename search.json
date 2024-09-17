@@ -4,14 +4,14 @@
     "href": "challenge.html",
     "title": "The I-ADOPT Variable Modeling Challenge",
     "section": "",
-    "text": "The challenge is active and will run until …\nSubscribe to the Challenge"
+    "text": "The challenge is active and will still run for …\nSubscribe to the Challenge"
   },
   {
     "objectID": "challenge.html#announcement",
     "href": "challenge.html#announcement",
     "title": "The I-ADOPT Variable Modeling Challenge",
     "section": "Announcement",
-    "text": "Announcement\nI-ADOPT aims to facilitate data interoperability by offering a common framework to\ndescribe variables and connect terminologies used to name variables.\nThe I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.\nWe would like to invite you to test I-ADOPT in the Variable Modelling Challenge!\nModelers, semantic experts, data stewards and researchers from around the world -\nCan you try to model a given set of variables according to the I-ADOPT Framework?\nThe Challenge takes place in the week from 16 to 22 September 2024.\nTop scorers will be rewarded with a prize!\nThe RDA TIGER Programme will provide the first prize: travel and registration support to the 23rd RDA Plenary in Costa Rica (12-14 November 2024). If the winner is unable to attend, appropriate alternatives will be provided."
+    "text": "Announcement\nI-ADOPT aims to facilitate data interoperability by offering a common framework to\ndescribe variables and connect terminologies used to name variables.\nThe I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.\nWe would like to invite you to test I-ADOPT in the Variable Modelling Challenge!\nModelers, semantic experts, data stewards and researchers from around the world -\nCan you try to model a given set of variables according to the I-ADOPT Framework?\nThe Challenge takes place in from 16 to 25 September 2024. Due to several requests, we have decided to extend the submission deadline for three days.\nTop scorers will be rewarded with a prize!\nThe RDA TIGER Programme will provide the first prize: travel and registration support to the 23rd RDA Plenary in Costa Rica (12-14 November 2024). If the winner is unable to attend, appropriate alternatives will be provided."
   },
   {
     "objectID": "challenge.html#reviewer-team",
@@ -25,7 +25,7 @@
     "href": "challenge.html#update-the-i-adopt-variable-modelling-challenge-has-now-started",
     "title": "The I-ADOPT Variable Modeling Challenge",
     "section": "Update: The I-ADOPT Variable Modelling Challenge has now started",
-    "text": "Update: The I-ADOPT Variable Modelling Challenge has now started\nFind here all relevant materials, which we recommend you to study in this order:\n\nAn introduction to the I-ADOPT Framework (Video,Slides and Notes)\nA step-by-step guide for creating an I-ADOPT compliant variable description (Video,Slides and Notes)\nInstructions for submitting modeled variables including participation and scoring rules (Presentation)\nThe list of variables to be selected (Challenge Variables).\n\nIf you have a question related to the Challenge please post it to the Question GitHub as an issue. We will try to answer it promptly.\nAttention: Subscription to the Challenge ends by September 22!"
+    "text": "Update: The I-ADOPT Variable Modelling Challenge has now started\nFind here all relevant materials, which we recommend you to study in this order:\n\nAn introduction to the I-ADOPT Framework (Video,Slides and Notes)\nA step-by-step guide for creating an I-ADOPT compliant variable description (Video,Slides and Notes)\nInstructions for submitting modeled variables including participation and scoring rules (Presentation)\nThe list of variables to be selected (Challenge Variables).\n\nIf you have a question related to the Challenge please post it to the Question GitHub as an issue. We will try to answer it promptly.\nAttention: Subscription to the Challenge ends by September 25!"
   },
   {
     "objectID": "challenge.html#sponsors",
@@ -53,7 +53,7 @@
     "href": "challenge.html#timeline",
     "title": "The I-ADOPT Variable Modeling Challenge",
     "section": "Timeline",
-    "text": "Timeline\n\n\n\n\n\n\n\nDate\nAction\n\n\n\n\nJune 17\nAnnouncement of the Challenge\n\n\nAugust 25\nDeadline for variable submissions\n\n\nSeptember 2\nPublication of participation rules and instruction video\n\n\nSeptember 2\nSubscription to the Challenge open\n\n\nSeptember 16\nStart of the Challenge\n\n\nSeptember 22\nSubscription to the Challenge closed\n\n\nSeptember 22\nEnd of the Challenge\n\n\nSeptember 30\nAnnouncement of the winners\n\n\nOctober\nAnalysis of the outcome\n\n\nNovember 12-14\nPresentation of the Challenge and interoperability results at the RDA 23rd Plenary\n\n\n\n\nSubscribe to the Challenge"
+    "text": "Timeline\n\n\n\n\n\n\n\nDate\nAction\n\n\n\n\nJune 17\nAnnouncement of the Challenge\n\n\nAugust 25\nDeadline for variable submissions\n\n\nSeptember 2\nPublication of participation rules and instruction video\n\n\nSeptember 2\nSubscription to the Challenge open\n\n\nSeptember 16\nStart of the Challenge\n\n\nSeptember 25\nSubscription to the Challenge closed\n\n\nSeptember 25\nEnd of the Challenge\n\n\nSeptember 30\nAnnouncement of the winners\n\n\nOctober\nAnalysis of the outcome\n\n\nNovember 12-14\nPresentation of the Challenge and interoperability results at the RDA 23rd Plenary\n\n\n\n\nSubscribe to the Challenge"
   },
   {
     "objectID": "index.html",
