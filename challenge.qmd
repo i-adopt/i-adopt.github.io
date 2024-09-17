@@ -29,7 +29,7 @@ We would like to invite you to test I-ADOPT in the Variable Modelling Challenge!
 Modelers, semantic experts, data stewards and researchers from around the world -\
 Can you try to model a given set of variables according to the I-ADOPT Framework?
 
-The Challenge takes place in from **16 to 25 September 2024**. Due to several requests, we have decided to extend the submission deadline for three days.
+The Challenge takes place from **16 to 25 September 2024**. Due to several requests, we have decided to extend the submission deadline for three days.
 
 **Top scorers will be rewarded with a prize!**
 
