@@ -52,7 +52,7 @@ External reviewers:
 - John Graybeal (Information Technology Consultant, US)
 - Rob Atkinson (Open Geospatial Consortium, AU)
 
-## Update: The I-ADOPT Variable Modelling Challenge has now started
+## Relevant Challenge Material
 
 Find here all relevant materials, which we recommend you to study in this order: 
 
