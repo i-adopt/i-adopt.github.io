@@ -10,9 +10,9 @@ date: 6/17/2024
 ---
 
 <div style="text-align: center">
-  **The challenge is active and will run until ...** 
+  **The challenge is active and will still run for ...** 
 
-<iframe src="https://free.timeanddate.com/countdown/i9jkffc1/n187/cf11/cm0/cu4/ct0/cs1/ca0/co0/cr0/ss0/cac00f/cpcf00/pcfff/tcfff/fs100/szw448/szh189/iso2024-09-22T23:59:59" allowtransparency="true" frameborder="0" width="404" height="27"></iframe>
+<iframe src="https://free.timeanddate.com/countdown/i9jkffc1/n187/cf11/cm0/cu4/ct0/cs1/ca0/co0/cr0/ss0/cac00f/cpcf00/pcfff/tcfff/fs100/szw448/szh189/iso2024-09-25T23:59:59" allowtransparency="true" frameborder="0" width="404" height="27"></iframe>
 </div>
 
 
@@ -29,7 +29,7 @@ We would like to invite you to test I-ADOPT in the Variable Modelling Challenge!
 Modelers, semantic experts, data stewards and researchers from around the world -\
 Can you try to model a given set of variables according to the I-ADOPT Framework?
 
-The Challenge takes place in the week from 16 to 22 September 2024.
+The Challenge takes place in from **16 to 25 September 2024**. Due to several requests, we have decided to extend the submission deadline for three days.
 
 **Top scorers will be rewarded with a prize!**
 
@@ -66,7 +66,7 @@ Find here all relevant materials, which we recommend you to study in this order:
 
 If you have a question related to the Challenge please post it to the [Question GitHub](https://github.com/i-adopt/questions/issues){target="_blank"} as an issue. We will try to answer it promptly.
 
-**Attention: Subscription to the Challenge ends by September 22!**
+**Attention: Subscription to the Challenge ends by September 25!**
 
 
 ## Sponsors
@@ -131,9 +131,9 @@ Background information about I-ADOPT can be explored on this [website](https://i
 | ~~August 25~~    | ~~Deadline for variable submissions~~                                              |
 | ~~September 2~~  | ~~Publication of participation rules and instruction video~~                       |
 | ~~September 2~~  | ~~Subscription to the Challenge open~~                                             |                                           
-| **September 16** | Start of the Challenge                                                             |
-| September 22     | Subscription to the Challenge closed                                               |
-| **September 22** | End of the Challenge                                                               |
+| ~~**September 16**~~| Start of the Challenge                                                          |
+| September 25     | Subscription to the Challenge closed                                               |
+| **September 25** | End of the Challenge                                                               |
 | September 30     | Announcement of the winners                                                        |
 | October          | Analysis of the outcome                                                            |
 | November 12-14   | Presentation of the Challenge and interoperability results at the RDA 23rd Plenary |
