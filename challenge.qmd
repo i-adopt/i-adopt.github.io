@@ -12,6 +12,7 @@ date: 6/17/2024
 <div style="text-align: center">
   **The competition has ended and the winners will be soon announced.** 
 
+<div style="text-align: left">
 
 ## Announcement
 
@@ -107,7 +108,6 @@ The aim of the challenge is to reveal, in a controlled setting, the similarities
 
 [Photo credits](https://www.freepik.com/free-photo/strong-man-climbing-mountain_16623416.htm)
 
-#<p style="text-align: center;">[**Subscribe to the Challenge**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action .btn-success .btn-lg role="button" target="_blank"}</p>
 
 ## Good to know
 
