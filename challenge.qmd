@@ -10,13 +10,8 @@ date: 6/17/2024
 ---
 
 <div style="text-align: center">
-  **The challenge is active and will still run for ...** 
+  **The competition has ended and the winners will be soon announced.** 
 
-<iframe src="https://free.timeanddate.com/countdown/i9jkffc1/n187/cf11/cm0/cu4/ct0/cs1/ca0/co0/cr0/ss0/cac00f/cpcf00/pcfff/tcfff/fs100/szw448/szh189/iso2024-09-29T23:59:59" allowtransparency="true" frameborder="0" width="404" height="27"></iframe>
-</div>
-
-
-<p style="text-align: center;">[**Subscribe to the Challenge**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action .btn-success .btn-lg role="button" target="_blank"}</p>
 
 ## Announcement
 
@@ -67,7 +62,6 @@ Find here all relevant materials, which we recommend you to study in this order:
 If you have a question related to the Challenge please post it to the [Question GitHub](https://github.com/i-adopt/questions/issues){target="_blank"} as an issue. We will try to answer it promptly.
 
 **Attention: Challenge ends on September 29!**
-(Subscription is possible right to the end)
 
 
 ## Sponsors
@@ -113,7 +107,7 @@ The aim of the challenge is to reveal, in a controlled setting, the similarities
 
 [Photo credits](https://www.freepik.com/free-photo/strong-man-climbing-mountain_16623416.htm)
 
-<p style="text-align: center;">[**Subscribe to the Challenge**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action .btn-success .btn-lg role="button" target="_blank"}</p>
+#<p style="text-align: center;">[**Subscribe to the Challenge**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action .btn-success .btn-lg role="button" target="_blank"}</p>
 
 ## Good to know
 
@@ -133,9 +127,8 @@ Background information about I-ADOPT can be explored on this [website](https://i
 | ~~September 2~~  | ~~Publication of participation rules and instruction video~~                       |
 | ~~September 2~~  | ~~Subscription to the Challenge open~~                                             |                                           
 | ~~**September 16**~~| ~~Start of the Challenge~~                                                      |
-| **September 29** | End of the Challenge                                                               |
+| ~~**September 29**~~ | ~~End of the Challenge~~                                                       |
 | October 10       | Announcement of the winners                                                        |
 | October          | Analysis of the outcome                                                            |
 | November 12-14   | Presentation of the Challenge and interoperability results at the RDA 23rd Plenary |
 
-<p style="text-align: center;">[**Subscribe to the Challenge**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action .btn-success .btn-lg role="button" target="_blank"}</p>
