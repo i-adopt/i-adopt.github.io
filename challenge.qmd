@@ -6,30 +6,49 @@ title: The I-ADOPT Variable Modeling Challenge
 author: 
   - name: Barbara Magagna
     orcid: 0000-0003-2195-3997
-date: 6/17/2024
+date: 10/10/2024
 ---
 
 <div style="text-align: center">
-  **The competition has ended and the winners will be soon announced.** 
+##And the WINNER is ... 
 
 <div style="text-align: left">
 
-## Announcement
 
 I-ADOPT aims to facilitate **data interoperability** by offering a common framework to\
 **describe variables** and **connect terminologies** used to name variables.\
 The I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.
 
-We would like to invite you to test I-ADOPT in the Variable Modelling Challenge!
+The Challenge took place from **16 to 29 September 2024**. 
 
-Modelers, semantic experts, data stewards and researchers from around the world -\
-Can you try to model a given set of variables according to the I-ADOPT Framework?
+**1st place:** Anne Fouilloux and Jean Iaquinta (212.75 points)
+**2nd place:** Andrea Tarallo, Martina Pulieri, Christina Di Muri e Jessica Titocci (206.5 points)
+**3rd place:** Jörg Klausen, Morgan Silverman and Gao Chen (168.6 points)
 
-The Challenge takes place from **16 to 29 September 2024**. Due to several requests, we have decided to extend the submission deadline!
+The RDA TIGER Programme will provide the first prize: **travel and registration support to the 23rd RDA Plenary in Costa Rica** (12-14 November 2024). We are currently contacting the RDA TIGER group and the winners and will publish the prizes soon.
 
-**Top scorers will be rewarded with a prize!**
+**Runner-up contestants**:
+Petra ten Hoopen, Samantha Blakeman, Saurav Kumar
 
-The RDA TIGER Programme will provide the first prize: **travel and registration support to the 23rd RDA Plenary in Costa Rica** (12-14 November 2024). If the winner is unable to attend, appropriate alternatives will be provided.
+These people will automatically qualify for a share in the prize pot of our second challenge (details below).
+
+## Second Challenge
+
+We decided to launch a second challenge that will take place from **October 14 (10:00 CEST) to 18 (22:00 CEST)** using the same ([Presentation](material/I-ADOPT Challenge Rules - presentation version.pdf){target="_blank"}).
+However, this time we will select 10 from the 30 variables that had the greatest variance in modeling. The new selection will be published on Monday, October 14.
+
+We have **1000 Euro in the prize pool** for the second challenge.
+
+There will be no single winner, but everyone contributing with at least 5 high-quality variable models will get an equal amount from the prize pot.
+High-quality is defined by a variable that scores 12 points or higher. Please, find details about the score distribution in the ([Presentation](material/I-ADOPT Challenge Rules - presentation version.pdf){target="_blank"}).
+Anyone can join, except for the three winners of the first challenge.
+
+The runner-up contestants from the first challenge have already qualified (and thus don’t need to actively participate anymore) based on their submissions and will be rewarded with an equal share of the prize pot, along with the new contestants who qualify.
+
+Participation is definitely worthwhile because modeling 5 variables does not take long but it definitely helps to understand the framework. For us, on the other hand, your input is extremely useful because we can tailor future services and documentation much better to the needs of users.
+
+We will put models of the other 20 variables from the first challenge in the ([examples repository](https://github.com/i-adopt/examples){target="_blank"}) so that participants can use them for inspiration and reference. 
+
 
 ## Reviewer Team
 
@@ -128,7 +147,9 @@ Background information about I-ADOPT can be explored on this [website](https://i
 | ~~September 2~~  | ~~Subscription to the Challenge open~~                                             |                                           
 | ~~**September 16**~~| ~~Start of the Challenge~~                                                      |
 | ~~**September 29**~~ | ~~End of the Challenge~~                                                       |
-| October 10       | Announcement of the winners                                                        |
-| October          | Analysis of the outcome                                                            |
+| ~~October 10~~      | ~~Announcement of the winners~~                                                 |
+| **October 14**   | Start of Second Challenge                                                          |
+| **October 18**   | End of Second Challenge                                                            |  
+| October 31      | Publication of detailed results                                                     |  
 | November 12-14   | Presentation of the Challenge and interoperability results at the RDA 23rd Plenary |
 
