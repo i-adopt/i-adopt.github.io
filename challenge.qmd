@@ -38,6 +38,7 @@ We decided to launch a second challenge that will take place
 
 <div style="text-align: center"> 
 from **October 14 (10:00 CEST) to 18 (22:00 CEST)** 
+</div>
 
 using the same ([partecipation and submission rules](material/I-ADOPT Challenge Rules - presentation version.pdf){target="_blank"}).
 However, this time we will select 10 from the 30 variables that had the greatest variance in modeling. The new selection will be published on Monday, October 14.
