@@ -45,7 +45,7 @@ However, this time we will select 10 from the 30 variables that had the greatest
 
 We have **1000 Euro in the prize pool** for the second challenge.
 
-There will be no single winner, but everyone contributing with at least 5 high-quality variable models will get an equal amount from the prize pot.
+There will be no single winner, but **everyone contributing with at least 5 high-quality variable models will get an equal amount from the prize pot**.
 High-quality is defined by a variable that scores 12 points or higher. Please, find details about the score distribution in the ([Presentation](material/I-ADOPT Challenge Rules - presentation version.pdf){target="_blank"}).
 Anyone can join, except for the three winners of the first challenge.
 
