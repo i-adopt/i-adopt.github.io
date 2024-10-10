@@ -10,7 +10,7 @@ date: 10/10/2024
 ---
 
 <div style="text-align: center">
-##And the WINNER is ... 
+## And the WINNER is ... 
 
 <div style="text-align: left">
 
@@ -22,12 +22,16 @@ The I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.
 The Challenge took place from **16 to 29 September 2024**. 
 
 **1st place:** Anne Fouilloux and Jean Iaquinta (212.75 points)
+
 **2nd place:** Andrea Tarallo, Martina Pulieri, Christina Di Muri e Jessica Titocci (206.5 points)
+
 **3rd place:** Jörg Klausen, Morgan Silverman and Gao Chen (168.6 points)
+
 
 The RDA TIGER Programme will provide the first prize: **travel and registration support to the 23rd RDA Plenary in Costa Rica** (12-14 November 2024). We are currently contacting the RDA TIGER group and the winners and will publish the prizes soon.
 
 **Runner-up contestants**:
+
 Petra ten Hoopen, Samantha Blakeman, Saurav Kumar
 
 These people will automatically qualify for a share in the prize pot of our second challenge (details below).
