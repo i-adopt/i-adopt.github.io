@@ -36,9 +36,10 @@ These people will automatically qualify for a share in the prize pot of our seco
 
 We decided to launch a second challenge that will take place 
 
+<div style="text-align: center"> 
 from **October 14 (10:00 CEST) to 18 (22:00 CEST)** 
 
-using the same ([Presentation](material/I-ADOPT Challenge Rules - presentation version.pdf){target="_blank"}).
+using the same ([partecipation and submission rules](material/I-ADOPT Challenge Rules - presentation version.pdf){target="_blank"}).
 However, this time we will select 10 from the 30 variables that had the greatest variance in modeling. The new selection will be published on Monday, October 14.
 
 We have **1000 Euro in the prize pool** for the second challenge.
