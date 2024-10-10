@@ -81,7 +81,9 @@ Find here all relevant materials, which we recommend you to study in this order:
 
 3. Instructions for submitting modeled variables including participation and scoring rules ([Presentation](material/I-ADOPT Challenge Rules - presentation version.pdf){target="_blank"})
 
-4. The list of variables to be selected ([Challenge Variables](https://docs.google.com/spreadsheets/d/1bJdde8GH55LzzlV0A_eV_h5M7W7UXCDN6SoxcTinM74/edit?usp=sharing){target="_blank"}). 
+4. The list of variables from the First Challenge ([Challenge Variables](https://docs.google.com/spreadsheets/d/1bJdde8GH55LzzlV0A_eV_h5M7W7UXCDN6SoxcTinM74/edit?usp=sharing){target="_blank"}). 
+
+5. The list of variables to be selected for the Second Challenge will be published on **October 14**.
 
 If you have a question related to the Challenge please post it to the [Question GitHub](https://github.com/i-adopt/questions/issues){target="_blank"} as an issue. We will try to answer it promptly.
 
