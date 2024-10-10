@@ -11,14 +11,14 @@
     "href": "challenge.html",
     "title": "The I-ADOPT Variable Modeling Challenge",
     "section": "",
-    "text": "The competition has ended and the winners will be soon announced.\n\n\n\nI-ADOPT aims to facilitate data interoperability by offering a common framework to\ndescribe variables and connect terminologies used to name variables.\nThe I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.\nWe would like to invite you to test I-ADOPT in the Variable Modelling Challenge!\nModelers, semantic experts, data stewards and researchers from around the world -\nCan you try to model a given set of variables according to the I-ADOPT Framework?\nThe Challenge takes place from 16 to 29 September 2024. Due to several requests, we have decided to extend the submission deadline!\nTop scorers will be rewarded with a prize!\nThe RDA TIGER Programme will provide the first prize: travel and registration support to the 23rd RDA Plenary in Costa Rica (12-14 November 2024). If the winner is unable to attend, appropriate alternatives will be provided.\n\n\n\nI-ADOPT Core team:\n\nBarbara Magagna (GO FAIR Foundation, NL)\nGwenaëlle Moncoiffé (National Oceanography Centre - British Oceanographic Data Centre, UK)\nAnusuriya Devaraju (CSIRO, AU)\nMaria Stoica (University of Colorado, Boulder, US)\nSirko Schindler (German Aerospace Center, DE)\nAlison Pamment (Centre for Environmental Data Analysis/Sience and Technology Facilities Council, UK)\n\nExternal reviewers:\n\nMarkus Stocker (TIB - Leibniz Information Centre for Science and Technology, GER)\nJohn Graybeal (Information Technology Consultant, US)\nRob Atkinson (Open Geospatial Consortium, AU)\n\n\n\n\nFind here all relevant materials, which we recommend you to study in this order:\n\nAn introduction to the I-ADOPT Framework (Video,Slides and Notes)\nA step-by-step guide for creating an I-ADOPT compliant variable description (Video,Slides and Notes)\nInstructions for submitting modeled variables including participation and scoring rules (Presentation)\nThe list of variables to be selected (Challenge Variables).\n\nIf you have a question related to the Challenge please post it to the Question GitHub as an issue. We will try to answer it promptly.\nAttention: Challenge ends on September 29!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBased on detailed instructions and participation rules, participants will independently decompose the same set of variables into atomic description components according to the I-ADOPT recommendations, using concepts from applicable terminologies.\nThe aim of the challenge is to reveal, in a controlled setting, the similarities and differences in the way the I-ADOPT Framework is used between independent teams. The findings will certainly support the enhancement of the I-ADOPT Framework. The activity will highlight possible bottlenecks but also opportunities to extend or modify the underlying ontology and help to feed the modelling patterns knowledge base. Ultimately, the findings from this Challenge will be used to develop a semi-automated I-ADOPT variable annotation service.\nLet’s challenge the I-ADOPT Framework together!\n\n\n\nPhoto credits\n\n\n\nBackground information about I-ADOPT can be explored on this website.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDate\nAction\n\n\n\n\nJune 17\nAnnouncement of the Challenge\n\n\nAugust 25\nDeadline for variable submissions\n\n\nSeptember 2\nPublication of participation rules and instruction video\n\n\nSeptember 2\nSubscription to the Challenge open\n\n\nSeptember 16\nStart of the Challenge\n\n\nSeptember 29\nEnd of the Challenge\n\n\nOctober 10\nAnnouncement of the winners\n\n\nOctober\nAnalysis of the outcome\n\n\nNovember 12-14\nPresentation of the Challenge and interoperability results at the RDA 23rd Plenary"
+    "text": "##And the WINNER is …\n\nI-ADOPT aims to facilitate data interoperability by offering a common framework to\ndescribe variables and connect terminologies used to name variables.\nThe I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.\nThe Challenge took place from 16 to 29 September 2024.\n1st place: Anne Fouilloux and Jean Iaquinta (212.75 points) 2nd place: Andrea Tarallo, Martina Pulieri, Christina Di Muri e Jessica Titocci (206.5 points) 3rd place: Jörg Klausen, Morgan Silverman and Gao Chen (168.6 points)\nThe RDA TIGER Programme will provide the first prize: travel and registration support to the 23rd RDA Plenary in Costa Rica (12-14 November 2024). We are currently contacting the RDA TIGER group and the winners and will publish the prizes soon.\nRunner-up contestants: Petra ten Hoopen, Samantha Blakeman, Saurav Kumar\nThese people will automatically qualify for a share in the prize pot of our second challenge (details below).\n\n\nWe decided to launch a second challenge that will take place from October 14 (10:00 CEST) to 18 (22:00 CEST) using the same (Presentation). However, this time we will select 10 from the 30 variables that had the greatest variance in modeling. The new selection will be published on Monday, October 14.\nWe have 1000 Euro in the prize pool for the second challenge.\nThere will be no single winner, but everyone contributing with at least 5 high-quality variable models will get an equal amount from the prize pot. High-quality is defined by a variable that scores 12 points or higher. Please, find details about the score distribution in the (Presentation). Anyone can join, except for the three winners of the first challenge.\nThe runner-up contestants from the first challenge have already qualified (and thus don’t need to actively participate anymore) based on their submissions and will be rewarded with an equal share of the prize pot, along with the new contestants who qualify.\nParticipation is definitely worthwhile because modeling 5 variables does not take long but it definitely helps to understand the framework. For us, on the other hand, your input is extremely useful because we can tailor future services and documentation much better to the needs of users.\nWe will put models of the other 20 variables from the first challenge in the (examples repository) so that participants can use them for inspiration and reference.\n\n\n\nI-ADOPT Core team:\n\nBarbara Magagna (GO FAIR Foundation, NL)\nGwenaëlle Moncoiffé (National Oceanography Centre - British Oceanographic Data Centre, UK)\nAnusuriya Devaraju (CSIRO, AU)\nMaria Stoica (University of Colorado, Boulder, US)\nSirko Schindler (German Aerospace Center, DE)\nAlison Pamment (Centre for Environmental Data Analysis/Sience and Technology Facilities Council, UK)\n\nExternal reviewers:\n\nMarkus Stocker (TIB - Leibniz Information Centre for Science and Technology, GER)\nJohn Graybeal (Information Technology Consultant, US)\nRob Atkinson (Open Geospatial Consortium, AU)\n\n\n\n\nFind here all relevant materials, which we recommend you to study in this order:\n\nAn introduction to the I-ADOPT Framework (Video,Slides and Notes)\nA step-by-step guide for creating an I-ADOPT compliant variable description (Video,Slides and Notes)\nInstructions for submitting modeled variables including participation and scoring rules (Presentation)\nThe list of variables to be selected (Challenge Variables).\n\nIf you have a question related to the Challenge please post it to the Question GitHub as an issue. We will try to answer it promptly.\nAttention: Challenge ends on September 29!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBased on detailed instructions and participation rules, participants will independently decompose the same set of variables into atomic description components according to the I-ADOPT recommendations, using concepts from applicable terminologies.\nThe aim of the challenge is to reveal, in a controlled setting, the similarities and differences in the way the I-ADOPT Framework is used between independent teams. The findings will certainly support the enhancement of the I-ADOPT Framework. The activity will highlight possible bottlenecks but also opportunities to extend or modify the underlying ontology and help to feed the modelling patterns knowledge base. Ultimately, the findings from this Challenge will be used to develop a semi-automated I-ADOPT variable annotation service.\nLet’s challenge the I-ADOPT Framework together!\n\n\n\nPhoto credits\n\n\n\nBackground information about I-ADOPT can be explored on this website.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDate\nAction\n\n\n\n\nJune 17\nAnnouncement of the Challenge\n\n\nAugust 25\nDeadline for variable submissions\n\n\nSeptember 2\nPublication of participation rules and instruction video\n\n\nSeptember 2\nSubscription to the Challenge open\n\n\nSeptember 16\nStart of the Challenge\n\n\nSeptember 29\nEnd of the Challenge\n\n\nOctober 10\nAnnouncement of the winners\n\n\nOctober 14\nStart of Second Challenge\n\n\nOctober 18\nEnd of Second Challenge\n\n\nOctober 31\nPublication of detailed results\n\n\nNovember 12-14\nPresentation of the Challenge and interoperability results at the RDA 23rd Plenary"
   },
   {
-    "objectID": "challenge.html#announcement",
-    "href": "challenge.html#announcement",
+    "objectID": "challenge.html#second-challenge",
+    "href": "challenge.html#second-challenge",
     "title": "The I-ADOPT Variable Modeling Challenge",
     "section": "",
-    "text": "I-ADOPT aims to facilitate data interoperability by offering a common framework to\ndescribe variables and connect terminologies used to name variables.\nThe I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.\nWe would like to invite you to test I-ADOPT in the Variable Modelling Challenge!\nModelers, semantic experts, data stewards and researchers from around the world -\nCan you try to model a given set of variables according to the I-ADOPT Framework?\nThe Challenge takes place from 16 to 29 September 2024. Due to several requests, we have decided to extend the submission deadline!\nTop scorers will be rewarded with a prize!\nThe RDA TIGER Programme will provide the first prize: travel and registration support to the 23rd RDA Plenary in Costa Rica (12-14 November 2024). If the winner is unable to attend, appropriate alternatives will be provided."
+    "text": "We decided to launch a second challenge that will take place from October 14 (10:00 CEST) to 18 (22:00 CEST) using the same (Presentation). However, this time we will select 10 from the 30 variables that had the greatest variance in modeling. The new selection will be published on Monday, October 14.\nWe have 1000 Euro in the prize pool for the second challenge.\nThere will be no single winner, but everyone contributing with at least 5 high-quality variable models will get an equal amount from the prize pot. High-quality is defined by a variable that scores 12 points or higher. Please, find details about the score distribution in the (Presentation). Anyone can join, except for the three winners of the first challenge.\nThe runner-up contestants from the first challenge have already qualified (and thus don’t need to actively participate anymore) based on their submissions and will be rewarded with an equal share of the prize pot, along with the new contestants who qualify.\nParticipation is definitely worthwhile because modeling 5 variables does not take long but it definitely helps to understand the framework. For us, on the other hand, your input is extremely useful because we can tailor future services and documentation much better to the needs of users.\nWe will put models of the other 20 variables from the first challenge in the (examples repository) so that participants can use them for inspiration and reference."
   },
   {
     "objectID": "challenge.html#reviewer-team",
@@ -53,7 +53,35 @@
     "href": "challenge.html#timeline",
     "title": "The I-ADOPT Variable Modeling Challenge",
     "section": "",
-    "text": "Date\nAction\n\n\n\n\nJune 17\nAnnouncement of the Challenge\n\n\nAugust 25\nDeadline for variable submissions\n\n\nSeptember 2\nPublication of participation rules and instruction video\n\n\nSeptember 2\nSubscription to the Challenge open\n\n\nSeptember 16\nStart of the Challenge\n\n\nSeptember 29\nEnd of the Challenge\n\n\nOctober 10\nAnnouncement of the winners\n\n\nOctober\nAnalysis of the outcome\n\n\nNovember 12-14\nPresentation of the Challenge and interoperability results at the RDA 23rd Plenary"
+    "text": "Date\nAction\n\n\n\n\nJune 17\nAnnouncement of the Challenge\n\n\nAugust 25\nDeadline for variable submissions\n\n\nSeptember 2\nPublication of participation rules and instruction video\n\n\nSeptember 2\nSubscription to the Challenge open\n\n\nSeptember 16\nStart of the Challenge\n\n\nSeptember 29\nEnd of the Challenge\n\n\nOctober 10\nAnnouncement of the winners\n\n\nOctober 14\nStart of Second Challenge\n\n\nOctober 18\nEnd of Second Challenge\n\n\nOctober 31\nPublication of detailed results\n\n\nNovember 12-14\nPresentation of the Challenge and interoperability results at the RDA 23rd Plenary"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About I-ADOPT",
+    "section": "",
+    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
+  },
+  {
+    "objectID": "about.html#goal",
+    "href": "about.html#goal",
+    "title": "About I-ADOPT",
+    "section": "",
+    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
+  },
+  {
+    "objectID": "about.html#citation-of-the-i-adopt-recommendations",
+    "href": "about.html#citation-of-the-i-adopt-recommendations",
+    "title": "About I-ADOPT",
+    "section": "Citation of the I-ADOPT recommendations",
+    "text": "Citation of the I-ADOPT recommendations\nMagagna, B., Moncoiffé, G., Devaraju, A., Stoica, M., Schindler, S., Pamment, A., & RDA I-ADOPT WG. (2022). InteroperAble Descriptions of Observable Property Terminologies (I-ADOPT) WG Outputs and Recommendations (1.1.0). Zenodo. https://doi.org/10.15497/RDA00071"
+  },
+  {
+    "objectID": "about.html#contribute",
+    "href": "about.html#contribute",
+    "title": "About I-ADOPT",
+    "section": "Contribute",
+    "text": "Contribute\nYou can contribute to I-ADOPT by participating at our regular calls and by providing your variable description to our github repository."
   },
   {
     "objectID": "index.html",
@@ -96,33 +124,5 @@
     "title": "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)",
     "section": "An Example",
     "text": "An Example\nApplying the I-ADOPT Framework means:\n\ndecompose the variable in atomic components\nassign a description role for each component\nannotate each component with concepts from terminologies\n\n\nThis I-ADOPT decomposition and annotation exercise should result in a variable concept with its associated concepts in a SKOS vocabulary:\n\nSee here the variable represented as SKOS concept from the Theia/OZCAR Thesaurus.\n\nJoin our efforts"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About I-ADOPT",
-    "section": "",
-    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
-  },
-  {
-    "objectID": "about.html#goal",
-    "href": "about.html#goal",
-    "title": "About I-ADOPT",
-    "section": "",
-    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
-  },
-  {
-    "objectID": "about.html#citation-of-the-i-adopt-recommendations",
-    "href": "about.html#citation-of-the-i-adopt-recommendations",
-    "title": "About I-ADOPT",
-    "section": "Citation of the I-ADOPT recommendations",
-    "text": "Citation of the I-ADOPT recommendations\nMagagna, B., Moncoiffé, G., Devaraju, A., Stoica, M., Schindler, S., Pamment, A., & RDA I-ADOPT WG. (2022). InteroperAble Descriptions of Observable Property Terminologies (I-ADOPT) WG Outputs and Recommendations (1.1.0). Zenodo. https://doi.org/10.15497/RDA00071"
-  },
-  {
-    "objectID": "about.html#contribute",
-    "href": "about.html#contribute",
-    "title": "About I-ADOPT",
-    "section": "Contribute",
-    "text": "Contribute\nYou can contribute to I-ADOPT by participating at our regular calls and by providing your variable description to our github repository."
   }
 ]
