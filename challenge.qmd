@@ -50,7 +50,7 @@ However, this time we will select 10 from the 30 variables that had the greatest
 
 We have **1000 Euro in the prize pool** for the second challenge.
 
-There will be no single winner, but **everyone contributing with at least 5 high-quality variable models will get an equal amount from the prize pot**.
+There will be no single winner, but **everyone contributing with at least 5 high-quality variable models will get an equal amount from the prize pot**.*
 High-quality is defined by a variable that scores 12 points or higher. Please, find details about the score distribution in the ([Presentation](material/I-ADOPT Challenge Rules - presentation version.pdf){target="_blank"}).
 Anyone can join, except for the three winners of the first challenge.
 
@@ -59,6 +59,8 @@ The runner-up contestants from the first challenge have already qualified (and t
 Participation is definitely worthwhile because modeling 5 variables does not take long but it definitely helps to understand the framework. For us, on the other hand, your input is extremely useful because we can tailor future services and documentation much better to the needs of users.
 
 We will put models of the other 20 variables from the first challenge in the ([examples repository](https://github.com/i-adopt/examples){target="_blank"}) so that participants can use them for inspiration and reference.
+
+*limited to a maximum of 100 Euro for each participant.
 
 
 ## Reviewer Team
