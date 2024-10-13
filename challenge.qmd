@@ -8,9 +8,14 @@ author:
     orcid: 0000-0003-2195-3997
 date: 10/10/2024
 ---
+<div style="text-align: center">
+  **The Second Challenge will start in ...** 
+
+<iframe src="https://free.timeanddate.com/countdown/i9jkffc1/n187/cf11/cm0/cu4/ct0/cs1/ca0/co0/cr0/ss0/cac00f/cpcf00/pcfff/tcfff/fs100/szw448/szh189/iso2024-10-14T10:00:00" allowtransparency="true" frameborder="0" width="404" height="27"></iframe>
+</div>
 
 <div style="text-align: center">
-## And the WINNER is ...
+## Winners of the I-ADOPT Variable Modeling Challenge 
 </div>
 
 I-ADOPT aims to facilitate **data interoperability** by offering a common framework to\
