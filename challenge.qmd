@@ -15,7 +15,7 @@ date: 10/10/2024
 </div>
 
 <div style="text-align: center">
-## Winners of the I-ADOPT Variable Modeling Challenge 
+## Winners of the I-ADOPT Variable Modeling Challenge (First Challenge)
 </div>
 
 I-ADOPT aims to facilitate **data interoperability** by offering a common framework to\
