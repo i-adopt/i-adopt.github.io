@@ -62,6 +62,8 @@ We will put models of the other 20 variables from the first challenge in the ([e
 
 *limited to a maximum of 100 Euro for each participant.
 
+<p style="text-align: center;">[**Subscribe to the Challenge**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action .btn-success .btn-lg role="button" target="_blank"}</p>
+
 
 ## Reviewer Team
 
@@ -148,7 +150,7 @@ Background information about I-ADOPT can be explored on this [website](https://i
 
 ![](img/decomposition.jpg){fig-align="left"}
 
-
+<p style="text-align: center;">[**Subscribe to the Challenge**](https://forms.gle/ftREWLxjHjifMKho8){.btn .btn-action .btn-success .btn-lg role="button" target="_blank"}</p>
 
 
 ## Timeline
