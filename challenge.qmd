@@ -9,9 +9,9 @@ author:
 date: 10/10/2024
 ---
 <div style="text-align: center">
-  **The Second Challenge will start in ...** 
+  ** **The SECOND Challenge is active and will still run for ...** ** 
 
-<iframe src="https://free.timeanddate.com/countdown/i9jkffc1/n187/cf11/cm0/cu4/ct0/cs1/ca0/co0/cr0/ss0/cac00f/cpcf00/pcfff/tcfff/fs100/szw448/szh189/iso2024-10-14T10:00:00" allowtransparency="true" frameborder="0" width="404" height="27"></iframe>
+<iframe src="https://free.timeanddate.com/countdown/i9jkffc1/n187/cf11/cm0/cu4/ct0/cs1/ca0/co0/cr0/ss0/cac00f/cpcf00/pcfff/tcfff/fs100/szw448/szh189/iso2024-10-18T21:59:00" allowtransparency="true" frameborder="0" width="404" height="27"></iframe>
 </div>
 
 <div style="text-align: center">
