@@ -92,9 +92,9 @@ Find here all relevant materials, which we recommend you to study in this order:
 
 3. Instructions for submitting modeled variables including participation and scoring rules ([Presentation](material/I-ADOPT Challenge Rules - presentation version.pdf){target="_blank"})
 
-4. The list of variables from the First Challenge ([Challenge Variables](https://docs.google.com/spreadsheets/d/1bJdde8GH55LzzlV0A_eV_h5M7W7UXCDN6SoxcTinM74/edit?usp=sharing){target="_blank"}). 
+4. The list of variables from the First Challenge ([Challenge Variables I](https://docs.google.com/spreadsheets/d/1bJdde8GH55LzzlV0A_eV_h5M7W7UXCDN6SoxcTinM74/edit?usp=sharing){target="_blank"}). 
 
-5. The list of variables to be selected for the Second Challenge ([Challenge Variables](https://docs.google.com/spreadsheets/d/1NUukPtXAivA9XnrAy1y1gR4mvsZT28OsSyyVQzRxg-U/edit?usp=sharing){target="_blank"}).
+5. The list of variables to be selected for the Second Challenge ([Challenge Variables II](https://docs.google.com/spreadsheets/d/1NUukPtXAivA9XnrAy1y1gR4mvsZT28OsSyyVQzRxg-U/edit?usp=sharing){target="_blank"}).
 
 6. Some useful modeling tips for the I-ADOPT Framework aligned variables with ([DO's and DONT's](https://docs.google.com/spreadsheets/d/1GrLXZgJhreVvFBH3QAZMbssPD5f7DxhnhPZSXjSeYpk/edit?usp=sharing){target="_blank"}).
 
