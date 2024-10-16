@@ -25,7 +25,7 @@
     "href": "challenge.html#second-challenge",
     "title": "The I-ADOPT Variable Modeling Challenge",
     "section": "Second Challenge",
-    "text": "Second Challenge\nWe decided to launch a second challenge that will take place\n\nfrom October 14 (10:00 CEST) to 18 (22:00 CEST)\n\nusing the same (participation and submission rules). However, this time we will select 10 from the 30 variables that had the greatest variance in modeling.\nWe have 1000 Euro in the prize pool for the second challenge.\nThere will be no single winner, but everyone contributing with at least 5 high-quality variable models will get an equal amount from the prize pot.* High-quality is defined by a variable that scores 12 points or higher. Please, find details about the score distribution in the (Presentation). Anyone can join, except for the three winners of the first challenge.\nThe runner-up contestants from the first challenge have already qualified (and thus don’t need to actively participate anymore) based on their submissions and will be rewarded with an equal share of the prize pot, along with the new contestants who qualify.\nParticipation is definitely worthwhile because modeling 5 variables does not take long but it definitely helps to understand the framework. For us, on the other hand, your input is extremely useful because we can tailor future services and documentation much better to the needs of users.\nWe will put models of the other 20 variables from the first challenge in the (examples repository) so that participants can use them for inspiration and reference.\n*limited to a maximum of 100 Euro for each participant.\n\nSubscribe to the Challenge"
+    "text": "Second Challenge\nWe decided to launch a second challenge that will take place\n\nfrom October 14 (10:00 CEST) to 18 (22:00 CEST)\n\nusing the same (participation and submission rules). However, this time we will select 10 from the 30 variables that had the greatest variance in modeling.\nWe have 1000 Euro in the prize pool for the second challenge.\nThere will be no single winner, but everyone contributing with at least 5 high-quality variable models will get an equal amount from the prize pot.* High-quality is defined by a variable that scores 12 points or higher. Please, find details about the score distribution in the (Presentation). Anyone can join, except for the three winners of the first challenge.\nThe runner-up contestants from the first challenge have already qualified (and thus don’t need to actively participate anymore) based on their submissions and will be rewarded with an equal share of the prize pot, along with the new contestants who qualify.\nParticipation is definitely worthwhile because modeling 5 variables does not take long but it definitely helps to understand the framework. For us, on the other hand, your input is extremely useful because we can tailor future services and documentation much better to the needs of users.\nWe have put valid models of the other 20 variables from the first challenge in the (examples repository) so that participants can use them for inspiration and reference. Be aware that other models might also be fulfilling the criteria.\n*limited to a maximum of 100 Euro for each participant.\n\nSubscribe to the Challenge"
   },
   {
     "objectID": "challenge.html#reviewer-team",
@@ -70,34 +70,6 @@
     "text": "Timeline\n\n\n\n\n\n\n\nDate\nAction\n\n\n\n\nJune 17\nAnnouncement of the Challenge\n\n\nAugust 25\nDeadline for variable submissions\n\n\nSeptember 2\nPublication of participation rules and instruction video\n\n\nSeptember 2\nSubscription to the Challenge open\n\n\nSeptember 16\nStart of the Challenge\n\n\nSeptember 29\nEnd of the Challenge\n\n\nOctober 10\nAnnouncement of the winners\n\n\nOctober 14\nStart of Second Challenge\n\n\nOctober 18\nEnd of Second Challenge\n\n\nOctober 31\nPublication of detailed results\n\n\nNovember 12-14\nPresentation of the Challenge and interoperability results at the RDA 23rd Plenary"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About I-ADOPT",
-    "section": "",
-    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
-  },
-  {
-    "objectID": "about.html#goal",
-    "href": "about.html#goal",
-    "title": "About I-ADOPT",
-    "section": "",
-    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
-  },
-  {
-    "objectID": "about.html#citation-of-the-i-adopt-recommendations",
-    "href": "about.html#citation-of-the-i-adopt-recommendations",
-    "title": "About I-ADOPT",
-    "section": "Citation of the I-ADOPT recommendations",
-    "text": "Citation of the I-ADOPT recommendations\nMagagna, B., Moncoiffé, G., Devaraju, A., Stoica, M., Schindler, S., Pamment, A., & RDA I-ADOPT WG. (2022). InteroperAble Descriptions of Observable Property Terminologies (I-ADOPT) WG Outputs and Recommendations (1.1.0). Zenodo. https://doi.org/10.15497/RDA00071"
-  },
-  {
-    "objectID": "about.html#contribute",
-    "href": "about.html#contribute",
-    "title": "About I-ADOPT",
-    "section": "Contribute",
-    "text": "Contribute\nYou can contribute to I-ADOPT by participating at our regular calls and by providing your variable description to our github repository."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)",
@@ -138,5 +110,33 @@
     "title": "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)",
     "section": "An Example",
     "text": "An Example\nApplying the I-ADOPT Framework means:\n\ndecompose the variable in atomic components\nassign a description role for each component\nannotate each component with concepts from terminologies\n\n\nThis I-ADOPT decomposition and annotation exercise should result in a variable concept with its associated concepts in a SKOS vocabulary:\n\nSee here the variable represented as SKOS concept from the Theia/OZCAR Thesaurus.\n\nJoin our efforts"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About I-ADOPT",
+    "section": "",
+    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
+  },
+  {
+    "objectID": "about.html#goal",
+    "href": "about.html#goal",
+    "title": "About I-ADOPT",
+    "section": "",
+    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
+  },
+  {
+    "objectID": "about.html#citation-of-the-i-adopt-recommendations",
+    "href": "about.html#citation-of-the-i-adopt-recommendations",
+    "title": "About I-ADOPT",
+    "section": "Citation of the I-ADOPT recommendations",
+    "text": "Citation of the I-ADOPT recommendations\nMagagna, B., Moncoiffé, G., Devaraju, A., Stoica, M., Schindler, S., Pamment, A., & RDA I-ADOPT WG. (2022). InteroperAble Descriptions of Observable Property Terminologies (I-ADOPT) WG Outputs and Recommendations (1.1.0). Zenodo. https://doi.org/10.15497/RDA00071"
+  },
+  {
+    "objectID": "about.html#contribute",
+    "href": "about.html#contribute",
+    "title": "About I-ADOPT",
+    "section": "Contribute",
+    "text": "Contribute\nYou can contribute to I-ADOPT by participating at our regular calls and by providing your variable description to our github repository."
   }
 ]
