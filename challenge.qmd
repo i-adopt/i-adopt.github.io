@@ -58,7 +58,7 @@ The runner-up contestants from the first challenge have already qualified (and t
 
 Participation is definitely worthwhile because modeling 5 variables does not take long but it definitely helps to understand the framework. For us, on the other hand, your input is extremely useful because we can tailor future services and documentation much better to the needs of users.
 
-We have put valid models of the other 20 variables from the first challenge in the ([examples repository](https://github.com/i-adopt/examples){target="_blank"}) so that participants can use them for inspiration and reference. Be aware that other models might also be fulfilling the criteria. 
+We have put valid models of the other 20 variables from the first challenge in the ([examples repository](https://i-adopt.github.io/examples/){target="_blank"}) so that participants can use them for inspiration and reference. Be aware that other models might also be fulfilling the criteria. 
 
 *limited to a maximum of 100 Euro for each participant.
 
