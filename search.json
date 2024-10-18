@@ -70,6 +70,34 @@
     "text": "Timeline\n\n\n\n\n\n\n\nDate\nAction\n\n\n\n\nJune 17\nAnnouncement of the Challenge\n\n\nAugust 25\nDeadline for variable submissions\n\n\nSeptember 2\nPublication of participation rules and instruction video\n\n\nSeptember 2\nSubscription to the Challenge open\n\n\nSeptember 16\nStart of the Challenge\n\n\nSeptember 29\nEnd of the Challenge\n\n\nOctober 10\nAnnouncement of the winners\n\n\nOctober 14\nStart of Second Challenge\n\n\nOctober 18\nEnd of Second Challenge\n\n\nOctober 31\nPublication of detailed results\n\n\nNovember 12-14\nPresentation of the Challenge and interoperability results at the RDA 23rd Plenary"
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About I-ADOPT",
+    "section": "",
+    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
+  },
+  {
+    "objectID": "about.html#goal",
+    "href": "about.html#goal",
+    "title": "About I-ADOPT",
+    "section": "",
+    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
+  },
+  {
+    "objectID": "about.html#citation-of-the-i-adopt-recommendations",
+    "href": "about.html#citation-of-the-i-adopt-recommendations",
+    "title": "About I-ADOPT",
+    "section": "Citation of the I-ADOPT recommendations",
+    "text": "Citation of the I-ADOPT recommendations\nMagagna, B., Moncoiffé, G., Devaraju, A., Stoica, M., Schindler, S., Pamment, A., & RDA I-ADOPT WG. (2022). InteroperAble Descriptions of Observable Property Terminologies (I-ADOPT) WG Outputs and Recommendations (1.1.0). Zenodo. https://doi.org/10.15497/RDA00071"
+  },
+  {
+    "objectID": "about.html#contribute",
+    "href": "about.html#contribute",
+    "title": "About I-ADOPT",
+    "section": "Contribute",
+    "text": "Contribute\nYou can contribute to I-ADOPT by participating at our regular calls and by providing your variable description to our github repository."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)",
@@ -110,33 +138,5 @@
     "title": "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)",
     "section": "An Example",
     "text": "An Example\nApplying the I-ADOPT Framework means:\n\ndecompose the variable in atomic components\nassign a description role for each component\nannotate each component with concepts from terminologies\n\n\nThis I-ADOPT decomposition and annotation exercise should result in a variable concept with its associated concepts in a SKOS vocabulary:\n\nSee here the variable represented as SKOS concept from the Theia/OZCAR Thesaurus.\n\nJoin our efforts"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About I-ADOPT",
-    "section": "",
-    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
-  },
-  {
-    "objectID": "about.html#goal",
-    "href": "about.html#goal",
-    "title": "About I-ADOPT",
-    "section": "",
-    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
-  },
-  {
-    "objectID": "about.html#citation-of-the-i-adopt-recommendations",
-    "href": "about.html#citation-of-the-i-adopt-recommendations",
-    "title": "About I-ADOPT",
-    "section": "Citation of the I-ADOPT recommendations",
-    "text": "Citation of the I-ADOPT recommendations\nMagagna, B., Moncoiffé, G., Devaraju, A., Stoica, M., Schindler, S., Pamment, A., & RDA I-ADOPT WG. (2022). InteroperAble Descriptions of Observable Property Terminologies (I-ADOPT) WG Outputs and Recommendations (1.1.0). Zenodo. https://doi.org/10.15497/RDA00071"
-  },
-  {
-    "objectID": "about.html#contribute",
-    "href": "about.html#contribute",
-    "title": "About I-ADOPT",
-    "section": "Contribute",
-    "text": "Contribute\nYou can contribute to I-ADOPT by participating at our regular calls and by providing your variable description to our github repository."
   }
 ]
