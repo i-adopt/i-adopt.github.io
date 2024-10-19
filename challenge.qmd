@@ -10,7 +10,7 @@ date: 10/10/2024
 ---
 <div style="text-align: center">
   **The contributions of the SECOND Challenge are being evaluated ...** 
-
+</div>
 
 
 <div style="text-align: center">
