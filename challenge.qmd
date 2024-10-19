@@ -163,8 +163,8 @@ Background information about I-ADOPT can be explored on this [website](https://i
 | ~~**September 16**~~| ~~Start of the Challenge~~                                                      |
 | ~~**September 29**~~ | ~~End of the Challenge~~                                                       |
 | ~~October 10~~      | ~~Announcement of the winners~~                                                 |
-| ~~**October 14**~~  | Start of Second Challenge                                                       |
-| ~~**October 18**~~   | End of Second Challenge                                                        |
+| ~~**October 14**~~  | ~~Start of Second Challenge~~                                                   |
+| ~~**October 18**~~   | ~~End of Second Challenge~~                                                    |
 | October 31      | Publication of detailed results                                                     |
 | November 12-14   | Presentation of the Challenge and interoperability results at the RDA 23rd Plenary |
 
