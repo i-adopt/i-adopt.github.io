@@ -8,58 +8,40 @@ author:
     orcid: 0000-0003-2195-3997
 date: 10/10/2024
 ---
-<div style="text-align: center">
-  **The contributions of the SECOND Challenge are being evaluated ...** 
-</div>
 
 
 <div style="text-align: center">
-## Winners of the I-ADOPT Variable Modeling Challenge (First Challenge)
+## Winners of the I-ADOPT Variable Modeling Challenge (First and Second Challenge)
 </div>
 
 I-ADOPT aims to facilitate **data interoperability** by offering a common framework to\
 **describe variables** and **connect terminologies** used to name variables.\
 The I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.
 
-The Challenge took place from 16 to 29 September 2024.
+The First Challenge took place from 16 to 29 September 2024, the Second Challenge from 14 to 18 October 2024.
 
-* **1st place:** Anne Fouilloux and Jean Iaquinta (212.75 points)
-* **2nd place:** Andrea Tarallo, Martina Pulieri, Christina Di Muri e Jessica Titocci (206.5 points)
-* **3rd place:** Jörg Klausen, Morgan Silverman and Gao Chen (168.6 points)
+* **1st place:** Anne Fouilloux and Jean Iaquinta (212.75 points) - 400€ plus 2 virtual attendance fees for RDA 23*
+* **2nd place:** Andrea Tarallo, Martina Pulieri, Christina Di Muri e Jessica Titocci (208.5 points) - 300€ plus 1 virtual attendance fee for RDA 23*
+* **3rd place:** Jörg Klausen, Morgan Silverman and Gao Chen (170.6 points) - 200€ 
+
+* sponsored by RDA TIGER 
+
+The following participants have qualified for the second challenge and will receive $100 each:
+
+Margherita Martorana, Samantha Blakeman, Petra ten Hoopen, Naouel Karam, Juliana Menger, Saurav Kumar, Norbert van Dijk
 
 
-The RDA TIGER Programme will provide the first prize: **travel and registration support to the 23rd RDA Plenary in Costa Rica** (12-14 November 2024). We are currently contacting the RDA TIGER group and the winners and will publish the prizes soon.
 
-**Runner-up contestants**:
+## Results
 
-Samantha Blakeman, Petra ten Hoopen, Saurav Kumar
+We have put valid models of all 30 variables from the Challenge in the ([examples repository](https://i-adopt.github.io/examples/){target="_blank"}). Be aware that other models might also be fulfilling the criteria. 
 
-These people will automatically qualify for a share in the prize pot of our second challenge (details below).
+We invite to discuss different variants in the ([issues](https://github.com/i-adopt/examples/issues){target="_blank"}).
 
-## Second Challenge
+Find all contributions and detailed evaluation results in this ([sheet](https://docs.google.com/spreadsheets/d/1zAQ6vFyv87VI4xxDx-cLi8CCvR8CVBSRaNOpSX_o9zo/edit?usp=sharing){target="_blank"}).
 
-We decided to launch a second challenge that will take place 
-
-<div style="text-align: center"> 
-from **October 14 (10:00 CEST) to 18 (22:00 CEST)** 
-</div>
-
-using the same ([participation and submission rules](material/I-ADOPT Challenge Rules - presentation version.pdf){target="_blank"}).
-However, this time we will select 10 from the 30 variables that had the greatest variance in modeling. 
-
-We have **1000 Euro in the prize pool** for the second challenge.
-
-There will be no single winner, but **everyone contributing with at least 5 high-quality variable models will get an equal amount from the prize pot**.*
-High-quality is defined by a variable that scores 12 points or higher. Please, find details about the score distribution in the ([Presentation](material/I-ADOPT Challenge Rules - presentation version.pdf){target="_blank"}).
-Anyone can join, except for the three winners of the first challenge.
-
-The runner-up contestants from the first challenge have already qualified (and thus don’t need to actively participate anymore) based on their submissions and will be rewarded with an equal share of the prize pot, along with the new contestants who qualify.
-
-Participation is definitely worthwhile because modeling 5 variables does not take long but it definitely helps to understand the framework. For us, on the other hand, your input is extremely useful because we can tailor future services and documentation much better to the needs of users.
-
-We have put valid models of the other 20 variables from the first challenge in the ([examples repository](https://i-adopt.github.io/examples/){target="_blank"}) so that participants can use them for inspiration and reference. Be aware that other models might also be fulfilling the criteria. 
-
-*limited to a maximum of 100 Euro for each participant.
+We will analyse the results further and will present interesting outcomes at the RDA Plenary Meeting 23 in Costa Rica on Wednesday, **13 November 2024 (14:00-15:30 UTC)** in this session:
+**Challenging I-ADOPT** | Venue: Edificio de Ingeniería, Classroom 40, University of Costa Rica.
 
 
 ## Reviewer Team
@@ -119,30 +101,6 @@ If you have a question related to the Challenge please post it to the [Question 
 :::
 :::
 
-
-## The Challenge
-
-::: {layout="[ 40, 60 ]"}
-<div>
-
-![](img/challengecropped.jpg)
-
-</div>
-
-<div>
-
-Based on detailed instructions and participation rules, participants will independently decompose the same set of variables into atomic description components according to the I-ADOPT recommendations, using concepts from applicable terminologies.
-
-The aim of the challenge is to reveal, in a controlled setting, the similarities and differences in the way the I-ADOPT Framework is used between independent teams. The findings will certainly support the enhancement of the I-ADOPT Framework. The activity will highlight possible bottlenecks but also opportunities to extend or modify the underlying ontology and help to feed the modeling patterns knowledge base. Ultimately, the findings from this Challenge will be used to develop a semi-automated I-ADOPT variable annotation service.
-
-**Let's challenge the I-ADOPT Framework together!**
-
-</div>
-:::
-
-[Photo credits](https://www.freepik.com/free-photo/strong-man-climbing-mountain_16623416.htm)
-
-
 ## Good to know
 
 Background information about I-ADOPT can be explored on this [website](https://i-adopt.github.io/){target="_blank"}.
@@ -165,6 +123,6 @@ Background information about I-ADOPT can be explored on this [website](https://i
 | ~~October 10~~      | ~~Announcement of the winners~~                                                 |
 | ~~**October 14**~~  | ~~Start of Second Challenge~~                                                   |
 | ~~**October 18**~~   | ~~End of Second Challenge~~                                                    |
-| October 31      | Publication of detailed results                                                     |
+| ~~October 31~~     | ~~Publication of detailed results~~                                              |
 | November 12-14   | Presentation of the Challenge and interoperability results at the RDA 23rd Plenary |
 
