@@ -17,6 +17,8 @@ website:
         href: https://i-adopt.github.io/ontology/
       - text: Challenge
         href: challenge.qmd
+      - text: Modelling Workshops
+        href: workshops.qmd
   page-footer: 
     center: 
       - text: "About"
