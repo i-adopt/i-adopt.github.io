@@ -47,7 +47,7 @@ One of the aims of this workshop is to clarify the modelling of complex variable
 
 ### Invited domain experts are encouraged to study the following material in advance:
 
-For OMS:
+For **OMS and SensorThings**:
 
 1. [A Smiley OMS presentation](https://github.com/i-adopt/i-adopt.github.io/blob/main/material/Smiley%20-%20Observations%2C%20Measurement%20and%20Samples.pdf) explaining OMS kindly provided by Kathi Schleidt 
 
@@ -57,7 +57,7 @@ For OMS:
 
 4. The [FROST-Server Plugin](https://github.com/hylkevds/FROST-Server.ObservableProperty) for implementing the I-ADOPT model
 
-For OMS:
+For **I-ADOPT**:
 
 1. An introduction to the I-ADOPT Framework (<a href="https://www.youtube.com/watch?v=Q3thKyVVtCM" target="_blank">Video</a>,[Slides and Notes](material/I-ADOPT Framework - Slides and Notes.pdf){target="_blank"})
 
