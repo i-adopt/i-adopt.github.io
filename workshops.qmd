@@ -1,1 +1,70 @@
-We have planned two I-ADOPT Workshops
+---
+format:
+  html:
+    css: challenge.css
+title: The I-ADOPT Variable Modeling Workshops
+author:
+  - name: Barbara Magagna
+    orcid: 0000-0003-2195-3997
+date: 01/27/2025
+---
+
+
+## Collaborative Modelling workshops on variables using I-ADOPT and OGC OMS
+
+The **RDA endorsed I-ADOPT Framework** is currently being discussed as a candidate model for extending the **OGC OMS (OGC Observations, Measurements, and Samples/ISO 19156) standard**. I-ADOPT could be implemented as an OMS extension for the observable property concept, providing richer and FAIRer representation of what is observed in an observation event. To be able to make use of I-ADOPT in OMS in a systematic approach it is crucial to instantiate the model integration with real data to represent the whole observation setting. 
+
+
+We have planned two Modelling Workshops to be hold as in person events in Vienna, Austria:
+
+* February 20/21, 2025 at the Natural History Museum with the focus on **biodiversity, surface and marine variables**
+
+* March 10/11, 2025 at the Environment Agency Austria with the focus on **atmospheric variables**
+
+Both workshops are sponsored by RDA TIGER that provides financial support to cover participants’ travel expenses.
+
+[![](img/tiger_support_services_0.png){width="30%"}](https://www.rd-alliance.org/rda-tiger/){target="_blank"}
+
+Participation is by invitation only and involves modelling experts for OMS and I-ADOPT and domain experts who will bring variables (and datasets) that challenge the representation with the models.
+
+### Examples that illustrate the complexity character we are looking for: 
+
+* [mass flux of carbon into soil from vegetation due to senescence](https://i-adopt.github.io/examples/Challenge/6.ttl.html)
+* [coarse woody debris abundance](https://i-adopt.github.io/examples/Challenge/8.ttl.html) 
+* [height of atmospheric boundary layer](https://i-adopt.github.io/examples/Challenge/4.ttl.html) 
+
+Other examples may be:
+
+* Properties that relate to two objects and none fit the matrix or the context object definition like the distance between two habitats (see https://github.com/i-adopt/examples/issues/14) 
+* Measurements related to prey/predator or parasite/host relationships
+* Fluxes of something across an interface between two systems 
+* Variables that include statistical parameters or method related information 
+* Variables that integrate procedural aspects
+
+By the end of the modelling workshop, participants will develop FAIR representations for each observation dataset or variable, based on OMS and I-ADOPT as an integrated model. An STA (Sensor Things API)  instance enriched with concepts from I-ADOPT will be made available, enabling experimentation with the enriched I-ADOPT extended OMS system.
+
+One of the aims of this workshop is to clarify the modelling of complex variables to prepare clear guidelines on how to properly model your variable descriptions. Moreover, we hope that this will provide the basis for automatizing the modelling with LLMs. 
+
+### Invited domain experts are encouraged to study the following material in advance:
+
+For OMS:
+
+1. [A Smiley OMS presentation](https://github.com/i-adopt/i-adopt.github.io/blob/main/material/Smiley%20-%20Observations%2C%20Measurement%20and%20Samples.pdf) explaining OMS kindly provided by Kathi Schleidt 
+
+2. A detailed [description of the Observation of a Smiley Face](https://github.com/i-adopt/i-adopt.github.io/blob/main/material/Observation%20of%20a%20Smiley%20Face.pdf) kindly provided by Kathi Schleidt 
+
+3. The [SensorThings API Data Model](https://datacoveeu.github.io/API4INSPIRE/sensorthingsapi/requestingData/STA-Data-Model.html) 
+
+4. The [FROST-Server Plugin](https://github.com/hylkevds/FROST-Server.ObservableProperty) for implementing the I-ADOPT model
+
+For OMS:
+
+1. An introduction to the I-ADOPT Framework (<a href="https://www.youtube.com/watch?v=Q3thKyVVtCM" target="_blank">Video</a>,[Slides and Notes](material/I-ADOPT Framework - Slides and Notes.pdf){target="_blank"})
+
+2. A step-by-step guide for creating an I-ADOPT compliant variable description ([Video](https://www.youtube.com/watch?v=43hAzmqBAfs){target="_blank"},[Slides and Notes](material/I-ADOPT Step-by-Step - Slides and Notes.pdf){target="_blank"})
+
+3. Instructions for preparing variable models to be evaluated ([Presentation](material/I-ADOPT Challenge Rules - presentation version.pdf){target="_blank"})
+
+
+
+
