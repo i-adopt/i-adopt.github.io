@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "material/readme.html",
-    "href": "material/readme.html",
-    "title": "I-ADOPT",
-    "section": "",
-    "text": "Here we publish instruction material to be shared."
-  },
-  {
     "objectID": "challenge.html",
     "href": "challenge.html",
     "title": "The I-ADOPT Variable Modeling Challenge",
@@ -61,6 +54,13 @@
     "title": "The I-ADOPT Variable Modeling Challenge",
     "section": "Timeline",
     "text": "Timeline\n\n\n\n\n\n\n\nDate\nAction\n\n\n\n\nJune 17\nAnnouncement of the Challenge\n\n\nAugust 25\nDeadline for variable submissions\n\n\nSeptember 2\nPublication of participation rules and instruction video\n\n\nSeptember 2\nSubscription to the Challenge open\n\n\nSeptember 16\nStart of the Challenge\n\n\nSeptember 29\nEnd of the Challenge\n\n\nOctober 10\nAnnouncement of the winners\n\n\nOctober 14\nStart of Second Challenge\n\n\nOctober 18\nEnd of Second Challenge\n\n\nOctober 31\nPublication of detailed results\n\n\nNovember 12-14\nPresentation of the Challenge and interoperability results at the RDA 23rd Plenary"
+  },
+  {
+    "objectID": "material/readme.html",
+    "href": "material/readme.html",
+    "title": "I-ADOPT",
+    "section": "",
+    "text": "Here we publish instruction material to be shared."
   },
   {
     "objectID": "about.html",
