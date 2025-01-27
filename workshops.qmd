@@ -63,7 +63,7 @@ For **I-ADOPT**:
 
 2. A step-by-step guide for creating an I-ADOPT compliant variable description ([Video](https://www.youtube.com/watch?v=43hAzmqBAfs){target="_blank"},[Slides and Notes](material/I-ADOPT Step-by-Step - Slides and Notes.pdf){target="_blank"})
 
-3. Instructions for preparing variable models to be evaluated ([Presentation](material/I-ADOPT Challenge Rules - presentation version.pdf){target="_blank"})
+3. Instructions for preparing variable models to be evaluated ([Presentation](https://github.com/i-adopt/i-adopt.github.io/blob/main/material/Preparing%20your%20variables.pdf){target="_blank"})
 
 
 
