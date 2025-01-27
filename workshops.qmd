@@ -10,7 +10,7 @@ date: 01/27/2025
 ---
 
 
-## Collaborative Modelling workshops on variables using I-ADOPT and OGC OMS
+## Collaborative Variable Modelling workshops using I-ADOPT and OGC OMS
 
 The **RDA endorsed I-ADOPT Framework** is currently being discussed as a candidate model for extending the **OGC OMS (OGC Observations, Measurements, and Samples/ISO 19156) standard**. I-ADOPT could be implemented as an OMS extension for the observable property concept, providing richer and FAIRer representation of what is observed in an observation event. To be able to make use of I-ADOPT in OMS in a systematic approach it is crucial to instantiate the model integration with real data to represent the whole observation setting. 
 
