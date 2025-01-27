@@ -45,7 +45,7 @@ By the end of the modelling workshop, participants will develop FAIR representat
 
 One of the aims of this workshop is to clarify the modelling of complex variables to prepare clear guidelines on how to properly model your variable descriptions. Moreover, we hope that this will provide the basis for automatizing the modelling with LLMs. 
 
-### Invited domain experts are encouraged to study the following material in advance:
+### Materials to study before the workshop:
 
 For **OMS and SensorThings**:
 
@@ -63,7 +63,7 @@ For **I-ADOPT**:
 
 2. A step-by-step guide for creating an I-ADOPT compliant variable description ([Video](https://www.youtube.com/watch?v=43hAzmqBAfs){target="_blank"},[Slides and Notes](material/I-ADOPT Step-by-Step - Slides and Notes.pdf){target="_blank"})
 
-3. Instructions for preparing variable models to be evaluated ([Presentation](https://github.com/i-adopt/i-adopt.github.io/blob/main/material/Preparing%20your%20variables.pdf){target="_blank"})
+3. **Instructions for preparing variable models** to be discussed ([Presentation](https://github.com/i-adopt/i-adopt.github.io/blob/main/material/Preparing%20your%20variables.pdf){target="_blank"})
 
 
 
