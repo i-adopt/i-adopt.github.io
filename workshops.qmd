@@ -35,13 +35,13 @@ Participation is by invitation only and involves modelling experts for OMS and I
 
 Other examples may be:
 
-* Properties that relate to two objects and none fit the matrix or the context object definition like the distance between two habitats (see https://github.com/i-adopt/examples/issues/14) 
+* Properties that relate to two objects and none fit the matrix or the context object definition like the distance between two habitats (see [GitHub issue 14](https://github.com/i-adopt/examples/issues/14)) 
 * Measurements related to prey/predator or parasite/host relationships
 * Fluxes of something across an interface between two systems 
 * Variables that include statistical parameters or method related information 
 * Variables that integrate procedural aspects
 
-By the end of the modelling workshop, participants will develop FAIR representations for each observation dataset or variable, based on OMS and I-ADOPT as an integrated model. An STA (Sensor Things API)  instance enriched with concepts from I-ADOPT will be made available, enabling experimentation with the enriched I-ADOPT extended OMS system.
+By the end of the modelling workshop, participants will be able to develop FAIR representations for each observation dataset or variable, based on OMS and I-ADOPT as an integrated model. An STA (Sensor Things API)  instance enriched with concepts from I-ADOPT will be made available, enabling experimentation with the enriched I-ADOPT extended OMS system.
 
 One of the aims of this workshop is to clarify the modelling of complex variables to prepare clear guidelines on how to properly model your variable descriptions. Moreover, we hope that this will provide the basis for automatizing the modelling with LLMs. 
 
@@ -59,9 +59,9 @@ For **OMS and SensorThings**:
 
 For **I-ADOPT**:
 
-1. An introduction to the I-ADOPT Framework (<a href="https://www.youtube.com/watch?v=Q3thKyVVtCM" target="_blank">Video</a>,[Slides and Notes](material/I-ADOPT Framework - Slides and Notes.pdf){target="_blank"})
+1. An introduction to the I-ADOPT Framework (<a href="https://www.youtube.com/watch?v=Q3thKyVVtCM" target="_blank">Video</a>, [Slides and Notes](material/I-ADOPT Framework - Slides and Notes.pdf){target="_blank"})
 
-2. A step-by-step guide for creating an I-ADOPT compliant variable description ([Video](https://www.youtube.com/watch?v=43hAzmqBAfs){target="_blank"},[Slides and Notes](material/I-ADOPT Step-by-Step - Slides and Notes.pdf){target="_blank"})
+2. A step-by-step guide for creating an I-ADOPT compliant variable description ([Video](https://www.youtube.com/watch?v=43hAzmqBAfs){target="_blank"}, [Slides and Notes](material/I-ADOPT Step-by-Step - Slides and Notes.pdf){target="_blank"})
 
 3. **Instructions for preparing variable models** to be discussed ([Presentation](https://github.com/i-adopt/i-adopt.github.io/blob/main/material/Preparing%20your%20variables.pdf){target="_blank"})
 
