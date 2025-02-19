@@ -68,6 +68,8 @@ Virtual SciDataCon 2021 (October 2021): Enabling data interoperability through t
 
 22 RDA Virtual Plenary meeting (May 2024): Embeddings of I-ADOPT in existing standards [Session Minutes](https://docs.google.com/document/d/10kS6ljTl2S-mjqmJw-e0iaABLwgVFEvlNl8OAP_uJc4/edit), [recording](https://www.youtube.com/watch?v=937FTD2RU8Y)
 
+23 RDA RDA Plenary Meeting San José (hybrid) (November 2024): Challenging I-ADOPT [Session Minutes](https://docs.google.com/document/d/1nW2ghxUZc0bOCEcKmoZ8D0hSYnCCYuXP/edit), [recording](https://www.youtube.com/watch?v=zFi4CjBWfSE)
+
 
 
 ## Main Outcomes
