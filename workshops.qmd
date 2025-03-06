@@ -31,9 +31,10 @@ Participation is by invitation only and involves modelling experts for OMS and I
 
 In the first I-ADOPT Variable Modelling Workshop (February 20&21 at the Museum of Natural History, Vienna) we introduced and discussed different relevant models that can be combined to represent observations: OMS, SensorThings API, a SensorThingsAPI generation service, and finally also the I-ADOPT model. One critical issue, heavily discussed, was how to connect the feature type of OMS with a specific description component in I-ADOPT. There is no easy answer and no easy pattern to follow although initially the ContextObject was identified to be the most appropriate. We clarified the notion of the Matrix to be an element rather than an object that might be measured in time and space. We have abandoned the idea that Matrix must be included in every variable which includes a ContextObject. A specific use case is how to handle distance variables where we identified symmetric and asymmetric scenarios. We discussed the potential modification of the I-ADOPT model to allow Constraints on Properties and identified a few us cases to be described before we can decide. Special attention was given to the concept of "product", which could complement I-ADOPT to allow the description of observations with information on how these variables should be properly monitored, i.e. adding spatial and temporal resolution triggered by the EBV case study. These and other patterns are being described in the patterns repository. We decided to continue working on case studies around biodiversity, marine, and freshwater using GitHub issues and a template that allows us to include annotations to address additional OMS concepts. A side activity was the upload of I-ADOPT aligned EBVs in EcoPortal (as they are also uploaded in OGC Rainbow server) and the small project to start a variable definition pipeline using nanopublications via EcoPortal. A key result is that I-ADOPT can be used to give the OMS observable property FAIR context information for data streams. However, I-ADOPT can also be used independently to enrich metadata.
 
-Participant list:
+# Participant list:
 
 Modelling subgroup:
+
 * Barbara Magagna, GO FAIR Foundation, NL (RDA WG I-ADOPT, co-chair)
 * Sirko Schindler, German Aerospace Center, DE (RDA WG I-ADOPT, technical lead)
 * Katharina Schleidt, DataCove (OGC OMS - chair, TSML, conceptual modeller)
@@ -43,21 +44,25 @@ Modelling subgroup:
 * Joan Masó, CREAF, ES (AD4GD - EBV)
 
 Marine subgroup:
+
 * Gwenaelle Moncoiffe, BODC, GB (RDA WG I-ADOPT, co-chair, content manager of NVS)
 * Lorenzo Corgnati, CNR-ISMAR, IT (EuroGOOS, JERICO)
 * Anne Fouilloux, Simula, NO (FAIR2Adapt - coordinator)
 
 Biodiversity subgroup:
+
 * Ivette Serral, CREAF, ES (AD4GD - EBV)
 * Victoria Lush, Aston University, GB (AD4GD - EBV)
 * Marina Pulieri, University of Salento, IT (LifeWatch Italy, EcoPortal)
 * Andrea Tarallo, CNR, IT (LifeWatch Italy, ITINERIS)
 
 Freshwater subgroup:
+
 * Philipp Saile, Federal Institute of Hydrology, DE (UNEP GEMS/Water, WMO WHOS)
 * Katarina Řiháčková, Masaryk University, SK (PARC)
 
 Online participants:
+
 * Sylvain Grellet, BRGM, FR (OGC OMS, HydroDWG, WMO WHOS, Water4all/OneWater, PARC)
 * Charly Coussot, IRD, FR (French OZCAR Water Research Infrastructure)
 
