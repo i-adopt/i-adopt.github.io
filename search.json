@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "The I-ADOPT Variable Modeling Workshops",
+    "section": "",
+    "text": "The RDA endorsed I-ADOPT Framework is currently being discussed as a candidate model for extending the OGC OMS (OGC Observations, Measurements, and Samples/ISO 19156) standard. I-ADOPT could be implemented as an OMS extension for the observable property concept, providing richer and FAIRer representation of what is observed in an observation event. To be able to make use of I-ADOPT in OMS in a systematic approach it is crucial to instantiate the model integration with real data to represent the whole observation setting.\nWe have planned two Modelling Workshops to be hold as in person events in Vienna, Austria:\n\nFebruary 20/21, 2025 at the Natural History Museum with the focus on biodiversity, surface and marine variables\nMarch 10/11, 2025 at the Environment Agency Austria with the focus on atmospheric variables\n\nBoth workshops are sponsored by RDA TIGER that provides financial support to cover participants’ travel expenses.\n\nParticipation is by invitation only and involves modelling experts for OMS and I-ADOPT and domain experts who will bring variables (and datasets) that challenge the representation with the models."
+  },
+  {
+    "objectID": "workshops.html#variable-modelling-workshops-using-i-adopt-and-ogc-oms",
+    "href": "workshops.html#variable-modelling-workshops-using-i-adopt-and-ogc-oms",
+    "title": "The I-ADOPT Variable Modeling Workshops",
+    "section": "",
+    "text": "The RDA endorsed I-ADOPT Framework is currently being discussed as a candidate model for extending the OGC OMS (OGC Observations, Measurements, and Samples/ISO 19156) standard. I-ADOPT could be implemented as an OMS extension for the observable property concept, providing richer and FAIRer representation of what is observed in an observation event. To be able to make use of I-ADOPT in OMS in a systematic approach it is crucial to instantiate the model integration with real data to represent the whole observation setting.\nWe have planned two Modelling Workshops to be hold as in person events in Vienna, Austria:\n\nFebruary 20/21, 2025 at the Natural History Museum with the focus on biodiversity, surface and marine variables\nMarch 10/11, 2025 at the Environment Agency Austria with the focus on atmospheric variables\n\nBoth workshops are sponsored by RDA TIGER that provides financial support to cover participants’ travel expenses.\n\nParticipation is by invitation only and involves modelling experts for OMS and I-ADOPT and domain experts who will bring variables (and datasets) that challenge the representation with the models."
+  },
+  {
+    "objectID": "workshops.html#outcomes-of-the-first-i-adopt-variable-modelling-workshop",
+    "href": "workshops.html#outcomes-of-the-first-i-adopt-variable-modelling-workshop",
+    "title": "The I-ADOPT Variable Modeling Workshops",
+    "section": "Outcomes of the first I-ADOPT Variable Modelling Workshop:",
+    "text": "Outcomes of the first I-ADOPT Variable Modelling Workshop:\nIn the first I-ADOPT Variable Modelling Workshop (February 20&21 at the Museum of Natural History, Vienna) we introduced and discussed different relevant models that can be combined to represent observations: OMS, SensorThings API, a SensorThingsAPI generation service, and finally also the I-ADOPT model. One critical issue, heavily discussed, was how to connect the feature type of OMS with a specific description component in I-ADOPT. There is no easy answer and no easy pattern to follow although initially the ContextObject was identified to be the most appropriate. We clarified the notion of the Matrix to be an element rather than an object that might be measured in time and space. We have abandoned the idea that Matrix must be included in every variable which includes a ContextObject. A specific use case is how to handle distance variables where we identified symmetric and asymmetric scenarios. We discussed the potential modification of the I-ADOPT model to allow Constraints on Properties and identified a few us cases to be described before we can decide. Special attention was given to the concept of “product”, which could complement I-ADOPT to allow the description of observations with information on how these variables should be properly monitored, i.e. adding spatial and temporal resolution triggered by the EBV case study. These and other patterns are being described in the patterns repository. We decided to continue working on case studies around biodiversity, marine, and freshwater using GitHub issues and a template that allows us to include annotations to address additional OMS concepts. A side activity was the upload of I-ADOPT aligned EBVs in EcoPortal (as they are also uploaded in OGC Rainbow server) and the small project to start a variable definition pipeline using nanopublications via EcoPortal. A key result is that I-ADOPT can be used to give the OMS observable property FAIR context information for data streams. However, I-ADOPT can also be used independently to enrich metadata.\nParticipant list:\nModelling subgroup: * Barbara Magagna, GO FAIR Foundation, NL (RDA WG I-ADOPT, co-chair) * Sirko Schindler, German Aerospace Center, DE (RDA WG I-ADOPT, technical lead) * Katharina Schleidt, DataCove (OGC OMS - chair, TSML, conceptual modeller) * Hylke van der Schaaf, Fraunhofer IOSB, DE (OGC - STA, chair) * Rob Atkinson, OGC, AU (Spatial Data on the Web WG, co-chair) * Raul Palma, PSNC, PL (AD4GD - EBV, FAIR2Adapt) * Joan Masó, CREAF, ES (AD4GD - EBV)\nMarine subgroup: * Gwenaelle Moncoiffe, BODC, GB (RDA WG I-ADOPT, co-chair, content manager of NVS) * Lorenzo Corgnati, CNR-ISMAR, IT (EuroGOOS, JERICO) * Anne Fouilloux, Simula, NO (FAIR2Adapt - coordinator)\nBiodiversity subgroup: * Ivette Serral, CREAF, ES (AD4GD - EBV) * Victoria Lush, Aston University, GB (AD4GD - EBV) * Marina Pulieri, University of Salento, IT (LifeWatch Italy, EcoPortal) * Andrea Tarallo, CNR, IT (LifeWatch Italy, ITINERIS)\nFreshwater subgroup: * Philipp Saile, Federal Institute of Hydrology, DE (UNEP GEMS/Water, WMO WHOS) * Katarina Řiháčková, Masaryk University, SK (PARC)\nOnline participants: * Sylvain Grellet, BRGM, FR (OGC OMS, HydroDWG, WMO WHOS, Water4all/OneWater, PARC) * Charly Coussot, IRD, FR (French OZCAR Water Research Infrastructure)\n\nExamples that illustrate the complexity character we are looking for:\n\nmass flux of carbon into soil from vegetation due to senescence\ncoarse woody debris abundance\nheight of atmospheric boundary layer\n\nOther examples may be:\n\nProperties that relate to two objects and none fit the matrix or the context object definition like the distance between two habitats (see GitHub issue 14)\nMeasurements related to prey/predator or parasite/host relationships\nFluxes of something across an interface between two systems\nVariables that include statistical parameters or method related information\nVariables that integrate procedural aspects\n\nBy the end of the modelling workshop, participants will be able to develop FAIR representations for each observation dataset or variable, based on OMS and I-ADOPT as an integrated model. An STA (Sensor Things API) instance enriched with concepts from I-ADOPT will be made available, enabling experimentation with the enriched I-ADOPT extended OMS system.\nOne of the aims of this workshop is to clarify the modelling of complex variables to prepare clear guidelines on how to properly model your variable descriptions. Moreover, we hope that this will provide the basis for automatizing the modelling with LLMs.\n\n\nMaterials to study before the workshop:\nFor OMS and SensorThings:\n\nA Smiley OMS presentation explaining OMS kindly provided by Kathi Schleidt\nA detailed description of the Observation of a Smiley Face kindly provided by Kathi Schleidt\nThe SensorThings API Data Model\nThe FROST-Server Plugin for implementing the I-ADOPT model\n\nFor I-ADOPT:\n\nAn introduction to the I-ADOPT Framework (Video, Slides and Notes)\nA step-by-step guide for creating an I-ADOPT compliant variable description (Video, Slides and Notes)\nInstructions for preparing variable models to be discussed (Presentation)"
+  },
+  {
+    "objectID": "material/readme.html",
+    "href": "material/readme.html",
+    "title": "I-ADOPT",
+    "section": "",
+    "text": "Here we publish instruction material to be shared."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)",
@@ -42,18 +70,32 @@
     "text": "An Example\nApplying the I-ADOPT Framework means:\n\ndecompose the variable in atomic components\nassign a description role for each component\nannotate each component with concepts from terminologies\n\n\nThis I-ADOPT decomposition and annotation exercise should result in a variable concept with its associated concepts in a SKOS vocabulary:\n\nSee here the variable represented as SKOS concept from the Theia/OZCAR Thesaurus.\n\nJoin our efforts"
   },
   {
-    "objectID": "workshops.html",
-    "href": "workshops.html",
-    "title": "The I-ADOPT Variable Modeling Workshops",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About I-ADOPT",
     "section": "",
-    "text": "The RDA endorsed I-ADOPT Framework is currently being discussed as a candidate model for extending the OGC OMS (OGC Observations, Measurements, and Samples/ISO 19156) standard. I-ADOPT could be implemented as an OMS extension for the observable property concept, providing richer and FAIRer representation of what is observed in an observation event. To be able to make use of I-ADOPT in OMS in a systematic approach it is crucial to instantiate the model integration with real data to represent the whole observation setting.\nWe have planned two Modelling Workshops to be hold as in person events in Vienna, Austria:\n\nFebruary 20/21, 2025 at the Natural History Museum with the focus on biodiversity, surface and marine variables\nMarch 10/11, 2025 at the Environment Agency Austria with the focus on atmospheric variables\n\nBoth workshops are sponsored by RDA TIGER that provides financial support to cover participants’ travel expenses.\n\nParticipation is by invitation only and involves modelling experts for OMS and I-ADOPT and domain experts who will bring variables (and datasets) that challenge the representation with the models.\n\n\n\nmass flux of carbon into soil from vegetation due to senescence\ncoarse woody debris abundance\nheight of atmospheric boundary layer\n\nOther examples may be:\n\nProperties that relate to two objects and none fit the matrix or the context object definition like the distance between two habitats (see GitHub issue 14)\nMeasurements related to prey/predator or parasite/host relationships\nFluxes of something across an interface between two systems\nVariables that include statistical parameters or method related information\nVariables that integrate procedural aspects\n\nBy the end of the modelling workshop, participants will be able to develop FAIR representations for each observation dataset or variable, based on OMS and I-ADOPT as an integrated model. An STA (Sensor Things API) instance enriched with concepts from I-ADOPT will be made available, enabling experimentation with the enriched I-ADOPT extended OMS system.\nOne of the aims of this workshop is to clarify the modelling of complex variables to prepare clear guidelines on how to properly model your variable descriptions. Moreover, we hope that this will provide the basis for automatizing the modelling with LLMs.\n\n\n\nFor OMS and SensorThings:\n\nA Smiley OMS presentation explaining OMS kindly provided by Kathi Schleidt\nA detailed description of the Observation of a Smiley Face kindly provided by Kathi Schleidt\nThe SensorThings API Data Model\nThe FROST-Server Plugin for implementing the I-ADOPT model\n\nFor I-ADOPT:\n\nAn introduction to the I-ADOPT Framework (Video, Slides and Notes)\nA step-by-step guide for creating an I-ADOPT compliant variable description (Video, Slides and Notes)\nInstructions for preparing variable models to be discussed (Presentation)"
+    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
   },
   {
-    "objectID": "workshops.html#variable-modelling-workshops-using-i-adopt-and-ogc-oms",
-    "href": "workshops.html#variable-modelling-workshops-using-i-adopt-and-ogc-oms",
-    "title": "The I-ADOPT Variable Modeling Workshops",
+    "objectID": "about.html#goal",
+    "href": "about.html#goal",
+    "title": "About I-ADOPT",
     "section": "",
-    "text": "The RDA endorsed I-ADOPT Framework is currently being discussed as a candidate model for extending the OGC OMS (OGC Observations, Measurements, and Samples/ISO 19156) standard. I-ADOPT could be implemented as an OMS extension for the observable property concept, providing richer and FAIRer representation of what is observed in an observation event. To be able to make use of I-ADOPT in OMS in a systematic approach it is crucial to instantiate the model integration with real data to represent the whole observation setting.\nWe have planned two Modelling Workshops to be hold as in person events in Vienna, Austria:\n\nFebruary 20/21, 2025 at the Natural History Museum with the focus on biodiversity, surface and marine variables\nMarch 10/11, 2025 at the Environment Agency Austria with the focus on atmospheric variables\n\nBoth workshops are sponsored by RDA TIGER that provides financial support to cover participants’ travel expenses.\n\nParticipation is by invitation only and involves modelling experts for OMS and I-ADOPT and domain experts who will bring variables (and datasets) that challenge the representation with the models.\n\n\n\nmass flux of carbon into soil from vegetation due to senescence\ncoarse woody debris abundance\nheight of atmospheric boundary layer\n\nOther examples may be:\n\nProperties that relate to two objects and none fit the matrix or the context object definition like the distance between two habitats (see GitHub issue 14)\nMeasurements related to prey/predator or parasite/host relationships\nFluxes of something across an interface between two systems\nVariables that include statistical parameters or method related information\nVariables that integrate procedural aspects\n\nBy the end of the modelling workshop, participants will be able to develop FAIR representations for each observation dataset or variable, based on OMS and I-ADOPT as an integrated model. An STA (Sensor Things API) instance enriched with concepts from I-ADOPT will be made available, enabling experimentation with the enriched I-ADOPT extended OMS system.\nOne of the aims of this workshop is to clarify the modelling of complex variables to prepare clear guidelines on how to properly model your variable descriptions. Moreover, we hope that this will provide the basis for automatizing the modelling with LLMs.\n\n\n\nFor OMS and SensorThings:\n\nA Smiley OMS presentation explaining OMS kindly provided by Kathi Schleidt\nA detailed description of the Observation of a Smiley Face kindly provided by Kathi Schleidt\nThe SensorThings API Data Model\nThe FROST-Server Plugin for implementing the I-ADOPT model\n\nFor I-ADOPT:\n\nAn introduction to the I-ADOPT Framework (Video, Slides and Notes)\nA step-by-step guide for creating an I-ADOPT compliant variable description (Video, Slides and Notes)\nInstructions for preparing variable models to be discussed (Presentation)"
+    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
+  },
+  {
+    "objectID": "about.html#citation-of-the-i-adopt-recommendations",
+    "href": "about.html#citation-of-the-i-adopt-recommendations",
+    "title": "About I-ADOPT",
+    "section": "Citation of the I-ADOPT recommendations",
+    "text": "Citation of the I-ADOPT recommendations\nMagagna, B., Moncoiffé, G., Devaraju, A., Stoica, M., Schindler, S., Pamment, A., & RDA I-ADOPT WG. (2022). InteroperAble Descriptions of Observable Property Terminologies (I-ADOPT) WG Outputs and Recommendations (1.1.0). Zenodo. https://doi.org/10.15497/RDA00071"
+  },
+  {
+    "objectID": "about.html#contribute",
+    "href": "about.html#contribute",
+    "title": "About I-ADOPT",
+    "section": "Contribute",
+    "text": "Contribute\nYou can contribute to I-ADOPT by participating at our regular calls and by providing your variable description to our github repository."
   },
   {
     "objectID": "challenge.html",
@@ -110,40 +152,5 @@
     "title": "The I-ADOPT Variable Modeling Challenge",
     "section": "Timeline",
     "text": "Timeline\n\n\n\n\n\n\n\nDate\nAction\n\n\n\n\nJune 17\nAnnouncement of the Challenge\n\n\nAugust 25\nDeadline for variable submissions\n\n\nSeptember 2\nPublication of participation rules and instruction video\n\n\nSeptember 2\nSubscription to the Challenge open\n\n\nSeptember 16\nStart of the Challenge\n\n\nSeptember 29\nEnd of the Challenge\n\n\nOctober 10\nAnnouncement of the winners\n\n\nOctober 14\nStart of Second Challenge\n\n\nOctober 18\nEnd of Second Challenge\n\n\nOctober 31\nPublication of detailed results\n\n\nNovember 12-14\nPresentation of the Challenge and interoperability results at the RDA 23rd Plenary"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About I-ADOPT",
-    "section": "",
-    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
-  },
-  {
-    "objectID": "about.html#goal",
-    "href": "about.html#goal",
-    "title": "About I-ADOPT",
-    "section": "",
-    "text": "The goal of I-ADOPT is to provide an Interoperability Framework for representing FAIR observable properties."
-  },
-  {
-    "objectID": "about.html#citation-of-the-i-adopt-recommendations",
-    "href": "about.html#citation-of-the-i-adopt-recommendations",
-    "title": "About I-ADOPT",
-    "section": "Citation of the I-ADOPT recommendations",
-    "text": "Citation of the I-ADOPT recommendations\nMagagna, B., Moncoiffé, G., Devaraju, A., Stoica, M., Schindler, S., Pamment, A., & RDA I-ADOPT WG. (2022). InteroperAble Descriptions of Observable Property Terminologies (I-ADOPT) WG Outputs and Recommendations (1.1.0). Zenodo. https://doi.org/10.15497/RDA00071"
-  },
-  {
-    "objectID": "about.html#contribute",
-    "href": "about.html#contribute",
-    "title": "About I-ADOPT",
-    "section": "Contribute",
-    "text": "Contribute\nYou can contribute to I-ADOPT by participating at our regular calls and by providing your variable description to our github repository."
-  },
-  {
-    "objectID": "material/readme.html",
-    "href": "material/readme.html",
-    "title": "I-ADOPT",
-    "section": "",
-    "text": "Here we publish instruction material to be shared."
   }
 ]

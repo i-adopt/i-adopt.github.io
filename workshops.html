@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,10 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5c67a7444eebc356e54fdce0a63e8750.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-8647a4a42273f773479d27c00df3f9ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -123,7 +123,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#variable-modelling-workshops-using-i-adopt-and-ogc-oms" id="toc-variable-modelling-workshops-using-i-adopt-and-ogc-oms" class="nav-link active" data-scroll-target="#variable-modelling-workshops-using-i-adopt-and-ogc-oms">Variable Modelling workshops using I-ADOPT and OGC OMS</a>
+  <li><a href="#variable-modelling-workshops-using-i-adopt-and-ogc-oms" id="toc-variable-modelling-workshops-using-i-adopt-and-ogc-oms" class="nav-link active" data-scroll-target="#variable-modelling-workshops-using-i-adopt-and-ogc-oms">Variable Modelling workshops using I-ADOPT and OGC OMS</a></li>
+  <li><a href="#outcomes-of-the-first-i-adopt-variable-modelling-workshop" id="toc-outcomes-of-the-first-i-adopt-variable-modelling-workshop" class="nav-link" data-scroll-target="#outcomes-of-the-first-i-adopt-variable-modelling-workshop">Outcomes of the first I-ADOPT Variable Modelling Workshop:</a>
   <ul class="collapse">
   <li><a href="#examples-that-illustrate-the-complexity-character-we-are-looking-for" id="toc-examples-that-illustrate-the-complexity-character-we-are-looking-for" class="nav-link" data-scroll-target="#examples-that-illustrate-the-complexity-character-we-are-looking-for">Examples that illustrate the complexity character we are looking for:</a></li>
   <li><a href="#materials-to-study-before-the-workshop" id="toc-materials-to-study-before-the-workshop" class="nav-link" data-scroll-target="#materials-to-study-before-the-workshop">Materials to study before the workshop:</a></li>
@@ -176,6 +177,16 @@ ul.task-list li input[type="checkbox"] {
 <p>Both workshops are sponsored by RDA TIGER that provides financial support to cover participants’ travel expenses.</p>
 <p><a href="https://www.rd-alliance.org/rda-tiger/" target="_blank"><img src="img/tiger_support_services_0.png" class="img-fluid" style="width:30.0%"></a></p>
 <p>Participation is by invitation only and involves modelling experts for OMS and I-ADOPT and domain experts who will bring variables (and datasets) that challenge the representation with the models.</p>
+</section>
+<section id="outcomes-of-the-first-i-adopt-variable-modelling-workshop" class="level2">
+<h2 class="anchored" data-anchor-id="outcomes-of-the-first-i-adopt-variable-modelling-workshop">Outcomes of the first I-ADOPT Variable Modelling Workshop:</h2>
+<p>In the first I-ADOPT Variable Modelling Workshop (February 20&amp;21 at the Museum of Natural History, Vienna) we introduced and discussed different relevant models that can be combined to represent observations: OMS, SensorThings API, a SensorThingsAPI generation service, and finally also the I-ADOPT model. One critical issue, heavily discussed, was how to connect the feature type of OMS with a specific description component in I-ADOPT. There is no easy answer and no easy pattern to follow although initially the ContextObject was identified to be the most appropriate. We clarified the notion of the Matrix to be an element rather than an object that might be measured in time and space. We have abandoned the idea that Matrix must be included in every variable which includes a ContextObject. A specific use case is how to handle distance variables where we identified symmetric and asymmetric scenarios. We discussed the potential modification of the I-ADOPT model to allow Constraints on Properties and identified a few us cases to be described before we can decide. Special attention was given to the concept of “product”, which could complement I-ADOPT to allow the description of observations with information on how these variables should be properly monitored, i.e.&nbsp;adding spatial and temporal resolution triggered by the EBV case study. These and other patterns are being described in the patterns repository. We decided to continue working on case studies around biodiversity, marine, and freshwater using GitHub issues and a template that allows us to include annotations to address additional OMS concepts. A side activity was the upload of I-ADOPT aligned EBVs in EcoPortal (as they are also uploaded in OGC Rainbow server) and the small project to start a variable definition pipeline using nanopublications via EcoPortal. A key result is that I-ADOPT can be used to give the OMS observable property FAIR context information for data streams. However, I-ADOPT can also be used independently to enrich metadata.</p>
+<p>Participant list:</p>
+<p>Modelling subgroup: * Barbara Magagna, GO FAIR Foundation, NL (RDA WG I-ADOPT, co-chair) * Sirko Schindler, German Aerospace Center, DE (RDA WG I-ADOPT, technical lead) * Katharina Schleidt, DataCove (OGC OMS - chair, TSML, conceptual modeller) * Hylke van der Schaaf, Fraunhofer IOSB, DE (OGC - STA, chair) * Rob Atkinson, OGC, AU (Spatial Data on the Web WG, co-chair) * Raul Palma, PSNC, PL (AD4GD - EBV, FAIR2Adapt) * Joan Masó, CREAF, ES (AD4GD - EBV)</p>
+<p>Marine subgroup: * Gwenaelle Moncoiffe, BODC, GB (RDA WG I-ADOPT, co-chair, content manager of NVS) * Lorenzo Corgnati, CNR-ISMAR, IT (EuroGOOS, JERICO) * Anne Fouilloux, Simula, NO (FAIR2Adapt - coordinator)</p>
+<p>Biodiversity subgroup: * Ivette Serral, CREAF, ES (AD4GD - EBV) * Victoria Lush, Aston University, GB (AD4GD - EBV) * Marina Pulieri, University of Salento, IT (LifeWatch Italy, EcoPortal) * Andrea Tarallo, CNR, IT (LifeWatch Italy, ITINERIS)</p>
+<p>Freshwater subgroup: * Philipp Saile, Federal Institute of Hydrology, DE (UNEP GEMS/Water, WMO WHOS) * Katarina Řiháčková, Masaryk University, SK (PARC)</p>
+<p>Online participants: * Sylvain Grellet, BRGM, FR (OGC OMS, HydroDWG, WMO WHOS, Water4all/OneWater, PARC) * Charly Coussot, IRD, FR (French OZCAR Water Research Infrastructure)</p>
 <section id="examples-that-illustrate-the-complexity-character-we-are-looking-for" class="level3">
 <h3 class="anchored" data-anchor-id="examples-that-illustrate-the-complexity-character-we-are-looking-for">Examples that illustrate the complexity character we are looking for:</h3>
 <ul>
