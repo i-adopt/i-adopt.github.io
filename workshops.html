@@ -123,8 +123,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#variable-modelling-workshops-using-i-adopt-and-ogc-oms" id="toc-variable-modelling-workshops-using-i-adopt-and-ogc-oms" class="nav-link active" data-scroll-target="#variable-modelling-workshops-using-i-adopt-and-ogc-oms">Variable Modelling workshops using I-ADOPT and OGC OMS</a></li>
-  <li><a href="#outcomes-of-the-first-i-adopt-variable-modelling-workshop" id="toc-outcomes-of-the-first-i-adopt-variable-modelling-workshop" class="nav-link" data-scroll-target="#outcomes-of-the-first-i-adopt-variable-modelling-workshop">Outcomes of the first I-ADOPT Variable Modelling Workshop</a>
+  <li><a href="#variable-modeling-workshops-using-i-adopt-and-ogc-oms" id="toc-variable-modeling-workshops-using-i-adopt-and-ogc-oms" class="nav-link active" data-scroll-target="#variable-modeling-workshops-using-i-adopt-and-ogc-oms">Variable Modeling workshops using I-ADOPT and OGC OMS</a></li>
+  <li><a href="#outcomes-of-the-first-i-adopt-variable-modeling-workshop" id="toc-outcomes-of-the-first-i-adopt-variable-modeling-workshop" class="nav-link" data-scroll-target="#outcomes-of-the-first-i-adopt-variable-modeling-workshop">Outcomes of the first I-ADOPT Variable Modeling Workshop</a>
   <ul class="collapse">
   <li><a href="#participant-list" id="toc-participant-list" class="nav-link" data-scroll-target="#participant-list">Participant list</a></li>
   </ul></li>
@@ -167,24 +167,24 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="variable-modelling-workshops-using-i-adopt-and-ogc-oms" class="level2">
-<h2 class="anchored" data-anchor-id="variable-modelling-workshops-using-i-adopt-and-ogc-oms">Variable Modelling workshops using I-ADOPT and OGC OMS</h2>
+<section id="variable-modeling-workshops-using-i-adopt-and-ogc-oms" class="level2">
+<h2 class="anchored" data-anchor-id="variable-modeling-workshops-using-i-adopt-and-ogc-oms">Variable Modeling workshops using I-ADOPT and OGC OMS</h2>
 <p>The <strong>RDA endorsed I-ADOPT Framework</strong> is currently being discussed as a candidate model for extending the <strong>OGC OMS (OGC Observations, Measurements, and Samples/ISO 19156) standard</strong>. I-ADOPT could be implemented as an OMS extension for the observable property concept, providing richer and FAIRer representation of what is observed in an observation event. To be able to make use of I-ADOPT in OMS in a systematic approach it is crucial to instantiate the model integration with real data to represent the whole observation setting.</p>
-<p>We have planned two Modelling Workshops to be hold as in person events in Vienna, Austria:</p>
+<p>We have planned two Modeling Workshops to be hold as in person events in Vienna, Austria:</p>
 <ol type="1">
 <li><p><strong>February 20/21, 2025</strong> at the Natural History Museum with the focus on <em>biodiversity, surface and marine variables</em></p></li>
-<li><p><strong>March 10/11, 2025</strong> at the Environment Agency Austria with the focus on <em>atmospheric variables</em></p></li>
+<li><p><strong>March 10/11, 2025</strong> at the Environment Agency Austria with the focus on <em>atmospheric variables</em> and the development of an LLM-based Annotation Service</p></li>
 </ol>
 <p>Both workshops are sponsored by RDA TIGER that provides financial support to cover participants’ travel expenses.</p>
 <p><a href="https://www.rd-alliance.org/rda-tiger/" target="_blank"><img src="img/tiger_support_services_0.png" class="img-fluid" style="width:30.0%"></a></p>
-<p>Participation is by invitation only and involves modelling experts for OMS and I-ADOPT and domain experts who will bring variables (and datasets) that challenge the representation with the models.</p>
+<p>Participation is by invitation only and involves modeling experts for OMS and I-ADOPT and domain experts who will bring variables (and datasets) that challenge the representation with the models.</p>
 </section>
-<section id="outcomes-of-the-first-i-adopt-variable-modelling-workshop" class="level2">
-<h2 class="anchored" data-anchor-id="outcomes-of-the-first-i-adopt-variable-modelling-workshop">Outcomes of the first I-ADOPT Variable Modelling Workshop</h2>
-<p>In the first I-ADOPT Variable Modelling Workshop (February 20&amp;21 at the Museum of Natural History, Vienna) we introduced and discussed different relevant models that can be combined to represent observations: OMS, SensorThings API, a SensorThingsAPI generation service, and finally also the I-ADOPT model. One critical issue, heavily discussed, was how to connect the feature type of OMS with a specific description component in I-ADOPT. There is no easy answer and no easy pattern to follow although initially the ContextObject was identified to be the most appropriate. We clarified the notion of the Matrix to be an element rather than an object that might be measured in time and space. We have abandoned the idea that Matrix must be included in every variable which includes a ContextObject. A specific use case is how to handle distance variables where we identified symmetric and asymmetric scenarios. We discussed the potential modification of the I-ADOPT model to allow Constraints on Properties and identified a few us cases to be described before we can decide. Special attention was given to the concept of “product”, which could complement I-ADOPT to allow the description of observations with information on how these variables should be properly monitored, i.e.&nbsp;adding spatial and temporal resolution triggered by the EBV case study. These and other patterns are being described in the <a href="https://github.com/i-adopt/patterns">patterns repository</a>. We decided to continue working on case studies around biodiversity, marine, and freshwater using <a href="https://github.com/i-adopt/OMSmodelling/issues">GitHub issues</a> and a <a href="https://github.com/i-adopt/i-adopt.github.io/raw/refs/heads/main/material/OMS-I-ADOPT_template.xlsx">template</a> that allows us to include annotations to address additional OMS concepts. A side activity was the upload of I-ADOPT aligned EBVs in EcoPortal (as they are also uploaded in OGC Rainbow server) and the small project to start a variable definition pipeline using nanopublications via EcoPortal. A key result is that I-ADOPT can be used to give the OMS observable property FAIR context information for data streams. However, I-ADOPT can also be used independently to enrich metadata.</p>
+<section id="outcomes-of-the-first-i-adopt-variable-modeling-workshop" class="level2">
+<h2 class="anchored" data-anchor-id="outcomes-of-the-first-i-adopt-variable-modeling-workshop">Outcomes of the first I-ADOPT Variable Modeling Workshop</h2>
+<p>In the first I-ADOPT Variable Modeling Workshop (February 20&amp;21 at the Museum of Natural History, Vienna) we introduced and discussed different relevant models that can be combined to represent observations: OMS, SensorThings API, a SensorThingsAPI generation service, and finally also the I-ADOPT model. One critical issue, heavily discussed, was how to connect the feature type of OMS with a specific description component in I-ADOPT. There is no easy answer and no easy pattern to follow although initially the ContextObject was identified to be the most appropriate. We clarified the notion of the Matrix to be an element rather than an object that might be measured in time and space. We have abandoned the idea that Matrix must be included in every variable which includes a ContextObject. A specific use case is how to handle distance variables where we identified symmetric and asymmetric scenarios. We discussed the potential modification of the I-ADOPT model to allow Constraints on Properties and identified a few us cases to be described before we can decide. Special attention was given to the concept of “product”, which could complement I-ADOPT to allow the description of observations with information on how these variables should be properly monitored, i.e.&nbsp;adding spatial and temporal resolution triggered by the EBV case study. These and other patterns are being described in the <a href="https://github.com/i-adopt/patterns">patterns repository</a>. We decided to continue working on case studies around biodiversity, marine, and freshwater using <a href="https://github.com/i-adopt/OMSmodelling/issues">GitHub issues</a> and a <a href="https://github.com/i-adopt/i-adopt.github.io/raw/refs/heads/main/material/OMS-I-ADOPT_template.xlsx">template</a> that allows us to include annotations to address additional OMS concepts. A side activity was the upload of I-ADOPT aligned EBVs in EcoPortal (as they are also uploaded in OGC Rainbow server) and the small project to start a variable definition pipeline using nanopublications via EcoPortal. A key result is that I-ADOPT can be used to give the OMS observable property FAIR context information for data streams. However, I-ADOPT can also be used independently to enrich metadata.</p>
 <section id="participant-list" class="level3">
 <h3 class="anchored" data-anchor-id="participant-list">Participant list</h3>
-<p>Modelling subgroup:</p>
+<p>Modeling subgroup:</p>
 <ul>
 <li>Barbara Magagna, GO FAIR Foundation, NL (RDA WG I-ADOPT, co-chair)</li>
 <li>Sirko Schindler, German Aerospace Center, DE (RDA WG I-ADOPT, technical lead)</li>
@@ -234,8 +234,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Variables that include statistical parameters or method related information</li>
 <li>Variables that integrate procedural aspects</li>
 </ul>
-<p>By the end of the modelling workshop, participants will be able to develop FAIR representations for each observation dataset or variable, based on OMS and I-ADOPT as an integrated model. An STA (Sensor Things API) instance enriched with concepts from I-ADOPT will be made available, enabling experimentation with the enriched I-ADOPT extended OMS system.</p>
-<p>One of the aims of this workshop is to clarify the modelling of complex variables to prepare clear guidelines on how to properly model your variable descriptions. Moreover, we hope that this will provide the basis for automatizing the modelling with LLMs.</p>
+<p>By the end of the modeling workshop, participants will be able to develop FAIR representations for each observation dataset or variable, based on OMS and I-ADOPT as an integrated model. An STA (Sensor Things API) instance enriched with concepts from I-ADOPT will be made available, enabling experimentation with the enriched I-ADOPT extended OMS system.</p>
+<p>One of the aims of this workshop is to clarify the modeling of complex variables to prepare clear guidelines on how to properly model your variable descriptions. Moreover, we hope that this will provide the basis for automatizing the modeling with LLMs.</p>
 </section>
 <section id="materials-to-study-before-the-workshop" class="level2">
 <h2 class="anchored" data-anchor-id="materials-to-study-before-the-workshop">Materials to study before the workshop</h2>
