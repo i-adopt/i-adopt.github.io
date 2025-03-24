@@ -100,12 +100,14 @@ Modeling subgroup:
 * Ivette Serral, CREAF, ES (AD4GD - EBV)
 
 Metereological subgroup: 
+
 * Gao Chen, NASA, US (ACVSNC - Langley Research Center, lead)
 * Morgan Silverman, NASA, US (ACVSNC - Langley Research Center, data scientist)
 * Jörg Klausen, MeteoSwiss, CH (WMO TT - WIGOSMD, chair)
 * Johannes Peterseil, Environment Agency Austria (eLTER RI, technical lead)
 
 I-ADOPT service developer subgroup:
+
 * José Manuel Gomez, Expert.AI, ES (FAIR2Adapt, developer)
 * Cristian Berrio Aroca, Expert.AI, ES (FAIR2Adapt, developer)
 * Èsteban Gonzalez, UPM, ES (FAIR2Adapt, developer)
@@ -113,6 +115,7 @@ I-ADOPT service developer subgroup:
 * Saurav Kumar, IISPV, ES (PARC, semantic expert)
 
 Online participants:
+
 * Iseult Lynch, University of Birmingham, UK (PARC - FAIR lead)
 * Markus Fiebig, NILU, NO (ACTRIS - atmospheric scientist)
 * Beth Huffer, NASA, US (Lingua Logica, semantic expert)
