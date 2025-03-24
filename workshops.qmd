@@ -66,12 +66,62 @@ Online participants:
 * Sylvain Grellet, BRGM, FR (OGC OMS, HydroDWG, WMO WHOS, Water4all/OneWater, PARC)
 * Charly Coussot, IRD, FR (French OZCAR Water Research Infrastructure)
 
+
+## Outcomes of the second I-ADOPT Variable Modeling Workshop
+In the second I-ADOPT Variable Modelling Workshop (March 10&11 at the Environment Agency Austria, Vienna) we presented the [outcomes and patterns](https://docs.google.com/presentation/d/1LC6nbm8Ps0aOdTtTi2cb7PAzc6pTyneD) we discovered during the first workshop and introduced an initial workflow for the development of an [LLM-enabled annotation service based on I-ADOPT](https://drive.google.com/file/d/1Ucl_k-cIILpsnNTiJ8h5sBn2wetHelI5/view). The variables in focus were provided by the meteorological and atmospheric domain. After a presentation on the current developments and efforts in WMO on the [WIGOS Metadata Representation](https://drive.google.com/file/d/1mZMYxrpibPQEyriPiKLISyk4hv8lTlbf/view?usp=sharing), we discussed specific complex variables and their decomposition. This process led to [Application Design Records (ADRs)](https://github.com/i-adopt/patterns/tree/main/adrs) which list options for each encountered design problem and on which the I-ADOPT core team will vote and agree to provide reusable patterns. We also identified [rules of alignment](https://docs.google.com/spreadsheets/d/1fclAwHtNP-d3NOWp62k7CkAAq4OqUakvpPEfHg_wipI/edit?usp=sharing) between the property type in I-ADOPT and the type of the Feature of Interest in OMS based on examples of the I-ADOPT Challenge analysed, but further analysis is required on a bigger set of examples. A key insight of the modelling discussion revealed the requirement to model a system of elements for any entity in I-ADOPT and these elements can be of any I-ADOPT nature (variables, properties, entities). In addition, we agreed on the requirement to include statistical modifiers (maximum, average, …) in the description. 
+
+A common practice of domain-specific vocabularies applying I-ADOPT (see [ACTRIS vocabulary](https://vocabulary.actris.nilu.no/skosmos/actris_vocab/en/) is to design I-ADOPT roles as classes which is only possible if the same concepts appear in the same position in the descriptions. This might be possible for a specific domain but requires clear modelling guidance for the domain with key demo examples provided by leading authorities like WMO. In addition, we further discussed properties required for the product description, where ISO 10131 (Data Product Specification - DPS) can give some directions but the real implementation will most likely not go via ISO but via OMS SWG. 
+
+The I-ADOPT service developer team defined a harmonised [roadmap](https://docs.google.com/document/d/1eY9UGJv_YMGi1iYKPb-6SLo8GjZWMFy1oD4wWv8MsKY/edit?tab=t.0) identifying tasks needed to implement the service. The service should allow decomposing a human-readable variable description in I-ADOPT description elements, recognize existing I-ADOPT variables and propose them to the user or annotate the variable elements with concepts from semantic artefacts. The result should be a JSON file that can be exported in turtle and a mapping to existing variables. One challenge was not yet addressed in detail but will need more attention later: the further formalization of constraints to allow better machine readability. 
+
+### Potential collaborations:
+
+* I-ADOPT service development with developers from FAIR2Adapt, NFDI4Earth project and PARC 
+* I-ADOPT variables modelled for WIGOS vocabulary and for the Atmospheric Composition Variable Name Concent (ASVSNC) involving modellers from the WIGOS, NASA and CF Standard Names
+* WMDR 2.0 proposal includes properties which are interesting for the product model in line with I-ADOPT-DPS-STA - a collaboration between modellers from WIGOS, AD4GD and OMS together with some RIs like eLTER, and projects like PARC and FAIR2Adapt would make it 
+
+### Next steps:
+
+* I-ADOPT Core team decides on the ADRs and publishes patterns
+* I-ADOPT revises the challenge variables to provide a set of curated variables (L0) (deadline: April 10, 2025)
+* The service developers will define on top of these variable definitions and the patterns the benchmark level L0 (April - May 2025)
+* The domain communities revise their variable descriptions based on the variable modelling patterns using the template indicating also if the variable requires a sample (May 2025)
+* The core I-ADOPT team provides a clean list of L1 variables as summary of the community input (June 2025)
+* The developer team creates synthetic data via the service (L2) (July-August 2025)
+* L2 will be validated by modelling and domain experts  (Sept 2025)
+
+### Participant list
+
+Modeling subgroup:
+
+* Barbara Magagna, GO FAIR Foundation, NL (RDA WG I-ADOPT, co-chair)
+* Sirko Schindler, German Aerospace Center, DE (RDA WG I-ADOPT, technical lead)
+* Katharina Schleidt, DataCove (OGC OMS - chair, TSML, conceptual modeller)
+* Ivette Serral, CREAF, ES (AD4GD - EBV)
+
+Metereological subgroup: 
+* Gao Chen, NASA, US (ACVSNC - Langley Research Center, lead)
+* Morgan Silverman, NASA, US (ACVSNC - Langley Research Center, data scientist)
+* Jörg Klausen, MeteoSwiss, CH (WMO TT - WIGOSMD, chair)
+* Johannes Peterseil, Environment Agency Austria (eLTER RI, technical lead)
+
+I-ADOPT service developer subgroup:
+* José Manuel Gomez, Expert.AI, ES (FAIR2Adapt, developer)
+* Cristian Berrio Aroca, Expert.AI, ES (FAIR2Adapt, developer)
+* Èsteban Gonzalez, UPM, ES (FAIR2Adapt, developer)
+* Arvin Rastegar, KIT, DE (NFDI4Earth, developer)
+* Saurav Kumar, IISPV, ES (PARC, semantic expert)
+
+Online participants:
+* Iseult Lynch, University of Birmingham, UK (PARC - FAIR lead)
+* Markus Fiebig, NILU, NO (ACTRIS - atmospheric scientist)
+* Beth Huffer, NASA, US (Lingua Logica, semantic expert)
+
 ## Examples that illustrate the complexity character we are looking for 
 
 * [mass flux of carbon into soil from vegetation due to senescence](https://i-adopt.github.io/examples/Challenge/6.ttl.html)
 * [coarse woody debris abundance](https://i-adopt.github.io/examples/Challenge/8.ttl.html) 
 * [height of atmospheric boundary layer](https://i-adopt.github.io/examples/Challenge/4.ttl.html) 
-
 
 Other examples may be:
 
