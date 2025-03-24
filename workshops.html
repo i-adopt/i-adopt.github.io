@@ -128,6 +128,12 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#participant-list" id="toc-participant-list" class="nav-link" data-scroll-target="#participant-list">Participant list</a></li>
   </ul></li>
+  <li><a href="#outcomes-of-the-second-i-adopt-variable-modeling-workshop" id="toc-outcomes-of-the-second-i-adopt-variable-modeling-workshop" class="nav-link" data-scroll-target="#outcomes-of-the-second-i-adopt-variable-modeling-workshop">Outcomes of the second I-ADOPT Variable Modeling Workshop</a>
+  <ul class="collapse">
+  <li><a href="#potential-collaborations" id="toc-potential-collaborations" class="nav-link" data-scroll-target="#potential-collaborations">Potential collaborations:</a></li>
+  <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps">Next steps:</a></li>
+  <li><a href="#participant-list-1" id="toc-participant-list-1" class="nav-link" data-scroll-target="#participant-list-1">Participant list</a></li>
+  </ul></li>
   <li><a href="#examples-that-illustrate-the-complexity-character-we-are-looking-for" id="toc-examples-that-illustrate-the-complexity-character-we-are-looking-for" class="nav-link" data-scroll-target="#examples-that-illustrate-the-complexity-character-we-are-looking-for">Examples that illustrate the complexity character we are looking for</a></li>
   <li><a href="#materials-to-study-before-the-workshop" id="toc-materials-to-study-before-the-workshop" class="nav-link" data-scroll-target="#materials-to-study-before-the-workshop">Materials to study before the workshop</a></li>
   </ul>
@@ -217,6 +223,45 @@ ul.task-list li input[type="checkbox"] {
 <li>Sylvain Grellet, BRGM, FR (OGC OMS, HydroDWG, WMO WHOS, Water4all/OneWater, PARC)</li>
 <li>Charly Coussot, IRD, FR (French OZCAR Water Research Infrastructure)</li>
 </ul>
+</section>
+</section>
+<section id="outcomes-of-the-second-i-adopt-variable-modeling-workshop" class="level2">
+<h2 class="anchored" data-anchor-id="outcomes-of-the-second-i-adopt-variable-modeling-workshop">Outcomes of the second I-ADOPT Variable Modeling Workshop</h2>
+<p>In the second I-ADOPT Variable Modelling Workshop (March 10&amp;11 at the Environment Agency Austria, Vienna) we presented the <a href="https://docs.google.com/presentation/d/1LC6nbm8Ps0aOdTtTi2cb7PAzc6pTyneD">outcomes and patterns</a> we discovered during the first workshop and introduced an initial workflow for the development of an <a href="https://drive.google.com/file/d/1Ucl_k-cIILpsnNTiJ8h5sBn2wetHelI5/view">LLM-enabled annotation service based on I-ADOPT</a>. The variables in focus were provided by the meteorological and atmospheric domain. After a presentation on the current developments and efforts in WMO on the <a href="https://drive.google.com/file/d/1mZMYxrpibPQEyriPiKLISyk4hv8lTlbf/view?usp=sharing">WIGOS Metadata Representation</a>, we discussed specific complex variables and their decomposition. This process led to <a href="https://github.com/i-adopt/patterns/tree/main/adrs">Application Design Records (ADRs)</a> which list options for each encountered design problem and on which the I-ADOPT core team will vote and agree to provide reusable patterns. We also identified <a href="https://docs.google.com/spreadsheets/d/1fclAwHtNP-d3NOWp62k7CkAAq4OqUakvpPEfHg_wipI/edit?usp=sharing">rules of alignment</a> between the property type in I-ADOPT and the type of the Feature of Interest in OMS based on examples of the I-ADOPT Challenge analysed, but further analysis is required on a bigger set of examples. A key insight of the modelling discussion revealed the requirement to model a system of elements for any entity in I-ADOPT and these elements can be of any I-ADOPT nature (variables, properties, entities). In addition, we agreed on the requirement to include statistical modifiers (maximum, average, …) in the description.</p>
+<p>A common practice of domain-specific vocabularies applying I-ADOPT (see <a href="https://vocabulary.actris.nilu.no/skosmos/actris_vocab/en/">ACTRIS vocabulary</a> is to design I-ADOPT roles as classes which is only possible if the same concepts appear in the same position in the descriptions. This might be possible for a specific domain but requires clear modelling guidance for the domain with key demo examples provided by leading authorities like WMO. In addition, we further discussed properties required for the product description, where ISO 10131 (Data Product Specification - DPS) can give some directions but the real implementation will most likely not go via ISO but via OMS SWG.</p>
+<p>The I-ADOPT service developer team defined a harmonised <a href="https://docs.google.com/document/d/1eY9UGJv_YMGi1iYKPb-6SLo8GjZWMFy1oD4wWv8MsKY/edit?tab=t.0">roadmap</a> identifying tasks needed to implement the service. The service should allow decomposing a human-readable variable description in I-ADOPT description elements, recognize existing I-ADOPT variables and propose them to the user or annotate the variable elements with concepts from semantic artefacts. The result should be a JSON file that can be exported in turtle and a mapping to existing variables. One challenge was not yet addressed in detail but will need more attention later: the further formalization of constraints to allow better machine readability.</p>
+<section id="potential-collaborations" class="level3">
+<h3 class="anchored" data-anchor-id="potential-collaborations">Potential collaborations:</h3>
+<ul>
+<li>I-ADOPT service development with developers from FAIR2Adapt, NFDI4Earth project and PARC</li>
+<li>I-ADOPT variables modelled for WIGOS vocabulary and for the Atmospheric Composition Variable Name Concent (ASVSNC) involving modellers from the WIGOS, NASA and CF Standard Names</li>
+<li>WMDR 2.0 proposal includes properties which are interesting for the product model in line with I-ADOPT-DPS-STA - a collaboration between modellers from WIGOS, AD4GD and OMS together with some RIs like eLTER, and projects like PARC and FAIR2Adapt would make it</li>
+</ul>
+</section>
+<section id="next-steps" class="level3">
+<h3 class="anchored" data-anchor-id="next-steps">Next steps:</h3>
+<ul>
+<li>I-ADOPT Core team decides on the ADRs and publishes patterns</li>
+<li>I-ADOPT revises the challenge variables to provide a set of curated variables (L0) (deadline: April 10, 2025)</li>
+<li>The service developers will define on top of these variable definitions and the patterns the benchmark level L0 (April - May 2025)</li>
+<li>The domain communities revise their variable descriptions based on the variable modelling patterns using the template indicating also if the variable requires a sample (May 2025)</li>
+<li>The core I-ADOPT team provides a clean list of L1 variables as summary of the community input (June 2025)</li>
+<li>The developer team creates synthetic data via the service (L2) (July-August 2025)</li>
+<li>L2 will be validated by modelling and domain experts (Sept 2025)</li>
+</ul>
+</section>
+<section id="participant-list-1" class="level3">
+<h3 class="anchored" data-anchor-id="participant-list-1">Participant list</h3>
+<p>Modeling subgroup:</p>
+<ul>
+<li>Barbara Magagna, GO FAIR Foundation, NL (RDA WG I-ADOPT, co-chair)</li>
+<li>Sirko Schindler, German Aerospace Center, DE (RDA WG I-ADOPT, technical lead)</li>
+<li>Katharina Schleidt, DataCove (OGC OMS - chair, TSML, conceptual modeller)</li>
+<li>Ivette Serral, CREAF, ES (AD4GD - EBV)</li>
+</ul>
+<p>Metereological subgroup: * Gao Chen, NASA, US (ACVSNC - Langley Research Center, lead) * Morgan Silverman, NASA, US (ACVSNC - Langley Research Center, data scientist) * Jörg Klausen, MeteoSwiss, CH (WMO TT - WIGOSMD, chair) * Johannes Peterseil, Environment Agency Austria (eLTER RI, technical lead)</p>
+<p>I-ADOPT service developer subgroup: * José Manuel Gomez, Expert.AI, ES (FAIR2Adapt, developer) * Cristian Berrio Aroca, Expert.AI, ES (FAIR2Adapt, developer) * Èsteban Gonzalez, UPM, ES (FAIR2Adapt, developer) * Arvin Rastegar, KIT, DE (NFDI4Earth, developer) * Saurav Kumar, IISPV, ES (PARC, semantic expert)</p>
+<p>Online participants: * Iseult Lynch, University of Birmingham, UK (PARC - FAIR lead) * Markus Fiebig, NILU, NO (ACTRIS - atmospheric scientist) * Beth Huffer, NASA, US (Lingua Logica, semantic expert)</p>
 </section>
 </section>
 <section id="examples-that-illustrate-the-complexity-character-we-are-looking-for" class="level2">
