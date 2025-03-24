@@ -104,6 +104,7 @@ Metereological subgroup:
 * Gao Chen, NASA, US (ACVSNC - Langley Research Center, lead)
 * Morgan Silverman, NASA, US (ACVSNC - Langley Research Center, data scientist)
 * Jörg Klausen, MeteoSwiss, CH (WMO TT - WIGOSMD, chair)
+* Alison Pamment, Centre for Environmental Data Analysis/Sience and Technology Facilities Council, UK (CF Convention, I-ADOPT core team)
 * Johannes Peterseil, Environment Agency Austria (eLTER RI, technical lead)
 
 I-ADOPT service developer subgroup:
