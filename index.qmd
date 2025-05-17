@@ -1,4 +1,4 @@
-![](img/RDA.png)
+![](img/RDA.png){width="30%"}](https://www.rd-alliance.org/){target="_blank"}
 
 ---
 title: "InteroperAble Descriptions of Observable Property Terminology WG (RDA I-ADOPT WG)"
