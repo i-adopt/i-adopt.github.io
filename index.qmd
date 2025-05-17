@@ -1,5 +1,7 @@
+![](img/RDA.png)
+
 ---
-title: "InteroperAble Descriptions of Observable Property Terminology WG (I-ADOPT WG)"
+title: "InteroperAble Descriptions of Observable Property Terminology WG (RDA I-ADOPT WG)"
 ---
 
 ## I-ADOPT in a nutshell
