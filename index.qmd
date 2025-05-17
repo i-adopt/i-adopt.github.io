@@ -32,7 +32,7 @@ The **I-ADOPT recommendations** were finalized in January 2022 and **endorsed by
 
 ## I-ADOPT WG Chairs
 
-**Barbara Magagna** (Go FAIR Foundation, NL)
+**Barbara Magagna** (GO FAIR Foundation, NL)
 
 **Gwenaëlle Moncoiffé** (National Oceanography Centre - British Oceanographic Data Centre, UK)
 
