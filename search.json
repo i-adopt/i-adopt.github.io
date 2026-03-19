@@ -263,6 +263,6 @@
     "href": "service.html#get-started",
     "title": "The I-ADOPT Variable Annotation Service",
     "section": "Get Started",
-    "text": "Get Started\nOur service is now available for testing and integration. Whether you are a researcher, data steward, or platform developer, you can use this tool to: * Go to our I-ADOPT Service repo, follow the instructions and install the service on your computer * Generate I-ADOPT-aligned variable decompositions from natural language. * Improve the FAIRness of your datasets. * Contribute to community-driven validation and refinement of the LLM models."
+    "text": "Get Started\nOur service is now available for testing and integration. Whether you are a researcher, data steward, or platform developer, you can use this tool to: * Go to our I-ADOPT Service repo, follow the instructions and install the service on your computer * Generate I-ADOPT-aligned variable decompositions from natural language.\n\nImprove the FAIRness of your datasets.\nContribute to community-driven validation and refinement of the LLM models."
   }
 ]
