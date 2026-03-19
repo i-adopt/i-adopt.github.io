@@ -59,7 +59,7 @@ Our service is now available for testing and integration. Whether you are a rese
 
 ::: {layout="[ 50,50 ]"}
 ::: {#first-column}
-[![](img/NFDI4Earth.png){width="20%"}](https://www.rd-alliance.org/rda-tiger/){target="_blank"}
+[![](img/NFDI4Earth.jpg){width="20%"}](https://www.rd-alliance.org/rda-tiger/){target="_blank"}
 :::
 
 ::: {#second-column}
