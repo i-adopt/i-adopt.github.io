@@ -39,8 +39,8 @@ A collection of variables from different domains is used as a ground truth for r
 
 
 ## Our Next Steps
-* Develop Variable Design Patterns
-* Develop Decision Trees for applying the Variable Design Patterns
+* Develop [Variable Design Patterns](https://github.com/mabablue/I-ADOPT-patterns-playground/tree/main/pattern)
+* Develop [Decision Trees](https://github.com/mabablue/I-ADOPT-patterns-playground/tree/main/Decisition_trees) for applying the Variable Design Patterns
 * Enrich service with Patterns and Decision Trees  
 
 ## Applications
