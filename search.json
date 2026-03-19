@@ -219,49 +219,49 @@
   {
     "objectID": "service.html",
     "href": "service.html",
-    "title": "The LLM-Assisted I-ADOPT Variable Annotation Service",
+    "title": "The I-ADOPT Variable Annotation Service",
     "section": "",
     "text": "To automate the process of variable descriptions aligned with the RDA endorsed I-ADOPT Framework, a collaboration between NFDI4Earth and the FAIR2Adapt project worked on the development of the I-ADOPT Service. The service leverages Large Language Models (LLMs) to transform natural language descriptions of observational research into I-ADOPT-aligned, machine-interpretable representations. This service enables researchers to generate FAIR-compliant metadata without requiring deep semantic or technical expertise. The resulting RDF representation is visualized in a graphical interface where users can review and edit the decomposition before publishing it as a nanopublication. A collection of variables from different domains is used as a ground truth for reference decompositions (I-ADOPT Corpus)."
   },
   {
     "objectID": "service.html#the-llm-assisted-i-adopt-variable-annotation-service",
     "href": "service.html#the-llm-assisted-i-adopt-variable-annotation-service",
-    "title": "The LLM-Assisted I-ADOPT Variable Annotation Service",
+    "title": "The I-ADOPT Variable Annotation Service",
     "section": "",
     "text": "To automate the process of variable descriptions aligned with the RDA endorsed I-ADOPT Framework, a collaboration between NFDI4Earth and the FAIR2Adapt project worked on the development of the I-ADOPT Service. The service leverages Large Language Models (LLMs) to transform natural language descriptions of observational research into I-ADOPT-aligned, machine-interpretable representations. This service enables researchers to generate FAIR-compliant metadata without requiring deep semantic or technical expertise. The resulting RDF representation is visualized in a graphical interface where users can review and edit the decomposition before publishing it as a nanopublication. A collection of variables from different domains is used as a ground truth for reference decompositions (I-ADOPT Corpus)."
   },
   {
     "objectID": "service.html#i-adopt-corpus",
     "href": "service.html#i-adopt-corpus",
-    "title": "The LLM-Assisted I-ADOPT Variable Annotation Service",
+    "title": "The I-ADOPT Variable Annotation Service",
     "section": "I-ADOPT Corpus",
     "text": "I-ADOPT Corpus\n\n102 variables from more than 10 domains were modelled using the I-ADOPT Visualizer\nDecompositions were aligned and harmonized according to recurring patterns\nAll decompositions are published as issues in the examples playground repository\nDomain experts evaluated and refined the decomposition together with semantic experts based on an evaluation schema\nAll variables are represented in RDF turtle (ttl) in this repo\nAll variables are visualized in the I-ADOPT Corpus Collection"
   },
   {
     "objectID": "service.html#key-features",
     "href": "service.html#key-features",
-    "title": "The LLM-Assisted I-ADOPT Variable Annotation Service",
+    "title": "The I-ADOPT Variable Annotation Service",
     "section": "Key Features",
     "text": "Key Features\n\nNatural Language Input:\n\n\nUsers provide plain-language descriptions of observed variables (e.g., “surface soil temperature at 10 cm depth”).\nThe LLM processes these descriptions and decomposes them into the I-ADOPT description components.\n\n\nIntegration with Research Platforms:\n\n\nThe service is designed to integrate with platforms like RoHub, enabling seamless adoption in research data infrastructures.\nSupports FAIR data stewardship by generating machine-readable metadata that aligns with community standards.\n\n\nCommunity-Driven Validation:\n\n\nThe service is linked to national and European initiatives, allowing for direct evaluation and feedback from end-users and domain experts."
   },
   {
     "objectID": "service.html#our-next-steps",
     "href": "service.html#our-next-steps",
-    "title": "The LLM-Assisted I-ADOPT Variable Annotation Service",
+    "title": "The I-ADOPT Variable Annotation Service",
     "section": "Our Next Steps",
     "text": "Our Next Steps\n\nDevelop Variable Design Patterns\nDevelop Decision Trees for applying the Variable Design Patterns\nEnrich service with Patterns and Decision Trees"
   },
   {
     "objectID": "service.html#applications",
     "href": "service.html#applications",
-    "title": "The LLM-Assisted I-ADOPT Variable Annotation Service",
+    "title": "The I-ADOPT Variable Annotation Service",
     "section": "Applications",
     "text": "Applications\n\nResearch Data Management: Automate the creation of FAIR-compliant metadata for datasets in earth and environmental sciences.\nCross-Domain Interoperability: Facilitate the integration of data across disciplines by standardizing variable descriptions.\nSemantic Enrichment: Enhance the discoverability and reusability of research data through structured, machine-interpretable annotations."
   },
   {
     "objectID": "service.html#get-started",
     "href": "service.html#get-started",
-    "title": "The LLM-Assisted I-ADOPT Variable Annotation Service",
+    "title": "The I-ADOPT Variable Annotation Service",
     "section": "Get Started",
     "text": "Get Started\nOur service is now available for testing and integration. Whether you are a researcher, data steward, or platform developer, you can use this tool to: * Go to our I-ADOPT Service repo, follow the instructions and install the service on your computer * Generate I-ADOPT-aligned variable decompositions from natural language. * Improve the FAIRness of your datasets. * Contribute to community-driven validation and refinement of the LLM models."
   }
