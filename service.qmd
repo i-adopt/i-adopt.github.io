@@ -60,9 +60,9 @@ Our service is now available for testing and integration. Whether you are a rese
 
 ::: {layout="[ 40,60 ]"}
 ::: {#first-column}
-[![](img/NFDI4Earth.jpg){width="5%"}](https://www.rd-alliance.org/rda-tiger/){target="_blank"}
+[![](img/NFDI4Earth.jpg){width="5%"}](https://www.nfdi4earth.de/){target="_blank"}
 :::
 
 ::: {#second-column}
-[![](img/FAIR2Adapt.png){width="20%"}](https://partnersinfair.com/){target="_blank"}
+[![](img/FAIR2Adapt.png){width="20%"}](https://fair2adapt-eosc.eu/){target="_blank"}
 :::
