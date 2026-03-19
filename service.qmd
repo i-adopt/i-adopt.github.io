@@ -2,7 +2,7 @@
 format:
   html:
     css: service.css
-title: The LLM-Assisted I-ADOPT Variable Annotation Service
+title: The I-ADOPT Variable Annotation Service
 author:
   - name: Barbara Magagna
     orcid: 0000-0003-2195-3997
@@ -59,7 +59,7 @@ Our service is now available for testing and integration. Whether you are a rese
 
 ::: {layout="[ 50,50 ]"}
 ::: {#first-column}
-[![](img/NFDI4Earth.jpg){width="20%"}](https://www.rd-alliance.org/rda-tiger/){target="_blank"}
+[![](img/NFDI4Earth.jpg){width="10%"}](https://www.rd-alliance.org/rda-tiger/){target="_blank"}
 :::
 
 ::: {#second-column}
