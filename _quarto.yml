@@ -19,6 +19,8 @@ website:
         href: challenge.qmd
       - text: Modelling Workshops
         href: workshops.qmd
+      - text: Service
+        href: service.qmd
   page-footer: 
     center: 
       - text: "About"
