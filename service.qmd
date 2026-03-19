@@ -52,14 +52,13 @@ A collection of variables from different domains is used as a ground truth for r
 ## Get Started
 
 Our service is now available for testing and integration. Whether you are a researcher, data steward, or platform developer, you can use this tool to:
+
 * Go to our [I-ADOPT Service repo](https://github.com/ArvinRastegar/i-adopt-service-website), follow the instructions and install the service on your computer
 * Generate I-ADOPT-aligned variable decompositions from natural language.
-
 * Improve the FAIRness of your datasets.
-
 * Contribute to community-driven validation and refinement of the LLM models.
 
-::: {layout="[ 50,50 ]"}
+::: {layout="[ 40,60 ]"}
 ::: {#first-column}
 [![](img/NFDI4Earth.jpg){width="5%"}](https://www.rd-alliance.org/rda-tiger/){target="_blank"}
 :::
