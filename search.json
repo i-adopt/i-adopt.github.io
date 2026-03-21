@@ -249,7 +249,7 @@
     "href": "service.html#our-next-steps",
     "title": "The I-ADOPT Variable Annotation Service",
     "section": "Our Next Steps",
-    "text": "Our Next Steps\n\nDevelop Variable Design Patterns\nDevelop Decision Trees for applying the Variable Design Patterns\nEnrich service with Patterns and Decision Trees\nEnable the reuse of semantic concepts from the vocabularies hosted in the semantic artefact catalogues of your choice\nSearch of pre-existing variables\nEmbed the service in ROHub\nProvide a dockerised version of the service"
+    "text": "Our Next Steps\n\nDevelop Variable Design Patterns\nDevelop Decision Trees for applying the Variable Design Patterns\nEnrich service with Patterns and Decision Trees following the instructions from the Guideline\nEnable the reuse of semantic concepts from the vocabularies hosted in the semantic artefact catalogues of your choice\nSearch of pre-existing variables\nEmbed the service in ROHub\nProvide a dockerised version of the service"
   },
   {
     "objectID": "service.html#applications",
