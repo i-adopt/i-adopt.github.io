@@ -49,7 +49,7 @@ A collection of variables from different domains is used as a ground truth for r
 ## Our Next Steps
 * Develop [Variable Design Patterns](https://github.com/mabablue/I-ADOPT-patterns-playground/tree/main/pattern)
 * Develop [Decision Trees](https://github.com/mabablue/I-ADOPT-patterns-playground/tree/main/Decisition_trees) for applying the Variable Design Patterns
-* Enrich service with Patterns and Decision Trees
+* Enrich service with Patterns and Decision Trees following the instructions from the [Guideline](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Guide/guideline.md)
 * Enable the reuse of semantic concepts from the vocabularies hosted in the semantic artefact catalogues of your choice
 * Search of pre-existing variables
 * Embed the service in ROHub
