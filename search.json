@@ -1,5 +1,68 @@
 [
   {
+    "objectID": "material/readme.html",
+    "href": "material/readme.html",
+    "title": "I-ADOPT",
+    "section": "",
+    "text": "Here we publish instruction material to be shared."
+  },
+  {
+    "objectID": "challenge.html",
+    "href": "challenge.html",
+    "title": "The I-ADOPT Variable Modeling Challenge",
+    "section": "",
+    "text": "I-ADOPT aims to facilitate data interoperability by offering a common framework to\ndescribe variables and connect terminologies used to name variables.\nThe I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.\nThe First Challenge took place from 16 to 29 September 2024, the Second Challenge from 14 to 18 October 2024.\n1st prize - €400 plus 2 virtual attendance fees for RDA 23: Anne Fouilloux and Jean Iaquinta (212.75 points)\n2nd prize - €300 plus 1 virtual attendance fee for RDA 23: Andrea Tarallo, Martina Pulieri, Christina Di Muri, and Jessica Titocci (208.5 points)\n3rd prize - €200: Jörg Klausen, Morgan Silverman and Gao Chen (170.6 points)\nThe RDA TIGER Programme sponsored the attendance fees for the winners.\nThe following participants qualified for the Second Challenge and will each receive €100:\nMargherita Martorana, Samantha Blakeman, Petra ten Hoopen, Naouel Karam, Juliana Menger, Saurav Kumar, and Norbert van Dijk"
+  },
+  {
+    "objectID": "challenge.html#winners-of-the-i-adopt-variable-modeling-challenge-first-and-second-challenge",
+    "href": "challenge.html#winners-of-the-i-adopt-variable-modeling-challenge-first-and-second-challenge",
+    "title": "The I-ADOPT Variable Modeling Challenge",
+    "section": "",
+    "text": "I-ADOPT aims to facilitate data interoperability by offering a common framework to\ndescribe variables and connect terminologies used to name variables.\nThe I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.\nThe First Challenge took place from 16 to 29 September 2024, the Second Challenge from 14 to 18 October 2024.\n1st prize - €400 plus 2 virtual attendance fees for RDA 23: Anne Fouilloux and Jean Iaquinta (212.75 points)\n2nd prize - €300 plus 1 virtual attendance fee for RDA 23: Andrea Tarallo, Martina Pulieri, Christina Di Muri, and Jessica Titocci (208.5 points)\n3rd prize - €200: Jörg Klausen, Morgan Silverman and Gao Chen (170.6 points)\nThe RDA TIGER Programme sponsored the attendance fees for the winners.\nThe following participants qualified for the Second Challenge and will each receive €100:\nMargherita Martorana, Samantha Blakeman, Petra ten Hoopen, Naouel Karam, Juliana Menger, Saurav Kumar, and Norbert van Dijk"
+  },
+  {
+    "objectID": "challenge.html#results",
+    "href": "challenge.html#results",
+    "title": "The I-ADOPT Variable Modeling Challenge",
+    "section": "Results",
+    "text": "Results\nWe have put valid models of all 30 variables from the Challenge in the (examples repository). Be aware that other models might also be fulfilling the criteria.\nWe invite to discuss different variants in the (issues).\nFind all contributions and detailed evaluation results in this (sheet).\nWe will analyse the results further and will present interesting outcomes at the RDA Plenary Meeting 23 in Costa Rica on Wednesday, 13 November 2024 (14:00-15:30 UTC) in this session: (Challenging I-ADOPT) (Venue: Edificio de Ingeniería, Classroom 40, University of Costa Rica)."
+  },
+  {
+    "objectID": "challenge.html#reviewer-team",
+    "href": "challenge.html#reviewer-team",
+    "title": "The I-ADOPT Variable Modeling Challenge",
+    "section": "Reviewer Team",
+    "text": "Reviewer Team\nI-ADOPT Core team:\n\nBarbara Magagna (GO FAIR Foundation, NL)\nGwenaëlle Moncoiffé (National Oceanography Centre - British Oceanographic Data Centre, UK)\nAnusuriya Devaraju (CSIRO, AU)\nMaria Stoica (University of Colorado, Boulder, US)\nSirko Schindler (German Aerospace Center, DE)\nAlison Pamment (Centre for Environmental Data Analysis/Sience and Technology Facilities Council, UK)\n\nExternal reviewers:\n\nMarkus Stocker (TIB - Leibniz Information Centre for Science and Technology, GER)\nJohn Graybeal (GO FAIR US, San Diego Supercomputing Center, US)\nRob Atkinson (Open Geospatial Consortium, AU)"
+  },
+  {
+    "objectID": "challenge.html#relevant-challenge-material",
+    "href": "challenge.html#relevant-challenge-material",
+    "title": "The I-ADOPT Variable Modeling Challenge",
+    "section": "Relevant Challenge Material",
+    "text": "Relevant Challenge Material\nFind here all relevant materials, which we recommend you to study in this order:\n\nAn introduction to the I-ADOPT Framework (Video,Slides and Notes)\nA step-by-step guide for creating an I-ADOPT compliant variable description (Video,Slides and Notes)\nInstructions for submitting modeled variables including participation and scoring rules (Presentation)\nThe list of variables from the First Challenge (Challenge Variables I).\nThe list of variables to be selected for the Second Challenge (Challenge Variables II).\nSome useful modeling tips for the I-ADOPT Framework aligned variables with (DO’s and DONT’s).\n\nIf you have a question related to the Challenge please post it to the Question GitHub as an issue. We will try to answer it promptly."
+  },
+  {
+    "objectID": "challenge.html#sponsors",
+    "href": "challenge.html#sponsors",
+    "title": "The I-ADOPT Variable Modeling Challenge",
+    "section": "Sponsors",
+    "text": "Sponsors"
+  },
+  {
+    "objectID": "challenge.html#good-to-know",
+    "href": "challenge.html#good-to-know",
+    "title": "The I-ADOPT Variable Modeling Challenge",
+    "section": "Good to know",
+    "text": "Good to know\nBackground information about I-ADOPT can be explored on this website."
+  },
+  {
+    "objectID": "challenge.html#timeline",
+    "href": "challenge.html#timeline",
+    "title": "The I-ADOPT Variable Modeling Challenge",
+    "section": "Timeline",
+    "text": "Timeline\n\n\n\n\n\n\n\nDate\nAction\n\n\n\n\nJune 17\nAnnouncement of the Challenge\n\n\nAugust 25\nDeadline for variable submissions\n\n\nSeptember 2\nPublication of participation rules and instruction video\n\n\nSeptember 2\nSubscription to the Challenge open\n\n\nSeptember 16\nStart of the Challenge\n\n\nSeptember 29\nEnd of the Challenge\n\n\nOctober 10\nAnnouncement of the winners\n\n\nOctober 14\nStart of Second Challenge\n\n\nOctober 18\nEnd of Second Challenge\n\n\nOctober 31\nPublication of detailed results\n\n\nNovember 12-14\nPresentation of the Challenge and interoperability results at the RDA 23rd Plenary"
+  },
+  {
     "objectID": "workshops.html",
     "href": "workshops.html",
     "title": "The I-ADOPT Variable Modeling Workshops",
@@ -70,11 +133,53 @@
     "text": "Contribute\nYou can contribute to I-ADOPT by participating at our regular calls and by providing your variable description to our github repository."
   },
   {
-    "objectID": "material/readme.html",
-    "href": "material/readme.html",
-    "title": "I-ADOPT",
+    "objectID": "service.html",
+    "href": "service.html",
+    "title": "The I-ADOPT Variable Annotation Service",
     "section": "",
-    "text": "Here we publish instruction material to be shared."
+    "text": "To automate the process of variable descriptions with the human-in-the-loop and aligned with the RDA endorsed I-ADOPT Framework, a collaboration between NFDI4Earth and the FAIR2Adapt project is working on the development of the I-ADOPT Service. We are constantly working on the improvement of the service output.\nThe service leverages Large Language Models (LLMs) to transform natural language descriptions of observational research into I-ADOPT-aligned, machine-interpretable representations. This service enables researchers to generate FAIR-compliant metadata without requiring deep semantic or technical expertise. The resulting RDF representation is visualized in a graphical interface where users can review and edit the decomposition before publishing it as a nanopublication.\nWe currently offer the I-ADOPT service on GitHub, allowing users to install and run it on their own devices. To enhance accessibility and ease of deployment, we are dockerizing the service. This will enable users to embed the I-ADOPT service in any data registry with minimal setup, ensuring consistency, portability, and scalability across different environments."
+  },
+  {
+    "objectID": "service.html#the-llm-assisted-i-adopt-variable-annotation-service",
+    "href": "service.html#the-llm-assisted-i-adopt-variable-annotation-service",
+    "title": "The I-ADOPT Variable Annotation Service",
+    "section": "",
+    "text": "To automate the process of variable descriptions with the human-in-the-loop and aligned with the RDA endorsed I-ADOPT Framework, a collaboration between NFDI4Earth and the FAIR2Adapt project is working on the development of the I-ADOPT Service. We are constantly working on the improvement of the service output.\nThe service leverages Large Language Models (LLMs) to transform natural language descriptions of observational research into I-ADOPT-aligned, machine-interpretable representations. This service enables researchers to generate FAIR-compliant metadata without requiring deep semantic or technical expertise. The resulting RDF representation is visualized in a graphical interface where users can review and edit the decomposition before publishing it as a nanopublication.\nWe currently offer the I-ADOPT service on GitHub, allowing users to install and run it on their own devices. To enhance accessibility and ease of deployment, we are dockerizing the service. This will enable users to embed the I-ADOPT service in any data registry with minimal setup, ensuring consistency, portability, and scalability across different environments."
+  },
+  {
+    "objectID": "service.html#i-adopt-corpus",
+    "href": "service.html#i-adopt-corpus",
+    "title": "The I-ADOPT Variable Annotation Service",
+    "section": "I-ADOPT Corpus",
+    "text": "I-ADOPT Corpus\nA collection of variables from different domains is used as a ground truth for reference decompositions (I-ADOPT Corpus).\n\n102 variables from more than 10 domains were modelled using the I-ADOPT Visualizer\nDecompositions were aligned and harmonized according to recurring patterns\nAll decompositions are published as issues in the examples playground repository\nDomain experts evaluated and refined the decomposition together with semantic experts based on an evaluation schema\nAll variables are represented in RDF turtle (ttl) in this repo\nAll variables are visualized in the I-ADOPT Corpus Collection"
+  },
+  {
+    "objectID": "service.html#key-features",
+    "href": "service.html#key-features",
+    "title": "The I-ADOPT Variable Annotation Service",
+    "section": "Key Features",
+    "text": "Key Features\n\nNatural Language Input:\n\n\nUsers provide plain-language descriptions of observed variables (e.g., “surface soil temperature at 10 cm depth”).\nThe LLM processes these descriptions and decomposes them into the I-ADOPT description components.\nThe components are annotated with Wikidata concepts.\n\n\nVisualisation of the variable and human-in-the-loop functionality:\n\n\nThe variable decomposition is visualized using the Visualizer provided by Sirko Schindler\nThe Visualizer enables users to manually optimize the decomposition\nThe service allows export of the decomposition in different formats and the minting of a new variable as an FAIR Digital Object nanopublication\n\n\nIntegration with Research Platforms:\n\n\nThe service is designed to integrate with platforms like RoHub, enabling seamless adoption in research data infrastructures.\nSupports FAIR data stewardship by generating machine-readable metadata that aligns with community standards.\n\n\nCommunity-Driven Validation:\n\n\nThe service is linked to national and European initiatives, allowing for direct evaluation and feedback from end-users and domain experts."
+  },
+  {
+    "objectID": "service.html#our-next-steps",
+    "href": "service.html#our-next-steps",
+    "title": "The I-ADOPT Variable Annotation Service",
+    "section": "Our Next Steps",
+    "text": "Our Next Steps\n\nDevelop Variable Design Patterns to provide machine-readable decomposition design guidelines based on specific characteristics.\nDevelop Decision Trees for applying the Variable Design Patterns\nEnrich service with Patterns and Decision Trees following the instructions from the Guideline\nEnable the reuse of semantic concepts from the vocabularies hosted in the semantic artefact catalogues of your choice\nSearch of pre-existing variables\nEmbed the service in ROHub\nProvide a dockerised version of the service"
+  },
+  {
+    "objectID": "service.html#applications",
+    "href": "service.html#applications",
+    "title": "The I-ADOPT Variable Annotation Service",
+    "section": "Applications",
+    "text": "Applications\n\nResearch Data Management: Automate the creation of FAIR-compliant metadata for datasets in earth and environmental sciences.\nCross-Domain Interoperability: Facilitate the integration of data across disciplines by standardizing variable descriptions.\nSemantic Enrichment: Enhance the discoverability and reusability of research data through structured, machine-interpretable annotations."
+  },
+  {
+    "objectID": "service.html#get-started",
+    "href": "service.html#get-started",
+    "title": "The I-ADOPT Variable Annotation Service",
+    "section": "Get Started",
+    "text": "Get Started\nOur service will be ready for testing and integration on March 24, 2026. Whether you are a researcher, data steward, or platform developer, you can use this tool to explore its functionalities:\n\nGo to our I-ADOPT Service repo, follow the instructions and install the service on your computer\nGenerate I-ADOPT-aligned variable decompositions from natural language.\nImprove the FAIRness of your datasets.\nContribute to community-driven validation and refinement of the LLM models."
   },
   {
     "objectID": "index.html#i-adopt-in-a-nutshell",
@@ -110,62 +215,6 @@
     "title": "InteroperAble Descriptions of Observable Property Terminology WG (RDA I-ADOPT WG)",
     "section": "An Example",
     "text": "An Example\nApplying the I-ADOPT Framework means:\n\ndecompose the variable in atomic components\nassign a description role for each component\nannotate each component with concepts from terminologies\n\n\nThis I-ADOPT decomposition and annotation exercise should result in a variable concept with its associated concepts in a SKOS vocabulary:\n\nSee here the variable represented as SKOS concept from the Theia/OZCAR Thesaurus.\n\nJoin our efforts"
-  },
-  {
-    "objectID": "challenge.html",
-    "href": "challenge.html",
-    "title": "The I-ADOPT Variable Modeling Challenge",
-    "section": "",
-    "text": "I-ADOPT aims to facilitate data interoperability by offering a common framework to\ndescribe variables and connect terminologies used to name variables.\nThe I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.\nThe First Challenge took place from 16 to 29 September 2024, the Second Challenge from 14 to 18 October 2024.\n1st prize - €400 plus 2 virtual attendance fees for RDA 23: Anne Fouilloux and Jean Iaquinta (212.75 points)\n2nd prize - €300 plus 1 virtual attendance fee for RDA 23: Andrea Tarallo, Martina Pulieri, Christina Di Muri, and Jessica Titocci (208.5 points)\n3rd prize - €200: Jörg Klausen, Morgan Silverman and Gao Chen (170.6 points)\nThe RDA TIGER Programme sponsored the attendance fees for the winners.\nThe following participants qualified for the Second Challenge and will each receive €100:\nMargherita Martorana, Samantha Blakeman, Petra ten Hoopen, Naouel Karam, Juliana Menger, Saurav Kumar, and Norbert van Dijk"
-  },
-  {
-    "objectID": "challenge.html#winners-of-the-i-adopt-variable-modeling-challenge-first-and-second-challenge",
-    "href": "challenge.html#winners-of-the-i-adopt-variable-modeling-challenge-first-and-second-challenge",
-    "title": "The I-ADOPT Variable Modeling Challenge",
-    "section": "",
-    "text": "I-ADOPT aims to facilitate data interoperability by offering a common framework to\ndescribe variables and connect terminologies used to name variables.\nThe I-ADOPT recommendations, endorsed by RDA, are now a candidate OGC standard.\nThe First Challenge took place from 16 to 29 September 2024, the Second Challenge from 14 to 18 October 2024.\n1st prize - €400 plus 2 virtual attendance fees for RDA 23: Anne Fouilloux and Jean Iaquinta (212.75 points)\n2nd prize - €300 plus 1 virtual attendance fee for RDA 23: Andrea Tarallo, Martina Pulieri, Christina Di Muri, and Jessica Titocci (208.5 points)\n3rd prize - €200: Jörg Klausen, Morgan Silverman and Gao Chen (170.6 points)\nThe RDA TIGER Programme sponsored the attendance fees for the winners.\nThe following participants qualified for the Second Challenge and will each receive €100:\nMargherita Martorana, Samantha Blakeman, Petra ten Hoopen, Naouel Karam, Juliana Menger, Saurav Kumar, and Norbert van Dijk"
-  },
-  {
-    "objectID": "challenge.html#results",
-    "href": "challenge.html#results",
-    "title": "The I-ADOPT Variable Modeling Challenge",
-    "section": "Results",
-    "text": "Results\nWe have put valid models of all 30 variables from the Challenge in the (examples repository). Be aware that other models might also be fulfilling the criteria.\nWe invite to discuss different variants in the (issues).\nFind all contributions and detailed evaluation results in this (sheet).\nWe will analyse the results further and will present interesting outcomes at the RDA Plenary Meeting 23 in Costa Rica on Wednesday, 13 November 2024 (14:00-15:30 UTC) in this session: (Challenging I-ADOPT) (Venue: Edificio de Ingeniería, Classroom 40, University of Costa Rica)."
-  },
-  {
-    "objectID": "challenge.html#reviewer-team",
-    "href": "challenge.html#reviewer-team",
-    "title": "The I-ADOPT Variable Modeling Challenge",
-    "section": "Reviewer Team",
-    "text": "Reviewer Team\nI-ADOPT Core team:\n\nBarbara Magagna (GO FAIR Foundation, NL)\nGwenaëlle Moncoiffé (National Oceanography Centre - British Oceanographic Data Centre, UK)\nAnusuriya Devaraju (CSIRO, AU)\nMaria Stoica (University of Colorado, Boulder, US)\nSirko Schindler (German Aerospace Center, DE)\nAlison Pamment (Centre for Environmental Data Analysis/Sience and Technology Facilities Council, UK)\n\nExternal reviewers:\n\nMarkus Stocker (TIB - Leibniz Information Centre for Science and Technology, GER)\nJohn Graybeal (GO FAIR US, San Diego Supercomputing Center, US)\nRob Atkinson (Open Geospatial Consortium, AU)"
-  },
-  {
-    "objectID": "challenge.html#relevant-challenge-material",
-    "href": "challenge.html#relevant-challenge-material",
-    "title": "The I-ADOPT Variable Modeling Challenge",
-    "section": "Relevant Challenge Material",
-    "text": "Relevant Challenge Material\nFind here all relevant materials, which we recommend you to study in this order:\n\nAn introduction to the I-ADOPT Framework (Video,Slides and Notes)\nA step-by-step guide for creating an I-ADOPT compliant variable description (Video,Slides and Notes)\nInstructions for submitting modeled variables including participation and scoring rules (Presentation)\nThe list of variables from the First Challenge (Challenge Variables I).\nThe list of variables to be selected for the Second Challenge (Challenge Variables II).\nSome useful modeling tips for the I-ADOPT Framework aligned variables with (DO’s and DONT’s).\n\nIf you have a question related to the Challenge please post it to the Question GitHub as an issue. We will try to answer it promptly."
-  },
-  {
-    "objectID": "challenge.html#sponsors",
-    "href": "challenge.html#sponsors",
-    "title": "The I-ADOPT Variable Modeling Challenge",
-    "section": "Sponsors",
-    "text": "Sponsors"
-  },
-  {
-    "objectID": "challenge.html#good-to-know",
-    "href": "challenge.html#good-to-know",
-    "title": "The I-ADOPT Variable Modeling Challenge",
-    "section": "Good to know",
-    "text": "Good to know\nBackground information about I-ADOPT can be explored on this website."
-  },
-  {
-    "objectID": "challenge.html#timeline",
-    "href": "challenge.html#timeline",
-    "title": "The I-ADOPT Variable Modeling Challenge",
-    "section": "Timeline",
-    "text": "Timeline\n\n\n\n\n\n\n\nDate\nAction\n\n\n\n\nJune 17\nAnnouncement of the Challenge\n\n\nAugust 25\nDeadline for variable submissions\n\n\nSeptember 2\nPublication of participation rules and instruction video\n\n\nSeptember 2\nSubscription to the Challenge open\n\n\nSeptember 16\nStart of the Challenge\n\n\nSeptember 29\nEnd of the Challenge\n\n\nOctober 10\nAnnouncement of the winners\n\n\nOctober 14\nStart of Second Challenge\n\n\nOctober 18\nEnd of Second Challenge\n\n\nOctober 31\nPublication of detailed results\n\n\nNovember 12-14\nPresentation of the Challenge and interoperability results at the RDA 23rd Plenary"
   },
   {
     "objectID": "material/service.html",
@@ -215,54 +264,5 @@
     "title": "The LLM-Assisted I-ADOPT Variable Annotation Service",
     "section": "Get Started",
     "text": "Get Started\nOur service is now available for testing and integration. Whether you are a researcher, data steward, or platform developer, you can use this tool to: * Go to our I-ADOPT Service repo, follow the instructions and install the service on your computer * Generate I-ADOPT-aligned variable decompositions from natural language. * Improve the FAIRness of your datasets. * Contribute to community-driven validation and refinement of the LLM models."
-  },
-  {
-    "objectID": "service.html",
-    "href": "service.html",
-    "title": "The I-ADOPT Variable Annotation Service",
-    "section": "",
-    "text": "To automate the process of variable descriptions with the human-in-the-loop and aligned with the RDA endorsed I-ADOPT Framework, a collaboration between NFDI4Earth and the FAIR2Adapt project is working on the development of the I-ADOPT Service. We are constantly working on the improvement of the service output.\nThe service leverages Large Language Models (LLMs) to transform natural language descriptions of observational research into I-ADOPT-aligned, machine-interpretable representations. This service enables researchers to generate FAIR-compliant metadata without requiring deep semantic or technical expertise. The resulting RDF representation is visualized in a graphical interface where users can review and edit the decomposition before publishing it as a nanopublication.\nWe currently offer the I-ADOPT service on GitHub, allowing users to install and run it on their own devices. To enhance accessibility and ease of deployment, we are dockerizing the service. This will enable users to embed the I-ADOPT service in any data registry with minimal setup, ensuring consistency, portability, and scalability across different environments."
-  },
-  {
-    "objectID": "service.html#the-llm-assisted-i-adopt-variable-annotation-service",
-    "href": "service.html#the-llm-assisted-i-adopt-variable-annotation-service",
-    "title": "The I-ADOPT Variable Annotation Service",
-    "section": "",
-    "text": "To automate the process of variable descriptions with the human-in-the-loop and aligned with the RDA endorsed I-ADOPT Framework, a collaboration between NFDI4Earth and the FAIR2Adapt project is working on the development of the I-ADOPT Service. We are constantly working on the improvement of the service output.\nThe service leverages Large Language Models (LLMs) to transform natural language descriptions of observational research into I-ADOPT-aligned, machine-interpretable representations. This service enables researchers to generate FAIR-compliant metadata without requiring deep semantic or technical expertise. The resulting RDF representation is visualized in a graphical interface where users can review and edit the decomposition before publishing it as a nanopublication.\nWe currently offer the I-ADOPT service on GitHub, allowing users to install and run it on their own devices. To enhance accessibility and ease of deployment, we are dockerizing the service. This will enable users to embed the I-ADOPT service in any data registry with minimal setup, ensuring consistency, portability, and scalability across different environments."
-  },
-  {
-    "objectID": "service.html#i-adopt-corpus",
-    "href": "service.html#i-adopt-corpus",
-    "title": "The I-ADOPT Variable Annotation Service",
-    "section": "I-ADOPT Corpus",
-    "text": "I-ADOPT Corpus\nA collection of variables from different domains is used as a ground truth for reference decompositions (I-ADOPT Corpus).\n\n102 variables from more than 10 domains were modelled using the I-ADOPT Visualizer\nDecompositions were aligned and harmonized according to recurring patterns\nAll decompositions are published as issues in the examples playground repository\nDomain experts evaluated and refined the decomposition together with semantic experts based on an evaluation schema\nAll variables are represented in RDF turtle (ttl) in this repo\nAll variables are visualized in the I-ADOPT Corpus Collection"
-  },
-  {
-    "objectID": "service.html#key-features",
-    "href": "service.html#key-features",
-    "title": "The I-ADOPT Variable Annotation Service",
-    "section": "Key Features",
-    "text": "Key Features\n\nNatural Language Input:\n\n\nUsers provide plain-language descriptions of observed variables (e.g., “surface soil temperature at 10 cm depth”).\nThe LLM processes these descriptions and decomposes them into the I-ADOPT description components.\nThe components are annotated with Wikidata concepts.\n\n\nVisualisation of the variable and human-in-the-loop functionality:\n\n\nThe variable decomposition is visualized using the Visualizer provided by Sirko Schindler\nThe Visualizer enables users to manually optimize the decomposition\nThe service allows export of the decomposition in different formats and the minting of a new variable as an FAIR Digital Object nanopublication\n\n\nIntegration with Research Platforms:\n\n\nThe service is designed to integrate with platforms like RoHub, enabling seamless adoption in research data infrastructures.\nSupports FAIR data stewardship by generating machine-readable metadata that aligns with community standards.\n\n\nCommunity-Driven Validation:\n\n\nThe service is linked to national and European initiatives, allowing for direct evaluation and feedback from end-users and domain experts."
-  },
-  {
-    "objectID": "service.html#our-next-steps",
-    "href": "service.html#our-next-steps",
-    "title": "The I-ADOPT Variable Annotation Service",
-    "section": "Our Next Steps",
-    "text": "Our Next Steps\n\nDevelop Variable Design Patterns to provide machine-readable decomposition design guidelines based on specific characteristics.\nDevelop Decision Trees for applying the Variable Design Patterns\nEnrich service with Patterns and Decision Trees following the instructions from the Guideline\nEnable the reuse of semantic concepts from the vocabularies hosted in the semantic artefact catalogues of your choice\nSearch of pre-existing variables\nEmbed the service in ROHub\nProvide a dockerised version of the service"
-  },
-  {
-    "objectID": "service.html#applications",
-    "href": "service.html#applications",
-    "title": "The I-ADOPT Variable Annotation Service",
-    "section": "Applications",
-    "text": "Applications\n\nResearch Data Management: Automate the creation of FAIR-compliant metadata for datasets in earth and environmental sciences.\nCross-Domain Interoperability: Facilitate the integration of data across disciplines by standardizing variable descriptions.\nSemantic Enrichment: Enhance the discoverability and reusability of research data through structured, machine-interpretable annotations."
-  },
-  {
-    "objectID": "service.html#get-started",
-    "href": "service.html#get-started",
-    "title": "The I-ADOPT Variable Annotation Service",
-    "section": "Get Started",
-    "text": "Get Started\nOur service will be ready for testing and integration on March 24, 2026. Whether you are a researcher, data steward, or platform developer, you can use this tool to explore its functionalities:\n\nGo to our I-ADOPT Service repo, follow the instructions and install the service on your computer\nGenerate I-ADOPT-aligned variable decompositions from natural language.\nImprove the FAIRness of your datasets.\nContribute to community-driven validation and refinement of the LLM models."
   }
 ]
