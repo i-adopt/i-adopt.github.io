@@ -1,4 +1,4 @@
-::: {layout="[70,30 ]"}
+::: {layout="[60,40 ]"}
 ::: {#first-column}
 [![](img/RDA.png){width="30%"}](https://www.rd-alliance.org/){target="_blank"}
 :::
