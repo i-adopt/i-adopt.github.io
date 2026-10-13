@@ -8,7 +8,7 @@ author:
     orcid: 0000-0003-2195-3997
 date: 10/13/2026
 ---
-![](img/variable.png)
+![](img/variable.png){size="70%"}
 
 ## A brief History of I-ADOPT
 * 2018: Informal meetings between semantic experts to adress the need for a harmonized syntax to describe observable properties initiated by eLTER RI
