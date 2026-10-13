@@ -2,7 +2,7 @@
 format:
   html:
     css: styles.css
-title: The I-ADOPT Resources
+title: I-ADOPT Interoperability Framework Initiative
 author:
   - name: Barbara Magagna
     orcid: 0000-0003-2195-3997
@@ -10,11 +10,9 @@ date: 10/13/2026
 ---
 ![](img/variable.png)
 
-title: "I-ADOPT Interoperability Framework Initiative"
-
 ## A brief History of I-ADOPT
 * 2018: Informal meetings between semantic experts to adress the need for a harmonized syntax to describe observable properties initiated by eLTER RI
-* 2019 - 2021 **RDA Working Group InteroperAble Descriptions of Observable Property Terminology WG (RDA I-ADOPT WG)**
+* 2019 - 2021 **[RDA Working Group InteroperAble Descriptions of Observable Property Terminology WG (RDA I-ADOPT WG)](https://i-adopt.github.io/rda.html)**
 * 2022 - RDA Endorsment of the I-ADOPT Recommendations ([DOI: 10.15497/RDA00071](https://zenodo.org/records/6520132#.YnOhMJNBybQ))
 * 2022 - 2024 domain-specific vocabularies start implement I-ADOPT for their variables
 * Autumn 2024 Two [I-ADOPT Variable Modelling Challenges](https://i-adopt.github.io/challenge.html)
@@ -26,9 +24,9 @@ title: "I-ADOPT Interoperability Framework Initiative"
 
 
 ## Resources
-    + I-ADOPT Framework ontology <https://i-adopt.github.io/ontology/>
-    + [I-ADOPT Visualizer](https://sirkos.github.io/iadopt-vis/) enables to model and visualize variables according to the ontology
-    + I-ADOPT Corpus <https://i-adopt.github.io/Corpus/> contains 102 I-ADOPTed variables
-    + [I-ADOPT Variable Design Patterns](https://github.com/mabablue/I-ADOPT-patterns-playground) contains patterns for description components and decision trees to guide the modelling of I-ADOPT variables
-    + [I-ADOPT Roadmap](https://i-adopt.github.io/roadmap.html gives an overview of achieved, ongoing and planned activities
-    + [I-ADOPT News](https://i-adopt.github.io/news.html): Subscribe for updates
+* I-ADOPT Framework ontology <https://i-adopt.github.io/ontology/>
+* [I-ADOPT Visualizer](https://sirkos.github.io/iadopt-vis/) enables to model and visualize variables according to the ontology
+* I-ADOPT Corpus <https://i-adopt.github.io/Corpus/> contains 102 I-ADOPTed variables
+* [I-ADOPT Variable Design Patterns](https://github.com/mabablue/I-ADOPT-patterns-playground) contains patterns for description components and decision trees to guide the modelling of I-ADOPT variables
+* [I-ADOPT Roadmap](https://i-adopt.github.io/roadmap.html gives an overview of achieved, ongoing and planned activities
+* [I-ADOPT News](https://i-adopt.github.io/news.html): Subscribe for updates
