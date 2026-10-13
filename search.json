@@ -165,14 +165,21 @@
     "href": "overview.html",
     "title": "The I-ADOPT Resources",
     "section": "",
-    "text": "Resources\n\nI-ADOPT Framework ontology https://i-adopt.github.io/ontology/\nI-ADOPT Corpus https://i-adopt.github.io/Corpus/\nGithub Repositories\n\nCorpus https://github.com/i-adopt/Corpus\nExamples playground https://github.com/mabablue/I-ADOPT-examples-playground\nPatterns playgorund https://github.com/mabablue/I-ADOPT-patterns-playground"
+    "text": "title: “I-ADOPT Interoperability Framework Initiative”"
   },
   {
-    "objectID": "overview.html#resource",
-    "href": "overview.html#resource",
+    "objectID": "overview.html#a-brief-history-of-i-adopt",
+    "href": "overview.html#a-brief-history-of-i-adopt",
     "title": "The I-ADOPT Resources",
-    "section": "",
-    "text": "Resources\n\nI-ADOPT Framework ontology https://i-adopt.github.io/ontology/\nI-ADOPT Corpus https://i-adopt.github.io/Corpus/\nGithub Repositories\n\nCorpus https://github.com/i-adopt/Corpus\nExamples playground https://github.com/mabablue/I-ADOPT-examples-playground\nPatterns playgorund https://github.com/mabablue/I-ADOPT-patterns-playground"
+    "section": "A brief History of I-ADOPT",
+    "text": "A brief History of I-ADOPT\n\n2018: Informal meetings between semantic experts to adress the need for a harmonized syntax to describe observable properties initiated by eLTER RI\n2019 - 2021 RDA Working Group InteroperAble Descriptions of Observable Property Terminology WG (RDA I-ADOPT WG)\n2022 - RDA Endorsment of the I-ADOPT Recommendations (DOI: 10.15497/RDA00071)\n2022 - 2024 domain-specific vocabularies start implement I-ADOPT for their variables\nAutumn 2024 Two I-ADOPT Variable Modelling Challenges\nSpring 2025 Two I-ADOPT Workshops\nJuly - November 2025 NFSI4Earth I-ADOPT project to develop a prototype for an LLM-assisted I-ADOPT service\n2025 - 2027: [FAIR2Adapt}(https://fair2adapt-eosc.eu/) project develops an I-ADOPT service embedded in ROHub to enable interoperable descriptions of RO-Crates\nJune 2026 - May 2029: CDIF4EOSC project plans to include I-ADOPT in their Cross Domain Interoperability Framework as a Context Profile\n2026 - 2027: Developing Extension specification to FAIRify the observedproperty in the OGC Observation, Measurement and Sample standard"
+  },
+  {
+    "objectID": "overview.html#resources",
+    "href": "overview.html#resources",
+    "title": "The I-ADOPT Resources",
+    "section": "Resources",
+    "text": "Resources\n+ I-ADOPT Framework ontology &lt;https://i-adopt.github.io/ontology/&gt;\n+ [I-ADOPT Visualizer](https://sirkos.github.io/iadopt-vis/) enables to model and visualize variables according to the ontology\n+ I-ADOPT Corpus &lt;https://i-adopt.github.io/Corpus/&gt; contains 102 I-ADOPTed variables\n+ [I-ADOPT Variable Design Patterns](https://github.com/mabablue/I-ADOPT-patterns-playground) contains patterns for description components and decision trees to guide the modelling of I-ADOPT variables\n+ [I-ADOPT Roadmap](https://i-adopt.github.io/roadmap.html gives an overview of achieved, ongoing and planned activities\n+ [I-ADOPT News](https://i-adopt.github.io/news.html): Subscribe for updates"
   },
   {
     "objectID": "newsPosts/2026-10-13/post.html",
