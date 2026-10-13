@@ -12,30 +12,22 @@ draft: true
 
 ## Roadmap
 
-```{mermaid}
----
-config:
-  gantt:
-    barHeight: 35
-    barGap: 10
-    leftPadding: 150
-    axisFormat: '%d/%m'
----
+   ```mermaid
 gantt
     title I-ADOPT Roadmap 2026
     dateFormat YYYY-MM-DD
-      Corpus V2 release            :milestone, 2026-09-01, 1d
+    axisFormat %d/%m
 
-      Decision trees and patterns  :trees, 2026-10-01, 30d
-      Improve I-ADOPT Corpus       :corpus, 2026-10-01, 30d
-      LLM-readable desciptions     :corpus, 2026-10-01, 30d
+    Corpus V2 release            :milestone, 2026-09-01, 1d
 
-      section I-ADOPT <br> constraints
-        Identify constraints       :identify, 2026-10-01, 12w
-        different representation   :represent, 2026-10-01, 12w
-        different representation   :represent, 2026-10-01, 12w
+    Decision trees and patterns  :trees, 2026-10-01, 30d
+    Improve I-ADOPT Corpus       :corpus1, 2026-10-01, 30d
+    LLM-readable descriptions    :corpus2, 2026-10-01, 30d
 
-      
+    section I-ADOPT <br> constraints
+        Identify constraints     :identify, 2026-10-01, 12w
+        different representation :represent1, 2026-10-01, 12w
+        different representation :represent2, 2026-10-01, 12w   
 
 
 
