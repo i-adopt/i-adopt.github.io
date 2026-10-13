@@ -32,8 +32,8 @@ gantt
 
       section I-ADOPT <br> constraints
         Identify constraints       :identify, 2026-10-01, 12w
-        different represantation   :represent, 2026-10-01, 12w
-        different represantation   :represent, 2026-10-01, 12w
+        different representation   :represent, 2026-10-01, 12w
+        different representation   :represent, 2026-10-01, 12w
 
       
 
