@@ -9,6 +9,6 @@ date: 10/13/2026
 ---
 ------------------------------------------------------------------------
 
-Some new features have been added to the I-ADOPT website. Among this News page, a Resource page as well as a Roadmap. 
+Some new features have been added to the I-ADOPT website. Among this News page, an [Overview page](https://i-adopt.github.io/overview.html) as well as a Roadmap. 
 
 ------------------------------------------------------------------------
