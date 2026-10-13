@@ -1,0 +1,26 @@
+---
+format:
+  html:
+    css: styles.css
+title: The I-ADOPT Roadmap
+author:
+  - name: Marvin Friedl
+    orcid: 
+date: 10/13/2026
+draft: true
+---
+
+## Roadmap
+
+Coming soon
+
+```{mermaid}
+timeline
+  title Roadmap
+    section 2026 <br> Release Personal Tier
+      until end of 2026 <br> make constraints machine readable : Requires identifying which of the I-ADOPT Corpus variables constraints are not representable by observations : Once identified, decide how to represent them in a different way : Decide if we need to identify constraint types based on which entity role is constraint : Represent all Constraints of the Corpus in a machine-interpretable fashion
+      Bullet 2 : sub-point 2a : sub-point 2b
+    section 2023 Q2 <br> Release XYZ Tier
+      Bullet 3 : sub-point <br> 3a : sub-point 3b
+      Bullet 4 : sub-point 4a : sub-point 4b
+```
