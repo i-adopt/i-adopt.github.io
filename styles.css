@@ -2,3 +2,10 @@
 .quarto-layout-cell>p {
   margin-bottom: 1rem;
 }
+
+.sectionTitle {
+  font-family: 'Helvetica Neue', sans-serif !important;
+  font-weight: bold !important;
+  font-size: xx-large;
+  fill: #2c3e50 !important; /* SVG uses 'fill' instead of 'color' for text */
+}

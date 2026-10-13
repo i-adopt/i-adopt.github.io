@@ -12,15 +12,31 @@ draft: true
 
 ## Roadmap
 
-Coming soon
-
 ```{mermaid}
-timeline
-  title Roadmap
-    section 2026 <br> Release Personal Tier
-      until end of 2026 <br> make constraints machine readable : Requires identifying which of the I-ADOPT Corpus variables constraints are not representable by observations : Once identified, decide how to represent them in a different way : Decide if we need to identify constraint types based on which entity role is constraint : Represent all Constraints of the Corpus in a machine-interpretable fashion
-      Bullet 2 : sub-point 2a : sub-point 2b
-    section 2023 Q2 <br> Release XYZ Tier
-      Bullet 3 : sub-point <br> 3a : sub-point 3b
-      Bullet 4 : sub-point 4a : sub-point 4b
+---
+config:
+  gantt:
+    barHeight: 35
+    barGap: 10
+    leftPadding: 150
+    axisFormat: '%d/%m'
+---
+gantt
+    title I-ADOPT Roadmap 2026
+    dateFormat YYYY-MM-DD
+      Corpus V2 release            :milestone, 2026-09-01, 1d
+
+      Decision trees and patterns  :trees, 2026-10-01, 30d
+      Improve I-ADOPT Corpus       :corpus, 2026-10-01, 30d
+      LLM-readable desciptions     :corpus, 2026-10-01, 30d
+
+      section I-ADOPT <br> constraints
+        Identify constraints       :identify, 2026-10-01, 12w
+        different represantation   :represent, 2026-10-01, 12w
+        different represantation   :represent, 2026-10-01, 12w
+
+      
+
+
+
 ```
