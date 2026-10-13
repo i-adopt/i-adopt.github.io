@@ -21,6 +21,12 @@ website:
         href: workshops.qmd
       - text: Service
         href: service.qmd
+      - text: News
+        href: news.qmd
+      - text: Roadmap
+        href: roadmap.qmd
+      - text: Resource
+        href: resource.qmd
   page-footer: 
     center: 
       - text: "About"
