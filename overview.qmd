@@ -12,7 +12,7 @@ date: 10/13/2026
 
 ## A brief History of I-ADOPT
 * 2018: Informal meetings between semantic experts to adress the need for a harmonized syntax to describe observable properties initiated by eLTER RI
-* 2019 - 2021 **[RDA Working Group InteroperAble Descriptions of Observable Property Terminology WG (RDA I-ADOPT WG)](https://i-adopt.github.io/rda.html)**
+* 2019 - 2021 **[RDA Working Group InteroperAble Descriptions of Observable Property Terminology WG]** [(RDA I-ADOPT WG)](https://i-adopt.github.io/rda.html)
 * 2022 - RDA Endorsment of the I-ADOPT Recommendations ([DOI: 10.15497/RDA00071](https://zenodo.org/records/6520132#.YnOhMJNBybQ))
 * 2022 - 2024 domain-specific vocabularies start implement I-ADOPT for their variables
 * Autumn 2024 Two [I-ADOPT Variable Modelling Challenges](https://i-adopt.github.io/challenge.html)
