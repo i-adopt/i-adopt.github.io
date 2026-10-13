@@ -27,6 +27,13 @@ website:
         href: service.qmd
       - text: News
         href: news.qmd
+    tools:
+      - icon: github
+        href: https://github.com/i-adopt/i-adopt.github.io
+        text: GFF Wiki GitHub
+      - icon: rss
+        href: https://i-adopt.github.io/news.xml
+        text: GFF News RSS
   page-footer: 
     center: 
       - text: "About"
