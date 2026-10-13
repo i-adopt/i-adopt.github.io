@@ -12,10 +12,11 @@ date: 10/31/2024
 [![](img/RDA.png)](https://www.rd-alliance.org/){target="_blank"}
 
 ---
-title: "InteroperAble Descriptions of Observable Property Terminology WG (RDA I-ADOPT WG)"
+title: "InteroperAble Descriptions of Observable Property Terminology WG 
+(RDA I-ADOPT WG)"
 ---
 
-## I-ADOPT in a nutshell
+## I-ADOPT WG Tasks
 
 Under the auspices of the Research Data Alliance (RDA) [Vocabulary and Semantic Services Interest Group](https://www.rd-alliance.org/rationale/vocabulary-services-interest-group/) (VSSIG) a small number of semantic experts formed a task group in 2018 to address the interoperability of observational data. The group submitted a [case statement](https://www.rd-alliance.org/app/uploads/2024/05/I-ADOPT20WG20case20statement.pdf) to work on the development of a common method to systematically express or represent observable properties in May 2019.
 
