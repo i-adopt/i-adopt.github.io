@@ -11,7 +11,11 @@ website:
   
   navbar:
     left:
-      - href: index.qmd
+      - text: Overview
+        href: overview.qmd
+      - text: Roadmap
+        href: roadmap.qmd
+      - href: rda.qmd
         text: RDA Working Group
       - text: Ontology
         href: https://i-adopt.github.io/ontology/
@@ -21,10 +25,6 @@ website:
         href: workshops.qmd
       - text: Service
         href: service.qmd
-      - text: Roadmap
-        href: roadmap.qmd
-      - text: Resources
-        href: resource.qmd
       - text: News
         href: news.qmd
   page-footer: 
