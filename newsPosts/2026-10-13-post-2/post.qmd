@@ -10,6 +10,6 @@ draft: true
 ---
 ------------------------------------------------------------------------
 
-Some new features have been added to the I-ADOPT website. Among this News page, a Resource page as well as a Roadmap. 
+Some new features have been added to the I-ADOPT website. Among this News page, an Overview page as well as a Roadmap. 
 
 ------------------------------------------------------------------------
