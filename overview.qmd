@@ -28,5 +28,5 @@ date: 10/13/2026
 * [I-ADOPT Visualizer](https://sirkos.github.io/iadopt-vis/) enables to model and visualize variables according to the ontology
 * I-ADOPT Corpus <https://i-adopt.github.io/Corpus/> contains 102 I-ADOPTed variables
 * [I-ADOPT Variable Design Patterns](https://github.com/mabablue/I-ADOPT-patterns-playground) contains patterns for description components and decision trees to guide the modelling of I-ADOPT variables
-* [I-ADOPT Roadmap](https://i-adopt.github.io/roadmap.html gives an overview of achieved, ongoing and planned activities
+* [I-ADOPT Roadmap](https://i-adopt.github.io/roadmap.html) gives an overview of achieved, ongoing and planned activities
 * [I-ADOPT News](https://i-adopt.github.io/news.html): Subscribe for updates
