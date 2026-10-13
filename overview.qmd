@@ -8,12 +8,27 @@ author:
     orcid: 0000-0003-2195-3997
 date: 10/13/2026
 ---
+![](img/variable.png)
 
-## Resource
-* Resources
+title: "I-ADOPT Interoperability Framework Initiative"
+
+## A brief History of I-ADOPT
+* 2018: Informal meetings between semantic experts to adress the need for a harmonized syntax to describe observable properties initiated by eLTER RI
+* 2019 - 2021 **RDA Working Group InteroperAble Descriptions of Observable Property Terminology WG (RDA I-ADOPT WG)**
+* 2022 - RDA Endorsment of the I-ADOPT Recommendations ([DOI: 10.15497/RDA00071](https://zenodo.org/records/6520132#.YnOhMJNBybQ))
+* 2022 - 2024 domain-specific vocabularies start implement I-ADOPT for their variables
+* Autumn 2024 Two [I-ADOPT Variable Modelling Challenges](https://i-adopt.github.io/challenge.html)
+* Spring 2025 Two [I-ADOPT Workshops](https://i-adopt.github.io/workshops.html)
+* July - November 2025 NFSI4Earth I-ADOPT project to develop a prototype for an [LLM-assisted I-ADOPT service](https://i-adopt.github.io/service.html)
+* 2025 - 2027: [FAIR2Adapt}(https://fair2adapt-eosc.eu/) project develops an I-ADOPT service embedded in [ROHub](https://www.rohub.org) to enable interoperable descriptions of RO-Crates
+* June 2026 - May 2029: CDIF4EOSC project plans to include I-ADOPT in their [Cross Domain Interoperability Framework](https://cross-domain-interoperability-framework.github.io/cdifbook/) as a Context Profile
+* 2026 - 2027: Developing Extension specification to FAIRify the *observedproperty* in the [OGC Observation, Measurement and Sample standard](https://www.ogc.org/standards/om/) 
+
+
+## Resources
     + I-ADOPT Framework ontology <https://i-adopt.github.io/ontology/>
-    + I-ADOPT Corpus <https://i-adopt.github.io/Corpus/>
-    + Github Repositories
-        - Corpus <https://github.com/i-adopt/Corpus>
-        - Examples playground <https://github.com/mabablue/I-ADOPT-examples-playground>
-        - Patterns playgorund <https://github.com/mabablue/I-ADOPT-patterns-playground>
+    + [I-ADOPT Visualizer](https://sirkos.github.io/iadopt-vis/) enables to model and visualize variables according to the ontology
+    + I-ADOPT Corpus <https://i-adopt.github.io/Corpus/> contains 102 I-ADOPTed variables
+    + [I-ADOPT Variable Design Patterns](https://github.com/mabablue/I-ADOPT-patterns-playground) contains patterns for description components and decision trees to guide the modelling of I-ADOPT variables
+    + [I-ADOPT Roadmap](https://i-adopt.github.io/roadmap.html gives an overview of achieved, ongoing and planned activities
+    + [I-ADOPT News](https://i-adopt.github.io/news.html): Subscribe for updates
