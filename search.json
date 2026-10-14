@@ -256,28 +256,28 @@
     "href": "roadmap.html",
     "title": "Roadmap for I-ADOPT related developments",
     "section": "",
-    "text": "Magagna et al. (2021)\nMagagna et al. (2022)\n\n\n\n\nJune 2021: First public release of the I-ADOPT ontology 0.0.8\nJuly 2023: Improved version I-ADOPT ontology 1.0.1\nMay 2025: Major revision I-ADOPT ontology 1.1.0\n2026: I-ADOPT SHACL Shape definitions\n2026: Variable Design Patterns and Decision Trees\n2026: I-ADOPT Guideline\n2026: I-ADOPT Corpus\n\n\n\n\n\n2025: A Visualizer enabling interactive modelling and visualizing of an I-ADOPT variable\n2025: I-ADOPT Catalogue\n2026: A Service for Variable Descriptions for local installation"
+    "text": "Magagna et al. (2021)\nMagagna et al. (2022)\n\n\n\n\n\nJune 2021: First public release of the I-ADOPT ontology 0.0.8\nJuly 2023: Improved version I-ADOPT ontology 1.0.1\nMay 2025: Major revision I-ADOPT ontology 1.1.0\n2026: I-ADOPT SHACL Shape definitions\n2026: Variable Design Patterns and Decision Trees\n2026: I-ADOPT Guideline\n2026: I-ADOPT Corpus\n\n\n\n\n\n2025: A Visualizer enabling interactive modelling and visualizing of an I-ADOPT variable\n2025: I-ADOPT Catalogue\n2026: A Service for Variable Descriptions for local installation"
   },
   {
     "objectID": "roadmap.html#past-achievements",
     "href": "roadmap.html#past-achievements",
     "title": "Roadmap for I-ADOPT related developments",
     "section": "",
-    "text": "Magagna et al. (2021)\nMagagna et al. (2022)\n\n\n\n\nJune 2021: First public release of the I-ADOPT ontology 0.0.8\nJuly 2023: Improved version I-ADOPT ontology 1.0.1\nMay 2025: Major revision I-ADOPT ontology 1.1.0\n2026: I-ADOPT SHACL Shape definitions\n2026: Variable Design Patterns and Decision Trees\n2026: I-ADOPT Guideline\n2026: I-ADOPT Corpus\n\n\n\n\n\n2025: A Visualizer enabling interactive modelling and visualizing of an I-ADOPT variable\n2025: I-ADOPT Catalogue\n2026: A Service for Variable Descriptions for local installation"
+    "text": "Magagna et al. (2021)\nMagagna et al. (2022)\n\n\n\n\n\nJune 2021: First public release of the I-ADOPT ontology 0.0.8\nJuly 2023: Improved version I-ADOPT ontology 1.0.1\nMay 2025: Major revision I-ADOPT ontology 1.1.0\n2026: I-ADOPT SHACL Shape definitions\n2026: Variable Design Patterns and Decision Trees\n2026: I-ADOPT Guideline\n2026: I-ADOPT Corpus\n\n\n\n\n\n2025: A Visualizer enabling interactive modelling and visualizing of an I-ADOPT variable\n2025: I-ADOPT Catalogue\n2026: A Service for Variable Descriptions for local installation"
   },
   {
     "objectID": "roadmap.html#ongoing-activities",
     "href": "roadmap.html#ongoing-activities",
     "title": "Roadmap for I-ADOPT related developments",
     "section": "Ongoing Activities",
-    "text": "Ongoing Activities\n\nI-ADOPT related Publications\n\nFrom Scientific Variables to Knowledge Graphs: The I-ADOPT Benchmark, Semantic Web Journal: Baseline paper for LLM experiments; Authors: Magagna, B., Rastegar, A., González Guardia, E., Berrio, C., Chalk, S., Schindler, S., Gómez-Pérez, J. M., Lorenz, C., Kumar, S., Garijo, D.\n\n\n\nSpecifications\n\nIdentifying constraint types for potential full FAIR representation\nReviewing decision trees and patterns"
+    "text": "Ongoing Activities\n\nI-ADOPT related Publications\n\nFrom Scientific Variables to Knowledge Graphs: The I-ADOPT Benchmark, Semantic Web Journal: Baseline paper for LLM experiments; Authors: Magagna, B., Rastegar, A., González Guardia, E., Berrio, C., Chalk, S., Schindler, S., Gómez-Pérez, J. M., Lorenz, C., Kumar, S., Garijo, D.\nI-ADOPT Recommendations 2nd version with a specific focus on FAIR aspects\n\n\n\nI-ADOPT related Specifications\n\nIdentifying constraint types for potential full FAIR representation\nReviewing decision trees and patterns and their representations\nSpecify mappings between existing standards\nDefine SPARQL queries to find existing variables across Semantic Artifact Catalogs\nBuild a system to constrain units based on the properties\n\n\n\nI-ADOPT related Services:\n\nInclude patterns in the workflow to improve the output of the LLM-supported Service\nAdd provenance trails of the outcomes of the LLM-Service and make the accessible online"
   },
   {
     "objectID": "roadmap.html#future-developments",
     "href": "roadmap.html#future-developments",
     "title": "Roadmap for I-ADOPT related developments",
     "section": "Future Developments",
-    "text": "Future Developments\n\nUnpacking Constraints by modelling them as observations\nResolving concepts used more than one time in different description components using paths"
+    "text": "Future Developments\n\nI-ADOPT related Publications\n\nImplementation guidelines\nA paper demonstrating practical benefits of I-ADOPT, highlighting how machine-actionable variable definitions significantly accelerate complex data mapping\nI-ADOPT Adoption Stories\n\n\n\nI-ADOPT related Specifications\n\nUnpack Constraints by modelling them as observations\nResolve concepts used more than one time in different description components using paths\nProvide SHACL definitions for property patterns\nEnhance I-ADOPT Description quality Through LLM-guided researcher dialogues\nDefine how nesting of VariableSets can work\nRepresent dependencies between variables\nCompile I-ADOPT specification for the Observation, Measurement, and Sample OGC Standard\nCompile Context Profile with I-ADOPT decomposition approach aligned with the CDIF Data Description and Data Structure Profiles\n\n\n\nI-ADOPT related Services:\n\nEnhance I-ADOPT Visualizer to enable machine-interpretable Constraints\nImprove I-ADOPT Catalog to include a publishing workflow\nImprove I-ADOPT Catalog to enable search based on the description components\nImprove I-ADOPT Catalog to enable hierarchical visualization based on their SKOS relations (broader/narrower)"
   },
   {
     "objectID": "service.html",
