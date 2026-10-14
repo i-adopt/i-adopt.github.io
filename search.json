@@ -161,18 +161,18 @@
     "text": "An Example\nApplying the I-ADOPT Framework means:\n\ndecompose the variable in atomic components\nassign a description role for each component\nannotate each component with concepts from terminologies\n\n\nThis I-ADOPT decomposition and annotation exercise should result in a variable concept with its associated concepts in a SKOS vocabulary:\n\nSee here the variable represented as SKOS concept from the Theia/OZCAR Thesaurus.\n\nJoin our efforts"
   },
   {
-    "objectID": "overview.html#a-brief-history-of-i-adopt",
-    "href": "overview.html#a-brief-history-of-i-adopt",
+    "objectID": "overview.html",
+    "href": "overview.html",
     "title": "I-ADOPT Interoperability Framework Initiative",
-    "section": "A brief History of I-ADOPT",
-    "text": "A brief History of I-ADOPT\n\n2018: Informal meetings between semantic experts to adress the need for a harmonized syntax to describe observable properties initiated by eLTER RI\n2019 - 2021: RDA Working Group InteroperAble Descriptions of Observable Property Terminology WG (RDA I-ADOPT WG)\n2022: RDA Endorsment of the I-ADOPT Recommendations (DOI: 10.15497/RDA00071)\n2022 - 2024: Domain-specific vocabularies start implement I-ADOPT for their variables\nAutumn 2024: Two I-ADOPT Variable Modelling Challenges\nSpring 2025: Two I-ADOPT Workshops\nJuly - November 2025: NFDI4Earth I-ADOPT project to develop a prototype for an LLM-assisted I-ADOPT service\n2025 - 2027: FAIR2Adapt project develops an I-ADOPT service embedded in ROHub to enable interoperable descriptions of RO-Crates\nJune 2026 - May 2029: CDIF4EOSC project plans to include I-ADOPT in their Cross Domain Interoperability Framework as a Context Profile\n2026 - 2027: Developing Extension specification to FAIRify the observedproperty in the OGC Observation, Measurement and Sample standard"
+    "section": "",
+    "text": "Initiated by the Research Data Alliance’s I-ADOPT Working Group, the I-ADOPT Interoperability Framework is being further specified and implemented under the patronage of the GO FAIR Foundation, in collaboration with a broad community of international partners. Learn more on our About page."
   },
   {
     "objectID": "overview.html#understanding-i-adopt",
     "href": "overview.html#understanding-i-adopt",
     "title": "I-ADOPT Interoperability Framework Initiative",
     "section": "Understanding I-ADOPT",
-    "text": "Understanding I-ADOPT\n\nWatch this video for a quick overview of the I-ADOPT framework. \nExplore this presentation to understand how to decompose a variable."
+    "text": "Understanding I-ADOPT\n\nWatch this video for a quick overview of the I-ADOPT framework. \n\nApplying the I-ADOPT Framework means:\n\ndecompose the variable in atomic components\nassign a description role for each component\nannotate each component with concepts from terminologies\n\n\nThis I-ADOPT decomposition and annotation exercise should result in a variable concept with its associated concepts in a SKOS vocabulary:\n\nSee here the variable represented as SKOS concept from the Theia/OZCAR Thesaurus.\n\nExplore this presentation to understand how to decompose a variable."
   },
   {
     "objectID": "overview.html#resources",
