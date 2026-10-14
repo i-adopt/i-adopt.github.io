@@ -1,5 +1,5 @@
 ---
-title: "Roadmap for I-ADOPT related developments"
+title: "I-ADOPT Resources"
 author:
   - name: Barbara Magagna
     orcid: 0000-0003-2195-3997
