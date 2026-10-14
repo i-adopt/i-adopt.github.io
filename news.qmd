@@ -21,4 +21,4 @@ Follow these simple steps to subscribe to updates using your mobile RSS reader a
 
 3. Add a New Feed: Tap the "+" (Add) button, "Add Subscription", or the search icon in the menu/sidebar.
 
-4. Paste and Subscribe: Paste https://i-adopt.github.io/news.xml into the URL search bar, select the feed, and tap Add or Subscribe.
+4. Paste and Subscribe: Paste <https://i-adopt.github.io/news.xml> into the URL search bar, select the feed, and tap Add or Subscribe.
