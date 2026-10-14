@@ -10,26 +10,7 @@
 <atom:link href="https://i-adopt.github.io/news.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.10.19</generator>
-<lastBuildDate>Wed, 14 Oct 2026 00:00:00 GMT</lastBuildDate>
-<item>
-  <title>Website updates</title>
-  <dc:creator>Marvin Friedl</dc:creator>
-  <link>https://i-adopt.github.io/newsPosts/2026-10-14/post.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<hr>
-<p>Some new features have been added to the I-ADOPT website. Among this News page, an <a href="https://i-adopt.github.io/overview.html">Overview page</a> as well as a <a href="https://i-adopt.github.io/roadmap.html">Roadmap</a>.</p>
-
-
-
- ]]></description>
-  <category>News</category>
-  <guid>https://i-adopt.github.io/newsPosts/2026-10-14/post.html</guid>
-  <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-</item>
+<lastBuildDate>Tue, 13 Oct 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Website updates</title>
   <dc:creator>Marvin Friedl</dc:creator>

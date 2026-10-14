@@ -32,7 +32,7 @@
     "href": "news.html",
     "title": "News",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWebsite updates\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nOct 14, 2026\n\n\nMarvin Friedl\n\n\n\n\n\n\n\n\n\n\n\n\nWebsite updates\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nOct 13, 2026\n\n\nMarvin Friedl\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWebsite updates\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nOct 13, 2026\n\n\nMarvin Friedl\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "workshops.html",
@@ -159,13 +159,6 @@
     "title": "InteroperAble Descriptions of Observable Property Terminology WG (RDA I-ADOPT WG)",
     "section": "An Example",
     "text": "An Example\nApplying the I-ADOPT Framework means:\n\ndecompose the variable in atomic components\nassign a description role for each component\nannotate each component with concepts from terminologies\n\n\nThis I-ADOPT decomposition and annotation exercise should result in a variable concept with its associated concepts in a SKOS vocabulary:\n\nSee here the variable represented as SKOS concept from the Theia/OZCAR Thesaurus.\n\nJoin our efforts"
-  },
-  {
-    "objectID": "newsPosts/2026-10-14/post.html",
-    "href": "newsPosts/2026-10-14/post.html",
-    "title": "Website updates",
-    "section": "",
-    "text": "Some new features have been added to the I-ADOPT website. Among this News page, an Overview page as well as a Roadmap."
   },
   {
     "objectID": "overview.html",
