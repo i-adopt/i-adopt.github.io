@@ -9,3 +9,9 @@
   font-size: xx-large;
   fill: #2c3e50 !important; /* SVG uses 'fill' instead of 'color' for text */
 }
+
+/* Increase the navbar logo size */
+.navbar-brand .navbar-logo {
+  max-height: 50px; /* Default is usually around 30px-40px. Adjust this number as needed. */
+  height: auto;
+}

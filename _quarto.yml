@@ -4,12 +4,13 @@ project:
   
 
 website:
-  title: "I-ADOPT"
   site-url: "https://i-adopt.github.io/"
   repo-url: "https://github.com/i-adopt/i-adopt.github.io"
   repo-actions: [edit, issue]
+  favicon: img/LogoSquare.png
   
   navbar:
+    logo: img/Logo.png
     left:
       - text: Overview
         href: overview.qmd
