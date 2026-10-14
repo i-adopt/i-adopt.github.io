@@ -22,3 +22,5 @@ The goal of I-ADOPT is to provide an Interoperability Framework for representing
 ## Contribute
 
 You can contribute to I-ADOPT by participating at our regular calls and by providing your variable description to our [github repository](https://github.com/i-adopt/variables). 
+
+[![](img/variable.png)]
