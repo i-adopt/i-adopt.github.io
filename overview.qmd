@@ -22,6 +22,7 @@ date: 10/13/2026
 * June 2026 - May 2029: [**CDIF4EOSC**](https://cdif4eosc.eu/) project plans to include I-ADOPT in their [Cross Domain Interoperability Framework](https://cross-domain-interoperability-framework.github.io/cdifbook/) as a Context Profile
 * 2026 - 2027: Developing Extension specification to FAIRify the *observedproperty* in the [**OGC Observation, Measurement and Sample** standard](https://www.ogc.org/standards/om/) 
 
+## Understanding I-ADOPT
 Watch this [video](https://www.youtube.com/watch?v=8AB_OSA_CJk) for a quick overview of the I-ADOPT framework.
 
 
