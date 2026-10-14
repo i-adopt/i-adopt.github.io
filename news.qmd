@@ -3,7 +3,7 @@ title: News
 subtitle: I-ADOPT announcements and news
 listing:
   sort: "date desc"
-  contents: "newsPosts/*/post.qmd"
+  contents: "newsPosts/*/*.qmd"
   sort-ui: true
   filter-ui: true
   categories: true
