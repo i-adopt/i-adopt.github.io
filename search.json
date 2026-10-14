@@ -32,7 +32,14 @@
     "href": "news.html",
     "title": "News",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWebsite updates\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nOct 13, 2026\n\n\nMarvin Friedl\n\n\n\n\n\nNo matching items"
+    "text": "Follow these simple steps to subscribe to updates using your mobile RSS reader app (such as Feedly, NetNewsWire, Inoreader, or Reeder):\n\nCopy the Feed URL: Copy the RSS feed web address to your phone’s clipboard: https://i-adopt.github.io/news.xml\nOpen Your RSS Reader App: Launch your preferred RSS app on your mobile device.\nAdd a New Feed: Tap the “+” (Add) button, “Add Subscription”, or the search icon in the menu/sidebar.\nPaste and Subscribe: Paste https://i-adopt.github.io/news.xml into the URL search bar, select the feed, and tap Add or Subscribe."
+  },
+  {
+    "objectID": "news.html#how-to-subscribe-to-the-i-adopt-rss-feed",
+    "href": "news.html#how-to-subscribe-to-the-i-adopt-rss-feed",
+    "title": "News",
+    "section": "",
+    "text": "Follow these simple steps to subscribe to updates using your mobile RSS reader app (such as Feedly, NetNewsWire, Inoreader, or Reeder):\n\nCopy the Feed URL: Copy the RSS feed web address to your phone’s clipboard: https://i-adopt.github.io/news.xml\nOpen Your RSS Reader App: Launch your preferred RSS app on your mobile device.\nAdd a New Feed: Tap the “+” (Add) button, “Add Subscription”, or the search icon in the menu/sidebar.\nPaste and Subscribe: Paste https://i-adopt.github.io/news.xml into the URL search bar, select the feed, and tap Add or Subscribe."
   },
   {
     "objectID": "workshops.html",
