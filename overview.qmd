@@ -10,22 +10,25 @@ date: 10/13/2026
 ---
 ![](img/variable.png){width="70%"}
 
-## A brief History of I-ADOPT
-* 2018: Informal meetings between semantic experts to adress the need for a harmonized syntax to describe observable properties initiated by eLTER RI
-* 2019 - 2021: **RDA Working Group InteroperAble Descriptions of Observable Property Terminology WG** [(RDA I-ADOPT WG)](https://i-adopt.github.io/rda.html)
-* 2022: RDA Endorsment of the I-ADOPT Recommendations ([DOI: 10.15497/RDA00071](https://zenodo.org/records/6520132#.YnOhMJNBybQ))
-* 2022 - 2024: Domain-specific vocabularies start implement I-ADOPT for their variables
-* Autumn 2024: Two [I-ADOPT Variable Modelling Challenges](https://i-adopt.github.io/challenge.html)
-* Spring 2025: Two [I-ADOPT Workshops](https://i-adopt.github.io/workshops.html)
-* July - November 2025: **NFDI4Earth I-ADOPT project** to develop a prototype for an [LLM-assisted I-ADOPT service](https://i-adopt.github.io/service.html)
-* 2025 - 2027: [**FAIR2Adapt**](https://fair2adapt-eosc.eu/) project develops an I-ADOPT service embedded in [ROHub](https://www.rohub.org) to enable interoperable descriptions of RO-Crates
-* June 2026 - May 2029: [**CDIF4EOSC**](https://cdif4eosc.eu/) project plans to include I-ADOPT in their [Cross Domain Interoperability Framework](https://cross-domain-interoperability-framework.github.io/cdifbook/) as a Context Profile
-* 2026 - 2027: Developing Extension specification to FAIRify the *observedproperty* in the [**OGC Observation, Measurement and Sample** standard](https://www.ogc.org/standards/om/) 
+Initiated by the Research Data Alliance's I-ADOPT Working Group, the I-ADOPT Interoperability Framework is being further specified and implemented under the patronage of the GO FAIR Foundation, in collaboration with a broad community of international partners. Learn more on our About page.
 
 ## Understanding I-ADOPT
 - Watch this video for a quick overview of the I-ADOPT framework.
 {{< video https://www.youtube.com/watch?v=8AB_OSA_CJk >}}
 
+Applying the I-ADOPT Framework means:
+
+1.  decompose the variable in atomic components
+2.  assign a description role for each component
+3.  annotate each component with concepts from terminologies
+
+![](img/example.jpg)
+
+This I-ADOPT decomposition and annotation exercise should result in a variable concept with its associated concepts in a SKOS vocabulary:
+
+![](img/representation.jpg)
+
+See [here](https://w3id.org/ozcar-theia/c_f120f651) the variable represented as SKOS concept from the [Theia/OZCAR Thesaurus](https://in-situ.theia-land.fr/skosmos/theia_ozcar_thesaurus/en/).
 
 - Explore this [presentation](https://github.com/i-adopt/i-adopt.github.io/blob/main/material/EOV%20I-ADOPT.pdf) to understand how to decompose a variable. 
 
