@@ -256,7 +256,7 @@
     "href": "roadmap.html",
     "title": "Roadmap for I-ADOPT related developments",
     "section": "",
-    "text": "citeproc: true bibliography: references.bib csl: https://www.zotero.org/styles/apa-with-abstract —"
+    "text": "citeproc: true bibliography: material/references.bib csl: https://www.zotero.org/styles/apa-with-abstract —"
   },
   {
     "objectID": "roadmap.html#past-achievements",
