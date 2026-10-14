@@ -256,21 +256,21 @@
     "href": "roadmap.html",
     "title": "Roadmap for I-ADOPT related developments",
     "section": "",
-    "text": "June 2021: First public release of the I-ADOPT ontology 0.0.8\nJuly 2023: Improved version I-ADOPT ontology 1.0.1\nMay 2025: Major revision I-ADOPT ontology 1.1.0\n2026: I-ADOPT SHACL Shape definitions\n\n\n\n\n\n2021: Magagna, B., Rosati, I., Stoica, M., Schindler, S., Moncoiffe, G., Devaraju, A., Peters, J., & Huber, R. (2021). The i-adopt interoperability framework for fairer data descriptions of biodiversity. Proceedings of the 3rd International Workshop on Semantics for Biodiversity (S4BioDiv 2021), 2969. https://ceur- ws.org/Vol- 2969 65/paper10-s4biodiv.pdf\n2022: RDA Endorsement of the I-ADOPT Recommendations (DOI: 10.15497/RDA00071)\n\n\n\n\n\n2025: A Visualizer enabling interactive modelling and visualizing of an I-ADOPT variable"
+    "text": "2021: Magagna, B., Rosati, I., Stoica, M., Schindler, S., Moncoiffe, G., Devaraju, A., Peters, J., & Huber, R. (2021). The i-adopt interoperability framework for fairer data descriptions of biodiversity. Proceedings of the 3rd International Workshop on Semantics for Biodiversity (S4BioDiv 2021), 2969. https://ceur- ws.org/Vol- 2969 65/paper10-s4biodiv.pdf\n2022: RDA Endorsement of the I-ADOPT Recommendations (DOI: 10.15497/RDA00071)\n\n\n\n\n\nJune 2021: First public release of the I-ADOPT ontology 0.0.8\nJuly 2023: Improved version I-ADOPT ontology 1.0.1\nMay 2025: Major revision I-ADOPT ontology 1.1.0\n2026: I-ADOPT SHACL Shape definitions\n2026: Variable Design Patterns and Decision Trees\n2026: I-ADOPT Guideline\n2026: I-ADOPT Corpus\n\n\n\n\n\n2025: A Visualizer enabling interactive modelling and visualizing of an I-ADOPT variable\n2025: I-ADOPT Catalogue\n2026: A Service for Variable Descriptions for local installation"
   },
   {
     "objectID": "roadmap.html#past-achievements",
     "href": "roadmap.html#past-achievements",
     "title": "Roadmap for I-ADOPT related developments",
     "section": "",
-    "text": "June 2021: First public release of the I-ADOPT ontology 0.0.8\nJuly 2023: Improved version I-ADOPT ontology 1.0.1\nMay 2025: Major revision I-ADOPT ontology 1.1.0\n2026: I-ADOPT SHACL Shape definitions\n\n\n\n\n\n2021: Magagna, B., Rosati, I., Stoica, M., Schindler, S., Moncoiffe, G., Devaraju, A., Peters, J., & Huber, R. (2021). The i-adopt interoperability framework for fairer data descriptions of biodiversity. Proceedings of the 3rd International Workshop on Semantics for Biodiversity (S4BioDiv 2021), 2969. https://ceur- ws.org/Vol- 2969 65/paper10-s4biodiv.pdf\n2022: RDA Endorsement of the I-ADOPT Recommendations (DOI: 10.15497/RDA00071)\n\n\n\n\n\n2025: A Visualizer enabling interactive modelling and visualizing of an I-ADOPT variable"
+    "text": "2021: Magagna, B., Rosati, I., Stoica, M., Schindler, S., Moncoiffe, G., Devaraju, A., Peters, J., & Huber, R. (2021). The i-adopt interoperability framework for fairer data descriptions of biodiversity. Proceedings of the 3rd International Workshop on Semantics for Biodiversity (S4BioDiv 2021), 2969. https://ceur- ws.org/Vol- 2969 65/paper10-s4biodiv.pdf\n2022: RDA Endorsement of the I-ADOPT Recommendations (DOI: 10.15497/RDA00071)\n\n\n\n\n\nJune 2021: First public release of the I-ADOPT ontology 0.0.8\nJuly 2023: Improved version I-ADOPT ontology 1.0.1\nMay 2025: Major revision I-ADOPT ontology 1.1.0\n2026: I-ADOPT SHACL Shape definitions\n2026: Variable Design Patterns and Decision Trees\n2026: I-ADOPT Guideline\n2026: I-ADOPT Corpus\n\n\n\n\n\n2025: A Visualizer enabling interactive modelling and visualizing of an I-ADOPT variable\n2025: I-ADOPT Catalogue\n2026: A Service for Variable Descriptions for local installation"
   },
   {
     "objectID": "roadmap.html#ongoing-activities",
     "href": "roadmap.html#ongoing-activities",
     "title": "Roadmap for I-ADOPT related developments",
     "section": "Ongoing Activities",
-    "text": "Ongoing Activities"
+    "text": "Ongoing Activities\n\nI-ADOPT related Publications\n\nFrom Scientific Variables to Knowledge Graphs: The I-ADOPT Benchmark, Semantic Web Journal: Baseline paper for LLM experiments; Authors: Magagna, B., Rastegar, A., González Guardia, E., Berrio, C., Chalk, S., Schindler, S., Gómez-Pérez, J. M., Lorenz, C., Kumar, S., Garijo, D."
   },
   {
     "objectID": "roadmap.html#future-developments",
