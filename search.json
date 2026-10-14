@@ -326,6 +326,6 @@
     "href": "about.html#maintainer-of-the-website",
     "title": "About I-ADOPT",
     "section": "Maintainer of the Website",
-    "text": "Maintainer of the Website\n\nBarbara Magagna, GO FAIR Foundation (GFF), NL (ORCID: 0000-0003-2195-3997)\nSirko Schindler, German Aerospace Center (DLR), DE (ORCID: 0000-0002-0964-4457)"
+    "text": "Maintainer of the Website\n\nBarbara Magagna, GO FAIR Foundation (GFF), NL (ORCID: 0000-0003-2195-3997)\nSirko Schindler, German Aerospace Center (DLR), DE (ORCID: 0000-0002-0964-4457)\n\n\nThis website was built with Quarto and rendered with Github Pages."
   }
 ]
