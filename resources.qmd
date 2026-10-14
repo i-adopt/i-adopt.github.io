@@ -29,6 +29,10 @@ csl: https://www.zotero.org/styles/apa-with-abstract
 
 ### I-ADOPT Publications
 By authors of the core I-ADOPT team.
+
+---
+nocite: |
+  @item1, @item2
 - @magagna2020towards
 - **@Magagna2021IADOPT**
 - @pamment2021improving
@@ -39,8 +43,11 @@ By authors of the core I-ADOPT team.
 - @nerc_building_interoperability
 - @perez2025automatic
 
+---
+
 ### I-ADOPT related Publications
 By other authors applying or discussing I-ADOPT in their context.
+nocite: |
 - @nerc_building_interoperability
 - @oliveira2022analysis
 - @Coussot2024
@@ -61,3 +68,4 @@ By other authors applying or discussing I-ADOPT in their context.
 - @stroemert2026chemdcat
 - @bejandi2026conceptual
 - @kalinin2026ontology
+---
