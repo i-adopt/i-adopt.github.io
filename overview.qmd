@@ -12,10 +12,12 @@ date: 10/13/2026
 Initiated by the Research Data Alliance's [I-ADOPT Working Group](https://i-adopt.github.io/rda.html), the I-ADOPT Interoperability Framework is being further specified and implemented under the patronage of the GO FAIR Foundation, in collaboration with a broad community of international partners. Learn more on our [About](https://i-adopt.github.io/about.html) page.
 
 ## Understanding I-ADOPT
-- Watch this video for a quick overview of the I-ADOPT framework.
+Watch this video for a quick overview of the I-ADOPT framework.
 {{< video https://www.youtube.com/watch?v=8AB_OSA_CJk >}}
 
-Applying the I-ADOPT Framework means:
+The main goal of I-ADOPT is to make descriptions of observable properties more Findable, Accessible, Interoperable, and Reusable (FAIR). 
+
+Applying the I-ADOPT Framework involves:
 
 1.  decompose the variable in atomic components
 2.  assign a description role for each component
@@ -25,7 +27,7 @@ Applying the I-ADOPT Framework means:
 
 This I-ADOPT decomposition and annotation exercise should result in a variable concept with its associated concepts as [machine-interpretable RDF - turtle file](https://i-adopt.github.io/Corpus/Natural%20Sciences/Atmospheric%20Science/C2_AirDailyMaximumTemperature.ttl) and ideally get a persistent identifier.
 
-- Explore this [presentation](https://github.com/i-adopt/i-adopt.github.io/blob/main/material/EOV%20I-ADOPT.pdf) to understand how to decompose a variable. 
+Explore this [presentation](https://github.com/i-adopt/i-adopt.github.io/blob/main/material/EOV%20I-ADOPT.pdf) to understand how to decompose a variable. 
 
 ## Resources
 * I-ADOPT Framework ontology <https://i-adopt.github.io/ontology/>
