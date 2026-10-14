@@ -23,8 +23,8 @@ date: 10/13/2026
 * 2026 - 2027: Developing Extension specification to FAIRify the *observedproperty* in the [**OGC Observation, Measurement and Sample** standard](https://www.ogc.org/standards/om/) 
 
 ## Understanding I-ADOPT
-Watch this [video](https://www.youtube.com/watch?v=8AB_OSA_CJk) for a quick overview of the I-ADOPT framework.
-Explore this [presentation](https://github.com/i-adopt/i-adopt.github.io/blob/main/material/EOV%20I-ADOPT.pdf) to understand how to decompose a variable. 
+- Watch this [video](https://www.youtube.com/watch?v=8AB_OSA_CJk) for a quick overview of the I-ADOPT framework.
+- Explore this [presentation](https://github.com/i-adopt/i-adopt.github.io/blob/main/material/EOV%20I-ADOPT.pdf) to understand how to decompose a variable. 
 
 ## Resources
 * I-ADOPT Framework ontology <https://i-adopt.github.io/ontology/>
