@@ -14,8 +14,8 @@ The goal of I-ADOPT is to provide an Interoperability Framework for representing
 * Autumn 2024: Two [I-ADOPT Variable Modelling Challenges](https://i-adopt.github.io/challenge.html)
 * Spring 2025: Two [I-ADOPT Workshops](https://i-adopt.github.io/workshops.html)
 * July - November 2025: **NFDI4Earth I-ADOPT project** to develop a prototype for an [LLM-assisted I-ADOPT service](https://i-adopt.github.io/service.html)
-* 2025 - 2027: [**FAIR2Adapt**](https://fair2adapt-eosc.eu/) project develops an I-ADOPT service embedded in [ROHub](https://www.rohub.org) to enable interoperable descriptions of RO-Crates
-* June 2026 - May 2029: [**CDIF4EOSC**](https://cdif4eosc.eu/) project plans to include I-ADOPT in their [Cross Domain Interoperability Framework](https://cross-domain-interoperability-framework.github.io/cdifbook/) as a Context Profile
+* 2025 - 2027: EU Horizon Europe [**FAIR2Adapt**](https://fair2adapt-eosc.eu/) project (No. 101188256) develops an I-ADOPT service embedded in [ROHub](https://www.rohub.org) to enable interoperable descriptions of RO-Crates
+* June 2026 - May 2029: [**CDIF4EOSC**](https://cdif4eosc.eu/) project (EU Grant: 101292473) will include I-ADOPT in their [Cross Domain Interoperability Framework](https://cross-domain-interoperability-framework.github.io/cdifbook/) as a Context Profile
 * 2026 - 2027: Developing Extension specification to FAIRify the *observedproperty* in the [**OGC Observation, Measurement and Sample** standard](https://www.ogc.org/standards/om/) 
 * 2026: The GO FAIR Foundation has assumed patronage over I-ADOPT developments to ensure the long-term preservation of the services and specification.
 
