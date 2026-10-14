@@ -1,0 +1,13 @@
+---
+title: Website updates
+categories:
+  - News
+author: 
+  - name: Marvin Friedl
+    orcid: 0009-0007-7713-900X
+date: 10/14/2026
+---
+------------------------------------------------------------------------
+
+
+Some new features have been added to the I-ADOPT website. Among this News page, an [Overview page](https://i-adopt.github.io/overview.html) as well as a [Roadmap](https://i-adopt.github.io/roadmap.html). 
