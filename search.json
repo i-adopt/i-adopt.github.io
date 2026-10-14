@@ -161,11 +161,11 @@
     "text": "Understanding I-ADOPT\nWatch this video for a quick overview of the I-ADOPT framework. \nThe main goal of I-ADOPT is to make descriptions of observable properties more Findable, Accessible, Interoperable, and Reusable (FAIR).\nApplying the I-ADOPT Framework involves:\n\ndecomposing the variable in atomic components\nassigning a description role for each component\nannotating each component with concepts from terminologies\n\n\nThis I-ADOPT decomposition and annotation exercise should result in a variable concept with its associated concepts as machine-interpretable RDF - turtle file and ideally get a persistent identifier.\nExplore this presentation to understand how to decompose a variable."
   },
   {
-    "objectID": "overview.html#resources",
-    "href": "overview.html#resources",
+    "objectID": "overview.html#contribute",
+    "href": "overview.html#contribute",
     "title": "I-ADOPT Interoperability Framework Initiative",
-    "section": "Resources",
-    "text": "Resources\n\nI-ADOPT Framework ontology https://i-adopt.github.io/ontology/\nI-ADOPT Visualizer enables to model and visualize variables according to the ontology\nI-ADOPT Corpus https://i-adopt.github.io/Corpus/ contains 102 I-ADOPTed variables\nI-ADOPT Variable Design Patterns contains patterns for description components and decision trees to guide the modelling of I-ADOPT variables\nI-ADOPT Roadmap gives an overview of achieved, ongoing and planned activities\nI-ADOPT News: Subscribe for updates"
+    "section": "Contribute",
+    "text": "Contribute\nYou can contribute to I-ADOPT by participating at our regular calls and by providing your variable description to our github repository."
   },
   {
     "objectID": "rda.html#i-adopt-wg-tasks",
