@@ -34,6 +34,9 @@ draft: false
 ### I-ADOPT related Publications
 - From Scientific Variables to Knowledge Graphs: The I-ADOPT Benchmark, Semantic Web Journal: Baseline paper for LLM experiments; Authors: Magagna, B., Rastegar, A., González Guardia, E., Berrio, C., Chalk, S., Schindler, S., Gómez-Pérez, J. M., Lorenz, C., Kumar, S., Garijo, D.
 
+### Specifications
+- Identifying constraint types for potential full FAIR representation
+- Reviewing decision trees and patterns
 
 ## Future Developments
 - Unpacking Constraints by modelling them as observations
