@@ -16,6 +16,8 @@ website:
     left:
       - text: Overview
         href: overview.qmd
+      - text: Resources
+        href: resources.qmd
       - text: Roadmap
         href: roadmap.qmd
       - href: rda.qmd
