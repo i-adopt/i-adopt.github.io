@@ -28,7 +28,7 @@ csl: https://www.zotero.org/styles/apa-with-abstract
 - 2026: [I-ADOPT Guideline](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Guide/guideline.md)
 - 2026: [I-ADOPT Corpus](https://i-adopt.github.io/Corpus/)
 
-### I-ADOPT related Services:
+### I-ADOPT related Services
 - 2025: A [Visualizer](https://sirkos.github.io/iadopt-vis/) enabling interactive modelling and visualizing of an I-ADOPT variable 
 - 2025: [I-ADOPT Catalogue](https://github.com/SirkoS/iadopt-catalogue)
 - 2026: A [Service for Variable Descriptions](https://github.com/ArvinRastegar/iadopt-variable-description-service) for local installation
@@ -45,7 +45,7 @@ csl: https://www.zotero.org/styles/apa-with-abstract
 - Define SPARQL queries to find existing variables across Semantic Artifact Catalogs
 - Build a system to constrain units based on the properties
 
-### I-ADOPT related Services:
+### I-ADOPT related Services
 - Include patterns in the workflow to improve the output of the LLM-supported Service
 - Add provenance trails of the outcomes of the LLM-Service and make the accessible online
 
@@ -66,7 +66,7 @@ csl: https://www.zotero.org/styles/apa-with-abstract
 - Compile I-ADOPT specification for the Observation, Measurement, and Sample OGC Standard
 - Compile Context Profile with I-ADOPT decomposition approach aligned with the CDIF Data Description and Data Structure Profiles 
 
-### I-ADOPT related Services:
+### I-ADOPT related Services
 - Enhance I-ADOPT Visualizer to enable machine-interpretable Constraints
 - Improve I-ADOPT Catalog to include a publishing workflow
 - Improve I-ADOPT Catalog to enable search based on the description components
