@@ -14,7 +14,4 @@ page-layout: full
 **How to Subscribe to the I-ADOPT RSS Feed:**
 
 Follow these simple steps to subscribe to updates using your mobile RSS reader app (such as Feedly, NetNewsWire, Inoreader, or Reeder):
-- Copy the Feed URL: Copy the RSS feed web address to your phone's clipboard: <https://i-adopt.github.io/news.xml>
-- Open Your RSS Reader App: Launch your preferred RSS app on your mobile device.
-- Add a New Feed: Tap the "+" (Add) button, "Add Subscription", or the search icon in the menu/sidebar.
-- Paste and Subscribe: Paste <https://i-adopt.github.io/news.xml> into the URL search bar, select the feed, and tap Add or Subscribe.
+a) Copy the RSS feed web address to your phone's clipboard: <https://i-adopt.github.io/news.xml>; b) Launch your preferred RSS app on your mobile device; c) Tap the "+" (Add) button, "Add Subscription", or the search icon in the menu/sidebar; d) Paste <https://i-adopt.github.io/news.xml> into the URL search bar, select the feed, and tap Add or Subscribe.
