@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.19">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Barbara Magagna">
+<meta name="dcterms.date" content="2026-10-13">
+
+<title>Roadmap for I-ADOPT related developments – I-ADOPT</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./img/variable.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-55617497126496852ff9f5a59253c640.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./img/variable.png" alt="" class="navbar-logo light-content">
+    <img src="./img/variable.png" alt="" class="navbar-logo dark-content">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./overview.html"> 
+<span class="menu-text">Overview</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./roadmap.html"> 
+<span class="menu-text">Roadmap</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./rda.html"> 
+<span class="menu-text">RDA Working Group</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://i-adopt.github.io/ontology/"> 
+<span class="menu-text">Ontology</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./challenge.html"> 
+<span class="menu-text">Challenge</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./workshops.html"> 
+<span class="menu-text">Modelling Workshops</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./service.html"> 
+<span class="menu-text">Service</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./news.html"> 
+<span class="menu-text">News</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+    <a href="https://github.com/i-adopt/i-adopt.github.io" title="GFF Wiki GitHub" class="quarto-navigation-tool px-1" aria-label="GFF Wiki GitHub"><i class="bi bi-github"></i></a>
+    <a href="https://i-adopt.github.io/news.xml" title="GFF News RSS" class="quarto-navigation-tool px-1" aria-label="GFF News RSS"><i class="bi bi-rss"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#i-adopt-related-specifications" id="toc-i-adopt-related-specifications" class="nav-link active" data-scroll-target="#i-adopt-related-specifications">I-ADOPT related Specifications</a></li>
+  <li><a href="#i-adopt-related-services" id="toc-i-adopt-related-services" class="nav-link" data-scroll-target="#i-adopt-related-services">I-ADOPT related Services</a></li>
+  <li><a href="#i-adopt-publications" id="toc-i-adopt-publications" class="nav-link" data-scroll-target="#i-adopt-publications">I-ADOPT Publications</a></li>
+  <li><a href="#i-adopt-related-publications" id="toc-i-adopt-related-publications" class="nav-link" data-scroll-target="#i-adopt-related-publications">I-ADOPT related Publications</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/i-adopt/i-adopt.github.io/edit/main/resources.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/i-adopt/i-adopt.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Roadmap for I-ADOPT related developments</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Barbara Magagna <a href="https://orcid.org/0000-0003-2195-3997" class="quarto-title-author-orcid" aria-label="ORCID profile for Barbara Magagna"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 13, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="i-adopt-related-specifications" class="level3">
+<h3 class="anchored" data-anchor-id="i-adopt-related-specifications">I-ADOPT related Specifications</h3>
+<ul>
+<li>June 2021: First public release of the <a href="https://i-adopt.github.io/ontology/archive/0.8.0/index.html">I-ADOPT ontology 0.0.8</a></li>
+<li>July 2023: Improved version <a href="https://i-adopt.github.io/ontology/archive/1.0.1/index.html">I-ADOPT ontology 1.0.1</a></li>
+<li>May 2025: Major revision <a href="https://i-adopt.github.io/ontology/archive/1.1.0/index.html">I-ADOPT ontology 1.1.0</a></li>
+<li>2026: <a href="https://raw.githubusercontent.com/SirkoS/iadopt-schema/main/shacl/iadopt.sh.ttl">I-ADOPT SHACL Shape</a> definitions</li>
+<li>2026: <a href="https://github.com/mabablue/I-ADOPT-patterns-playground">Variable Design Patterns</a> and Decision Trees</li>
+<li>2026: <a href="https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Guide/guideline.md">I-ADOPT Guideline</a></li>
+<li>2026: <a href="https://i-adopt.github.io/Corpus/">I-ADOPT Corpus</a></li>
+</ul>
+</section>
+<section id="i-adopt-related-services" class="level3">
+<h3 class="anchored" data-anchor-id="i-adopt-related-services">I-ADOPT related Services</h3>
+<ul>
+<li>2025: A <a href="https://sirkos.github.io/iadopt-vis/">Visualizer</a> enabling interactive modelling and visualizing of an I-ADOPT variable</li>
+<li>2025: <a href="https://github.com/SirkoS/iadopt-catalogue">I-ADOPT Catalogue</a></li>
+<li>2026: A <a href="https://github.com/ArvinRastegar/iadopt-variable-description-service">Service for Variable Descriptions</a> for local installation</li>
+</ul>
+</section>
+<section id="i-adopt-publications" class="level3">
+<h3 class="anchored" data-anchor-id="i-adopt-publications">I-ADOPT Publications</h3>
+<p>By authors of the core I-ADOPT team. - <span class="citation" data-cites="magagna2020towards">Magagna et al. (<a href="#ref-magagna2020towards" role="doc-biblioref">2020</a>)</span> - <strong><span class="citation" data-cites="Magagna2021IADOPT">Magagna, Rosati, et al. (<a href="#ref-Magagna2021IADOPT" role="doc-biblioref">2021</a>)</span></strong> - <span class="citation" data-cites="pamment2021improving">Pamment, Magagna, et al. (<a href="#ref-pamment2021improving" role="doc-biblioref">2021</a>)</span> - <span class="citation" data-cites="pamment2021semantic">Pamment, UK, et al. (<a href="#ref-pamment2021semantic" role="doc-biblioref">2021</a>)</span> - <span class="citation" data-cites="magagna2021adopt21">Magagna, Moncoiffe, et al. (<a href="#ref-magagna2021adopt21" role="doc-biblioref">2021</a>)</span> - <span class="citation" data-cites="Recommendations">Magagna et al. (<a href="#ref-Recommendations" role="doc-biblioref">2022</a>)</span> - <span class="citation" data-cites="magagna2023aligning">Magagna et al. (<a href="#ref-magagna2023aligning" role="doc-biblioref">2023</a>)</span> - <span class="citation" data-cites="nerc_building_interoperability">NERC Data Commons (<a href="#ref-nerc_building_interoperability" role="doc-biblioref">2023</a>)</span> - <span class="citation" data-cites="perez2025automatic">Pérez &amp; Garcı́a (<a href="#ref-perez2025automatic" role="doc-biblioref">2025</a>)</span></p>
+</section>
+<section id="i-adopt-related-publications" class="level3">
+<h3 class="anchored" data-anchor-id="i-adopt-related-publications">I-ADOPT related Publications</h3>
+<p>By other authors applying or discussing I-ADOPT in their context. - <span class="citation" data-cites="nerc_building_interoperability">NERC Data Commons (<a href="#ref-nerc_building_interoperability" role="doc-biblioref">2023</a>)</span> - <span class="citation" data-cites="oliveira2022analysis">Oliveira et al. (<a href="#ref-oliveira2022analysis" role="doc-biblioref">2022</a>)</span> - <span class="citation" data-cites="Coussot2024">Coussot et al. (<a href="#ref-Coussot2024" role="doc-biblioref">2024</a>)</span> - <span class="citation" data-cites="chaffard2025theia">Chaffard et al. (<a href="#ref-chaffard2025theia" role="doc-biblioref">2025</a>)</span> - <span class="citation" data-cites="argas2025simone">(<a href="#ref-argas2025simone" role="doc-biblioref"><strong>argas2025simone?</strong></a>)</span> - <span class="citation" data-cites="peeters2025enhancing"><span class="nocase">Peeters et al.</span> (<a href="#ref-peeters2025enhancing" role="doc-biblioref">2025</a>)</span> - <span class="citation" data-cites="borges2025improving">Borges et al. (<a href="#ref-borges2025improving" role="doc-biblioref">2025</a>)</span> - <span class="citation" data-cites="viegas442025fairehr">Viegas44 et al. (<a href="#ref-viegas442025fairehr" role="doc-biblioref">2025</a>)</span> - <span class="citation" data-cites="serral2025essential">Serral et al. (<a href="#ref-serral2025essential" role="doc-biblioref">2025</a>)</span> - <span class="citation" data-cites="grellet2025onewater"><span class="nocase">Grellet et al.</span> (<a href="#ref-grellet2025onewater" role="doc-biblioref">2025</a>)</span> - <span class="citation" data-cites="pierkot2025enhancing">Pierkot et al. (<a href="#ref-pierkot2025enhancing" role="doc-biblioref">2025</a>)</span> - <span class="citation" data-cites="anderson2026observation"><span class="nocase">Anderson et al.</span> (<a href="#ref-anderson2026observation" role="doc-biblioref">2026</a>)</span> - <span class="citation" data-cites="nestola2026assessing">Nestola et al. (<a href="#ref-nestola2026assessing" role="doc-biblioref">2026</a>)</span> - <span class="citation" data-cites="kokkinaki2026sensorthingsapi">Kokkinaki et al. (<a href="#ref-kokkinaki2026sensorthingsapi" role="doc-biblioref">2026</a>)</span> - <span class="citation" data-cites="roussey2026variables">Roussey et al. (<a href="#ref-roussey2026variables" role="doc-biblioref">2026</a>)</span> - <span class="citation" data-cites="vargas2026oneforestkb">Vargas-Rojas et al. (<a href="#ref-vargas2026oneforestkb" role="doc-biblioref">2026</a>)</span> - <span class="citation" data-cites="laktash2026making">(<a href="#ref-laktash2026making" role="doc-biblioref"><strong>laktash2026making?</strong></a>)</span> - <span class="citation" data-cites="stroemert2026chemdcat">Stroemert et al. (<a href="#ref-stroemert2026chemdcat" role="doc-biblioref">2026</a>)</span> - <span class="citation" data-cites="bejandi2026conceptual">Bejandi (<a href="#ref-bejandi2026conceptual" role="doc-biblioref">2026</a>)</span> - <span class="citation" data-cites="kalinin2026ontology">Kalinin &amp; Skvortsov (<a href="#ref-kalinin2026ontology" role="doc-biblioref">2026</a>)</span></p>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-anderson2026observation" class="csl-entry" role="listitem">
+<span class="nocase">Anderson, E., Blair, G., Darroch, L., Kingdon, A., Kokkinaki, A., Kingston, R., Pepler, S., Shepherd, A., Tate, A., Townsend, P., et al.</span> (2026). <em>From observation to insight: Developing standardised and trusted environmental data services</em>.
+</div>
+<div id="ref-bejandi2026conceptual" class="csl-entry" role="listitem">
+Bejandi, S. M. (2026). <em>A conceptual meta-model for representing proxy-based measurement in information systems research</em>.
+</div>
+<div id="ref-borges2025improving" class="csl-entry" role="listitem">
+Borges, V., Oliveira, N. Q. de, Campos, M. L. M., &amp; Lopes, G. R. (2025). Improving semantic expressiveness in data catalogs: Applying ontological patterns to data catalog vocabulary relations. <em>ONTOBRAS</em>, 119–132.
+</div>
+<div id="ref-chaffard2025theia" class="csl-entry" role="listitem">
+Chaffard, V., Coussot, C., Boudevillain, B., &amp; Braud, I. (2025). How the theia/OZCAR information system make data from the french OZCAR critical observatory network more FAIR? <em>1rst eLTER Conference</em>, <em>8</em>, e152953.
+</div>
+<div id="ref-Coussot2024" class="csl-entry" role="listitem">
+Coussot, C., Braud, I., Chaffard, V., Boudevillain, B., &amp; Galle, S. (2024). Implementing a new research data alliance recommendation, the i-ADOPT framework, for the naming of environmental variables of continental surfaces. <em>Earth Science Informatics</em>, <em>17</em>(5), 4261–4277. <a href="https://doi.org/10.1007/s12145-024-01373-9">https://doi.org/10.1007/s12145-024-01373-9</a>
+</div>
+<div id="ref-grellet2025onewater" class="csl-entry" role="listitem">
+<span class="nocase">Grellet, S., Braud, I., Adam, M., Arnaud, F., Boudevillain, B., Bressan, H., Chaffard, V., Coussot, C., Debard, S., Fozzani, J., et al.</span> (2025). OneWater FAIR data platform: Towards a national FAIR water data platform and community. <em>ARPHA Conference Abstracts</em>, <em>8</em>, e151297.
+</div>
+<div id="ref-kalinin2026ontology" class="csl-entry" role="listitem">
+Kalinin, N. A., &amp; Skvortsov, N. A. (2026). Ontology-based domain analysis approach for developing an interdisciplinary research infrastructure. <em>Pattern Recognition and Image Analysis</em>, <em>36</em>(2), 538–548.
+</div>
+<div id="ref-kokkinaki2026sensorthingsapi" class="csl-entry" role="listitem">
+Kokkinaki, A., Kingdon, A., Walsh, C., Moncoiffe, G., &amp; Darroch, L. (2026). <em>SensorThingsAPI for the EDS: A standardised service for real time internet of things (IoT)</em>.
+</div>
+<div id="ref-magagna2020towards" class="csl-entry" role="listitem">
+Magagna, B., Moncoiffe, G., Devaraju, A., Buttigieg, P. L., Stoica, M., &amp; Schindler, S. (2020). Towards an interoperability framework for observable property terminologies. <em>EGU General Assembly 2020</em>.
+</div>
+<div id="ref-magagna2021adopt21" class="csl-entry" role="listitem">
+Magagna, B., Moncoiffe, G., Stoica, M., Devaraju, A., Pamment, A., Schindler, S., &amp; Huber, R. (2021). The i-ADOPT interoperability framework: A proposal for FAIRer observable property descriptions. <em>EGU General Assembly Conference Abstracts</em>, EGU21–13155.
+</div>
+<div id="ref-Recommendations" class="csl-entry" role="listitem">
+Magagna, B., Moncoiffé, G., Devaraju, A., Stoica, M., Schindler, S., &amp; Pamment, A. (2022). <em>InteroperAble descriptions of observable property terminologies (i-ADOPT) WG outputs and recommendations</em>. <a href="https://doi.org/10.15497/RDA00071">https://doi.org/10.15497/RDA00071</a>
+</div>
+<div id="ref-Magagna2021IADOPT" class="csl-entry" role="listitem">
+Magagna, B., Rosati, I., Stoica, M., Schindler, S., Moncoiffe, G., Devaraju, A., Peters, J., &amp; Huber, R. (2021). The i-ADOPT interoperability framework for FAIRer data descriptions of biodiversity. <em>Proceedings of the 3rd International Workshop on Semantics for Biodiversity (S4BioDiv 2021), CEUR Workshop Proceedings</em>, <em>2969</em>. <a href="https://ceur-ws.org/Vol-2969/paper10-s4biodiv.pdf">https://ceur-ws.org/Vol-2969/paper10-s4biodiv.pdf</a>
+</div>
+<div id="ref-magagna2023aligning" class="csl-entry" role="listitem">
+Magagna, B., Schindler, S., Moncoiffé, G., Karam, N., Pamment, A., Stoica, M., &amp; Devaraju, A. (2023, October). Aligning observable property terminologies using the <span>I-ADOPT</span> framework. <em>Proceedings of International Data Week 2023: A Festival of Data</em>. <a href="https://elib.dlr.de/197202/">https://elib.dlr.de/197202/</a>
+</div>
+<div id="ref-nerc_building_interoperability" class="csl-entry" role="listitem">
+NERC Data Commons. (2023). <em>Building interoperability – a <span>NERC</span> <span>Data</span> <span>Commons</span> <span>RoadMap</span></em> [Roadmap]. Natural Environment Research Council (NERC).
+</div>
+<div id="ref-nestola2026assessing" class="csl-entry" role="listitem">
+Nestola, E., Sgrigna, G., Ingrosso, G., Tarallo, A., Raho, D., Di Muri, C., Muresan, A. N., &amp; Rosati, I. (2026). Assessing the adoption of the FAIR principles in italian environmental research infrastructures. <em>Patterns</em>, <em>7</em>(1).
+</div>
+<div id="ref-oliveira2022analysis" class="csl-entry" role="listitem">
+Oliveira, N. Q., Borges, V., &amp; Campos, M. L. M. (2022). Analysis of observational variables from an ontological patterns perspective. <em>Proceedings of the 15th Seminar on Ontology Research in Brazil (ONTOBRAS) and 6th Doctoral and Masters Consortium on Ontologies (WTDO), CEUR Workshop Proceedings</em>, <em>3346</em>. <a href="https://ceur-ws.org/Vol-3346/Paper5.pdf">https://ceur-ws.org/Vol-3346/Paper5.pdf</a>
+</div>
+<div id="ref-pamment2021improving" class="csl-entry" role="listitem">
+Pamment, A., Magagna, B., Moncoiffe, G., Stoica, M., Devaraju, A., &amp; Schindler, S. (2021). Improving the interoperability of CF standard names in environmental science. <em>AGU Fall Meeting Abstracts</em>, <em>2021</em>, IN45D–0486.
+</div>
+<div id="ref-pamment2021semantic" class="csl-entry" role="listitem">
+Pamment, A., UK, U. S., Leadbetter, A., &amp; Thomas, R. (2021). Semantic interoperability of operational parameter terminologies in marine sciences. <em>Bollettino Di Geofisica</em>, <em>12</em>, 216.
+</div>
+<div id="ref-peeters2025enhancing" class="csl-entry" role="listitem">
+<span class="nocase">Peeters, R., Martin, L. R., Zhang, F., Willems, H., Gilles, L., Theunis, J., Bessems, J., Souza, C. M. T. de, Baken, S., Devriendt, D., et al.</span> (2025). Enhancing data interoperability in human biomonitoring studies: The HBM data toolkit. <em>International Journal of Hygiene and Environmental Health</em>, <em>270</em>, 114669.
+</div>
+<div id="ref-perez2025automatic" class="csl-entry" role="listitem">
+Pérez, J. M. G., &amp; Garcı́a, A. (2025). <em>Automatic annotation following the i-ADOPT framework</em>. Copernicus Meetings.
+</div>
+<div id="ref-pierkot2025enhancing" class="csl-entry" role="listitem">
+Pierkot, C., Alviset, G., Puissant, A., Chaffard, V., Debard, S., &amp; Coussot, C. (2025). Enhancing semantic interoperability for land surface data: The role of EarthPortal. <em>ARPHA Conference Abstracts</em>, <em>8</em>, e151393.
+</div>
+<div id="ref-roussey2026variables" class="csl-entry" role="listitem">
+Roussey, C., Ba, M., Charleroy, A., Corre, C., Djouad, K., Jonquet, C., Mechhour, O., Tireau, A., Symeonidou, D., &amp; Vrignon, S. (2026). Variables scientifiques: <span>É</span>tat des lieux et perspectives sur les travaux <span class="nocase">à</span> MISTEA. <em>Atelier INt<span>é</span>gration de Sources/Masses de Donn<span>é</span>es h<span>é</span>t<span>é</span>rog<span>è</span>nes Et Ontologies, Dans Le Domaine Des Sciences Du VIVant Et de l’environnement (IN-OVIVE) Dans Le Cadre de La Conf<span>é</span>rence Ing<span>é</span>nierie Des Connaissances IC 2026@ PFIA</em>, 4–p.
+</div>
+<div id="ref-serral2025essential" class="csl-entry" role="listitem">
+Serral, I., Lush, V., Masó, J., Bastin, L., Palma, R., &amp; Villar, A. (2025). Essential variables as a semantic interoperability solution for the green deal data space. <em>EGU General Assembly Conference Abstracts</em>, EGU25–19337.
+</div>
+<div id="ref-stroemert2026chemdcat" class="csl-entry" role="listitem">
+Stroemert, P., Borgelt, H., Linke, D., Doerr, M., Katabathuni, B., Koepler, O., &amp; Kockmann, N. (2026). ChemDCAT-AP: Enabling semantic interoperability with a contextual extension of DCAT-AP. <em>arXiv Preprint arXiv:2602.01822</em>.
+</div>
+<div id="ref-vargas2026oneforestkb" class="csl-entry" role="listitem">
+Vargas-Rojas, F., Armant, V., &amp; Mougenot, I. (2026). OneForestKB: A knowledge base for global forest data curation and exploitation using geospatial services. <em>Semantic Web</em>, <em>17</em>(5), 22104968261480016.
+</div>
+<div id="ref-viegas442025fairehr" class="csl-entry" role="listitem">
+Viegas44, Y. X., Yunesian46, M., &amp; Jeddi47, M. Z. (2025). <em>FAIREHR: A novel online research registry platform to advance global environmental and occupational health research</em>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/i-adopt\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./about.html">
+<p>About</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/4.0/">
+<p>License: CC BY 4.0</p>
+</a>
+  </li>  
+</ul>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/i-adopt/i-adopt.github.io/edit/main/resources.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/i-adopt/i-adopt.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
