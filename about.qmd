@@ -19,8 +19,9 @@ The goal of I-ADOPT is to provide an Interoperability Framework for representing
 * 2026 - 2027: Developing Extension specification to FAIRify the *observedproperty* in the [**OGC Observation, Measurement and Sample** standard](https://www.ogc.org/standards/om/) 
 * 2026: The GO FAIR Foundation has assumed patronage over I-ADOPT developments to ensure the long-term preservation of the services and specification.
 
-## Contribute
+## Maintainer of the Website
 
-You can contribute to I-ADOPT by participating at our regular calls and by providing your variable description to our [github repository](https://github.com/i-adopt/variables). 
+- Barbara Magagna, GO FAIR Foundation (GFF), NL (ORCID: 0000-0003-2195-3997)
+- Sirko Schindler, German Aerospace Center (DLR), DE (ORCID: 0000-0002-0964-4457)
 
 ![](img/variable.png)
