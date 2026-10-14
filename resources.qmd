@@ -35,6 +35,7 @@ By authors of the core I-ADOPT team.
 - @magagna2021adopt21
 - @Recommendations
 - @magagna2023aligning
+- @fouilloux2025fair2adapt
 - @perez2025automatic
 
 ---
