@@ -7,14 +7,18 @@ author:
   - name: Marvin Friedl
     orcid: 
 date: 10/13/2026
-draft: false
+---
+citeproc: true
+bibliography: references.bib
+csl: https://www.zotero.org/styles/apa-with-abstract
 ---
 
 ## Past Achievements
 
 ### I-ADOPT related Publications
-- 2021: Magagna, B., Rosati, I., Stoica, M., Schindler, S., Moncoiffe, G., Devaraju, A., Peters, J., & Huber, R. (2021). The i-adopt interoperability framework for fairer data descriptions of biodiversity. Proceedings of the 3rd International Workshop on Semantics for Biodiversity (S4BioDiv 2021), 2969. https://ceur- ws.org/Vol- 2969 65/paper10-s4biodiv.pdf
-- 2022: RDA Endorsement of the I-ADOPT Recommendations ([DOI: 10.15497/RDA00071](https://zenodo.org/records/6520132#.YnOhMJNBybQ))
+@Magagna2021IADOPT
+
+@Recommendations
 
 ### Specifications
 - June 2021: First public release of the [I-ADOPT ontology 0.0.8](https://i-adopt.github.io/ontology/archive/0.8.0/index.html)
