@@ -19,9 +19,9 @@ The main goal of I-ADOPT is to make descriptions of observable properties more F
 
 Applying the I-ADOPT Framework involves:
 
-1.  decompose the variable in atomic components
-2.  assign a description role for each component
-3.  annotate each component with concepts from terminologies
+1.  decomposing the variable in atomic components
+2.  assigning a description role for each component
+3.  annotating each component with concepts from terminologies
 
 ![](img/I-ADOPT_example.svg)
 
