@@ -10,7 +10,7 @@ date: 10/13/2026
 ---
 ![](img/variable.png){width="70%"}
 
-Initiated by the Research Data Alliance's I-ADOPT Working Group, the I-ADOPT Interoperability Framework is being further specified and implemented under the patronage of the GO FAIR Foundation, in collaboration with a broad community of international partners. Learn more on our About page.
+Initiated by the Research Data Alliance's I-ADOPT Working Group, the I-ADOPT Interoperability Framework is being further specified and implemented under the patronage of the GO FAIR Foundation, in collaboration with a broad community of international partners. Learn more on our [About](https://i-adopt.github.io/about.html) page.
 
 ## Understanding I-ADOPT
 - Watch this video for a quick overview of the I-ADOPT framework.
