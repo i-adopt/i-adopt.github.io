@@ -10,6 +10,7 @@ website:
   favicon: img/LogoSquare.png
   
   navbar:
+    title: false
     logo: img/Logo.png
     left:
       - text: Overview
