@@ -11,7 +11,7 @@ listing:
 page-layout: full
 ---
 
-## How to Subscribe to the I-ADOPT RSS Feed
+### How to Subscribe to the I-ADOPT RSS Feed
 
 Follow these simple steps to subscribe to updates using your mobile RSS reader app (such as Feedly, NetNewsWire, Inoreader, or Reeder):
 
