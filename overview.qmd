@@ -24,7 +24,7 @@ date: 10/13/2026
 
 ## Understanding I-ADOPT
 Watch this [video](https://www.youtube.com/watch?v=8AB_OSA_CJk) for a quick overview of the I-ADOPT framework.
-
+Explore this [presentation](https://github.com/i-adopt/i-adopt.github.io/blob/main/material/EOV%20I-ADOPT.pdf) to understand how to decompose a variable. 
 
 ## Resources
 * I-ADOPT Framework ontology <https://i-adopt.github.io/ontology/>
