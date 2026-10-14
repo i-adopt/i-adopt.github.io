@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 395"><defs><style>text {
+  text-anchor:       middle;
+  dominant-baseline: central;
+  font-size: 12pt;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+text.type {
+  font-weight: bold;
+}
+text.desc {
+  font-size: 10pt;
+  font-style: italic;
+}
+
+a {
+  fill: blue;
+  text-decoration: underline;
+}
+text.desc a {
+  font-style: normal;
+}
+
+.frame {
+  stroke-width: 1pt;
+  fill:         none;
+}
+.frame.light {
+  opacity: 0.4;
+}
+rect.title {
+  opacity: 0.2;
+}
+
+:root {
+  --color-variable-main:  #2D7600;
+  --color-variable-light: #60A917;
+  --color-variable-dark:  #2D7600;
+
+  --color-property-main:  #B266FF;
+  --color-property-light: #E1D5E7;
+  --color-property-dark:  #B266FF;
+
+  --color-entity-main:  #6C8EBF;
+  --color-entity-light: #DAE8FC;
+  --color-entity-dark:  #6C8EBF;
+
+  --color-ooi-main:     #a1c5f7;
+  --color-matrix-main:  #b8d3f9;
+  --color-context-main: #d0e2fb;
+
+  --color-statmod-main:  #666666;
+  --color-statmod-light: #DDDDDD;
+  --color-statmod-dark:  #666666;
+
+  --color-constraint-main:  #B85450;
+  --color-constraint-light: #F8CECC;
+  --color-constraint-dark:  #B85450;
+}
+
+/* ----------------- Variable ---------------- */
+
+.variable text.type { fill: #fff; }
+.variable rect        { fill:   var(--color-variable-light); }
+.variable rect.title  { fill:   var(--color-variable-main); }
+.variable .frame      { stroke: var(--color-variable-dark); }
+
+/* ----------------- Property ---------------- */
+
+.property rect        { fill:   var(--color-property-light); }
+.property rect.title  { fill:   var(--color-property-main); }
+.property .frame      { stroke: var(--color-property-dark); }
+
+/* ------------ Entity / System -------------- */
+
+.entity rect,
+.system rect         { fill:   var(--color-entity-light); }
+.entity rect.title
+.system rect.title   { fill:   var(--color-entity-main); }
+.entity .frame,
+.system .frame       { stroke: var(--color-entity-dark); }
+
+/* -------------- Entity Types --------------- */
+
+.entity.ooi           rect,
+.system.ooi           rect { fill: var(--color-ooi-main); }
+.entity.matrix        rect,
+.system.matrix        rect { fill: var(--color-matrix-main); }
+.entity.contextobject rect,
+.system.contextobject rect { fill: var(--color-context-main); }
+
+/* ---------- Statistical Modifier ----------- */
+
+.statmod rect        { fill:   var(--color-statmod-light); }
+.statmod rect.title  { fill:   var(--color-statmod-main); }
+.statmod .frame      { stroke: var(--color-statmod-dark) }
+
+/* ---------------- Constraint --------------- */
+
+.constraint rect        { fill:   var(--color-constraint-light) }
+.constraint rect.title  { fill:   var(--color-constraint-main); }
+.constraint .frame      { stroke: var(--color-constraint-dark); }
+
+/* ------------------ Arrows ----------------- */
+
+.arrow path {
+  stroke: black;
+  mask:   url(#arrowMask);
+  fill:   none;
+}
+.arrow text {
+  font-size: 10pt;
+  font-style: italic;
+}
+
+/* cut outs for arrows */
+mask path {
+  fill: #000;
+}
+mask rect {
+  fill: #fff;
+}
+
+/* ------------------ Footer ----------------- */
+#footer text {
+  text-anchor:  end;
+  font-size:    6pt;
+  font-style:   italic;
+}
+
+#footer a {
+  text-decoration: none;
+}</style>
+<marker id="arrowHeadEnd" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="strokeWidth" markerWidth="15" markerHeight="15" orient="auto">
+  <path d="M 1,1 l 7,4 l -7,4 2,-4 z" style="fill: black"></path>
+</marker>
+  <mask id="arrowMask" maskUnits="userSpaceOnUse">
+    <rect x="0" y="0" width="850" height="395"></rect>
+  <path d="M 74.53520584106445,160.90909099578857
+          l 0,18.18181800842285 78.4295883178711,0 0,-18.18181800842285 Z" transform=""></path><path d="M 255.87295532226562,160.90909099578857
+          l 0,18.18181800842285 130.75408935546875,0 0,-18.18181800842285 Z" transform=""></path><path d="M 495.3125343322754,160.90909099578857
+          l 0,18.18181800842285 66.87493133544922,0 0,-18.18181800842285 Z" transform=""></path><path d="M 664.6254653930664,160.90909099578857
+          l 0,18.18181800842285 143.2490692138672,0 0,-18.18181800842285 Z" transform=""></path><path d="M 288.7440071105957,285.9090909957886
+          l 0,18.18181800842285 65.0119857788086,0 0,-18.18181800842285 Z" transform=""></path><path d="M 703.7440071105957,285.9090909957886
+          l 0,18.18181800842285 65.0119857788086,0 0,-18.18181800842285 Z" transform=""></path><path d="M 380.0447998046875,180.90909099578857
+          l 0,18.18181800842285 89.910400390625,0 0,-18.18181800842285 Z" transform="rotate( -90 425 190 )"></path><path d="M 795.0447998046875,180.90909099578857
+          l 0,18.18181800842285 89.910400390625,0 0,-18.18181800842285 Z" transform="rotate( -90 840 190 )"></path></mask></defs><g class="arrow"><path d="M 113.75,130 113.75,204" style="marker-end: url(#arrowHeadEnd);"></path><text x="113.75" y="170" transform="">hasProperty</text></g><g class="arrow"><path d="M 321.25,130 321.25,204" style="marker-end: url(#arrowHeadEnd);"></path><text x="321.25" y="170" transform="">hasObjectOfInterest</text></g><g class="arrow"><path d="M 528.75,130 528.75,204" style="marker-end: url(#arrowHeadEnd);"></path><text x="528.75" y="170" transform="">hasMatrix</text></g><g class="arrow"><path d="M 736.25,130 736.25,204" style="marker-end: url(#arrowHeadEnd);"></path><text x="736.25" y="170" transform="">hasStatisticalModifier</text></g><g class="arrow"><path d="M 321.25,310 321.25,276" style="marker-end: url(#arrowHeadEnd);"></path><text x="321.25" y="295" transform="">constrains</text></g><g class="arrow"><path d="M 736.25,310 736.25,276" style="marker-end: url(#arrowHeadEnd);"></path><text x="736.25" y="295" transform="">constrains</text></g><g class="arrow"><path d="M 425,130 425,347.5 416,347.5" style="marker-end: url(#arrowHeadEnd);"></path><text x="425" y="190" transform="rotate( -90 425 190 )">hasConstraint</text></g><g class="arrow"><path d="M 840,130 840,347.5 831,347.5" style="marker-end: url(#arrowHeadEnd);"></path><text x="840" y="190" transform="rotate( -90 840 190 )">hasConstraint</text></g><g class="variable variable"><rect x="10" y="10" width="830" height="30" class="header"></rect><rect x="10" y="40" width="830" height="30" class="title"></rect><path d="M 10,10 l 830,0 0,120 -830,0 z
+               M 10,40 l 830,0" class="frame"></path><path d="M 10,70 l 830,0" class="frame light"></path><text x="425" y="25" class="type">Variable</text><text x="425" y="55" class="title">Air daily maximum temperature at 1.7m</text><text x="425" y="85" class="desc"><a href="http://example.org/iadopt/challenge/C2" target="_blank">ex:C2</a></text><text x="425" y="115" class="desc">Thermodynamic temperature of the air in a height of 1.7 meter aboveground, daily maximum in Celsium degrees.</text></g><g class="property property"><rect x="25" y="210" width="177.5" height="30" class="header"></rect><rect x="25" y="240" width="177.5" height="45" class="title"></rect><path d="M 25,210 l 177.5,0 0,75 -177.5,0 z
+               M 25,240 l 177.5,0" class="frame"></path><path d="M 25,285 l 177.5,0" class="frame light"></path><text x="113.75" y="225" class="type">Property</text><text x="113.75" y="255" class="title"><a href="https://qudt.org/vocab/quantitykind/ThermodynamicTemperature" target="_blank">thermodynamic</a></text><text x="113.75" y="270" class="title"><a href="https://qudt.org/vocab/quantitykind/ThermodynamicTemperature" target="_blank">temperature</a></text></g><g class="entity ooi"><rect x="232.5" y="210" width="177.5" height="30" class="header"></rect><rect x="232.5" y="240" width="177.5" height="30" class="title"></rect><path d="M 232.5,210 l 177.5,0 0,60 -177.5,0 z
+               M 232.5,240 l 177.5,0" class="frame"></path><path d="M 232.5,270 l 177.5,0" class="frame light"></path><text x="321.25" y="225" class="type">Entity</text><text x="321.25" y="255" class="title"><a href="https://www.wikidata.org/entity/Q7391292" target="_blank">air</a></text></g><g class="entity matrix"><rect x="440" y="210" width="177.5" height="30" class="header"></rect><rect x="440" y="240" width="177.5" height="30" class="title"></rect><path d="M 440,210 l 177.5,0 0,60 -177.5,0 z
+               M 440,240 l 177.5,0" class="frame"></path><path d="M 440,270 l 177.5,0" class="frame light"></path><text x="528.75" y="225" class="type">Entity</text><text x="528.75" y="255" class="title"><a href="https://www.wikidata.org/entity/Q8104" target="_blank">atmosphere</a></text></g><g class="statmod statisticalmodifier"><rect x="647.5" y="210" width="177.5" height="30" class="header"></rect><rect x="647.5" y="240" width="177.5" height="30" class="title"></rect><path d="M 647.5,210 l 177.5,0 0,60 -177.5,0 z
+               M 647.5,240 l 177.5,0" class="frame"></path><path d="M 647.5,270 l 177.5,0" class="frame light"></path><text x="736.25" y="225" class="type">Stat. Mod.</text><text x="736.25" y="255" class="title"><a href="https://www.wikidata.org/entity/Q10578722" target="_blank">maximum</a></text></g><g class="constraint constraint"><rect x="232.5" y="310" width="177.5" height="30" class="header"></rect><rect x="232.5" y="340" width="177.5" height="45" class="title"></rect><path d="M 232.5,310 l 177.5,0 0,75 -177.5,0 z
+               M 232.5,340 l 177.5,0" class="frame"></path><path d="M 232.5,385 l 177.5,0" class="frame light"></path><text x="321.25" y="325" class="type">Constraint</text><text x="321.25" y="355" class="title">reference: 1.7 m </text><text x="321.25" y="370" class="title">above ground</text></g><g class="constraint constraint"><rect x="647.5" y="310" width="177.5" height="30" class="header"></rect><rect x="647.5" y="340" width="177.5" height="45" class="title"></rect><path d="M 647.5,310 l 177.5,0 0,75 -177.5,0 z
+               M 647.5,340 l 177.5,0" class="frame"></path><path d="M 647.5,385 l 177.5,0" class="frame light"></path><text x="736.25" y="325" class="type">Constraint</text><text x="736.25" y="355" class="title">reporting</text><text x="736.25" y="370" class="title">frequency: daily</text></g></svg>
