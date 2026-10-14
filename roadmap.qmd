@@ -12,23 +12,26 @@ draft: false
 
 ## Past Achievements
 
-# Ontology
+### Ontology
 - June 2021: First public release of the [I-ADOPT ontology 0.0.8](https://i-adopt.github.io/ontology/archive/0.8.0/index.html)
 - July 2023: Improved version [I-ADOPT ontology 1.0.1](https://i-adopt.github.io/ontology/archive/1.0.1/index.html)
 - May 2025: Major revision [I-ADOPT ontology 1.1.0](https://i-adopt.github.io/ontology/archive/1.1.0/index.html)
+- 2026: [I-ADOPT SHACL Shape](https://raw.githubusercontent.com/SirkoS/iadopt-schema/main/shacl/iadopt.sh.ttl) definitions
 
-# I-ADOPT Recommendations
-- 2022: RDA Endorsment of the I-ADOPT Recommendations ([DOI: 10.15497/RDA00071](https://zenodo.org/records/6520132#.YnOhMJNBybQ))
+### I-ADOPT related Publications
+- 2021: Magagna, B., Rosati, I., Stoica, M., Schindler, S., Moncoiffe, G., Devaraju, A., Peters, J., & Huber, R. (2021). The i-adopt interoperability framework for fairer data descriptions of biodiversity. Proceedings of the 3rd International Workshop on Semantics for Biodiversity (S4BioDiv 2021), 2969. https://ceur- ws.org/Vol- 2969 65/paper10-s4biodiv.pdf
+- 2022: RDA Endorsement of the I-ADOPT Recommendations ([DOI: 10.15497/RDA00071](https://zenodo.org/records/6520132#.YnOhMJNBybQ))
 
-# Papers
-
-
-
-### Ongoing Activities
-
+### I-ADOPT Services:
+- 2025: A [Visualizer](https://sirkos.github.io/iadopt-vis/) enabling interactive modelling and visualizing of an I-ADOPT variable 
 
 
-### Future Developments
+
+## Ongoing Activities
+
+
+
+## Future Developments
 - Unpacking Constraints by modelling them as observations
 - Resolving concepts used more than one time in different description components using paths
 - 
