@@ -52,7 +52,7 @@ nocite: |
 - @oliveira2022analysis
 - @Coussot2024
 - @chaffard2025theia
-- @argas2025simone
+- @vargas2025simone
 - @peeters2025enhancing
 - @borges2025improving
 - @viegas442025fairehr
@@ -64,7 +64,7 @@ nocite: |
 - @kokkinaki2026sensorthingsapi
 - @roussey2026variables
 - @vargas2026oneforestkb
-- @laktash2026making
+- @elaktash2026making
 - @stroemert2026chemdcat
 - @bejandi2026conceptual
 - @kalinin2026ontology
