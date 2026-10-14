@@ -2,7 +2,7 @@
 format:
   html:
     css: styles.css
-title: The I-ADOPT Roadmap
+title: Roadmap for I-ADOPT related developments
 author:
   - name: Marvin Friedl
     orcid: 
@@ -10,26 +10,19 @@ date: 10/13/2026
 draft: true
 ---
 
-## Roadmap
+## Past Achievements
 
----
-config:
-  gantt:
-    barHeight: 35
-    barGap: 10
-    leftPadding: 150
-    axisFormat: '%d/%m'
----
-gantt
-    title I-ADOPT Roadmap 2026
-    dateFormat YYYY-MM-DD
-      Corpus V2 release            :milestone, 2026-09-01, 1d
+### Ontology
+- June 2021: First public release of the [I-ADOPT ontology 0.0.8](https://i-adopt.github.io/ontology/archive/0.8.0/index.html)
+- July 2023: Improved version [I-ADOPT ontology 1.0.1](https://i-adopt.github.io/ontology/archive/1.0.1/index.html)
+- May 2025: Major revision [I-ADOPT ontology 1.1.0](https://i-adopt.github.io/ontology/archive/1.1.0/index.html)
 
-      Decision trees and patterns  :trees, 2026-10-01, 30d
-      Improve I-ADOPT Corpus       :corpus, 2026-10-01, 30d
-      LLM-readable desciptions     :corpus, 2026-10-01, 30d
+## I-ADOPT Recommendations
+- 2022: RDA Endorsment of the I-ADOPT Recommendations ([DOI: 10.15497/RDA00071](https://zenodo.org/records/6520132#.YnOhMJNBybQ))
 
-      section I-ADOPT <br> constraints
-        Identify constraints       :identify, 2026-10-01, 12w
-        different representation   :represent, 2026-10-01, 12w
-        different representation   :represent, 2026-10-01, 12w
+### Ongoing Activities
+
+
+
+### Future Developments
+
