@@ -8,8 +8,7 @@ author:
 date: 10/13/2026
 ---
 ------------------------------------------------------------------------
-![](img/variable.png)
-------------------------------------------------------------------------
+![](/img/variable.png){fig-align="left" width=50%}
 
 Some new features have been added to the I-ADOPT website. Among this News page, an [Overview page](https://i-adopt.github.io/overview.html) as well as a Roadmap. 
 
