@@ -11,7 +11,7 @@ website:
   
   navbar:
     title: false
-    logo: img/Logo.png
+    logo: img/variable.png
     left:
       - text: Overview
         href: overview.qmd
