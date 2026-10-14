@@ -28,7 +28,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -198,13 +218,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>citeproc: true bibliography: material/references.bib csl: https://www.zotero.org/styles/apa-with-abstract —</p>
 <section id="past-achievements" class="level2">
 <h2 class="anchored" data-anchor-id="past-achievements">Past Achievements</h2>
 <section id="i-adopt-related-publications" class="level3">
 <h3 class="anchored" data-anchor-id="i-adopt-related-publications">I-ADOPT related Publications</h3>
-<p><span class="citation" data-cites="Magagna2021IADOPT">@Magagna2021IADOPT</span></p>
-<p><span class="citation" data-cites="Recommendations">@Recommendations</span></p>
+<p><span class="citation" data-cites="Magagna2021IADOPT">Magagna et al. (<a href="#ref-Magagna2021IADOPT" role="doc-biblioref">2021</a>)</span></p>
+<p><span class="citation" data-cites="Recommendations">Magagna et al. (<a href="#ref-Recommendations" role="doc-biblioref">2022</a>)</span></p>
 </section>
 <section id="specifications" class="level3">
 <h3 class="anchored" data-anchor-id="specifications">Specifications</h3>
@@ -252,9 +271,17 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Recommendations" class="csl-entry" role="listitem">
+Magagna, B., Moncoiffé, G., Devaraju, A., Stoica, M., Schindler, S., &amp; Pamment, A. (2022). <em>InteroperAble descriptions of observable property terminologies (i-ADOPT) WG outputs and recommendations</em>. <a href="https://doi.org/10.15497/RDA00071">https://doi.org/10.15497/RDA00071</a>
+</div>
+<div id="ref-Magagna2021IADOPT" class="csl-entry" role="listitem">
+Magagna, B., Rosati, I., Stoica, M., Schindler, S., Moncoiffe, G., Devaraju, A., Peters, J., &amp; Huber, R. (2021). The i-ADOPT interoperability framework for FAIRer data descriptions of biodiversity. <em>Proceedings of the 3rd International Workshop on Semantics for Biodiversity (S4BioDiv 2021), CEUR Workshop Proceedings</em>, <em>2969</em>. <a href="https://ceur-ws.org/Vol-2969/paper10-s4biodiv.pdf">https://ceur-ws.org/Vol-2969/paper10-s4biodiv.pdf</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

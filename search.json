@@ -256,14 +256,14 @@
     "href": "roadmap.html",
     "title": "Roadmap for I-ADOPT related developments",
     "section": "",
-    "text": "citeproc: true bibliography: material/references.bib csl: https://www.zotero.org/styles/apa-with-abstract —"
+    "text": "Magagna et al. (2021)\nMagagna et al. (2022)\n\n\n\n\nJune 2021: First public release of the I-ADOPT ontology 0.0.8\nJuly 2023: Improved version I-ADOPT ontology 1.0.1\nMay 2025: Major revision I-ADOPT ontology 1.1.0\n2026: I-ADOPT SHACL Shape definitions\n2026: Variable Design Patterns and Decision Trees\n2026: I-ADOPT Guideline\n2026: I-ADOPT Corpus\n\n\n\n\n\n2025: A Visualizer enabling interactive modelling and visualizing of an I-ADOPT variable\n2025: I-ADOPT Catalogue\n2026: A Service for Variable Descriptions for local installation"
   },
   {
     "objectID": "roadmap.html#past-achievements",
     "href": "roadmap.html#past-achievements",
     "title": "Roadmap for I-ADOPT related developments",
-    "section": "Past Achievements",
-    "text": "Past Achievements\n\nI-ADOPT related Publications\n@Magagna2021IADOPT\n@Recommendations\n\n\nSpecifications\n\nJune 2021: First public release of the I-ADOPT ontology 0.0.8\nJuly 2023: Improved version I-ADOPT ontology 1.0.1\nMay 2025: Major revision I-ADOPT ontology 1.1.0\n2026: I-ADOPT SHACL Shape definitions\n2026: Variable Design Patterns and Decision Trees\n2026: I-ADOPT Guideline\n2026: I-ADOPT Corpus\n\n\n\nI-ADOPT Services:\n\n2025: A Visualizer enabling interactive modelling and visualizing of an I-ADOPT variable\n2025: I-ADOPT Catalogue\n2026: A Service for Variable Descriptions for local installation"
+    "section": "",
+    "text": "Magagna et al. (2021)\nMagagna et al. (2022)\n\n\n\n\nJune 2021: First public release of the I-ADOPT ontology 0.0.8\nJuly 2023: Improved version I-ADOPT ontology 1.0.1\nMay 2025: Major revision I-ADOPT ontology 1.1.0\n2026: I-ADOPT SHACL Shape definitions\n2026: Variable Design Patterns and Decision Trees\n2026: I-ADOPT Guideline\n2026: I-ADOPT Corpus\n\n\n\n\n\n2025: A Visualizer enabling interactive modelling and visualizing of an I-ADOPT variable\n2025: I-ADOPT Catalogue\n2026: A Service for Variable Descriptions for local installation"
   },
   {
     "objectID": "roadmap.html#ongoing-activities",
