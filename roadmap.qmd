@@ -7,7 +7,7 @@ author:
   - name: Marvin Friedl
     orcid: 
 date: 10/13/2026
-draft: true
+draft: false
 ---
 
 ## Past Achievements
