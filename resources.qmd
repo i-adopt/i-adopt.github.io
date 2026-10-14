@@ -9,19 +9,6 @@ format:
     css: styles.css
 bibliography: material/references.bib
 csl: https://www.zotero.org/styles/apa-with-abstract
-filters:
-  - multibib
-validate-yaml: false
-nocite: |
-  @magagna2020towards, @Magagna2021IADOPT, @pamment2021improving,
-  @pamment2021semantic, @magagna2021adopt21, @Recommendations,
-  @magagna2023aligning, @nerc_building_interoperability, @perez2025automatic,
-  @oliveira2022analysis, @Coussot2024, @chaffard2025theia,
-  @vargas2025simone, @peeters2025enhancing, @borges2025improving,
-  @viegas442025fairehr, @serral2025essential, @grellet2025onewater,
-  @pierkot2025enhancing, @anderson2026observation, @nestola2026assessing,
-  @kokkinaki2026sensorthingsapi, @roussey2026variables, @vargas2026oneforestkb,
-  @elaktash2026making, @stroemert2026chemdcat, @bejandi2026conceptual, @kalinin2026ontology
 ---
 
 ### I-ADOPT related Specifications
@@ -41,40 +28,37 @@ nocite: |
 ### I-ADOPT Publications
 By authors of the core I-ADOPT team.
 
-* @magagna2020towards
-* @Magagna2021IADOPT
-* @pamment2021improving
-* @pamment2021semantic
-* @magagna2021adopt21
-* @Recommendations
-* @magagna2023aligning
-* @perez2025automatic
+- @magagna2020towards
+- @Magagna2021IADOPT
+- @pamment2021improving
+- @pamment2021semantic
+- @magagna2021adopt21
+- @Recommendations
+- @magagna2023aligning
+- @perez2025automatic
 
 ---
 
 ### I-ADOPT related Publications
 By other authors applying or discussing I-ADOPT in their context.
 
-* @nerc_building_interoperability
-* @oliveira2022analysis
-* @Coussot2024
-* @chaffard2025theia
-* @vargas2025simone
-* @peeters2025enhancing
-* @borges2025improving
-* @viegas442025fairehr
-* @serral2025essential
-* @grellet2025onewater
-* @pierkot2025enhancing
-* @anderson2026observation
-* @nestola2026assessing
-* @kokkinaki2026sensorthingsapi
-* @roussey2026variables
-* @vargas2026oneforestkb
-* @elaktash2026making
-* @stroemert2026chemdcat
-* @bejandi2026conceptual
-* @kalinin2026ontology
-
-::: {#refs}
-:::
+- @nerc_building_interoperability
+- @oliveira2022analysis
+- @Coussot2024
+- @chaffard2025theia
+- @vargas2025simone
+- @peeters2025enhancing
+- @borges2025improving
+- @viegas442025fairehr
+- @serral2025essential
+- @grellet2025onewater
+- @pierkot2025enhancing
+- @anderson2026observation
+- @nestola2026assessing
+- @kokkinaki2026sensorthingsapi
+- @roussey2026variables
+- @vargas2026oneforestkb
+- @elaktash2026making
+- @stroemert2026chemdcat
+- @bejandi2026conceptual
+- @kalinin2026ontology
