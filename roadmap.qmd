@@ -13,30 +13,7 @@ bibliography: material/references.bib
 csl: https://www.zotero.org/styles/apa-with-abstract
 ---
 
-## Past Achievements
-
-### I-ADOPT related Publications
-- @Magagna2021IADOPT
-- @Recommendations
-
-### I-ADOPT related Specifications
-- June 2021: First public release of the [I-ADOPT ontology 0.0.8](https://i-adopt.github.io/ontology/archive/0.8.0/index.html)
-- July 2023: Improved version [I-ADOPT ontology 1.0.1](https://i-adopt.github.io/ontology/archive/1.0.1/index.html)
-- May 2025: Major revision [I-ADOPT ontology 1.1.0](https://i-adopt.github.io/ontology/archive/1.1.0/index.html)
-- 2026: [I-ADOPT SHACL Shape](https://raw.githubusercontent.com/SirkoS/iadopt-schema/main/shacl/iadopt.sh.ttl) definitions
-- 2026: [Variable Design Patterns](https://github.com/mabablue/I-ADOPT-patterns-playground) and Decision Trees
-- 2026: [I-ADOPT Guideline](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Guide/guideline.md)
-- 2026: [I-ADOPT Corpus](https://i-adopt.github.io/Corpus/)
-
-### I-ADOPT related Services
-- 2025: A [Visualizer](https://sirkos.github.io/iadopt-vis/) enabling interactive modelling and visualizing of an I-ADOPT variable 
-- 2025: [I-ADOPT Catalogue](https://github.com/SirkoS/iadopt-catalogue)
-- 2026: A [Service for Variable Descriptions](https://github.com/ArvinRastegar/iadopt-variable-description-service) for local installation
-
 ## Ongoing Activities
-### I-ADOPT related Publications
-- From Scientific Variables to Knowledge Graphs: The I-ADOPT Benchmark, Semantic Web Journal: Baseline paper for LLM experiments; Authors: Magagna, B., Rastegar, A., González Guardia, E., Berrio, C., Chalk, S., Schindler, S., Gómez-Pérez, J. M., Lorenz, C., Kumar, S., Garijo, D.
-- I-ADOPT Recommendations 2nd version with a specific focus on FAIR aspects
 
 ### I-ADOPT related Specifications
 - Identifying constraint types for potential full FAIR representation
@@ -49,12 +26,11 @@ csl: https://www.zotero.org/styles/apa-with-abstract
 - Include patterns in the workflow to improve the output of the LLM-supported Service
 - Add provenance trails of the outcomes of the LLM-Service and make the accessible online
 
-## Future Developments
+### I-ADOPT Publications
+- From Scientific Variables to Knowledge Graphs: The I-ADOPT Benchmark, Semantic Web Journal: Baseline paper for LLM experiments; Authors: Magagna, B., Rastegar, A., González Guardia, E., Berrio, C., Chalk, S., Schindler, S., Gómez-Pérez, J. M., Lorenz, C., Kumar, S., Garijo, D.
+- I-ADOPT Recommendations 2nd version with a specific focus on FAIR aspects
 
-### I-ADOPT related Publications
-- Implementation guidelines
-- A paper demonstrating practical benefits of I-ADOPT, highlighting how machine-actionable variable definitions significantly accelerate complex data mapping
-- I-ADOPT Adoption Stories
+## Future Developments
 
 ### I-ADOPT related Specifications
 - Unpack Constraints by modelling them as observations
@@ -71,4 +47,9 @@ csl: https://www.zotero.org/styles/apa-with-abstract
 - Improve I-ADOPT Catalog to include a publishing workflow
 - Improve I-ADOPT Catalog to enable search based on the description components
 - Improve I-ADOPT Catalog to enable hierarchical visualization based on their SKOS relations (broader/narrower)
+
+### I-ADOPT Publications
+- Implementation guidelines
+- A paper demonstrating practical benefits of I-ADOPT, highlighting how machine-actionable variable definitions significantly accelerate complex data mapping
+- I-ADOPT Adoption Stories
 
