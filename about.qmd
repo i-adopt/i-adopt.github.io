@@ -25,3 +25,5 @@ The goal of I-ADOPT is to provide an Interoperability Framework for representing
 - Sirko Schindler, German Aerospace Center (DLR), DE (ORCID: 0000-0002-0964-4457)
 
 ![](img/variable.png)
+
+This website was built with [Quarto](https://quarto.org/) and rendered with [Github Pages](https://pages.github.com/).
