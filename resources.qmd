@@ -1,5 +1,8 @@
 ---
 title: "I-ADOPT Resources"
+bibliography: material/references.bib
+filters:
+  - bibentry
 author:
   - name: Barbara Magagna
     orcid: 0000-0003-2195-3997
@@ -7,8 +10,7 @@ date: 2026-10-13
 format:
   html:
     css: styles.css
-bibliography: material/references.bib
-csl: https://www.zotero.org/styles/apa-with-abstract
+suppress-bibliography: false
 ---
 
 ### I-ADOPT related Specifications
@@ -28,38 +30,69 @@ csl: https://www.zotero.org/styles/apa-with-abstract
 ### I-ADOPT Publications
 By authors of the core I-ADOPT team.
 
-- @magagna2020towards
-- @Magagna2021IADOPT
-- @pamment2021improving
-- @pamment2021semantic
-- @magagna2021adopt21
-- @Recommendations
-- @magagna2023aligning
-- @fouilloux2025fair2adapt
-- @perez2025automatic
+[@magagna2020towards]{.bibentry}
+
+[@Magagna2021IADOPT]{.bibentry}
+
+[@pamment2021improving]{.bibentry}
+
+[@pamment2021semantic]{.bibentry}
+
+[@magagna2021adopt21]{.bibentry}
+
+[@Recommendations]{.bibentry}
+
+[@magagna2023aligning]{.bibentry}
+
+[@fouilloux2025fair2adapt]{.bibentry}
+
+[@perez2025automatic]{.bibentry}
 
 ---
 
 ### I-ADOPT related Publications
 By other authors applying or discussing I-ADOPT in their context.
 
-- @nerc_building_interoperability
-- @oliveira2022analysis
-- @Coussot2024
-- @chaffard2025theia
-- @vargas2025simone
-- @peeters2025enhancing
-- @borges2025improving
-- @viegas442025fairehr
-- @serral2025essential
-- @grellet2025onewater
-- @pierkot2025enhancing
-- @anderson2026observation
-- @nestola2026assessing
-- @kokkinaki2026sensorthingsapi
-- @roussey2026variables
-- @vargas2026oneforestkb
-- @elaktash2026making
-- @stroemert2026chemdcat
-- @bejandi2026conceptual
-- @kalinin2026ontology
+[@nerc_building_interoperability]{.bibentry}
+
+[@oliveira2022analysis]{.bibentry}
+
+[@Coussot2024]{.bibentry}
+
+[@chaffard2025theia]{.bibentry}
+
+[@vargas2025simone]{.bibentry}
+
+[@peeters2025enhancing]{.bibentry}
+
+[@borges2025improving]{.bibentry}
+
+[@viegas442025fairehr]{.bibentry}
+
+[@serral2025essential]{.bibentry}
+
+[@grellet2025onewater]{.bibentry}
+
+[@pierkot2025enhancing]{.bibentry}
+
+[@anderson2026observation]{.bibentry}
+
+[@nestola2026assessing]{.bibentry}
+
+[@kokkinaki2026sensorthingsapi]{.bibentry}
+
+[@roussey2026variables]{.bibentry}
+
+[@vargas2026oneforestkb]{.bibentry}
+
+[@elaktash2026making]{.bibentry}
+
+[@stroemert2026chemdcat]{.bibentry}
+
+[@bejandi2026conceptual]{.bibentry}
+
+[@kalinin2026ontology]{.bibentry}
+
+
+::: {#refs}
+:::

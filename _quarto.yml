@@ -2,7 +2,6 @@ project:
   type: website
   output-dir: _site
   
-
 website:
   title: "I-ADOPT"
   site-url: "https://i-adopt.github.io/"
@@ -57,6 +56,5 @@ format:
     
 execute:
   freeze: auto
-
 
 
