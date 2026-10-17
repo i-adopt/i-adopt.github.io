@@ -30,6 +30,11 @@ A collection of variables from different domains is used as a ground truth for r
 * All variables are represented in RDF turtle (ttl) in this [repo](https://github.com/i-adopt/Corpus)
 * All variables are visualized in the [I-ADOPT Corpus Collection](https://i-adopt.github.io/Corpus/)
 
+### Development Team for the Corpus:
+* **Barbara Magagna**, GO FAIR Foundation, Leiden, NL
+* Stuart Chalk, University of North Florida: Jacksonville, FL, US
+* Sirko Schindler, German Aerospace Center (DLR), Institute of Data Science, Jena, DE
+
 ## Key Features
 1. Natural Language Input:
 * Users provide plain-language descriptions of observed variables (e.g., "surface soil temperature at 10 cm depth").
@@ -44,6 +49,13 @@ A collection of variables from different domains is used as a ground truth for r
 * Supports FAIR data stewardship by generating machine-readable metadata that aligns with community standards.
 4. Community-Driven Validation:
 * The service is linked to national and European initiatives, allowing for direct evaluation and feedback from end-users and domain experts.
+
+
+### Development Team for the LLM-Service:
+* **Arvin Rastegar** and Christof Lorenz, Karlsruhe Institute of Technology (KIT), Institute of Meteorology and
+Climate Research and Atmospheric Environmental Research (IMKIFU), DE
+* Esteban González and Daniel Garijo, Ontology Engineering Group, Universidad Politecnica de Madrid, ´
+Madrid, ES
 
 ![](img/I-ADOPTservice.jpg){fig-align="left"}
 
