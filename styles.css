@@ -3,17 +3,7 @@
   margin-bottom: 1rem;
 }
 
-/* Make sure the references container is visible */
-#refs {
-  display: block !important;
-}
-
-/* Bold only the two specific entries (in-text links & reference list items) */
-a[href*="Magagna2021IADOPT"],
-a[href*="Recommendations"],
-span[id*="Magagna2021IADOPT"],
-span[id*="Recommendations"],
-#ref-Magagna2021IADOPT,
-#ref-Recommendations {
-  font-weight: bold !important;
-}
+/*hide references*/
+  #refs {
+    display: none !important;
+  }
