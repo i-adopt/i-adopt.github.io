@@ -32,7 +32,7 @@ By authors of the core I-ADOPT team.
 
 [@magagna2020towards]{.bibentry}
 
-[**@Magagna2021IADOPT**]{.bibentry}
+<span style="font-weight: bold;">[@Magagna2021IADOPT]{.bibentry}</span>
 
 [@pamment2021improving]{.bibentry}
 
@@ -40,7 +40,7 @@ By authors of the core I-ADOPT team.
 
 [@magagna2021adopt21]{.bibentry}
 
-**[@Recommendations]**{.bibentry}
+<span style="font-weight: bold;">[@Recommendations]</span>
 
 [@magagna2023aligning]{.bibentry}
 
