@@ -88,6 +88,7 @@ Our service will be ready for testing and integration on March 24, 2026. Whether
 * Access the Service: Visit the [I-ADOPT Variable Description Service](https://iadopt.apps.bst2.paas.psnc.pl/)
 * Visualize, edit, prepare, and export Turtle without an account
 * Sign in to decompose variable definitions via the LLM-supported service and publish or retract nanopublications (for the moment only by invitation).
+* More features to come. Stay tuned!
 
 ::: {layout="[ 40,60 ]"}
 ::: {#first-column}
