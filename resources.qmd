@@ -26,7 +26,7 @@ suppress-bibliography: false
 - 2025: A [Visualizer](https://sirkos.github.io/iadopt-vis/) enabling interactive modelling and visualizing of an I-ADOPT variable 
 - 2025: [I-ADOPT Catalogue](https://github.com/SirkoS/iadopt-catalogue)
 - 2026: A [Tool for Variable Descriptions](https://github.com/ArvinRastegar/iadopt-variable-description-service) for local installation
-- 2026: Access the [Service online](https://iadopt.apps.bst2.paas.psnc.pl/): Visualize, edit, prepare, and export Turtle without an account. For LLM-enabled variable decomposition login is required (only by invitation).  
+- 2026: Access the [Service online](https://iadopt.apps.bst2.paas.psnc.pl/): Visualize, edit, prepare, and export Turtle without an account. For LLM-enabled variable decomposition login is required (only by invitation for the moment).  
 
 ### I-ADOPT Publications
 By authors of the core I-ADOPT team.
