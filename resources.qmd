@@ -24,7 +24,7 @@ suppress-bibliography: false
 
 ### I-ADOPT related Services
 - 2025: A [Visualizer](https://sirkos.github.io/iadopt-vis/) enabling interactive modelling and visualizing of an I-ADOPT variable 
-- 2025: [I-ADOPT Catalogue](https://github.com/SirkoS/iadopt-catalogue)
+- 2025: [I-ADOPT Catalogue](https://sirkos.github.io/Corpus-test/Life%20Sciences/Environmental%20Chemistry/ConcCarbon.ttl.html)
 - 2026: A [Tool for Variable Descriptions](https://github.com/ArvinRastegar/iadopt-variable-description-service) for local installation
 - 2026: Access the [Service online](https://iadopt.apps.bst2.paas.psnc.pl/): Visualize, edit, prepare, and export Turtle without an account. Log-in is currently required for LLM-assisted variable decomposition (available by invitation only).
 
